@@ -26,7 +26,16 @@
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/Concrete2_HeightMap.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/Concrete2_Occlusion.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/Concrete2Normal.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/ConcreteNormal.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/ConcreteNormal.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/WastelandWarrior/demo_level/Demo_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/WastelandWarrior/demo_level/Demo.umap",
+				"D:/FALMOUTH/VR_Primer/Content/WastelandWarrior/demo_level/animation/ThirdPersonJump_Start.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/WastelandWarrior/demo_level/animation/ThirdPerson_Jump.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/WastelandWarrior/demo_level/animation/ThirdPersonIdle.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/WastelandWarrior/demo_level/animation/ThirdPersonJump_End.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/WastelandWarrior/demo_level/animation/ThirdPersonJump_Loop.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/WastelandWarrior/demo_level/animation/ThirdPersonRun.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/WastelandWarrior/demo_level/animation/ThirdPersonWalk.uasset"
 			]
 		}
 	]
