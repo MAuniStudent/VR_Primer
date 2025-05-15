@@ -9,7 +9,24 @@
 				"D:/FALMOUTH/VR_Primer/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/CBP_SandboxCharacter.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Input/IMC_Sandbox.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/PanalBrickHieght.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/PanalBrickNormal.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/ConcretePanal.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/PanalBrick.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/PanalBrickOcclusion.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/Plaster.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/Plaster_Hieght.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/Plaster_Occlusion.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/Plaster_Normal.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/PlasterCracked.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/Concrete_HeightMap.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/Concrete_Occlusion.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/Concrete2.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/Concrete2_HeightMap.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/Concrete2_Occlusion.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/Concrete2Normal.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/ConcreteNormal.uasset"
 			]
 		}
 	]
