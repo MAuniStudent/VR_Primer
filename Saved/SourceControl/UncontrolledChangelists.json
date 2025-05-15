@@ -8,7 +8,8 @@
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap",
 				"D:/FALMOUTH/VR_Primer/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/CBP_SandboxCharacter.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Input/IMC_Sandbox.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Input/IMC_Sandbox.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset"
 			]
 		}
 	]
