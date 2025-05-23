@@ -6,11 +6,7 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/RoadBridge.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Materials/Plaster_M.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/PavementEnd.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/CBP_SandboxCharacter.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap"
 			]
 		}
 	]
