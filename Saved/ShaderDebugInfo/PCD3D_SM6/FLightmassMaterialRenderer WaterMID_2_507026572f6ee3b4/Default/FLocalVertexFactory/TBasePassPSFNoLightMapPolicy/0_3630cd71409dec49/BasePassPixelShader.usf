@@ -204,31 +204,24 @@
 // #define WORKING_COLOR_SPACE_IS_SRGB 1
 // #define WSVECTOR_IS_DOUBLEFLOAT 0
 // #define WSVECTOR_IS_TILEOFFSET 1
-#line 769 "/Engine/Public/Platform.ush"
+// DebugHash_0b3245e532baafd122700f92969759c8194804a99e025709dd11b29ab8c0d6d0
+#line 1 "__UE_FILENAME_SENTINEL"
 precise float MakePrecise(in precise float v) { precise float pv = v; return pv; }
 precise float2 MakePrecise(in precise float2 v) { precise float2 pv = v; return pv; }
 precise float3 MakePrecise(in precise float3 v) { precise float3 pv = v; return pv; }
 precise float4 MakePrecise(in precise float4 v) { precise float4 pv = v; return pv; }
-
-#line 1023 "/Engine/Public/Platform.ush"
 float max3(float a, float b, float c)
 {
 	return max(a, max(b, c));
 }
-
-#line 1028 "/Engine/Public/Platform.ush"
 int max3(int a, int b, int c)
 {
 	return max(a, max(b, c));
 }
-
-#line 1033 "/Engine/Public/Platform.ush"
 uint max3(uint a, uint b, uint c)
 {
 	return max(a, max(b, c));
 }
-
-#line 1038 "/Engine/Public/Platform.ush"
 float2 max3 ( float2 a, float2 b, float2 c) { return float2( max3 (a.x , b.x , c.x ), max3 (a.y , b.y , c.y )); }
 float3 max3 ( float3 a, float3 b, float3 c) { return float3( max3 (a.xy, b.xy, c.xy), max3 (a.z , b.z , c.z )); }
 float4 max3 ( float4 a, float4 b, float4 c) { return float4( max3 (a.xy, b.xy, c.xy), max3 (a.zw, b.zw, c.zw)); }
@@ -238,8 +231,6 @@ int4 max3 ( int4 a, int4 b, int4 c) { return int4( max3 (a.xy, b.xy, c.xy), max3
 uint2 max3 ( uint2 a, uint2 b, uint2 c) { return uint2( max3 (a.x , b.x , c.x ), max3 (a.y , b.y , c.y )); }
 uint3 max3 ( uint3 a, uint3 b, uint3 c) { return uint3( max3 (a.xy, b.xy, c.xy), max3 (a.z , b.z , c.z )); }
 uint4 max3 ( uint4 a, uint4 b, uint4 c) { return uint4( max3 (a.xy, b.xy, c.xy), max3 (a.zw, b.zw, c.zw)); }
-
-#line 1117 "/Engine/Public/Platform.ush"
 bool select_internal(bool    c, bool a, bool b) { return bool (c   ? a.x : b.x); }
 bool2 select_internal(bool    c, bool a, bool2 b) { return bool2(c   ? a   : b.x, c   ? a   : b.y); }
 bool2 select_internal(bool    c, bool2 a, bool b) { return bool2(c   ? a.x : b  , c   ? a.y : b  ); }
@@ -262,8 +253,6 @@ bool4 select_internal(bool4   c, bool a, bool b) { return bool4(c.x ? a   : b  ,
 bool4 select_internal(bool4   c, bool a, bool4 b) { return bool4(c.x ? a   : b.x, c.y ? a   : b.y, c.z ? a   : b.z, c.w ? a   : b.w); }
 bool4 select_internal(bool4   c, bool4 a, bool b) { return bool4(c.x ? a.x : b  , c.y ? a.y : b  , c.z ? a.z : b  , c.w ? a.w : b  ); }
 bool4 select_internal(bool4   c, bool4 a, bool4 b) { return bool4(c.x ? a.x : b.x, c.y ? a.y : b.y, c.z ? a.z : b.z, c.w ? a.w : b.w); }
-
-#line 1122 "/Engine/Public/Platform.ush"
 int select_internal(bool    c, int a, int b) { return int (c   ? a.x : b.x); }
 int2 select_internal(bool    c, int a, int2 b) { return int2(c   ? a   : b.x, c   ? a   : b.y); }
 int2 select_internal(bool    c, int2 a, int b) { return int2(c   ? a.x : b  , c   ? a.y : b  ); }
@@ -308,51 +297,31 @@ float4 select_internal(bool4   c, float a, float b) { return float4(c.x ? a   : 
 float4 select_internal(bool4   c, float a, float4 b) { return float4(c.x ? a   : b.x, c.y ? a   : b.y, c.z ? a   : b.z, c.w ? a   : b.w); }
 float4 select_internal(bool4   c, float4 a, float b) { return float4(c.x ? a.x : b  , c.y ? a.y : b  , c.z ? a.z : b  , c.w ? a.w : b  ); }
 float4 select_internal(bool4   c, float4 a, float4 b) { return float4(c.x ? a.x : b.x, c.y ? a.y : b.y, c.z ? a.z : b.z, c.w ? a.w : b.w); }
-
-#line 1171 "/Engine/Public/Platform.ush"
 float  CondMask(bool Cond, float  Src0, float  Src1) { return Cond ? Src0 : Src1; }
 float2 CondMask(bool Cond, float2 Src0, float2 Src1) { return Cond ? Src0 : Src1; }
 float3 CondMask(bool Cond, float3 Src0, float3 Src1) { return Cond ? Src0 : Src1; }
 float4 CondMask(bool Cond, float4 Src0, float4 Src1) { return Cond ? Src0 : Src1; }
-
-#line 1176 "/Engine/Public/Platform.ush"
 int  CondMask(bool Cond, int  Src0, int  Src1) { return Cond ? Src0 : Src1; }
 int2 CondMask(bool Cond, int2 Src0, int2 Src1) { return Cond ? Src0 : Src1; }
 int3 CondMask(bool Cond, int3 Src0, int3 Src1) { return Cond ? Src0 : Src1; }
 int4 CondMask(bool Cond, int4 Src0, int4 Src1) { return Cond ? Src0 : Src1; }
-
-#line 1181 "/Engine/Public/Platform.ush"
 uint  CondMask(bool Cond, uint  Src0, uint  Src1) { return Cond ? Src0 : Src1; }
 uint2 CondMask(bool Cond, uint2 Src0, uint2 Src1) { return Cond ? Src0 : Src1; }
 uint3 CondMask(bool Cond, uint3 Src0, uint3 Src1) { return Cond ? Src0 : Src1; }
 uint4 CondMask(bool Cond, uint4 Src0, uint4 Src1) { return Cond ? Src0 : Src1; }
-
-#line 88 "/Engine/Private/PackUnpack.ush"
 float2 UnpackFloat2FromUInt(uint In)
 {
 	return float2(f16tof32(In), f16tof32(In >> 16));
 }
-
-#line 142 "/Engine/Private/PackUnpack.ush"
 float4 UnpackRGBA8(uint In)
 {
-
-
-
-
-
-
-
 	float4 Out;
 	Out.r = float((In >> 0) & 0xFF) * (1.0f / 255.0f);
 	Out.g = float((In >> 8) & 0xFF) * (1.0f / 255.0f);
 	Out.b = float((In >> 16) & 0xFF) * (1.0f / 255.0f);
 	Out.a = float((In >> 24) & 0xFF) * (1.0f / 255.0f);
 	return Out;
-
 }
-
-#line 221 "/Engine/Private/PackUnpack.ush"
 float3 UnpackR11G11B10F(uint rgb)
 {
 	float r = f16tof32((rgb >> 17) & 0x7FF0);
@@ -360,37 +329,24 @@ float3 UnpackR11G11B10F(uint rgb)
 	float b = f16tof32((rgb << 5) & 0x7FE0);
 	return float3(r, g, b);
 }
-
-#line 38 "/Engine/Private/Common.ush"
 struct FloatDeriv
 {
 	float Value;
 	float Ddx;
 	float Ddy;
 };
-
-#line 45 "/Engine/Private/Common.ush"
 struct FloatDeriv2
 {
 	float2 Value;
 	float2 Ddx;
 	float2 Ddy;
 };
-
-#line 140 "/Engine/Private/Common.ush"
 const static float PI = 3.1415926535897932f;
-
-#line 52 "/Engine/Private/DoubleFloat.ush"
 struct FDFScalar
 {
 	float High;
 	float Low;
-
-#line  72 "/Engine/Private/DoubleFloat.ush"
-
 };
-
-#line 5 "/Engine/Private/DoubleFloatOperations.ush"
 FDFScalar MakeDFScalar(float High, float Low)
 {
 	FDFScalar Result;
@@ -398,31 +354,16 @@ FDFScalar MakeDFScalar(float High, float Low)
 	Result.Low = Low;
 	return Result;
 }
-
-#line 13 "/Engine/Private/DoubleFloatOperations.ush"
 FDFScalar DFPromote(FDFScalar Value) { return Value; }
-
-#line 16 "/Engine/Private/DoubleFloatOperations.ush"
 FDFScalar DFPromote(float Value) { return MakeDFScalar(Value, (float)0); }
-
-#line 20 "/Engine/Private/DoubleFloatOperations.ush"
 float DFDemote(FDFScalar Value) { return Value.High + Value.Low; }
-
-#line 22 "/Engine/Private/DoubleFloatOperations.ush"
 float DFDemote(float Value) { return Value; }
-
-#line 24 "/Engine/Private/DoubleFloatOperations.ush"
 FDFScalar DFNegate(FDFScalar Value)
 {
 	return MakeDFScalar(-Value.High, -Value.Low);
 }
-
-#line 46 "/Engine/Private/DoubleFloatOperations.ush"
 FDFScalar DFTwoSum(float Lhs, float Rhs)
 {
-
-
-
 	const float S =   MakePrecise( ( Lhs ) + ( Rhs ) );
 	const float V =   MakePrecise( ( S ) - ( Lhs ) );
 	const float Q =   MakePrecise( ( S ) - ( V ) );
@@ -430,203 +371,104 @@ FDFScalar DFTwoSum(float Lhs, float Rhs)
 	const float T =   MakePrecise( ( Rhs ) - ( V ) );
 	const float Y =   MakePrecise( ( R ) + ( T ) );
 	return MakeDFScalar(S, Y);
-
 }
-
-#line 65 "/Engine/Private/DoubleFloatOperations.ush"
 FDFScalar DFFastTwoSum(float Lhs, float Rhs)
 {
-
-
-
 	const float S =   MakePrecise( ( Lhs ) + ( Rhs ) );
 	const float T =   MakePrecise( ( S ) - ( Lhs ) );
 	const float E =   MakePrecise( ( Rhs ) - ( T ) );
 	return MakeDFScalar(S, E);
-
 }
-
-#line 113 "/Engine/Private/DoubleFloatOperations.ush"
 float DFAddDemote(FDFScalar Lhs, FDFScalar Rhs)
 {
-
-
-
-
 	FDFScalar S = DFTwoSum(Lhs.High, Rhs.High);
 	const FDFScalar T = DFTwoSum(Lhs.Low, Rhs.Low);
-
 	S.Low += T.High;
 	S = DFFastTwoSum(S.High, S.Low);
 	S.Low += T.Low;
 	return S.High + S.Low;
-
 }
-
-#line 129 "/Engine/Private/DoubleFloatOperations.ush"
 float DFAddDemote(FDFScalar Lhs, float Rhs)
 {
-
-
-
 	const FDFScalar S = DFTwoSum(Lhs.High, Rhs);
 	const float T = Lhs.Low + S.Low;
 	return S.High + T;
-
 }
-
-#line 140 "/Engine/Private/DoubleFloatOperations.ush"
 float DFAddDemote(float Lhs, FDFScalar Rhs) { return DFAddDemote(Rhs, Lhs); }
 float DFAddDemote(float Lhs, float Rhs) { return Lhs + Rhs; }
-
-#line 169 "/Engine/Private/DoubleFloatOperations.ush"
 float DFFastAddDemote(FDFScalar Lhs, FDFScalar Rhs)
 {
-
-
-
 	FDFScalar S = DFTwoSum(Lhs.High, Rhs.High);
 	S.Low += Lhs.Low + Rhs.Low;
 	return S.High + S.Low;
-
 }
-
-#line 180 "/Engine/Private/DoubleFloatOperations.ush"
 float DFFastAddDemote(FDFScalar Lhs, float Rhs) { return DFAddDemote(Lhs, Rhs); }
 float DFFastAddDemote(float Lhs, FDFScalar Rhs) { return DFFastAddDemote(Rhs, Lhs); }
 float DFFastAddDemote(float Lhs, float Rhs) { return Rhs + Lhs; }
-
-#line 203 "/Engine/Private/DoubleFloatOperations.ush"
 float DFFastSubtractDemote(float Lhs, float Rhs) { return Lhs - Rhs; }
 float DFFastSubtractDemote(FDFScalar Lhs, FDFScalar Rhs) { return DFFastAddDemote(Lhs, DFNegate(Rhs)); }
 float DFFastSubtractDemote(FDFScalar Lhs, float Rhs) { return DFFastAddDemote(Lhs, -Rhs); }
 float DFFastSubtractDemote(float Lhs, FDFScalar Rhs) { return DFFastAddDemote(Lhs, DFNegate(Rhs)); }
-
-#line 214 "/Engine/Private/DoubleFloatOperations.ush"
 float DFFastLocalSubtractDemote(FDFScalar Lhs, FDFScalar Rhs)
 {
-
-
-
-
-
 	const float High =   MakePrecise( ( Lhs.High ) - ( Rhs.High ) );
 	const float Low =   MakePrecise( ( Lhs.Low ) - ( Rhs.Low ) );
 	const float Sum =   MakePrecise( ( High ) + ( Low ) );
 	return Sum;
-
 }
-
-#line 228 "/Engine/Private/DoubleFloatOperations.ush"
 float DFFastLocalSubtractDemote(FDFScalar Lhs, float Rhs)
 {
-
-
-
-
-
 	const float High =   MakePrecise( ( Lhs.High ) - ( Rhs ) );
 	const float Sum =   MakePrecise( ( High ) + ( Lhs.Low ) );
 	return Sum;
-
 }
-
-#line 241 "/Engine/Private/DoubleFloatOperations.ush"
 float DFFastLocalSubtractDemote(float Lhs, FDFScalar Rhs)
 {
 	return DFFastLocalSubtractDemote(DFPromote(Lhs), Rhs);
 }
-
-#line 269 "/Engine/Private/DoubleFloatOperations.ush"
 FDFScalar DFTwoProduct(float Lhs, float Rhs)
 {
-
-
-
-
-
 	const float P = Lhs * Rhs;
 	const float E =   MakePrecise(  mad( ( Lhs ) , ( Rhs ) , ( -P ) ) );
 	return MakeDFScalar(P, E);
-
 }
-
-#line 283 "/Engine/Private/DoubleFloatOperations.ush"
 FDFScalar DFMultiply(float Lhs, float Rhs) { return DFTwoProduct(Lhs, Rhs); }
-
-#line 287 "/Engine/Private/DoubleFloatOperations.ush"
 FDFScalar DFMultiply(FDFScalar Lhs, FDFScalar Rhs)
 {
-
-
-
 	const FDFScalar P = DFTwoProduct(Lhs.High, Rhs.High);
 	float T =   MakePrecise( ( Lhs.High ) * ( Rhs.Low ) );
 	T =   MakePrecise(  mad( ( Lhs.Low ) , ( Rhs.High ) , ( T ) ) );
 	T =   MakePrecise( ( T ) + ( P.Low ) );
-
 	return DFFastTwoSum(P.High, T);
-
 }
-
-#line 303 "/Engine/Private/DoubleFloatOperations.ush"
 FDFScalar DFMultiply(FDFScalar Lhs, float Rhs)
 {
-
-
-
 	FDFScalar P = DFTwoProduct(Lhs.High, Rhs);
 	float T =   MakePrecise(  mad( ( Lhs.Low ) , ( Rhs ) , ( P.Low ) ) );
 	return DFFastTwoSum(P.High, T);
-
 }
-
-#line 314 "/Engine/Private/DoubleFloatOperations.ush"
 FDFScalar DFMultiply(float Lhs, FDFScalar Rhs) { return DFMultiply(Rhs, Lhs); }
-
-#line 316 "/Engine/Private/DoubleFloatOperations.ush"
 float DFMultiplyDemote(FDFScalar Lhs, FDFScalar Rhs)
 {
-
-
-
 	const FDFScalar P = DFTwoProduct(Lhs.High, Rhs.High);
 	float T =   MakePrecise( ( Lhs.High ) * ( Rhs.Low ) );
 	T =   MakePrecise(  mad( ( Lhs.Low ) , ( Rhs.High ) , ( T ) ) );
 	T =   MakePrecise( ( T ) + ( P.Low ) );
 	const float S =   MakePrecise( ( P.High ) + ( T ) );
 	return S;
-
 }
-
-#line 330 "/Engine/Private/DoubleFloatOperations.ush"
 float DFMultiplyDemote(FDFScalar Lhs, float Rhs)
 {
-
-
-
 	FDFScalar P = DFTwoProduct(Lhs.High, Rhs);
 	P.Low =   MakePrecise(  mad( ( Lhs.Low ) , ( Rhs ) , ( P.Low ) ) );
 	const float S =   MakePrecise( ( P.High ) + ( P.Low ) );
 	return S;
-
 }
-
-#line 342 "/Engine/Private/DoubleFloatOperations.ush"
 float DFMultiplyDemote(float Lhs, FDFScalar Rhs) { return DFMultiplyDemote(Rhs, Lhs); }
 float DFMultiplyDemote(float Lhs, float Rhs) { return Lhs * Rhs; }
-
-#line 363 "/Engine/Private/DoubleFloatOperations.ush"
 FDFScalar DFFastDivide(FDFScalar Lhs, FDFScalar Rhs);
-
-#line 419 "/Engine/Private/DoubleFloatOperations.ush"
 FDFScalar DFFastDivide(FDFScalar Lhs, FDFScalar Rhs)
 {
-
-
-
-
-
 	const float Th =   MakePrecise( ( Lhs.High ) / ( Rhs.High ) );
 	const FDFScalar R = DFMultiply(Rhs, Th);
 	const float Ph =   MakePrecise( ( Lhs.High ) - ( R.High ) );
@@ -634,17 +476,9 @@ FDFScalar DFFastDivide(FDFScalar Lhs, FDFScalar Rhs)
 	const float D =   MakePrecise( ( Ph ) + ( Dl ) );
 	const float Tl =   MakePrecise( ( D ) / ( Rhs.High ) );
 	return DFFastTwoSum(Th, Tl);
-
 }
-
-#line 436 "/Engine/Private/DoubleFloatOperations.ush"
 FDFScalar DFFastDivide(FDFScalar Lhs, float Rhs)
 {
-
-
-
-
-
 	const float Th =   MakePrecise( ( Lhs.High ) / ( Rhs ) );
 	const FDFScalar R = DFTwoProduct(Rhs, Th);
 	const float Ph =   MakePrecise( ( Lhs.High ) - ( R.High ) );
@@ -652,57 +486,27 @@ FDFScalar DFFastDivide(FDFScalar Lhs, float Rhs)
 	const float D =   MakePrecise( ( Ph ) + ( Dl ) );
 	const float Tl =   MakePrecise( ( D ) / ( Rhs ) );
 	return DFFastTwoSum(Th, Tl);
-
 }
-
-#line 453 "/Engine/Private/DoubleFloatOperations.ush"
 FDFScalar DFFastDivide(float Lhs, FDFScalar Rhs) { return DFFastDivide(DFPromote(Lhs), Rhs); }
 FDFScalar DFFastDivide(float Lhs, float Rhs) { return DFFastDivide(DFPromote(Lhs), Rhs); }
-
-#line 495 "/Engine/Private/DoubleFloatOperations.ush"
 FDFScalar DFDivideByPow2(FDFScalar Lhs, float Rhs)
 {
-
-
-
 	return MakeDFScalar(Lhs.High / Rhs, Lhs.Low / Rhs);
-
 }
-
-#line 876 "/Engine/Private/DoubleFloatOperations.ush"
 float DFFracDemote(FDFScalar V)
 {
-
-
-
 	return frac(frac(V.High) + frac(V.Low));
-
 }
-
-#line 907 "/Engine/Private/DoubleFloatOperations.ush"
 float DFFmodByPow2Demote(FDFScalar Lhs, float Rhs)
 {
-
-
-
 	return DFFracDemote(DFDivideByPow2(Lhs, Rhs)) * Rhs;
-
 }
-
-#line 83 "/Engine/Private/DoubleFloat.ush"
 FDFScalar MakeDFVector(FDFScalar X) { return X; }
-
-#line 28 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 struct FDFVector2
 {
 	float2 High;
 	float2 Low;
-
-#line  55 "/Engine/Private/DoubleFloatVectorDefinition.ush"
-
 };
-
-#line 5 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector2 MakeDFVector2(float2 High, float2 Low)
 {
 	FDFVector2 Result;
@@ -710,31 +514,16 @@ FDFVector2 MakeDFVector2(float2 High, float2 Low)
 	Result.Low = Low;
 	return Result;
 }
-
-#line 13 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector2 DFPromote(FDFVector2 Value) { return Value; }
-
-#line 16 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector2 DFPromote(float2 Value) { return MakeDFVector2(Value, (float2)0); }
-
-#line 20 "/Engine/Private/DoubleFloatOperations.ush"
 float2 DFDemote(FDFVector2 Value) { return Value.High + Value.Low; }
-
-#line 22 "/Engine/Private/DoubleFloatOperations.ush"
 float2 DFDemote(float2 Value) { return Value; }
-
-#line 24 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector2 DFNegate(FDFVector2 Value)
 {
 	return MakeDFVector2(-Value.High, -Value.Low);
 }
-
-#line 46 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector2 DFTwoSum(float2 Lhs, float2 Rhs)
 {
-
-
-
 	const float2 S =   MakePrecise( ( Lhs ) + ( Rhs ) );
 	const float2 V =   MakePrecise( ( S ) - ( Lhs ) );
 	const float2 Q =   MakePrecise( ( S ) - ( V ) );
@@ -742,203 +531,104 @@ FDFVector2 DFTwoSum(float2 Lhs, float2 Rhs)
 	const float2 T =   MakePrecise( ( Rhs ) - ( V ) );
 	const float2 Y =   MakePrecise( ( R ) + ( T ) );
 	return MakeDFVector2(S, Y);
-
 }
-
-#line 65 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector2 DFFastTwoSum(float2 Lhs, float2 Rhs)
 {
-
-
-
 	const float2 S =   MakePrecise( ( Lhs ) + ( Rhs ) );
 	const float2 T =   MakePrecise( ( S ) - ( Lhs ) );
 	const float2 E =   MakePrecise( ( Rhs ) - ( T ) );
 	return MakeDFVector2(S, E);
-
 }
-
-#line 113 "/Engine/Private/DoubleFloatOperations.ush"
 float2 DFAddDemote(FDFVector2 Lhs, FDFVector2 Rhs)
 {
-
-
-
-
 	FDFVector2 S = DFTwoSum(Lhs.High, Rhs.High);
 	const FDFVector2 T = DFTwoSum(Lhs.Low, Rhs.Low);
-
 	S.Low += T.High;
 	S = DFFastTwoSum(S.High, S.Low);
 	S.Low += T.Low;
 	return S.High + S.Low;
-
 }
-
-#line 129 "/Engine/Private/DoubleFloatOperations.ush"
 float2 DFAddDemote(FDFVector2 Lhs, float2 Rhs)
 {
-
-
-
 	const FDFVector2 S = DFTwoSum(Lhs.High, Rhs);
 	const float2 T = Lhs.Low + S.Low;
 	return S.High + T;
-
 }
-
-#line 140 "/Engine/Private/DoubleFloatOperations.ush"
 float2 DFAddDemote(float2 Lhs, FDFVector2 Rhs) { return DFAddDemote(Rhs, Lhs); }
 float2 DFAddDemote(float2 Lhs, float2 Rhs) { return Lhs + Rhs; }
-
-#line 169 "/Engine/Private/DoubleFloatOperations.ush"
 float2 DFFastAddDemote(FDFVector2 Lhs, FDFVector2 Rhs)
 {
-
-
-
 	FDFVector2 S = DFTwoSum(Lhs.High, Rhs.High);
 	S.Low += Lhs.Low + Rhs.Low;
 	return S.High + S.Low;
-
 }
-
-#line 180 "/Engine/Private/DoubleFloatOperations.ush"
 float2 DFFastAddDemote(FDFVector2 Lhs, float2 Rhs) { return DFAddDemote(Lhs, Rhs); }
 float2 DFFastAddDemote(float2 Lhs, FDFVector2 Rhs) { return DFFastAddDemote(Rhs, Lhs); }
 float2 DFFastAddDemote(float2 Lhs, float2 Rhs) { return Rhs + Lhs; }
-
-#line 203 "/Engine/Private/DoubleFloatOperations.ush"
 float2 DFFastSubtractDemote(float2 Lhs, float2 Rhs) { return Lhs - Rhs; }
 float2 DFFastSubtractDemote(FDFVector2 Lhs, FDFVector2 Rhs) { return DFFastAddDemote(Lhs, DFNegate(Rhs)); }
 float2 DFFastSubtractDemote(FDFVector2 Lhs, float2 Rhs) { return DFFastAddDemote(Lhs, -Rhs); }
 float2 DFFastSubtractDemote(float2 Lhs, FDFVector2 Rhs) { return DFFastAddDemote(Lhs, DFNegate(Rhs)); }
-
-#line 214 "/Engine/Private/DoubleFloatOperations.ush"
 float2 DFFastLocalSubtractDemote(FDFVector2 Lhs, FDFVector2 Rhs)
 {
-
-
-
-
-
 	const float2 High =   MakePrecise( ( Lhs.High ) - ( Rhs.High ) );
 	const float2 Low =   MakePrecise( ( Lhs.Low ) - ( Rhs.Low ) );
 	const float2 Sum =   MakePrecise( ( High ) + ( Low ) );
 	return Sum;
-
 }
-
-#line 228 "/Engine/Private/DoubleFloatOperations.ush"
 float2 DFFastLocalSubtractDemote(FDFVector2 Lhs, float2 Rhs)
 {
-
-
-
-
-
 	const float2 High =   MakePrecise( ( Lhs.High ) - ( Rhs ) );
 	const float2 Sum =   MakePrecise( ( High ) + ( Lhs.Low ) );
 	return Sum;
-
 }
-
-#line 241 "/Engine/Private/DoubleFloatOperations.ush"
 float2 DFFastLocalSubtractDemote(float2 Lhs, FDFVector2 Rhs)
 {
 	return DFFastLocalSubtractDemote(DFPromote(Lhs), Rhs);
 }
-
-#line 269 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector2 DFTwoProduct(float2 Lhs, float2 Rhs)
 {
-
-
-
-
-
 	const float2 P = Lhs * Rhs;
 	const float2 E =   MakePrecise(  mad( ( Lhs ) , ( Rhs ) , ( -P ) ) );
 	return MakeDFVector2(P, E);
-
 }
-
-#line 283 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector2 DFMultiply(float2 Lhs, float2 Rhs) { return DFTwoProduct(Lhs, Rhs); }
-
-#line 287 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector2 DFMultiply(FDFVector2 Lhs, FDFVector2 Rhs)
 {
-
-
-
 	const FDFVector2 P = DFTwoProduct(Lhs.High, Rhs.High);
 	float2 T =   MakePrecise( ( Lhs.High ) * ( Rhs.Low ) );
 	T =   MakePrecise(  mad( ( Lhs.Low ) , ( Rhs.High ) , ( T ) ) );
 	T =   MakePrecise( ( T ) + ( P.Low ) );
-
 	return DFFastTwoSum(P.High, T);
-
 }
-
-#line 303 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector2 DFMultiply(FDFVector2 Lhs, float2 Rhs)
 {
-
-
-
 	FDFVector2 P = DFTwoProduct(Lhs.High, Rhs);
 	float2 T =   MakePrecise(  mad( ( Lhs.Low ) , ( Rhs ) , ( P.Low ) ) );
 	return DFFastTwoSum(P.High, T);
-
 }
-
-#line 314 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector2 DFMultiply(float2 Lhs, FDFVector2 Rhs) { return DFMultiply(Rhs, Lhs); }
-
-#line 316 "/Engine/Private/DoubleFloatOperations.ush"
 float2 DFMultiplyDemote(FDFVector2 Lhs, FDFVector2 Rhs)
 {
-
-
-
 	const FDFVector2 P = DFTwoProduct(Lhs.High, Rhs.High);
 	float2 T =   MakePrecise( ( Lhs.High ) * ( Rhs.Low ) );
 	T =   MakePrecise(  mad( ( Lhs.Low ) , ( Rhs.High ) , ( T ) ) );
 	T =   MakePrecise( ( T ) + ( P.Low ) );
 	const float2 S =   MakePrecise( ( P.High ) + ( T ) );
 	return S;
-
 }
-
-#line 330 "/Engine/Private/DoubleFloatOperations.ush"
 float2 DFMultiplyDemote(FDFVector2 Lhs, float2 Rhs)
 {
-
-
-
 	FDFVector2 P = DFTwoProduct(Lhs.High, Rhs);
 	P.Low =   MakePrecise(  mad( ( Lhs.Low ) , ( Rhs ) , ( P.Low ) ) );
 	const float2 S =   MakePrecise( ( P.High ) + ( P.Low ) );
 	return S;
-
 }
-
-#line 342 "/Engine/Private/DoubleFloatOperations.ush"
 float2 DFMultiplyDemote(float2 Lhs, FDFVector2 Rhs) { return DFMultiplyDemote(Rhs, Lhs); }
 float2 DFMultiplyDemote(float2 Lhs, float2 Rhs) { return Lhs * Rhs; }
-
-#line 363 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector2 DFFastDivide(FDFVector2 Lhs, FDFVector2 Rhs);
-
-#line 419 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector2 DFFastDivide(FDFVector2 Lhs, FDFVector2 Rhs)
 {
-
-
-
-
-
 	const float2 Th =   MakePrecise( ( Lhs.High ) / ( Rhs.High ) );
 	const FDFVector2 R = DFMultiply(Rhs, Th);
 	const float2 Ph =   MakePrecise( ( Lhs.High ) - ( R.High ) );
@@ -946,17 +636,9 @@ FDFVector2 DFFastDivide(FDFVector2 Lhs, FDFVector2 Rhs)
 	const float2 D =   MakePrecise( ( Ph ) + ( Dl ) );
 	const float2 Tl =   MakePrecise( ( D ) / ( Rhs.High ) );
 	return DFFastTwoSum(Th, Tl);
-
 }
-
-#line 436 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector2 DFFastDivide(FDFVector2 Lhs, float2 Rhs)
 {
-
-
-
-
-
 	const float2 Th =   MakePrecise( ( Lhs.High ) / ( Rhs ) );
 	const FDFVector2 R = DFTwoProduct(Rhs, Th);
 	const float2 Ph =   MakePrecise( ( Lhs.High ) - ( R.High ) );
@@ -964,59 +646,32 @@ FDFVector2 DFFastDivide(FDFVector2 Lhs, float2 Rhs)
 	const float2 D =   MakePrecise( ( Ph ) + ( Dl ) );
 	const float2 Tl =   MakePrecise( ( D ) / ( Rhs ) );
 	return DFFastTwoSum(Th, Tl);
-
 }
-
-#line 453 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector2 DFFastDivide(float2 Lhs, FDFVector2 Rhs) { return DFFastDivide(DFPromote(Lhs), Rhs); }
 FDFVector2 DFFastDivide(float2 Lhs, float2 Rhs) { return DFFastDivide(DFPromote(Lhs), Rhs); }
-
-#line 495 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector2 DFDivideByPow2(FDFVector2 Lhs, float2 Rhs)
 {
-
-
-
 	return MakeDFVector2(Lhs.High / Rhs, Lhs.Low / Rhs);
-
 }
-
-#line 876 "/Engine/Private/DoubleFloatOperations.ush"
 float2 DFFracDemote(FDFVector2 V)
 {
-
-
-
 	return frac(frac(V.High) + frac(V.Low));
-
 }
-
-#line 907 "/Engine/Private/DoubleFloatOperations.ush"
 float2 DFFmodByPow2Demote(FDFVector2 Lhs, float2 Rhs)
 {
-
-
-
 	return DFFracDemote(DFDivideByPow2(Lhs, Rhs)) * Rhs;
-
 }
-
-#line 62 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 FDFVector2 DFBroadcast2(FDFScalar V)
 {
 	const float2 High = V.High;
 	const float2 Low = V.Low;
 	return MakeDFVector2(High, Low);
 }
-
-#line 69 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 float2 DFBroadcast2(float V)
 {
 	const float2 Single = V;
 	return Single;
 }
-
-#line 86 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 float2  DFAddDemote (FDFScalar Lhs, FDFVector2 Rhs) { return DFAddDemote (DFBroadcast2(Lhs), Rhs); }
 float2  DFAddDemote (float Lhs, FDFVector2 Rhs) { return DFAddDemote (DFBroadcast2(Lhs), Rhs); }
 float2  DFAddDemote (FDFScalar Lhs, float2 Rhs) { return DFAddDemote (DFBroadcast2(Lhs), Rhs); }
@@ -1025,8 +680,6 @@ float2  DFAddDemote (FDFVector2 Lhs, FDFScalar Rhs) { return DFAddDemote (Lhs, D
 float2  DFAddDemote (FDFVector2 Lhs, float Rhs)     { return DFAddDemote (Lhs, DFBroadcast2(Rhs)); }
 float2  DFAddDemote (float2 Lhs, FDFScalar Rhs) { return DFAddDemote (Lhs, DFBroadcast2(Rhs)); }
 float2  DFAddDemote (float2 Lhs, float Rhs) { return DFAddDemote (Lhs, DFBroadcast2(Rhs)); }
-
-#line 88 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 float2  DFFastAddDemote (FDFScalar Lhs, FDFVector2 Rhs) { return DFFastAddDemote (DFBroadcast2(Lhs), Rhs); }
 float2  DFFastAddDemote (float Lhs, FDFVector2 Rhs) { return DFFastAddDemote (DFBroadcast2(Lhs), Rhs); }
 float2  DFFastAddDemote (FDFScalar Lhs, float2 Rhs) { return DFFastAddDemote (DFBroadcast2(Lhs), Rhs); }
@@ -1035,8 +688,6 @@ float2  DFFastAddDemote (FDFVector2 Lhs, FDFScalar Rhs) { return DFFastAddDemote
 float2  DFFastAddDemote (FDFVector2 Lhs, float Rhs)     { return DFFastAddDemote (Lhs, DFBroadcast2(Rhs)); }
 float2  DFFastAddDemote (float2 Lhs, FDFScalar Rhs) { return DFFastAddDemote (Lhs, DFBroadcast2(Rhs)); }
 float2  DFFastAddDemote (float2 Lhs, float Rhs) { return DFFastAddDemote (Lhs, DFBroadcast2(Rhs)); }
-
-#line 92 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 float2  DFFastSubtractDemote (FDFScalar Lhs, FDFVector2 Rhs) { return DFFastSubtractDemote (DFBroadcast2(Lhs), Rhs); }
 float2  DFFastSubtractDemote (float Lhs, FDFVector2 Rhs) { return DFFastSubtractDemote (DFBroadcast2(Lhs), Rhs); }
 float2  DFFastSubtractDemote (FDFScalar Lhs, float2 Rhs) { return DFFastSubtractDemote (DFBroadcast2(Lhs), Rhs); }
@@ -1061,8 +712,6 @@ float2  DFMultiplyDemote (FDFVector2 Lhs, FDFScalar Rhs) { return DFMultiplyDemo
 float2  DFMultiplyDemote (FDFVector2 Lhs, float Rhs)     { return DFMultiplyDemote (Lhs, DFBroadcast2(Rhs)); }
 float2  DFMultiplyDemote (float2 Lhs, FDFScalar Rhs) { return DFMultiplyDemote (Lhs, DFBroadcast2(Rhs)); }
 float2  DFMultiplyDemote (float2 Lhs, float Rhs) { return DFMultiplyDemote (Lhs, DFBroadcast2(Rhs)); }
-
-#line 96 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 FDFVector2  DFFastDivide (FDFScalar Lhs, FDFVector2 Rhs) { return DFFastDivide (DFBroadcast2(Lhs), Rhs); }
 FDFVector2  DFFastDivide (float Lhs, FDFVector2 Rhs) { return DFFastDivide (DFBroadcast2(Lhs), Rhs); }
 FDFVector2  DFFastDivide (FDFScalar Lhs, float2 Rhs) { return DFFastDivide (DFBroadcast2(Lhs), Rhs); }
@@ -1071,28 +720,17 @@ FDFVector2  DFFastDivide (FDFVector2 Lhs, FDFScalar Rhs) { return DFFastDivide (
 FDFVector2  DFFastDivide (FDFVector2 Lhs, float Rhs)     { return DFFastDivide (Lhs, DFBroadcast2(Rhs)); }
 FDFVector2  DFFastDivide (float2 Lhs, FDFScalar Rhs) { return DFFastDivide (Lhs, DFBroadcast2(Rhs)); }
 FDFVector2  DFFastDivide (float2 Lhs, float Rhs) { return DFFastDivide (Lhs, DFBroadcast2(Rhs)); }
-
-#line 102 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 FDFVector2 DFDivideByPow2(FDFVector2 Lhs, float Rhs)
 {
 	float2 RhsVect = Rhs;
 	return DFDivideByPow2(Lhs, RhsVect);
 }
-
-#line 112 "/Engine/Private/DoubleFloat.ush"
 FDFVector2 MakeDFVector(FDFScalar X, FDFScalar Y) { return MakeDFVector2(float2(X.High, Y.High), float2(X.Low, Y.Low)); }
-
-#line 28 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 struct FDFVector3
 {
 	float3 High;
 	float3 Low;
-
-#line  55 "/Engine/Private/DoubleFloatVectorDefinition.ush"
-
 };
-
-#line 5 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector3 MakeDFVector3(float3 High, float3 Low)
 {
 	FDFVector3 Result;
@@ -1100,31 +738,16 @@ FDFVector3 MakeDFVector3(float3 High, float3 Low)
 	Result.Low = Low;
 	return Result;
 }
-
-#line 13 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector3 DFPromote(FDFVector3 Value) { return Value; }
-
-#line 16 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector3 DFPromote(float3 Value) { return MakeDFVector3(Value, (float3)0); }
-
-#line 20 "/Engine/Private/DoubleFloatOperations.ush"
 float3 DFDemote(FDFVector3 Value) { return Value.High + Value.Low; }
-
-#line 22 "/Engine/Private/DoubleFloatOperations.ush"
 float3 DFDemote(float3 Value) { return Value; }
-
-#line 24 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector3 DFNegate(FDFVector3 Value)
 {
 	return MakeDFVector3(-Value.High, -Value.Low);
 }
-
-#line 46 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector3 DFTwoSum(float3 Lhs, float3 Rhs)
 {
-
-
-
 	const float3 S =   MakePrecise( ( Lhs ) + ( Rhs ) );
 	const float3 V =   MakePrecise( ( S ) - ( Lhs ) );
 	const float3 Q =   MakePrecise( ( S ) - ( V ) );
@@ -1132,203 +755,104 @@ FDFVector3 DFTwoSum(float3 Lhs, float3 Rhs)
 	const float3 T =   MakePrecise( ( Rhs ) - ( V ) );
 	const float3 Y =   MakePrecise( ( R ) + ( T ) );
 	return MakeDFVector3(S, Y);
-
 }
-
-#line 65 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector3 DFFastTwoSum(float3 Lhs, float3 Rhs)
 {
-
-
-
 	const float3 S =   MakePrecise( ( Lhs ) + ( Rhs ) );
 	const float3 T =   MakePrecise( ( S ) - ( Lhs ) );
 	const float3 E =   MakePrecise( ( Rhs ) - ( T ) );
 	return MakeDFVector3(S, E);
-
 }
-
-#line 113 "/Engine/Private/DoubleFloatOperations.ush"
 float3 DFAddDemote(FDFVector3 Lhs, FDFVector3 Rhs)
 {
-
-
-
-
 	FDFVector3 S = DFTwoSum(Lhs.High, Rhs.High);
 	const FDFVector3 T = DFTwoSum(Lhs.Low, Rhs.Low);
-
 	S.Low += T.High;
 	S = DFFastTwoSum(S.High, S.Low);
 	S.Low += T.Low;
 	return S.High + S.Low;
-
 }
-
-#line 129 "/Engine/Private/DoubleFloatOperations.ush"
 float3 DFAddDemote(FDFVector3 Lhs, float3 Rhs)
 {
-
-
-
 	const FDFVector3 S = DFTwoSum(Lhs.High, Rhs);
 	const float3 T = Lhs.Low + S.Low;
 	return S.High + T;
-
 }
-
-#line 140 "/Engine/Private/DoubleFloatOperations.ush"
 float3 DFAddDemote(float3 Lhs, FDFVector3 Rhs) { return DFAddDemote(Rhs, Lhs); }
 float3 DFAddDemote(float3 Lhs, float3 Rhs) { return Lhs + Rhs; }
-
-#line 169 "/Engine/Private/DoubleFloatOperations.ush"
 float3 DFFastAddDemote(FDFVector3 Lhs, FDFVector3 Rhs)
 {
-
-
-
 	FDFVector3 S = DFTwoSum(Lhs.High, Rhs.High);
 	S.Low += Lhs.Low + Rhs.Low;
 	return S.High + S.Low;
-
 }
-
-#line 180 "/Engine/Private/DoubleFloatOperations.ush"
 float3 DFFastAddDemote(FDFVector3 Lhs, float3 Rhs) { return DFAddDemote(Lhs, Rhs); }
 float3 DFFastAddDemote(float3 Lhs, FDFVector3 Rhs) { return DFFastAddDemote(Rhs, Lhs); }
 float3 DFFastAddDemote(float3 Lhs, float3 Rhs) { return Rhs + Lhs; }
-
-#line 203 "/Engine/Private/DoubleFloatOperations.ush"
 float3 DFFastSubtractDemote(float3 Lhs, float3 Rhs) { return Lhs - Rhs; }
 float3 DFFastSubtractDemote(FDFVector3 Lhs, FDFVector3 Rhs) { return DFFastAddDemote(Lhs, DFNegate(Rhs)); }
 float3 DFFastSubtractDemote(FDFVector3 Lhs, float3 Rhs) { return DFFastAddDemote(Lhs, -Rhs); }
 float3 DFFastSubtractDemote(float3 Lhs, FDFVector3 Rhs) { return DFFastAddDemote(Lhs, DFNegate(Rhs)); }
-
-#line 214 "/Engine/Private/DoubleFloatOperations.ush"
 float3 DFFastLocalSubtractDemote(FDFVector3 Lhs, FDFVector3 Rhs)
 {
-
-
-
-
-
 	const float3 High =   MakePrecise( ( Lhs.High ) - ( Rhs.High ) );
 	const float3 Low =   MakePrecise( ( Lhs.Low ) - ( Rhs.Low ) );
 	const float3 Sum =   MakePrecise( ( High ) + ( Low ) );
 	return Sum;
-
 }
-
-#line 228 "/Engine/Private/DoubleFloatOperations.ush"
 float3 DFFastLocalSubtractDemote(FDFVector3 Lhs, float3 Rhs)
 {
-
-
-
-
-
 	const float3 High =   MakePrecise( ( Lhs.High ) - ( Rhs ) );
 	const float3 Sum =   MakePrecise( ( High ) + ( Lhs.Low ) );
 	return Sum;
-
 }
-
-#line 241 "/Engine/Private/DoubleFloatOperations.ush"
 float3 DFFastLocalSubtractDemote(float3 Lhs, FDFVector3 Rhs)
 {
 	return DFFastLocalSubtractDemote(DFPromote(Lhs), Rhs);
 }
-
-#line 269 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector3 DFTwoProduct(float3 Lhs, float3 Rhs)
 {
-
-
-
-
-
 	const float3 P = Lhs * Rhs;
 	const float3 E =   MakePrecise(  mad( ( Lhs ) , ( Rhs ) , ( -P ) ) );
 	return MakeDFVector3(P, E);
-
 }
-
-#line 283 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector3 DFMultiply(float3 Lhs, float3 Rhs) { return DFTwoProduct(Lhs, Rhs); }
-
-#line 287 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector3 DFMultiply(FDFVector3 Lhs, FDFVector3 Rhs)
 {
-
-
-
 	const FDFVector3 P = DFTwoProduct(Lhs.High, Rhs.High);
 	float3 T =   MakePrecise( ( Lhs.High ) * ( Rhs.Low ) );
 	T =   MakePrecise(  mad( ( Lhs.Low ) , ( Rhs.High ) , ( T ) ) );
 	T =   MakePrecise( ( T ) + ( P.Low ) );
-
 	return DFFastTwoSum(P.High, T);
-
 }
-
-#line 303 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector3 DFMultiply(FDFVector3 Lhs, float3 Rhs)
 {
-
-
-
 	FDFVector3 P = DFTwoProduct(Lhs.High, Rhs);
 	float3 T =   MakePrecise(  mad( ( Lhs.Low ) , ( Rhs ) , ( P.Low ) ) );
 	return DFFastTwoSum(P.High, T);
-
 }
-
-#line 314 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector3 DFMultiply(float3 Lhs, FDFVector3 Rhs) { return DFMultiply(Rhs, Lhs); }
-
-#line 316 "/Engine/Private/DoubleFloatOperations.ush"
 float3 DFMultiplyDemote(FDFVector3 Lhs, FDFVector3 Rhs)
 {
-
-
-
 	const FDFVector3 P = DFTwoProduct(Lhs.High, Rhs.High);
 	float3 T =   MakePrecise( ( Lhs.High ) * ( Rhs.Low ) );
 	T =   MakePrecise(  mad( ( Lhs.Low ) , ( Rhs.High ) , ( T ) ) );
 	T =   MakePrecise( ( T ) + ( P.Low ) );
 	const float3 S =   MakePrecise( ( P.High ) + ( T ) );
 	return S;
-
 }
-
-#line 330 "/Engine/Private/DoubleFloatOperations.ush"
 float3 DFMultiplyDemote(FDFVector3 Lhs, float3 Rhs)
 {
-
-
-
 	FDFVector3 P = DFTwoProduct(Lhs.High, Rhs);
 	P.Low =   MakePrecise(  mad( ( Lhs.Low ) , ( Rhs ) , ( P.Low ) ) );
 	const float3 S =   MakePrecise( ( P.High ) + ( P.Low ) );
 	return S;
-
 }
-
-#line 342 "/Engine/Private/DoubleFloatOperations.ush"
 float3 DFMultiplyDemote(float3 Lhs, FDFVector3 Rhs) { return DFMultiplyDemote(Rhs, Lhs); }
 float3 DFMultiplyDemote(float3 Lhs, float3 Rhs) { return Lhs * Rhs; }
-
-#line 363 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector3 DFFastDivide(FDFVector3 Lhs, FDFVector3 Rhs);
-
-#line 419 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector3 DFFastDivide(FDFVector3 Lhs, FDFVector3 Rhs)
 {
-
-
-
-
-
 	const float3 Th =   MakePrecise( ( Lhs.High ) / ( Rhs.High ) );
 	const FDFVector3 R = DFMultiply(Rhs, Th);
 	const float3 Ph =   MakePrecise( ( Lhs.High ) - ( R.High ) );
@@ -1336,17 +860,9 @@ FDFVector3 DFFastDivide(FDFVector3 Lhs, FDFVector3 Rhs)
 	const float3 D =   MakePrecise( ( Ph ) + ( Dl ) );
 	const float3 Tl =   MakePrecise( ( D ) / ( Rhs.High ) );
 	return DFFastTwoSum(Th, Tl);
-
 }
-
-#line 436 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector3 DFFastDivide(FDFVector3 Lhs, float3 Rhs)
 {
-
-
-
-
-
 	const float3 Th =   MakePrecise( ( Lhs.High ) / ( Rhs ) );
 	const FDFVector3 R = DFTwoProduct(Rhs, Th);
 	const float3 Ph =   MakePrecise( ( Lhs.High ) - ( R.High ) );
@@ -1354,59 +870,32 @@ FDFVector3 DFFastDivide(FDFVector3 Lhs, float3 Rhs)
 	const float3 D =   MakePrecise( ( Ph ) + ( Dl ) );
 	const float3 Tl =   MakePrecise( ( D ) / ( Rhs ) );
 	return DFFastTwoSum(Th, Tl);
-
 }
-
-#line 453 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector3 DFFastDivide(float3 Lhs, FDFVector3 Rhs) { return DFFastDivide(DFPromote(Lhs), Rhs); }
 FDFVector3 DFFastDivide(float3 Lhs, float3 Rhs) { return DFFastDivide(DFPromote(Lhs), Rhs); }
-
-#line 495 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector3 DFDivideByPow2(FDFVector3 Lhs, float3 Rhs)
 {
-
-
-
 	return MakeDFVector3(Lhs.High / Rhs, Lhs.Low / Rhs);
-
 }
-
-#line 876 "/Engine/Private/DoubleFloatOperations.ush"
 float3 DFFracDemote(FDFVector3 V)
 {
-
-
-
 	return frac(frac(V.High) + frac(V.Low));
-
 }
-
-#line 907 "/Engine/Private/DoubleFloatOperations.ush"
 float3 DFFmodByPow2Demote(FDFVector3 Lhs, float3 Rhs)
 {
-
-
-
 	return DFFracDemote(DFDivideByPow2(Lhs, Rhs)) * Rhs;
-
 }
-
-#line 62 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 FDFVector3 DFBroadcast3(FDFScalar V)
 {
 	const float3 High = V.High;
 	const float3 Low = V.Low;
 	return MakeDFVector3(High, Low);
 }
-
-#line 69 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 float3 DFBroadcast3(float V)
 {
 	const float3 Single = V;
 	return Single;
 }
-
-#line 86 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 float3  DFAddDemote (FDFScalar Lhs, FDFVector3 Rhs) { return DFAddDemote (DFBroadcast3(Lhs), Rhs); }
 float3  DFAddDemote (float Lhs, FDFVector3 Rhs) { return DFAddDemote (DFBroadcast3(Lhs), Rhs); }
 float3  DFAddDemote (FDFScalar Lhs, float3 Rhs) { return DFAddDemote (DFBroadcast3(Lhs), Rhs); }
@@ -1415,8 +904,6 @@ float3  DFAddDemote (FDFVector3 Lhs, FDFScalar Rhs) { return DFAddDemote (Lhs, D
 float3  DFAddDemote (FDFVector3 Lhs, float Rhs)     { return DFAddDemote (Lhs, DFBroadcast3(Rhs)); }
 float3  DFAddDemote (float3 Lhs, FDFScalar Rhs) { return DFAddDemote (Lhs, DFBroadcast3(Rhs)); }
 float3  DFAddDemote (float3 Lhs, float Rhs) { return DFAddDemote (Lhs, DFBroadcast3(Rhs)); }
-
-#line 88 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 float3  DFFastAddDemote (FDFScalar Lhs, FDFVector3 Rhs) { return DFFastAddDemote (DFBroadcast3(Lhs), Rhs); }
 float3  DFFastAddDemote (float Lhs, FDFVector3 Rhs) { return DFFastAddDemote (DFBroadcast3(Lhs), Rhs); }
 float3  DFFastAddDemote (FDFScalar Lhs, float3 Rhs) { return DFFastAddDemote (DFBroadcast3(Lhs), Rhs); }
@@ -1425,8 +912,6 @@ float3  DFFastAddDemote (FDFVector3 Lhs, FDFScalar Rhs) { return DFFastAddDemote
 float3  DFFastAddDemote (FDFVector3 Lhs, float Rhs)     { return DFFastAddDemote (Lhs, DFBroadcast3(Rhs)); }
 float3  DFFastAddDemote (float3 Lhs, FDFScalar Rhs) { return DFFastAddDemote (Lhs, DFBroadcast3(Rhs)); }
 float3  DFFastAddDemote (float3 Lhs, float Rhs) { return DFFastAddDemote (Lhs, DFBroadcast3(Rhs)); }
-
-#line 92 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 float3  DFFastSubtractDemote (FDFScalar Lhs, FDFVector3 Rhs) { return DFFastSubtractDemote (DFBroadcast3(Lhs), Rhs); }
 float3  DFFastSubtractDemote (float Lhs, FDFVector3 Rhs) { return DFFastSubtractDemote (DFBroadcast3(Lhs), Rhs); }
 float3  DFFastSubtractDemote (FDFScalar Lhs, float3 Rhs) { return DFFastSubtractDemote (DFBroadcast3(Lhs), Rhs); }
@@ -1451,8 +936,6 @@ float3  DFMultiplyDemote (FDFVector3 Lhs, FDFScalar Rhs) { return DFMultiplyDemo
 float3  DFMultiplyDemote (FDFVector3 Lhs, float Rhs)     { return DFMultiplyDemote (Lhs, DFBroadcast3(Rhs)); }
 float3  DFMultiplyDemote (float3 Lhs, FDFScalar Rhs) { return DFMultiplyDemote (Lhs, DFBroadcast3(Rhs)); }
 float3  DFMultiplyDemote (float3 Lhs, float Rhs) { return DFMultiplyDemote (Lhs, DFBroadcast3(Rhs)); }
-
-#line 96 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 FDFVector3  DFFastDivide (FDFScalar Lhs, FDFVector3 Rhs) { return DFFastDivide (DFBroadcast3(Lhs), Rhs); }
 FDFVector3  DFFastDivide (float Lhs, FDFVector3 Rhs) { return DFFastDivide (DFBroadcast3(Lhs), Rhs); }
 FDFVector3  DFFastDivide (FDFScalar Lhs, float3 Rhs) { return DFFastDivide (DFBroadcast3(Lhs), Rhs); }
@@ -1461,30 +944,19 @@ FDFVector3  DFFastDivide (FDFVector3 Lhs, FDFScalar Rhs) { return DFFastDivide (
 FDFVector3  DFFastDivide (FDFVector3 Lhs, float Rhs)     { return DFFastDivide (Lhs, DFBroadcast3(Rhs)); }
 FDFVector3  DFFastDivide (float3 Lhs, FDFScalar Rhs) { return DFFastDivide (Lhs, DFBroadcast3(Rhs)); }
 FDFVector3  DFFastDivide (float3 Lhs, float Rhs) { return DFFastDivide (Lhs, DFBroadcast3(Rhs)); }
-
-#line 102 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 FDFVector3 DFDivideByPow2(FDFVector3 Lhs, float Rhs)
 {
 	float3 RhsVect = Rhs;
 	return DFDivideByPow2(Lhs, RhsVect);
 }
-
-#line 132 "/Engine/Private/DoubleFloat.ush"
 FDFVector3 MakeDFVector(FDFScalar   X, FDFScalar   Y, FDFScalar Z) { return MakeDFVector3(float3( X.High,  Y.High, Z.High), float3( X.Low,  Y.Low, Z.Low)); }
 FDFVector3 MakeDFVector(FDFScalar   X, FDFVector2 YZ)              { return MakeDFVector3(float3( X.High, YZ.High),         float3( X.Low, YZ.Low)); }
 FDFVector3 MakeDFVector(FDFVector2 XY, FDFScalar   Z)              { return MakeDFVector3(float3(XY.High,  Z.High),         float3(XY.Low,  Z.Low)); }
-
-#line 28 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 struct FDFVector4
 {
 	float4 High;
 	float4 Low;
-
-#line  55 "/Engine/Private/DoubleFloatVectorDefinition.ush"
-
 };
-
-#line 5 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector4 MakeDFVector4(float4 High, float4 Low)
 {
 	FDFVector4 Result;
@@ -1492,31 +964,16 @@ FDFVector4 MakeDFVector4(float4 High, float4 Low)
 	Result.Low = Low;
 	return Result;
 }
-
-#line 13 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector4 DFPromote(FDFVector4 Value) { return Value; }
-
-#line 16 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector4 DFPromote(float4 Value) { return MakeDFVector4(Value, (float4)0); }
-
-#line 20 "/Engine/Private/DoubleFloatOperations.ush"
 float4 DFDemote(FDFVector4 Value) { return Value.High + Value.Low; }
-
-#line 22 "/Engine/Private/DoubleFloatOperations.ush"
 float4 DFDemote(float4 Value) { return Value; }
-
-#line 24 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector4 DFNegate(FDFVector4 Value)
 {
 	return MakeDFVector4(-Value.High, -Value.Low);
 }
-
-#line 46 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector4 DFTwoSum(float4 Lhs, float4 Rhs)
 {
-
-
-
 	const float4 S =   MakePrecise( ( Lhs ) + ( Rhs ) );
 	const float4 V =   MakePrecise( ( S ) - ( Lhs ) );
 	const float4 Q =   MakePrecise( ( S ) - ( V ) );
@@ -1524,203 +981,104 @@ FDFVector4 DFTwoSum(float4 Lhs, float4 Rhs)
 	const float4 T =   MakePrecise( ( Rhs ) - ( V ) );
 	const float4 Y =   MakePrecise( ( R ) + ( T ) );
 	return MakeDFVector4(S, Y);
-
 }
-
-#line 65 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector4 DFFastTwoSum(float4 Lhs, float4 Rhs)
 {
-
-
-
 	const float4 S =   MakePrecise( ( Lhs ) + ( Rhs ) );
 	const float4 T =   MakePrecise( ( S ) - ( Lhs ) );
 	const float4 E =   MakePrecise( ( Rhs ) - ( T ) );
 	return MakeDFVector4(S, E);
-
 }
-
-#line 113 "/Engine/Private/DoubleFloatOperations.ush"
 float4 DFAddDemote(FDFVector4 Lhs, FDFVector4 Rhs)
 {
-
-
-
-
 	FDFVector4 S = DFTwoSum(Lhs.High, Rhs.High);
 	const FDFVector4 T = DFTwoSum(Lhs.Low, Rhs.Low);
-
 	S.Low += T.High;
 	S = DFFastTwoSum(S.High, S.Low);
 	S.Low += T.Low;
 	return S.High + S.Low;
-
 }
-
-#line 129 "/Engine/Private/DoubleFloatOperations.ush"
 float4 DFAddDemote(FDFVector4 Lhs, float4 Rhs)
 {
-
-
-
 	const FDFVector4 S = DFTwoSum(Lhs.High, Rhs);
 	const float4 T = Lhs.Low + S.Low;
 	return S.High + T;
-
 }
-
-#line 140 "/Engine/Private/DoubleFloatOperations.ush"
 float4 DFAddDemote(float4 Lhs, FDFVector4 Rhs) { return DFAddDemote(Rhs, Lhs); }
 float4 DFAddDemote(float4 Lhs, float4 Rhs) { return Lhs + Rhs; }
-
-#line 169 "/Engine/Private/DoubleFloatOperations.ush"
 float4 DFFastAddDemote(FDFVector4 Lhs, FDFVector4 Rhs)
 {
-
-
-
 	FDFVector4 S = DFTwoSum(Lhs.High, Rhs.High);
 	S.Low += Lhs.Low + Rhs.Low;
 	return S.High + S.Low;
-
 }
-
-#line 180 "/Engine/Private/DoubleFloatOperations.ush"
 float4 DFFastAddDemote(FDFVector4 Lhs, float4 Rhs) { return DFAddDemote(Lhs, Rhs); }
 float4 DFFastAddDemote(float4 Lhs, FDFVector4 Rhs) { return DFFastAddDemote(Rhs, Lhs); }
 float4 DFFastAddDemote(float4 Lhs, float4 Rhs) { return Rhs + Lhs; }
-
-#line 203 "/Engine/Private/DoubleFloatOperations.ush"
 float4 DFFastSubtractDemote(float4 Lhs, float4 Rhs) { return Lhs - Rhs; }
 float4 DFFastSubtractDemote(FDFVector4 Lhs, FDFVector4 Rhs) { return DFFastAddDemote(Lhs, DFNegate(Rhs)); }
 float4 DFFastSubtractDemote(FDFVector4 Lhs, float4 Rhs) { return DFFastAddDemote(Lhs, -Rhs); }
 float4 DFFastSubtractDemote(float4 Lhs, FDFVector4 Rhs) { return DFFastAddDemote(Lhs, DFNegate(Rhs)); }
-
-#line 214 "/Engine/Private/DoubleFloatOperations.ush"
 float4 DFFastLocalSubtractDemote(FDFVector4 Lhs, FDFVector4 Rhs)
 {
-
-
-
-
-
 	const float4 High =   MakePrecise( ( Lhs.High ) - ( Rhs.High ) );
 	const float4 Low =   MakePrecise( ( Lhs.Low ) - ( Rhs.Low ) );
 	const float4 Sum =   MakePrecise( ( High ) + ( Low ) );
 	return Sum;
-
 }
-
-#line 228 "/Engine/Private/DoubleFloatOperations.ush"
 float4 DFFastLocalSubtractDemote(FDFVector4 Lhs, float4 Rhs)
 {
-
-
-
-
-
 	const float4 High =   MakePrecise( ( Lhs.High ) - ( Rhs ) );
 	const float4 Sum =   MakePrecise( ( High ) + ( Lhs.Low ) );
 	return Sum;
-
 }
-
-#line 241 "/Engine/Private/DoubleFloatOperations.ush"
 float4 DFFastLocalSubtractDemote(float4 Lhs, FDFVector4 Rhs)
 {
 	return DFFastLocalSubtractDemote(DFPromote(Lhs), Rhs);
 }
-
-#line 269 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector4 DFTwoProduct(float4 Lhs, float4 Rhs)
 {
-
-
-
-
-
 	const float4 P = Lhs * Rhs;
 	const float4 E =   MakePrecise(  mad( ( Lhs ) , ( Rhs ) , ( -P ) ) );
 	return MakeDFVector4(P, E);
-
 }
-
-#line 283 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector4 DFMultiply(float4 Lhs, float4 Rhs) { return DFTwoProduct(Lhs, Rhs); }
-
-#line 287 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector4 DFMultiply(FDFVector4 Lhs, FDFVector4 Rhs)
 {
-
-
-
 	const FDFVector4 P = DFTwoProduct(Lhs.High, Rhs.High);
 	float4 T =   MakePrecise( ( Lhs.High ) * ( Rhs.Low ) );
 	T =   MakePrecise(  mad( ( Lhs.Low ) , ( Rhs.High ) , ( T ) ) );
 	T =   MakePrecise( ( T ) + ( P.Low ) );
-
 	return DFFastTwoSum(P.High, T);
-
 }
-
-#line 303 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector4 DFMultiply(FDFVector4 Lhs, float4 Rhs)
 {
-
-
-
 	FDFVector4 P = DFTwoProduct(Lhs.High, Rhs);
 	float4 T =   MakePrecise(  mad( ( Lhs.Low ) , ( Rhs ) , ( P.Low ) ) );
 	return DFFastTwoSum(P.High, T);
-
 }
-
-#line 314 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector4 DFMultiply(float4 Lhs, FDFVector4 Rhs) { return DFMultiply(Rhs, Lhs); }
-
-#line 316 "/Engine/Private/DoubleFloatOperations.ush"
 float4 DFMultiplyDemote(FDFVector4 Lhs, FDFVector4 Rhs)
 {
-
-
-
 	const FDFVector4 P = DFTwoProduct(Lhs.High, Rhs.High);
 	float4 T =   MakePrecise( ( Lhs.High ) * ( Rhs.Low ) );
 	T =   MakePrecise(  mad( ( Lhs.Low ) , ( Rhs.High ) , ( T ) ) );
 	T =   MakePrecise( ( T ) + ( P.Low ) );
 	const float4 S =   MakePrecise( ( P.High ) + ( T ) );
 	return S;
-
 }
-
-#line 330 "/Engine/Private/DoubleFloatOperations.ush"
 float4 DFMultiplyDemote(FDFVector4 Lhs, float4 Rhs)
 {
-
-
-
 	FDFVector4 P = DFTwoProduct(Lhs.High, Rhs);
 	P.Low =   MakePrecise(  mad( ( Lhs.Low ) , ( Rhs ) , ( P.Low ) ) );
 	const float4 S =   MakePrecise( ( P.High ) + ( P.Low ) );
 	return S;
-
 }
-
-#line 342 "/Engine/Private/DoubleFloatOperations.ush"
 float4 DFMultiplyDemote(float4 Lhs, FDFVector4 Rhs) { return DFMultiplyDemote(Rhs, Lhs); }
 float4 DFMultiplyDemote(float4 Lhs, float4 Rhs) { return Lhs * Rhs; }
-
-#line 363 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector4 DFFastDivide(FDFVector4 Lhs, FDFVector4 Rhs);
-
-#line 419 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector4 DFFastDivide(FDFVector4 Lhs, FDFVector4 Rhs)
 {
-
-
-
-
-
 	const float4 Th =   MakePrecise( ( Lhs.High ) / ( Rhs.High ) );
 	const FDFVector4 R = DFMultiply(Rhs, Th);
 	const float4 Ph =   MakePrecise( ( Lhs.High ) - ( R.High ) );
@@ -1728,17 +1086,9 @@ FDFVector4 DFFastDivide(FDFVector4 Lhs, FDFVector4 Rhs)
 	const float4 D =   MakePrecise( ( Ph ) + ( Dl ) );
 	const float4 Tl =   MakePrecise( ( D ) / ( Rhs.High ) );
 	return DFFastTwoSum(Th, Tl);
-
 }
-
-#line 436 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector4 DFFastDivide(FDFVector4 Lhs, float4 Rhs)
 {
-
-
-
-
-
 	const float4 Th =   MakePrecise( ( Lhs.High ) / ( Rhs ) );
 	const FDFVector4 R = DFTwoProduct(Rhs, Th);
 	const float4 Ph =   MakePrecise( ( Lhs.High ) - ( R.High ) );
@@ -1746,59 +1096,32 @@ FDFVector4 DFFastDivide(FDFVector4 Lhs, float4 Rhs)
 	const float4 D =   MakePrecise( ( Ph ) + ( Dl ) );
 	const float4 Tl =   MakePrecise( ( D ) / ( Rhs ) );
 	return DFFastTwoSum(Th, Tl);
-
 }
-
-#line 453 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector4 DFFastDivide(float4 Lhs, FDFVector4 Rhs) { return DFFastDivide(DFPromote(Lhs), Rhs); }
 FDFVector4 DFFastDivide(float4 Lhs, float4 Rhs) { return DFFastDivide(DFPromote(Lhs), Rhs); }
-
-#line 495 "/Engine/Private/DoubleFloatOperations.ush"
 FDFVector4 DFDivideByPow2(FDFVector4 Lhs, float4 Rhs)
 {
-
-
-
 	return MakeDFVector4(Lhs.High / Rhs, Lhs.Low / Rhs);
-
 }
-
-#line 876 "/Engine/Private/DoubleFloatOperations.ush"
 float4 DFFracDemote(FDFVector4 V)
 {
-
-
-
 	return frac(frac(V.High) + frac(V.Low));
-
 }
-
-#line 907 "/Engine/Private/DoubleFloatOperations.ush"
 float4 DFFmodByPow2Demote(FDFVector4 Lhs, float4 Rhs)
 {
-
-
-
 	return DFFracDemote(DFDivideByPow2(Lhs, Rhs)) * Rhs;
-
 }
-
-#line 62 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 FDFVector4 DFBroadcast4(FDFScalar V)
 {
 	const float4 High = V.High;
 	const float4 Low = V.Low;
 	return MakeDFVector4(High, Low);
 }
-
-#line 69 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 float4 DFBroadcast4(float V)
 {
 	const float4 Single = V;
 	return Single;
 }
-
-#line 86 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 float4  DFAddDemote (FDFScalar Lhs, FDFVector4 Rhs) { return DFAddDemote (DFBroadcast4(Lhs), Rhs); }
 float4  DFAddDemote (float Lhs, FDFVector4 Rhs) { return DFAddDemote (DFBroadcast4(Lhs), Rhs); }
 float4  DFAddDemote (FDFScalar Lhs, float4 Rhs) { return DFAddDemote (DFBroadcast4(Lhs), Rhs); }
@@ -1807,8 +1130,6 @@ float4  DFAddDemote (FDFVector4 Lhs, FDFScalar Rhs) { return DFAddDemote (Lhs, D
 float4  DFAddDemote (FDFVector4 Lhs, float Rhs)     { return DFAddDemote (Lhs, DFBroadcast4(Rhs)); }
 float4  DFAddDemote (float4 Lhs, FDFScalar Rhs) { return DFAddDemote (Lhs, DFBroadcast4(Rhs)); }
 float4  DFAddDemote (float4 Lhs, float Rhs) { return DFAddDemote (Lhs, DFBroadcast4(Rhs)); }
-
-#line 88 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 float4  DFFastAddDemote (FDFScalar Lhs, FDFVector4 Rhs) { return DFFastAddDemote (DFBroadcast4(Lhs), Rhs); }
 float4  DFFastAddDemote (float Lhs, FDFVector4 Rhs) { return DFFastAddDemote (DFBroadcast4(Lhs), Rhs); }
 float4  DFFastAddDemote (FDFScalar Lhs, float4 Rhs) { return DFFastAddDemote (DFBroadcast4(Lhs), Rhs); }
@@ -1817,8 +1138,6 @@ float4  DFFastAddDemote (FDFVector4 Lhs, FDFScalar Rhs) { return DFFastAddDemote
 float4  DFFastAddDemote (FDFVector4 Lhs, float Rhs)     { return DFFastAddDemote (Lhs, DFBroadcast4(Rhs)); }
 float4  DFFastAddDemote (float4 Lhs, FDFScalar Rhs) { return DFFastAddDemote (Lhs, DFBroadcast4(Rhs)); }
 float4  DFFastAddDemote (float4 Lhs, float Rhs) { return DFFastAddDemote (Lhs, DFBroadcast4(Rhs)); }
-
-#line 92 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 float4  DFFastSubtractDemote (FDFScalar Lhs, FDFVector4 Rhs) { return DFFastSubtractDemote (DFBroadcast4(Lhs), Rhs); }
 float4  DFFastSubtractDemote (float Lhs, FDFVector4 Rhs) { return DFFastSubtractDemote (DFBroadcast4(Lhs), Rhs); }
 float4  DFFastSubtractDemote (FDFScalar Lhs, float4 Rhs) { return DFFastSubtractDemote (DFBroadcast4(Lhs), Rhs); }
@@ -1843,8 +1162,6 @@ float4  DFMultiplyDemote (FDFVector4 Lhs, FDFScalar Rhs) { return DFMultiplyDemo
 float4  DFMultiplyDemote (FDFVector4 Lhs, float Rhs)     { return DFMultiplyDemote (Lhs, DFBroadcast4(Rhs)); }
 float4  DFMultiplyDemote (float4 Lhs, FDFScalar Rhs) { return DFMultiplyDemote (Lhs, DFBroadcast4(Rhs)); }
 float4  DFMultiplyDemote (float4 Lhs, float Rhs) { return DFMultiplyDemote (Lhs, DFBroadcast4(Rhs)); }
-
-#line 96 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 FDFVector4  DFFastDivide (FDFScalar Lhs, FDFVector4 Rhs) { return DFFastDivide (DFBroadcast4(Lhs), Rhs); }
 FDFVector4  DFFastDivide (float Lhs, FDFVector4 Rhs) { return DFFastDivide (DFBroadcast4(Lhs), Rhs); }
 FDFVector4  DFFastDivide (FDFScalar Lhs, float4 Rhs) { return DFFastDivide (DFBroadcast4(Lhs), Rhs); }
@@ -1853,15 +1170,11 @@ FDFVector4  DFFastDivide (FDFVector4 Lhs, FDFScalar Rhs) { return DFFastDivide (
 FDFVector4  DFFastDivide (FDFVector4 Lhs, float Rhs)     { return DFFastDivide (Lhs, DFBroadcast4(Rhs)); }
 FDFVector4  DFFastDivide (float4 Lhs, FDFScalar Rhs) { return DFFastDivide (Lhs, DFBroadcast4(Rhs)); }
 FDFVector4  DFFastDivide (float4 Lhs, float Rhs) { return DFFastDivide (Lhs, DFBroadcast4(Rhs)); }
-
-#line 102 "/Engine/Private/DoubleFloatVectorDefinition.ush"
 FDFVector4 DFDivideByPow2(FDFVector4 Lhs, float Rhs)
 {
 	float4 RhsVect = Rhs;
 	return DFDivideByPow2(Lhs, RhsVect);
 }
-
-#line 154 "/Engine/Private/DoubleFloat.ush"
 FDFVector4 MakeDFVector(FDFScalar    X, FDFScalar    Y, FDFScalar   Z, FDFScalar W) { return MakeDFVector4(float4(  X.High,   Y.High,  Z.High, W.High), float4(  X.Low,   Y.Low,  Z.Low, W.Low)); }
 FDFVector4 MakeDFVector(FDFScalar    X, FDFScalar    Y, FDFVector2 ZW)              { return MakeDFVector4(float4(  X.High,   Y.High, ZW.High),         float4(  X.Low,   Y.Low, ZW.Low)); }
 FDFVector4 MakeDFVector(FDFScalar    X, FDFVector2  YZ, FDFScalar   W)              { return MakeDFVector4(float4(  X.High,  YZ.High,  W.High),         float4(  X.Low,  YZ.Low,  W.Low)); }
@@ -1869,21 +1182,14 @@ FDFVector4 MakeDFVector(FDFVector2  XY, FDFScalar    Z, FDFScalar   W)          
 FDFVector4 MakeDFVector(FDFVector2  XY, FDFVector2  ZW)                             { return MakeDFVector4(float4( XY.High,  ZW.High),                  float4( XY.Low,  ZW.Low)); }
 FDFVector4 MakeDFVector(FDFScalar    X, FDFVector3 YZW)                             { return MakeDFVector4(float4(  X.High, YZW.High),                  float4(  X.Low, YZW.Low)); }
 FDFVector4 MakeDFVector(FDFVector3 XYZ, FDFScalar    W)                             { return MakeDFVector4(float4(XYZ.High,   W.High),                  float4(XYZ.Low,   W.Low)); }
-
-#line 162 "/Engine/Private/DoubleFloat.ush"
 FDFVector4 MakeDFVector(FDFVector3 In, float W) { return MakeDFVector4(float4(In.High, W), float4(In.Low, 0)); }
-
-#line 200 "/Engine/Private/DoubleFloat.ush"
 struct FDFMatrix
 {
 	float4x4 M;
 	float3 PostTranslation; 
 };
-
-#line 206 "/Engine/Private/DoubleFloat.ush"
 float4x4 Make4x3Matrix(float4x4 M)
 {
-
 	float4x4 Result;
 	Result[0] = float4(M[0].xyz, 0.0f);
 	Result[1] = float4(M[1].xyz, 0.0f);
@@ -1891,8 +1197,6 @@ float4x4 Make4x3Matrix(float4x4 M)
 	Result[3] = float4(M[3].xyz, 1.0f);
 	return Result;
 }
-
-#line 217 "/Engine/Private/DoubleFloat.ush"
 float4x4 MakeTranslationMatrix(float3 Offset)
 {
 	float4x4 Result;
@@ -1902,8 +1206,6 @@ float4x4 MakeTranslationMatrix(float3 Offset)
 	Result[3] = float4(Offset, 1.0f);
 	return Result;
 }
-
-#line 227 "/Engine/Private/DoubleFloat.ush"
 FDFMatrix MakeDFMatrix4x3(float3 PostTranslation, float4x4 InMatrix)
 {
 	FDFMatrix Result;
@@ -1911,8 +1213,6 @@ FDFMatrix MakeDFMatrix4x3(float3 PostTranslation, float4x4 InMatrix)
 	Result.M = Make4x3Matrix(InMatrix);
 	return Result;
 }
-
-#line 235 "/Engine/Private/DoubleFloat.ush"
 FDFMatrix MakeDFMatrix(float3 PostTranslation, float4x4 InMatrix)
 {
 	FDFMatrix Result;
@@ -1920,318 +1220,211 @@ FDFMatrix MakeDFMatrix(float3 PostTranslation, float4x4 InMatrix)
 	Result.M = InMatrix;
 	return Result;
 }
-
-#line 255 "/Engine/Private/DoubleFloat.ush"
 struct FDFInverseMatrix
 {
 	float4x4 M;
 	float3 PreTranslation; 
-
 	int Dummy; 
-
 };
-
-#line 264 "/Engine/Private/DoubleFloat.ush"
 FDFInverseMatrix MakeDFInverseMatrix(float3 PreTranslation, float4x4 InMatrix)
 {
 	FDFInverseMatrix Result;
 	Result.PreTranslation = PreTranslation;
 	Result.M = InMatrix;
-
 	Result.Dummy = 0;
-
 	return Result;
 }
-
-#line 275 "/Engine/Private/DoubleFloat.ush"
 FDFInverseMatrix MakeDFInverseMatrix4x3(float3 PreTranslation, float4x4 InMatrix)
 {
 	FDFInverseMatrix Result;
 	Result.PreTranslation = PreTranslation;
 	Result.M = Make4x3Matrix(InMatrix);
-
 	Result.Dummy = 0;
-
 	return Result;
 }
-
-#line 286 "/Engine/Private/DoubleFloat.ush"
 FDFVector3 DFMultiply(float3 Vector, FDFMatrix InMatrix)
 {
 	float4 Result = mul(float4(Vector, 1), InMatrix.M);
-
 	FDFVector3 V = DFTwoSum(InMatrix.PostTranslation, Result.xyz);
 	return V;
 }
-
-#line 294 "/Engine/Private/DoubleFloat.ush"
 FDFVector4 DFMultiply(float4 Vector, FDFMatrix InMatrix)
 {
 	float4 Result = mul(Vector, InMatrix.M);
 	FDFVector4 V = DFTwoSum(float4(InMatrix.PostTranslation, 0), Result);
 	return V;
 }
-
-#line 301 "/Engine/Private/DoubleFloat.ush"
 float3 DFMultiplyDemote(FDFVector3 Vector, FDFInverseMatrix InMatrix)
 {
 	float3 V = DFFastSubtractDemote(Vector, InMatrix.PreTranslation);
 	float4 Result = mul(float4(V, 1), InMatrix.M);
-
 	return Result.xyz;
 }
-
-#line 316 "/Engine/Private/DoubleFloat.ush"
 float4 DFMultiplyDemote(FDFVector4 Vector, FDFInverseMatrix InMatrix)
 {
 	float4 V = DFFastSubtractDemote(Vector, float4(InMatrix.PreTranslation, 0));
 	return mul(V, InMatrix.M);
 }
-
-#line 328 "/Engine/Private/DoubleFloat.ush"
 FDFInverseMatrix DFMultiply(FDFInverseMatrix Lhs, float4x4 Rhs)
 {
 	float4x4 M = mul(Lhs.M, Rhs);
 	float3 PreTranslation = Lhs.PreTranslation;
 	return MakeDFInverseMatrix(PreTranslation, M);
 }
-
-#line 334 "/Engine/Private/DoubleFloat.ush"
 FDFMatrix DFMultiply(float4x4 Lhs, FDFMatrix Rhs)
 {
 	float4x4 M = mul(Lhs, Rhs.M);
 	float3 PostTranslation = Rhs.PostTranslation;
 	return MakeDFMatrix(PostTranslation, M);
 }
-
-#line 341 "/Engine/Private/DoubleFloat.ush"
 float4x4 MultiplyTranslation(float4x4 M, float3 Translation)
 {
 	float4x4 Result = M;
-
 	Result[3].xyz += Translation;
 	return Result;
 }
-
-#line 349 "/Engine/Private/DoubleFloat.ush"
 float4x4 MultiplyTranslation(float3 Translation, float4x4 M)
 {
 	return mul(MakeTranslationMatrix(Translation), M);
 }
-
-#line 485 "/Engine/Private/DoubleFloat.ush"
 FDFMatrix DFPromote(FDFMatrix Value) { return Value; }
-
-#line 487 "/Engine/Private/DoubleFloat.ush"
 FDFMatrix  DFPromote(float4x4 Value) { return MakeDFMatrix((float3)0, Value); }
-
-#line 490 "/Engine/Private/DoubleFloat.ush"
 float4x4 DFDemote(FDFMatrix V)
 {
 	return MultiplyTranslation(V.M, V.PostTranslation);
 }
-
-#line 495 "/Engine/Private/DoubleFloat.ush"
 float4x4 DFDemote(float4x4 V)
 {
 	return V;
 }
-
-#line 500 "/Engine/Private/DoubleFloat.ush"
 float4x4 DFDemote(FDFInverseMatrix V)
 {
 	return MultiplyTranslation(-V.PreTranslation, V.M);
 }
-
-#line 542 "/Engine/Private/DoubleFloat.ush"
 FDFVector3 DFMultiplyLHSAndFastTwoSum(float3 Lhs, float Factor, float3 Rhs)
 {
 	const float3 S =   MakePrecise(  mad( ( Lhs ) , ( Factor ) , ( Rhs ) ) );
 	const float3 E =   MakePrecise( ( Rhs ) - (   MakePrecise(  mad( ( -Lhs ) , ( Factor ) , ( S ) ) ) ) );
 	return MakeDFVector3(S, E);
 }
-
-#line 7 "/Engine/Private/LargeWorldCoordinates.ush"
 struct FLWCScalar
 {
 	float Tile;
 	float Offset;
-
 	int Dummy; 
-
 };
-
-#line 16 "/Engine/Private/LargeWorldCoordinates.ush"
 struct FLWCVector2
 {
 	float2 Tile;
 	float2 Offset;
-
 	int Dummy; 
-
 };
-
-#line 25 "/Engine/Private/LargeWorldCoordinates.ush"
 struct FLWCVector3
 {
 	float3 Tile;
 	float3 Offset;
-
 	int Dummy; 
-
 };
-
-#line 34 "/Engine/Private/LargeWorldCoordinates.ush"
 struct FLWCVector4
 {
 	float4 Tile;
 	float4 Offset;
-
 	int Dummy; 
-
 };
-
-#line 72 "/Engine/Private/LargeWorldCoordinates.ush"
 struct FLWCMatrix
 {
 	float4x4 M;
 	float3 Tile; 
-
 	int2 Dummy; 
-
 };
-
-#line 82 "/Engine/Private/LargeWorldCoordinates.ush"
 struct FLWCInverseMatrix
 {
 	float4x4 M;
 	float3 Tile; 
-
 	int3 Dummy; 
-
 };
-
-#line 94 "/Engine/Private/LargeWorldCoordinates.ush"
 float LWCGetTileOffset(FLWCScalar V) { return  (( V ).Tile) * 2097152.00f; }
 float2 LWCGetTileOffset(FLWCVector2 V) { return  (( V ).Tile) * 2097152.00f; }
 float3 LWCGetTileOffset(FLWCVector3 V) { return  (( V ).Tile) * 2097152.00f; }
 float4 LWCGetTileOffset(FLWCVector4 V) { return  (( V ).Tile) * 2097152.00f; }
 float3 LWCGetTileOffset(FLWCMatrix V) { return  (( V ).Tile) * 2097152.00f; }
 float3 LWCGetTileOffset(FLWCInverseMatrix V) { return  (( V ).Tile) * 2097152.00f; }
-
-#line 101 "/Engine/Private/LargeWorldCoordinates.ush"
 FLWCScalar MakeLWCScalar(float Tile, float Offset)
 {
 	FLWCScalar Result;
 	 ( Result ).Tile = ( Tile );
 	Result.Offset = Offset;
-
 	Result.Dummy = 0;
-
 	return Result;
 }
-
-#line 112 "/Engine/Private/LargeWorldCoordinates.ush"
 FLWCVector2 MakeLWCVector2(float2 Tile, float2 Offset)
 {
 	FLWCVector2 Result;
 	 ( Result ).Tile = ( Tile );
 	Result.Offset = Offset;
-
 	Result.Dummy = 0;
-
 	return Result;
 }
-
-#line 123 "/Engine/Private/LargeWorldCoordinates.ush"
 FLWCVector3 MakeLWCVector3(float3 Tile, float3 Offset)
 {
 	FLWCVector3 Result;
 	 ( Result ).Tile = ( Tile );
 	Result.Offset = Offset;
-
 	Result.Dummy = 0;
-
 	return Result;
 }
-
-#line 134 "/Engine/Private/LargeWorldCoordinates.ush"
 FLWCVector4 MakeLWCVector4(float4 Tile, float4 Offset)
 {
 	FLWCVector4 Result;
 	 ( Result ).Tile = ( Tile );
 	Result.Offset = Offset;
-
 	Result.Dummy = 0;
-
 	return Result;
 }
-
-#line 145 "/Engine/Private/LargeWorldCoordinates.ush"
 FLWCVector4 MakeLWCVector4(float3 Tile, float4 Offset)
 {
 	return MakeLWCVector4(float4(Tile, 0), Offset);
 }
-
-#line 150 "/Engine/Private/LargeWorldCoordinates.ush"
 FLWCVector4 MakeLWCVector4(FLWCVector3 XYZ, float W)
 {
 	return MakeLWCVector4( (( XYZ ).Tile), float4(XYZ.Offset, W));
 }
-
-#line 171 "/Engine/Private/LargeWorldCoordinates.ush"
 FLWCMatrix MakeLWCMatrix(float3 Tile, float4x4 InMatrix)
 {
 	FLWCMatrix Result;
 	 ( Result ).Tile = ( Tile );
 	Result.M = InMatrix;
-
 	Result.Dummy = 0;
-
 	return Result;
 }
-
-#line 193 "/Engine/Private/LargeWorldCoordinates.ush"
 FLWCInverseMatrix MakeLWCInverseMatrix(float3 Tile, float4x4 InMatrix)
 {
 	FLWCInverseMatrix Result;
 	 ( Result ).Tile = ( -Tile );
 	Result.M = InMatrix;
-
 	Result.Dummy = 0;
-
 	return Result;
 }
-
-#line 247 "/Engine/Private/LargeWorldCoordinates.ush"
 float LWCToFloat(FLWCScalar Value)   { return LWCGetTileOffset(Value) + Value.Offset; }
 float2 LWCToFloat(FLWCVector2 Value) { return LWCGetTileOffset(Value) + Value.Offset; }
 float3 LWCToFloat(FLWCVector3 Value) { return LWCGetTileOffset(Value) + Value.Offset; }
 float4 LWCToFloat(FLWCVector4 Value) { return LWCGetTileOffset(Value) + Value.Offset; }
-
-#line 252 "/Engine/Private/LargeWorldCoordinates.ush"
 float4x4 LWCToFloat(FLWCMatrix Value)
 {
 	float4x4 Result = Value.M;
 	Result[3].xyz = LWCGetTileOffset(Value) + Result[3].xyz;
 	return Result;
 }
-
-#line 259 "/Engine/Private/LargeWorldCoordinates.ush"
 float4x4 LWCToFloat(FLWCInverseMatrix Value)
 {
 	float4x4 TileOffset = MakeTranslationMatrix(LWCGetTileOffset(Value));
 	return mul(TileOffset, Value.M);
 }
-
-#line 276 "/Engine/Private/LargeWorldCoordinates.ush"
 float LWCToFloat(float Value) { return Value; }
 float2 LWCToFloat(float2 Value) { return Value; }
 float3 LWCToFloat(float3 Value) { return Value; }
 float4 LWCToFloat(float4 Value) { return Value; }
 float4x4 LWCToFloat(float4x4 Value) { return Value; }
-
-#line 56 "/Engine/Private/LWCOperations.ush"
 FLWCScalar LWCSubtract(FLWCScalar Lhs, FLWCScalar Rhs) { return MakeLWCScalar( (( Lhs ).Tile) -  (( Rhs ).Tile), Lhs.Offset - Rhs.Offset); }
 FLWCScalar LWCSubtract(float Lhs, FLWCScalar Rhs) { return MakeLWCScalar(- (( Rhs ).Tile), Lhs - Rhs.Offset); }
 FLWCScalar LWCSubtract(FLWCScalar Lhs, float Rhs) { return MakeLWCScalar( (( Lhs ).Tile), Lhs.Offset - Rhs); }
@@ -2244,8 +1437,6 @@ FLWCVector3 LWCSubtract(FLWCVector3 Lhs, float3 Rhs) { return MakeLWCVector3( ((
 FLWCVector4 LWCSubtract(FLWCVector4 Lhs, FLWCVector4 Rhs) { return MakeLWCVector4( (( Lhs ).Tile) -  (( Rhs ).Tile), Lhs.Offset - Rhs.Offset); }
 FLWCVector4 LWCSubtract(float4 Lhs, FLWCVector4 Rhs) { return MakeLWCVector4(- (( Rhs ).Tile), Lhs - Rhs.Offset); }
 FLWCVector4 LWCSubtract(FLWCVector4 Lhs, float4 Rhs) { return MakeLWCVector4( (( Lhs ).Tile), Lhs.Offset - Rhs); }
-
-#line 549 "/Engine/Private/LargeWorldCoordinates.ush"
 FLWCScalar DFToTileOffset( FDFScalar In)																								{ float Tile = round(In.High / 2097152.00f); float Offset =   MakePrecise( (   MakePrecise(  mad( ( Tile ) , ( -2097152.00f ) , ( In.High ) ) ) ) + ( In.Low ) );																																								return MakeLWCScalar (Tile, Offset);																						}
 FLWCVector2 DFToTileOffset( FDFVector2 In)																								{ float2 Tile = round(In.High / 2097152.00f); float2 Offset =   MakePrecise( (   MakePrecise(  mad( ( Tile ) , ( -2097152.00f ) , ( In.High ) ) ) ) + ( In.Low ) );																																								return MakeLWCVector2 (Tile, Offset);																						}
 FLWCVector3 DFToTileOffset( FDFVector3 In)																								{ float3 Tile = round(In.High / 2097152.00f); float3 Offset =   MakePrecise( (   MakePrecise(  mad( ( Tile ) , ( -2097152.00f ) , ( In.High ) ) ) ) + ( In.Low ) );																																								return MakeLWCVector3 (Tile, Offset);																						}
@@ -2254,30 +1445,19 @@ FLWCScalar DFFastToTileOffset( FDFScalar In)																							{ float Tile 
 FLWCVector2 DFFastToTileOffset( FDFVector2 In)																							{ float2 Tile = In.High * (1 / 2097152.00f); float2 Offset = In.Low; 																																																									return MakeLWCVector2 (Tile, Offset);																						}
 FLWCVector3 DFFastToTileOffset( FDFVector3 In)																							{ float3 Tile = In.High * (1 / 2097152.00f); float3 Offset = In.Low; 																																																									return MakeLWCVector3 (Tile, Offset);																						}
 FLWCVector4 DFFastToTileOffset( FDFVector4 In)																							{ float4 Tile = In.High * (1 / 2097152.00f); float4 Offset = In.Low; 																																																									return MakeLWCVector4 (Tile, Offset);																						}
-
-#line 560 "/Engine/Private/LargeWorldCoordinates.ush"
 FLWCMatrix DFToTileOffset(FDFMatrix In)
 {
 	FLWCVector3 PosHigh = DFToTileOffset(MakeDFVector3(In.PostTranslation, 0));
-
 	float4x4 M = MultiplyTranslation(In.M, PosHigh.Offset);
 	float3 Tile = PosHigh.Tile;
 	return MakeLWCMatrix(Tile, M);
 }
-
-#line 569 "/Engine/Private/LargeWorldCoordinates.ush"
 FLWCMatrix DFFastToTileOffset(FDFMatrix In)
 {
-
-
-
 	float4x4 M = In.M;
 	float3 Tile = In.PostTranslation / 2097152.00f;
 	return MakeLWCMatrix(Tile, M);
-
 }
-
-#line 580 "/Engine/Private/LargeWorldCoordinates.ush"
 FLWCInverseMatrix DFToTileOffset(FDFInverseMatrix In)
 {
 	FLWCVector3 PosHigh = DFToTileOffset(MakeDFVector3(In.PreTranslation, 0));
@@ -2285,72 +1465,50 @@ FLWCInverseMatrix DFToTileOffset(FDFInverseMatrix In)
 	float3 Tile = PosHigh.Tile;
 	return MakeLWCInverseMatrix(Tile, M);
 }
-
-#line 588 "/Engine/Private/LargeWorldCoordinates.ush"
 FLWCInverseMatrix DFFastToTileOffset(FDFInverseMatrix In)
 {
-
-
-
 	float4x4 M = In.M;
 	float3 Tile = In.PreTranslation / 2097152.00f;
 	return MakeLWCInverseMatrix(Tile, M);
-
 }
-
-#line 601 "/Engine/Private/LargeWorldCoordinates.ush"
 FDFScalar DFFromTileOffset(FLWCScalar In)
 {
 	float TileOffset = In.Tile * 2097152.00f;
 	return DFFastTwoSum(TileOffset, In.Offset);
 }
-
-#line 607 "/Engine/Private/LargeWorldCoordinates.ush"
 FDFVector2 DFFromTileOffset(FLWCVector2 In)
 {
 	float2 TileOffset = In.Tile * 2097152.00f;
 	return DFFastTwoSum(TileOffset, In.Offset);
 }
-
-#line 613 "/Engine/Private/LargeWorldCoordinates.ush"
 FDFVector3 DFFromTileOffset(FLWCVector3 In)
 {
 	float3 TileOffset = In.Tile * 2097152.00f;
 	return DFFastTwoSum(TileOffset, In.Offset);
 }
-
-#line 619 "/Engine/Private/LargeWorldCoordinates.ush"
 FDFVector4 DFFromTileOffset(FLWCVector4 In)
 {
 	float4 TileOffset = In.Tile * 2097152.00f;
 	return DFFastTwoSum(TileOffset, In.Offset);
 }
-
-#line 625 "/Engine/Private/LargeWorldCoordinates.ush"
 FDFMatrix DFFromTileOffset(FLWCMatrix In)
 {
 	float4x4 M = In.M;
 	float3 PostTranslation = In.Tile * 2097152.00f;
 	return MakeDFMatrix(PostTranslation, M);
 }
-
-#line 632 "/Engine/Private/LargeWorldCoordinates.ush"
 FDFInverseMatrix DFFromTileOffset(FLWCInverseMatrix In)
 {
 	float4x4 M = In.M;
 	float3 PreTranslation = -In.Tile * 2097152.00f;
 	return MakeDFInverseMatrix(PreTranslation, M);
 }
-
-#line 642 "/Engine/Private/LargeWorldCoordinates.ush"
 float LWCToFloat(FDFScalar Value)   { return DFDemote(Value); }
 float2 LWCToFloat(FDFVector2 Value) { return DFDemote(Value); }
 float3 LWCToFloat(FDFVector3 Value) { return DFDemote(Value); }
 float4 LWCToFloat(FDFVector4 Value) { return DFDemote(Value); }
 float4x4 LWCToFloat(FDFMatrix Value) { return DFDemote(Value); }
 float4x4 LWCToFloat(FDFInverseMatrix Value) { return DFDemote(Value); }
-
-#line 2 "/Engine/Generated/UniformBuffers/View.ush"
 cbuffer View {
 	 float4x4    View_TranslatedWorldToClip ;
 	 float4x4    View_RelativeWorldToClip ;
@@ -2882,26 +2040,14 @@ cbuffer View {
 	 float    View_Padding5996 ;
 	 float3    View_TLASPreViewTranslationLow ;
  }
-
-#line 533 "/Engine/Generated/UniformBuffers/View.ush"
 SamplerState  View_MaterialTextureBilinearWrapedSampler;
 SamplerState  View_MaterialTextureBilinearClampedSampler;
 Texture3D<uint4>  View_VolumetricLightmapIndirectionTexture;
-
-#line 544 "/Engine/Generated/UniformBuffers/View.ush"
 Texture3D  View_DirectionalLightShadowingBrickTexture;
-
-#line 575 "/Engine/Generated/UniformBuffers/View.ush"
 SamplerState  View_SharedBilinearClampedSampler;
-
-#line 581 "/Engine/Generated/UniformBuffers/View.ush"
 StructuredBuffer<float4>  View_SkyIrradianceEnvironmentMap;
-
-#line 620 "/Engine/Generated/UniformBuffers/View.ush"
 Buffer<float4>  View_WaterIndirection;
 Buffer<float4>  View_WaterData;
-
-#line 2 "/Engine/Generated/UniformBuffers/InstancedView.ush"
 cbuffer InstancedView {
 	 float4x4    InstancedView_TranslatedWorldToClip[2] ;
 	 float4x4    InstancedView_RelativeWorldToClip[2] ;
@@ -3203,8 +2349,6 @@ cbuffer InstancedView {
 	 int    InstancedView_Padding7804 ;
 	 int4    InstancedView_EnvironmentComponentsFlags ;
  }
-
-#line 2 "/Engine/Generated/UniformBuffers/Primitive.ush"
 cbuffer Primitive {
 	 uint    Primitive_Flags ;
 	 uint    Primitive_InstanceSceneDataOffset ;
@@ -3260,11 +2404,7 @@ cbuffer Primitive {
 	 uint    Primitive_Padding636 ;
 	 float4    Primitive_CustomPrimitiveData[9] ;
  }
-
-#line 49 "/Engine/Generated/UniformBuffers/Scene.ush"
 StructuredBuffer<float4>  Scene_GPUScene_GPUScenePrimitiveSceneData;
-
-#line 2 "/Engine/Generated/UniformBuffers/OpaqueBasePass.ush"
 cbuffer OpaqueBasePass {
 	 uint    OpaqueBasePass_Shared_Forward_NumLocalLights ;
 	 uint    OpaqueBasePass_Shared_Forward_NumReflectionCaptures ;
@@ -3560,23 +2700,13 @@ cbuffer OpaqueBasePass {
 	 int    OpaqueBasePass_Padding2564 ;
 	 uint    BindlessSRV_OpaqueBasePass_EyeAdaptationBuffer ;
  }
-
-#line 325 "/Engine/Generated/UniformBuffers/OpaqueBasePass.ush"
 Texture3D  OpaqueBasePass_Shared_Fog_IntegratedLightScattering;
-
-#line 329 "/Engine/Generated/UniformBuffers/OpaqueBasePass.ush"
 Texture3D  OpaqueBasePass_Shared_FogISR_IntegratedLightScattering;
-
-#line 331 "/Engine/Generated/UniformBuffers/OpaqueBasePass.ush"
 Buffer<float4>  OpaqueBasePass_Shared_LFV_LocalFogVolumeInstances;
 Texture2DArray<uint>  OpaqueBasePass_Shared_LFV_LocalFogVolumeTileDataTexture;
-
-#line 2 "/Engine/Generated/UniformBuffers/MaterialCollection0.ush"
 cbuffer MaterialCollection0 {
 	 float4    MaterialCollection0_Vectors[59] ;
  }
-
-#line 2 "/Engine/Generated/UniformBuffers/Material.ush"
 cbuffer Material {
 	 float4    Material_PreshaderBuffer[4] ;
 	 uint    BindlessSRV_Material_Texture2D_0 ;
@@ -3595,19 +2725,13 @@ cbuffer Material {
 	 uint    Material_Padding116 ;
 	 uint    BindlessSampler_Material_Clamp_WorldGroupSettings ;
  }
-
-#line 20 "/Engine/Generated/UniformBuffers/Material.ush"
 Texture2D  Material_Texture2D_0;
 SamplerState  Material_Texture2D_0Sampler;
 Texture2D  Material_Texture2D_1;
 SamplerState  Material_Texture2D_1Sampler;
 Texture2DArray  Material_Texture2DArray_0;
 SamplerState  Material_Texture2DArray_0Sampler;
-
-#line 27 "/Engine/Generated/UniformBuffers/Material.ush"
 SamplerState  Material_Clamp_WorldGroupSettings;
-
-#line 1 "/Engine/Generated/GeneratedInstancedStereo.ush"
 struct ViewStateTileOffsetData
 {
 	FLWCVector3 WorldCameraOrigin;
@@ -3617,8 +2741,6 @@ struct ViewStateTileOffsetData
 	FLWCVector3 PreViewTranslation;
 	FLWCVector3 PrevPreViewTranslation;
 };
-
-#line 10 "/Engine/Generated/GeneratedInstancedStereo.ush"
 struct ViewState
 {
 	float4x4 TranslatedWorldToClip;
@@ -3873,8 +2995,6 @@ struct ViewState
 	FDFVector3 PrevPreViewTranslation;
 	ViewStateTileOffsetData TileOffset;
 };
-
-#line 264 "/Engine/Generated/GeneratedInstancedStereo.ush"
 void FinalizeViewState(inout ViewState InOutView);
 ViewState GetPrimaryView()
 {
@@ -4122,8 +3242,6 @@ ViewState GetPrimaryView()
 	FinalizeViewState(Result);
 	return Result;
 }
-
-#line 512 "/Engine/Generated/GeneratedInstancedStereo.ush"
 ViewState GetInstancedView(uint ViewIndex)
 {
 	ViewState Result;
@@ -4370,301 +3488,176 @@ ViewState GetInstancedView(uint ViewIndex)
 	FinalizeViewState(Result);
 	return Result;
 }
-
-#line 17 "/Engine/Private/InstancedStereo.ush"
 void FinalizeViewState(inout ViewState InOutView)
 {
 	InOutView.WorldToClip = MakeDFInverseMatrix(InOutView.ViewOriginHigh, InOutView.RelativeWorldToClip);
 	InOutView.ClipToWorld = MakeDFMatrix(InOutView.ViewOriginHigh, InOutView.ClipToRelativeWorld);
 	InOutView.ScreenToWorld = MakeDFMatrix(InOutView.ViewOriginHigh, InOutView.ScreenToRelativeWorld);
 	InOutView.PrevClipToWorld = MakeDFMatrix(InOutView.ViewOriginHigh, InOutView.PrevClipToRelativeWorld);
-
 	InOutView.WorldCameraOrigin = MakeDFVector3(InOutView.ViewOriginHigh, InOutView.ViewOriginLow);
 	InOutView.WorldViewOrigin = MakeDFVector3(InOutView.WorldViewOriginHigh, InOutView.WorldViewOriginLow);
 	InOutView.PrevWorldCameraOrigin = MakeDFVector3(InOutView.PrevWorldCameraOriginHigh, InOutView.PrevWorldCameraOriginLow);
 	InOutView.PrevWorldViewOrigin = MakeDFVector3(InOutView.PrevWorldViewOriginHigh, InOutView.PrevWorldViewOriginLow);
 	InOutView.PreViewTranslation = MakeDFVector3(InOutView.PreViewTranslationHigh, InOutView.PreViewTranslationLow);
 	InOutView.PrevPreViewTranslation = MakeDFVector3(InOutView.PrevPreViewTranslationHigh, InOutView.PrevPreViewTranslationLow);
-
-
 	InOutView.TileOffset.WorldCameraOrigin = MakeLWCVector3(InOutView.ViewTilePosition, InOutView.RelativeWorldCameraOriginTO);
 	InOutView.TileOffset.WorldViewOrigin = MakeLWCVector3(InOutView.ViewTilePosition, InOutView.RelativeWorldViewOriginTO);
 	InOutView.TileOffset.PrevWorldCameraOrigin = MakeLWCVector3(InOutView.ViewTilePosition, InOutView.PrevRelativeWorldCameraOriginTO);
 	InOutView.TileOffset.PrevWorldViewOrigin = MakeLWCVector3(InOutView.ViewTilePosition, InOutView.PrevRelativeWorldViewOriginTO);
 	InOutView.TileOffset.PreViewTranslation = MakeLWCVector3(-InOutView.ViewTilePosition, InOutView.RelativePreViewTranslationTO);
 	InOutView.TileOffset.PrevPreViewTranslation = MakeLWCVector3(-InOutView.ViewTilePosition, InOutView.RelativePrevPreViewTranslationTO);
-
 }
-
-#line 43 "/Engine/Private/InstancedStereo.ush"
 static ViewState ResolvedView = (ViewState)0.0f;
-
-#line 45 "/Engine/Private/InstancedStereo.ush"
 ViewState ResolveView()
 {
 	return GetPrimaryView();
 }
-
-#line 51 "/Engine/Private/InstancedStereo.ush"
 ViewState ResolveView(uint ViewIndex)
 {
 	return GetInstancedView(ViewIndex);
 }
-
-#line 303 "/Engine/Private/Common.ush"
 float4 Texture2DSample(Texture2D Tex, SamplerState Sampler, float2 UV)
 {
-
-
-
 	return Tex.Sample(Sampler, UV);
-
 }
-
-#line 311 "/Engine/Private/Common.ush"
 float4 Texture2DSample(Texture2D Tex, SamplerState Sampler, FloatDeriv2 UV)
 {
-
-
-
 	return Tex.SampleGrad(Sampler, UV.Value, UV.Ddx, UV.Ddy);
-
 }
-
-#line 371 "/Engine/Private/Common.ush"
 float4 Texture3DSampleLevel(Texture3D Tex, SamplerState Sampler, float3 UV, float Mip)
 {
 	return Tex.SampleLevel(Sampler, UV, Mip);
 }
-
-#line 387 "/Engine/Private/Common.ush"
 float4 Texture2DArraySampleLevel(Texture2DArray Tex, SamplerState Sampler, float3 UV, float Mip)
 {
 	return Tex.SampleLevel(Sampler, UV, Mip);
 }
-
-#line 626 "/Engine/Private/Common.ush"
 float3 LuminanceFactors()
 {
-
-
-
-
 		return float3(0.2126390059, 0.7151686788, 0.0721923154);
-
-
-
-
 }
-
-#line 639 "/Engine/Private/Common.ush"
 float Luminance( float3 LinearColor )
 {
 	return dot( LinearColor, float3(LuminanceFactors()));
 }
-
-#line 11 "/Engine/Private/RandomInterleavedGradientNoise.ush"
 float InterleavedGradientNoise( float2 uv, float FrameId )
 {
-
 	uv += FrameId * (float2(47, 17) * 0.695f);
-
     const float3 magic = float3( 0.06711056f, 0.00583715f, 52.9829189f );
     return frac(magic.z * frac(dot(uv, magic.xy)));
 }
-
-#line 969 "/Engine/Private/Common.ush"
 float Pow2( float x )
 {
 	return x*x;
 }
-
-#line 974 "/Engine/Private/Common.ush"
 float2 Pow2( float2 x )
 {
 	return x*x;
 }
-
-#line 979 "/Engine/Private/Common.ush"
 float3 Pow2( float3 x )
 {
 	return x*x;
 }
-
-#line 984 "/Engine/Private/Common.ush"
 float4 Pow2( float4 x )
 {
 	return x*x;
 }
-
-#line 1222 "/Engine/Private/Common.ush"
 bool IsOrthoProjection(float4x4 ViewToClip)
 {
 	return ViewToClip._44 >= 1.0f;
 }
-
-#line 1228 "/Engine/Private/Common.ush"
 bool IsOrthoProjection(ViewState InView)
 {
 	return IsOrthoProjection(InView.ViewToClip);
 }
-
-#line 1234 "/Engine/Private/Common.ush"
 bool IsOrthoProjection()
 {
 	return IsOrthoProjection(View_ViewToClip);
 }
-
-#line 1266 "/Engine/Private/Common.ush"
 float ConvertFromDeviceZ(float DeviceZ)
 {
-
 	return DeviceZ * View_InvDeviceZToWorldZTransform[0] + View_InvDeviceZToWorldZTransform[1] + 1.0f / (DeviceZ * View_InvDeviceZToWorldZTransform[2] - View_InvDeviceZToWorldZTransform[3]);
 }
-
-#line 1294 "/Engine/Private/Common.ush"
 float GetScreenPositionDepth(float4 ScreenPosition)
 {
-
-
-
-
 	return  select_internal( IsOrthoProjection(ResolvedView) , ConvertFromDeviceZ(ScreenPosition.z) , ScreenPosition.w );
-
 }
-
-#line 1353 "/Engine/Private/Common.ush"
 float2 ScreenPositionToBufferUV(float4 ScreenPosition)
 {
 	return float2(ScreenPosition.xy / ScreenPosition.w * ResolvedView.ScreenPositionScaleBias.xy + ResolvedView.ScreenPositionScaleBias.wz);
 }
-
-#line 1405 "/Engine/Private/Common.ush"
 float3 SvPositionToResolvedTranslatedWorld(float4 SvPosition)
 {
 	float4 HomWorldPos = mul(float4(SvPosition.xyz, 1), ResolvedView.SVPositionToTranslatedWorld);
-
 	return HomWorldPos.xyz / HomWorldPos.w;
 }
-
-#line 1435 "/Engine/Private/Common.ush"
 float4 SvPositionToResolvedScreenPosition(float4 SvPosition)
 {
 	float2 PixelPos = SvPosition.xy - ResolvedView.ViewRectMin.xy;	
-
-
 	float3 NDCPos = float3( (PixelPos * ResolvedView.ViewSizeAndInvSize.zw - 0.5f) * float2(2, -2), SvPosition.z);
-
-
 	return float4(NDCPos.xyz, 1) * SvPosition.w;
 }
-
-#line 1824 "/Engine/Private/Common.ush"
 float2 RayIntersectSphere(float3 RayOrigin, float3 RayDirection, float4 Sphere)
 {
 	float3 LocalPosition = RayOrigin - Sphere.xyz;
 	float LocalPositionSqr = dot(LocalPosition, LocalPosition);
-
 	float3 QuadraticCoef;
 	QuadraticCoef.x = dot(RayDirection, RayDirection);
 	QuadraticCoef.y = 2 * dot(RayDirection, LocalPosition);
 	QuadraticCoef.z = LocalPositionSqr - Sphere.w * Sphere.w;
-
 	float Discriminant = QuadraticCoef.y * QuadraticCoef.y - 4 * QuadraticCoef.x * QuadraticCoef.z;
-
 	float2 Intersections = -1;
-
-
 	[flatten]
 	if (Discriminant >= 0)
 	{
 		float SqrtDiscriminant = sqrt(Discriminant);
 		Intersections = (-QuadraticCoef.y + float2(-1, 1) * SqrtDiscriminant) / (2 * QuadraticCoef.x);
 	}
-
 	return Intersections;
 }
-
-#line 2273 "/Engine/Private/Common.ush"
 struct FPixelShaderIn
 {
-
 	float4 SvPosition;
-
-
 	uint Coverage;
-
-
 	bool bIsFrontFace;
 };
-
-#line 2285 "/Engine/Private/Common.ush"
 struct FPixelShaderOut
 {
-
 	float4 MRT[8];
-
-
 	uint SubstrateOutput[3];
 	uint SubstrateTopLayerData;
-
-
 	uint Coverage;
-
-
 	float Depth;
 };
-
-#line 37 "/Engine/Private/WorldSpaceMath.ush"
 FLWCScalar DFToWS(FDFScalar In) { return DFToTileOffset(In); }
 FLWCScalar DFFastToWS(FDFScalar In) { return DFFastToTileOffset(In); }
-
-#line 43 "/Engine/Private/WorldSpaceMath.ush"
 FLWCVector2 DFToWS(FDFVector2 In) { return DFToTileOffset(In); }
 FLWCVector2 DFFastToWS(FDFVector2 In) { return DFFastToTileOffset(In); }
-
-#line 49 "/Engine/Private/WorldSpaceMath.ush"
 FLWCVector3 DFToWS(FDFVector3 In) { return DFToTileOffset(In); }
 FLWCVector3 DFFastToWS(FDFVector3 In) { return DFFastToTileOffset(In); }
-
-#line 55 "/Engine/Private/WorldSpaceMath.ush"
 FLWCVector4 DFToWS(FDFVector4 In) { return DFToTileOffset(In); }
 FLWCVector4 DFFastToWS(FDFVector4 In) { return DFFastToTileOffset(In); }
-
-#line 61 "/Engine/Private/WorldSpaceMath.ush"
 FLWCMatrix DFToWS(FDFMatrix In) { return DFToTileOffset(In); }
 FLWCMatrix DFFastToWS(FDFMatrix In) { return DFFastToTileOffset(In); }
-
-#line 67 "/Engine/Private/WorldSpaceMath.ush"
 FLWCInverseMatrix DFToWS(FDFInverseMatrix In) { return DFToTileOffset(In); }
 FLWCInverseMatrix DFFastToWS(FDFInverseMatrix In) { return DFFastToTileOffset(In); }
-
-#line 289 "/Engine/Private/WorldSpaceMath.ush"
 float DFToWS( float In) { return In; }
 float2 DFToWS( float2 In) { return In; }
 float3 DFToWS( float3 In) { return In; }
 float4 DFToWS( float4 In) { return In; }
-
-#line 13 "/Engine/Private/MonteCarlo.ush"
 float3x3 GetTangentBasis( float3 TangentZ )
 {
 	const float Sign = TangentZ.z >= 0 ? 1 : -1;
 	const float a = -rcp( Sign + TangentZ.z );
 	const float b = TangentZ.x * TangentZ.y * a;
-
 	float3 TangentX = { 1 + Sign * a * Pow2( TangentZ.x ), Sign * b, -Sign * TangentZ.x };
 	float3 TangentY = { b,  Sign + a * Pow2( TangentZ.y ), -TangentZ.y };
-
 	return float3x3( TangentX, TangentY, TangentZ );
 }
-
-#line 48 "/Engine/Private/MonteCarlo.ush"
 float3 TangentToWorld( float3 Vec, float3 TangentZ )
 {
 	return mul( Vec, GetTangentBasis( TangentZ ) );
 }
-
-#line 18 "/Engine/Private/OctahedralCommon.ush"
 float2 UnitVectorToOctahedron( float3 N )
 {
 	N.xy /= dot( 1, abs(N) );
@@ -4674,8 +3667,6 @@ float2 UnitVectorToOctahedron( float3 N )
 	}
 	return N.xy;
 }
-
-#line 28 "/Engine/Private/OctahedralCommon.ush"
 float3 OctahedronToUnitVector( float2 Oct )
 {
 	float3 N = float3( Oct, 1 - dot( 1, abs(Oct) ) );
@@ -4683,8 +3674,6 @@ float3 OctahedronToUnitVector( float2 Oct )
 	N.xy +=  select_internal( N.xy >= 0 , float2(-t, -t) , float2(t, t) );
 	return normalize(N);
 }
-
-#line 76 "/Engine/Private/SceneData.ush"
 struct FPrimitiveSceneData
 {
 	uint		Flags;
@@ -4706,10 +3695,8 @@ struct FPrimitiveSceneData
 	FDFVector3	ActorWorldPosition;
 	float		MinMaterialDisplacement;
 	float		MaxMaterialDisplacement;
-
 	FLWCVector3	ObjectWorldPositionTO;
 	FLWCVector3	ActorWorldPositionTO;
-
 	float		ObjectRadius;
 	uint		LightmapUVIndex;   
 	float3		ObjectOrientation; 
@@ -4741,8 +3728,6 @@ struct FPrimitiveSceneData
 	uint2		MeshPaintTextureDescriptor;
 	float4		CustomPrimitiveData[9u]; 
 };
-
-#line 133 "/Engine/Private/SceneData.ush"
 float3 UnpackColorRGB24(float PackedColorFloat)
 {
 	uint PackedColor = asuint(PackedColorFloat);
@@ -4753,16 +3738,12 @@ float3 UnpackColorRGB24(float PackedColorFloat)
 		float((PackedColor >>  8u) & 0xFF)
 	) * (1.0f / 255.0f);
 }
-
-#line 218 "/Engine/Private/SceneData.ush"
 struct FInstanceSceneEditorData
 {
 	float3 HitProxyId;
 	uint   HitProxyPacked;
 	bool bIsSelected;
 };
-
-#line 226 "/Engine/Private/SceneData.ush"
 struct FInstanceSceneData
 {
 	FDFMatrix LocalToWorld;
@@ -4783,102 +3764,56 @@ struct FInstanceSceneData
 	uint     NaniteHierarchyOffset;
 	uint     SkinningData;
 	float    RandomID;
-
-
-
-
-
 	float4   LightMapAndShadowMapUVBias;
-
 	bool     ValidInstance;
 	uint     Flags;
-
-
 	FInstanceSceneEditorData EditorData;
-
 };
-
-#line 316 "/Engine/Private/SceneData.ush"
 float4 LoadPrimitivePrimitiveSceneDataElement(uint PrimitiveIndex, uint ItemIndex)
 {
 	uint TargetIdx = PrimitiveIndex + ItemIndex;
-
-
-
-
-
-
-
-
-
-
 	 { };
 	return Scene_GPUScene_GPUScenePrimitiveSceneData[TargetIdx];
-
 }
-
-#line 339 "/Engine/Private/SceneData.ush"
 FPrimitiveSceneData GetPrimitiveData(uint PrimitiveId)
 {
-
-
-
-
-
-
-
-
-
-
-
 	FPrimitiveSceneData PrimitiveData = (FPrimitiveSceneData)0;
-
-
 	uint PrimitiveIndex = PrimitiveId * 43;
-
 	float3 PositionHigh = LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 1).xyz;
-
 	const float4x4 LocalToWorld = transpose(float4x4(
 		LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 2),
 		LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 3),
 		LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 4),
 		float4(0, 0, 0, 1)
 	));
-
 	const float4x4 PreviousLocalToWorld = transpose(float4x4(
 		LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 8),
 		LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 9),
 		LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 10),
 		float4(0, 0, 0, 1)
 	));
-
 	const float4x4 WorldToLocal = transpose(float4x4(
 		LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 5),
 		LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 6),
 		LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 7),
 		float4(0, 0, 0, 1)
 	));
-
 	const float4x4 PreviousWorldToLocal = transpose(float4x4(
 		LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 11),
 		LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 12),
 		LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 13),
 		float4(0, 0, 0, 1)
 	));
-
 	const float4x4 WorldToPreviousWorld = transpose(float4x4(
 		LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 14),
 		LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 15),
 		LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 16),
 		float4(0, 0, 0, 1)
 	));
-
 	float4 ObjectWorldPositionHighAndRadius	= LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 18);
 	float4 ObjectWorldPositionLow			= LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 19);
-
 	float4 ActorWorldPositionHigh	= LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 20);
 	float4 ActorWorldPositionLow	= LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 21);
-
 	PrimitiveData.Flags									= asuint(LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 0).x);
 	PrimitiveData.InstanceSceneDataOffset				= asuint(LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 0).y);
 	PrimitiveData.NumInstanceSceneDataEntries			= asuint(LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 0).z);
@@ -4894,15 +3829,10 @@ FPrimitiveSceneData GetPrimitiveData(uint PrimitiveId)
 	PrimitiveData.InvNonUniformScale					= LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 17).xyz;
 	PrimitiveData.ObjectBoundsX							= LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 17).w;
 	PrimitiveData.ObjectRadius							= ObjectWorldPositionHighAndRadius.w;
-
 	PrimitiveData.ObjectWorldPositionTO					= MakeLWCVector3(ObjectWorldPositionHighAndRadius.xyz, ObjectWorldPositionLow.xyz);
 	PrimitiveData.ActorWorldPositionTO					= MakeLWCVector3(ActorWorldPositionHigh.xyz, ActorWorldPositionLow.xyz);
 	PrimitiveData.ObjectWorldPosition					= DFFromTileOffset(PrimitiveData.ObjectWorldPositionTO);
 	PrimitiveData.ActorWorldPosition					= DFFromTileOffset(PrimitiveData.ActorWorldPositionTO);
-
-
-
-
 	PrimitiveData.MinMaterialDisplacement				= LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 19).w;
 	PrimitiveData.MaxMaterialDisplacement				= LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 20).w;
 	PrimitiveData.LightmapUVIndex						= asuint(LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 21).w);
@@ -4934,117 +3864,71 @@ FPrimitiveSceneData GetPrimitiveData(uint PrimitiveId)
 	PrimitiveData.PixelProgrammableDistanceSquared		= LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 32).z;
 	PrimitiveData.MaterialDisplacementFadeOutSize		= LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 32).w;
 	PrimitiveData.MeshPaintTextureDescriptor			= asuint(LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex, 33).xy);
-
-
-
-
 	[unroll]
 	for (uint DataIndex = 0; DataIndex < 9u; ++DataIndex)
 	{
 		PrimitiveData.CustomPrimitiveData[DataIndex] = LoadPrimitivePrimitiveSceneDataElement(PrimitiveIndex,  34 + DataIndex);
 	}
 	return PrimitiveData;
-
 }
-
-#line 477 "/Engine/Private/SceneData.ush"
 float GetPrimitive_DeterminantSign_FromFlags(uint Flags)
 {
 	return CondMask(Flags & 0x40, -1.0f, 1.0f);
 }
-
-#line 482 "/Engine/Private/SceneData.ush"
 float GetPrimitive_DeterminantSign(uint PrimitiveId)
 {
 	return GetPrimitive_DeterminantSign_FromFlags(GetPrimitiveData(PrimitiveId).Flags);
 }
-
-#line 488 "/Engine/Private/SceneData.ush"
 float GetPrimitive_DeterminantSign(FPrimitiveSceneData Primitive)
 {
 	return GetPrimitive_DeterminantSign_FromFlags(Primitive_Flags);
 }
-
-#line 494 "/Engine/Private/SceneData.ush"
 float GetPrimitive_PerObjectGBufferData_FromFlags(uint Flags)
 {
 	const float CapsuleRepresentation = CondMask(Flags & 0x100, 1.0f, 0.0f);
 	const float CastContactShadow     = CondMask(Flags & 0x200,    1.0f, 0.0f);
 	return (2.0f * CapsuleRepresentation + CastContactShadow) / 3.0f;
 }
-
-#line 501 "/Engine/Private/SceneData.ush"
 float GetPrimitive_PerObjectGBufferData(uint PrimitiveId)
 {
 	return GetPrimitive_PerObjectGBufferData_FromFlags(GetPrimitiveData(PrimitiveId).Flags);
 }
-
-#line 507 "/Engine/Private/SceneData.ush"
 float GetPrimitive_PerObjectGBufferData(FPrimitiveSceneData Primitive)
 {
 	return GetPrimitive_PerObjectGBufferData_FromFlags(Primitive_Flags);
 }
-
-#line 1155 "/Engine/Private/SceneData.ush"
 struct FSceneDataIntermediates
 {
 	uint PrimitiveId;
 	uint InstanceId;
 	uint ViewIndex;
 	uint CullingFlags;
-
 	uint InstanceIdLoadIndex;
 	FInstanceSceneData InstanceData;
 	FPrimitiveSceneData Primitive;
 };
-
-#line 113 "/Engine/Private/ShadingCommon.ush"
 float DielectricSpecularToF0(float Specular)
 {
 	return float(0.08f * Specular);
 }
-
-#line 146 "/Engine/Private/ShadingCommon.ush"
 float3 ComputeF0(float Specular, float3 BaseColor, float Metallic)
 {
 	return lerp(DielectricSpecularToF0(Specular).xxx, BaseColor, Metallic.xxx);
 }
-
-#line 24 "/Engine/Private/LightAccumulator.ush"
 struct FLightAccumulator
 {
 	float3 TotalLight;
 	float TotalLightLuminance;
-
-
-
-
 	float ScatterableLightLuma;
-
-
-
-
 	float3 ScatterableLight;
-
-
-
 	float EstimatedCost;
-
-
-
 	float3 TotalLightDiffuse;
 	float3 TotalLightSpecular;
-
 };
-
-#line 58 "/Engine/Private/LightAccumulator.ush"
 void LightAccumulator_AddSplit(inout FLightAccumulator In, float3 DiffuseTotalLight, float3 SpecularTotalLight, float3 ScatterableLight, float3 CommonMultiplier, const bool bNeedsSeparateSubsurfaceLightAccumulation)
 {
-
 	In.TotalLight += (DiffuseTotalLight + SpecularTotalLight) * CommonMultiplier;
 	In.TotalLightLuminance += Luminance((DiffuseTotalLight + SpecularTotalLight) * CommonMultiplier);
-
-
 	if (bNeedsSeparateSubsurfaceLightAccumulation)
 	{
 		if (1 == 1)
@@ -5056,155 +3940,85 @@ void LightAccumulator_AddSplit(inout FLightAccumulator In, float3 DiffuseTotalLi
 		}
 		else if (1 == 2)
 		{
-
 			In.ScatterableLight += ScatterableLight * CommonMultiplier;
 		}
 	}
-
 	In.TotalLightDiffuse += DiffuseTotalLight * CommonMultiplier;
 	In.TotalLightSpecular += SpecularTotalLight * CommonMultiplier;
 }
-
-#line 85 "/Engine/Private/LightAccumulator.ush"
 void LightAccumulator_Add(inout FLightAccumulator In, float3 TotalLight, float3 ScatterableLight, float3 CommonMultiplier, const bool bNeedsSeparateSubsurfaceLightAccumulation)
 {
 	LightAccumulator_AddSplit(In, TotalLight, 0.0f, ScatterableLight, CommonMultiplier, bNeedsSeparateSubsurfaceLightAccumulation);
 }
-
-#line 90 "/Engine/Private/LightAccumulator.ush"
 float4 ConvertEstimatedCostToColor(float EstimatedCost)
 {
 	return 0.1f * float4(1.0f, 0.25f, 0.075f, 0) * EstimatedCost;
 }
-
-#line 98 "/Engine/Private/LightAccumulator.ush"
 float4 LightAccumulator_GetResult(FLightAccumulator In)
 {
 	float4 Ret;
-
 	if (0 == 1)
 	{
-
 		Ret = ConvertEstimatedCostToColor(In.EstimatedCost);
 	}
 	else
 	{
 		Ret = float4(In.TotalLight, 0);
-
 		if (1 == 1 )
 		{
-
-
-
-
-
-
-
-
 			if (View_bCheckerboardSubsurfaceProfileRendering == 0 && View_bSubsurfacePostprocessEnabled)
 			{
-
 				Ret.a = In.ScatterableLightLuma;
 			}
 		}
 		else if (1 == 2)
 		{
-
-
 			Ret.a = Luminance(In.ScatterableLight);
-
 		}
 	}
-
 	return Ret;
 }
-
-#line 333 "/Engine/Private/DeferredShadingCommon.ush"
 struct FGBufferData
 {
-
 	float3 WorldNormal;
-
 	float3 WorldTangent;
-
 	float3 DiffuseColor;
-
 	float3 SpecularColor;
-
 	float3 BaseColor;
-
 	float Metallic;
-
 	float Specular;
-
 	float4 CustomData;
-
 	float GenericAO;
-
 	float IndirectIrradiance;
-
-
 	float4 PrecomputedShadowFactors;
-
 	float Roughness;
-
 	float Anisotropy;
-
 	float GBufferAO;
-
 	uint DiffuseIndirectSampleOcclusion;
-
 	uint ShadingModelID;
-
 	uint SelectiveOutputMask;
-
 	float PerObjectGBufferData;
-
 	float CustomDepth;
-
 	uint CustomStencil;
-
-
 	float Depth;
-
 	float4 Velocity;
-
-
 	float3 StoredBaseColor;
-
 	float StoredSpecular;
-
 	float StoredMetallic;
-
-
 	float Curvature;
 };
-
-#line 393 "/Engine/Private/DeferredShadingCommon.ush"
 bool CastContactShadow(FGBufferData GBufferData)
 {
 	uint PackedAlpha = (uint)(GBufferData.PerObjectGBufferData * 3.999f);
 	bool bCastContactShadowBit = PackedAlpha & 1;
-
 	bool bShadingModelCastContactShadows = (GBufferData.ShadingModelID != 9);
 	return bCastContactShadowBit && bShadingModelCastContactShadows;
 }
-
-#line 411 "/Engine/Private/DeferredShadingCommon.ush"
 bool CheckerFromPixelPos(uint2 PixelPos)
 {
-
-
 	uint TemporalAASampleIndex = uint(View_TemporalAAParams.x);
-
-
 	return (PixelPos.x + PixelPos.y + TemporalAASampleIndex) % 2;
-
-
-
 }
-
-#line 1210 "/Engine/Private/DeferredShadingCommon.ush"
 float3 AOMultiBounce(float3 BaseColor, float AO)
 {
 	if (0 && !0)
@@ -5219,89 +4033,35 @@ float3 AOMultiBounce(float3 BaseColor, float AO)
 		return max(AO, ((AO * a + b) * AO + c) * AO);
 	}
 }
-
-#line 163 "/Engine/Private/MaterialTexture.ush"
 float4 ProcessMaterialLinearColorTextureLookup(float4 TextureValue)
 {
 	return TextureValue;
 }
-
-#line 194 "/Engine/Generated/Material.ush"
 struct FSubstrateData
 {
 	uint Dummy;
 };
-
-#line 198 "/Engine/Generated/Material.ush"
 FSubstrateData GetInitialisedSubstrateData() { return (FSubstrateData)0; }
-
-#line 211 "/Engine/Generated/Material.ush"
 struct FMaterialParticleParameters
 {
-
 	float RelativeTime;
-
 	float MotionBlurFade;
-
 	float Random;
-
 	float4 Velocity;
-
 	float4 Color;
-
 	float4 TranslatedWorldPositionAndSize;
-
 	float4 PrevTranslatedWorldPositionAndSize;
-
 	FLWCVector3 WorldPosition;
-
 	FLWCVector3 PrevWorldPosition;
-
 	float4 MacroUV;
-
-
-
-
-
 	float4 DynamicParameter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	FDFMatrix ParticleToWorld;
-
-
 	FDFInverseMatrix WorldToParticle;
-
-
-
-
-
-
-
-
-
 	float2 Size;
-
-
 	float SpriteRotation;
 };
-
-#line 326 "/Engine/Generated/Material.ush"
 _Pragma("dxc diagnostic push")
 _Pragma("dxc diagnostic ignored \"-Wall\"") 					_Pragma("dxc diagnostic ignored \"-Wconversion\"") 				_Pragma("dxc diagnostic ignored \"-Wfor-redefinition\"") 		_Pragma("dxc diagnostic ignored \"-Winline-asm\"")				_Pragma("dxc diagnostic ignored \"-Wunsequenced\"")
-
-
 struct FMaterialAttributes
 {
 	float3 BaseColor;
@@ -5339,13 +4099,7 @@ struct FMaterialAttributes
 	float3 TransmittanceColor;
 	float ThinTranslucentSurfaceCoverage;
 };
-
-#line 406 "/Engine/Generated/Material.ush"
 _Pragma("dxc diagnostic pop")
-
-
-
-
 struct FPixelMaterialInputs
 {
 	float3 EmissiveColor;
@@ -5366,46 +4120,24 @@ struct FPixelMaterialInputs
 	FSubstrateData FrontMaterial;
 	float SurfaceThickness;
 	float Displacement;
-
-
-
-
-
-
-
-
-
-
-
-
 };
-
-#line 448 "/Engine/Generated/Material.ush"
 struct FMaterialLWCData
 {
-
 	FLWCVector3 AbsoluteWorldPosition;
 	FLWCVector3 WorldPosition_NoOffsets;
-
-
 	FLWCMatrix	LocalToWorld;
 	FLWCInverseMatrix WorldToLocal;
 	FLWCMatrix	PreviousLocalToWorld;
 	FLWCInverseMatrix PreviousWorldToLocal;
-
 	FLWCMatrix	InstanceToWorld;
 	FLWCInverseMatrix WorldToInstance;
 	FLWCMatrix	PreviousInstanceToWorld;
-
 	FLWCVector3	ObjectWorldPosition;
 	FLWCVector3	ActorWorldPosition;
-
 	FLWCMatrix ParticleToWorld;
 	FLWCInverseMatrix WorldToParticle;
 	FLWCVector3 ParticleWorldPosition;
 	FLWCVector3 PrevParticleWorldPosition;
-
-
 	FLWCVector3 PreViewTranslation;
 	FLWCVector3 PrevPreViewTranslation;
 	FLWCVector3 WorldViewOrigin;
@@ -5413,94 +4145,25 @@ struct FMaterialLWCData
 	FLWCVector3 WorldCameraOrigin;
 	FLWCVector3 PrevWorldCameraOrigin;
 };
-
-#line 485 "/Engine/Generated/Material.ush"
 struct FMaterialPixelParameters
 {
-
-
-
-
-
 	float4 VertexColor;
-
-
 	float3 WorldNormal;
-
-
 	float3 WorldTangent;
-
-
 	float3 ReflectionVector;
-
-
 	float3 CameraVector;
-
-
 	float3 LightVector;
-
-
-
-
-
-
 	float4 SvPosition;
-
-
 	float4 ScreenPosition;
-
-
-
-
-
 	float2 ViewBufferUV;
-
-
-
-
-
 	float UnMirrored;
-
 	float TwoSidedSign;
-
-
-
-
-
 	float3x3 TangentToWorld;
-
-
-
-
-
-
-
-
-
-
 	FDFVector3 AbsoluteWorldPosition;
-
-
-
-
 	float3 WorldPosition_CamRelative;
-
-
-
-
-
 	FDFVector3 WorldPosition_NoOffsets;
-
-
-
-
-
 	float3 WorldPosition_NoOffsets_CamRelative;
-
-
 	float3 LightingPositionOffset;
-
-
 	float3 WorldPosition_DDX;
 	float3 WorldPosition_DDY;
 	float3 WorldGeoNormal_DDX;
@@ -5509,111 +4172,15 @@ struct FMaterialPixelParameters
 	float4 VertexColor_DDY;
 	float4 ScreenPosition_DDX;
 	float4 ScreenPosition_DDY;
-
-
-
-
-
-
 	float AOMaterialMask;
-
-
-
-
-
-
-
 	float PerInstanceRandom;
-
-
-
-
-
-
 	uint PrimitiveId;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	FMaterialParticleParameters Particle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	uint Dummy;
-
-
-
-
-
-
-
-
-
-
-
 	float4 FontSignedDistanceData;
-
-
-
-
-
-
-
-
-
-
-
-
-
-#line 701 "/Engine/Generated/Material.ush"
-
-
 	FMaterialAttributes MaterialAttributes;
-
 	FMaterialLWCData LWCData;
 };
-
-#line 722 "/Engine/Generated/Material.ush"
 FMaterialPixelParameters MakeInitializedMaterialPixelParameters()
 {
 	FMaterialPixelParameters MPP;
@@ -5621,439 +4188,185 @@ FMaterialPixelParameters MakeInitializedMaterialPixelParameters()
 	MPP.TangentToWorld = float3x3(1,0,0,0,1,0,0,0,1);
 	return MPP;
 }
-
-#line 734 "/Engine/Generated/Material.ush"
 struct FMaterialVertexParameters
 {
-
-
-
 	float3 WorldPosition;
-
-
 	float3 PositionPrimitiveSpace;
-
 	float3 PositionInstanceSpace;
-
-
 	float3x3 TangentToWorld;
-
-
-
-
-
-
 	float PerInstanceRandom;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	FDFMatrix PrevFrameLocalToWorld;
-
 	float3 PreSkinnedPosition;
 	float3 PreSkinnedNormal;
-
 	float4 VertexColor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 	FMaterialParticleParameters Particle;
-
-
-
-
-
 	FMaterialAttributes MaterialAttributes;
-
-
 	FSceneDataIntermediates SceneData;
-
-
-
 	uint PrimitiveId;
-
 	bool bEvaluateWorldPositionOffset;
-
 	FMaterialLWCData LWCData;
 };
-
-#line 838 "/Engine/Generated/Material.ush"
 FPrimitiveSceneData GetPrimitiveData(FMaterialVertexParameters Parameters)
 {
-
 	return Parameters.SceneData.Primitive;
-
-
-
 }
-
-#line 847 "/Engine/Generated/Material.ush"
 FPrimitiveSceneData GetPrimitiveData(FMaterialPixelParameters Parameters)
 {
-
 	return GetPrimitiveData(Parameters.PrimitiveId);
-
-
-
 }
-
-#line 912 "/Engine/Generated/Material.ush"
 FDFInverseMatrix GetWorldToInstanceDF(FMaterialVertexParameters Parameters)
 {
-
-
-
 		return GetPrimitiveData(Parameters).WorldToLocal;
-
 }
-
-#line 922 "/Engine/Generated/Material.ush"
 FDFInverseMatrix GetWorldToInstanceDF(FMaterialPixelParameters Parameters)
 {
-
-
-
 		return GetPrimitiveData(Parameters).WorldToLocal;
-
 }
-
-#line 932 "/Engine/Generated/Material.ush"
 FDFMatrix GetInstanceToWorldDF(FMaterialVertexParameters Parameters)
 {
-
-
-
 		return GetPrimitiveData(Parameters).LocalToWorld;
-
 }
-
-#line 942 "/Engine/Generated/Material.ush"
 FDFMatrix GetPrevInstanceToWorldDF(FMaterialVertexParameters Parameters)
 {
-
-
-
 	return GetPrimitiveData(Parameters).PreviousLocalToWorld;
-
 }
-
-#line 953 "/Engine/Generated/Material.ush"
 FDFMatrix GetInstanceToWorldDF(FMaterialPixelParameters Parameters)
 {
-
-
-
 		return GetPrimitiveData(Parameters).LocalToWorld;
-
 }
-
-#line 963 "/Engine/Generated/Material.ush"
 FDFMatrix GetPrevInstanceToWorldDF(FMaterialPixelParameters Parameters)
 {
 	return GetPrimitiveData(Parameters).PreviousLocalToWorld;
 }
-
-#line 1047 "/Engine/Generated/Material.ush"
 FLWCVector3 GetWorldPosition(FMaterialVertexParameters Parameters)
 {
 	return Parameters.LWCData.AbsoluteWorldPosition;
 }
-
-#line 1057 "/Engine/Generated/Material.ush"
 FLWCVector3 GetWorldPosition(FMaterialPixelParameters Parameters)
 {
 	return Parameters.LWCData.AbsoluteWorldPosition;
 }
-
-#line 1168 "/Engine/Generated/Material.ush"
 float4 GetScreenPosition(FMaterialVertexParameters Parameters)
 {
 	return mul(float4(Parameters.WorldPosition, 1.0f), ResolvedView.TranslatedWorldToClip);
 }
-
-#line 1173 "/Engine/Generated/Material.ush"
 float4 GetScreenPosition(FMaterialPixelParameters Parameters)
 {
 	return Parameters.ScreenPosition;
 }
-
-#line 1188 "/Engine/Generated/Material.ush"
 float GetPixelDepth(FMaterialVertexParameters Parameters)
 {
 	return GetScreenPositionDepth(GetScreenPosition(Parameters));
 }
-
-#line 1193 "/Engine/Generated/Material.ush"
 float GetPixelDepth(FMaterialPixelParameters Parameters)
 {
 	return GetScreenPositionDepth(GetScreenPosition(Parameters));
 }
-
-#line 1248 "/Engine/Generated/Material.ush"
 float GetWaterWaveParamIndex(FMaterialPixelParameters Parameters)
 {
-
-
-
 	return 0.0f;
-
 }
-
-#line 1257 "/Engine/Generated/Material.ush"
 float GetWaterWaveParamIndex(FMaterialVertexParameters Parameters)
 {
-
-
-
 	return 0.0f;
-
 }
-
-#line 1659 "/Engine/Generated/Material.ush"
 FDFMatrix GetLocalToWorldDF(FMaterialVertexParameters Parameters)
 {
-
-
-
-
-
 	return GetPrimitiveData(Parameters).LocalToWorld;
-
 }
-
-#line 1675 "/Engine/Generated/Material.ush"
 FDFMatrix GetLocalToWorldDF(FMaterialPixelParameters Parameters)
 {
-
-
-
 	return GetPrimitiveData(Parameters).LocalToWorld;
-
 }
-
-#line 1689 "/Engine/Generated/Material.ush"
 FDFMatrix GetPrevLocalToWorldDF(FMaterialVertexParameters Parameters)
 {
-
-
-
 	return GetPrimitiveData(Parameters).PreviousLocalToWorld;
-
 }
-
-#line 1703 "/Engine/Generated/Material.ush"
 FDFMatrix GetPrevLocalToWorldDF(FMaterialPixelParameters Parameters)
 {
 	return GetPrimitiveData(Parameters).PreviousLocalToWorld;
 }
-
-#line 1714 "/Engine/Generated/Material.ush"
 FDFInverseMatrix GetWorldToLocalDF(FMaterialVertexParameters Parameters)
 {
 	return GetPrimitiveData(Parameters).WorldToLocal;
 }
-
-#line 1724 "/Engine/Generated/Material.ush"
 FDFInverseMatrix GetWorldToLocalDF(FMaterialPixelParameters Parameters)
 {
 	return GetPrimitiveData(Parameters).WorldToLocal;
 }
-
-#line 1734 "/Engine/Generated/Material.ush"
 FDFInverseMatrix GetPrevWorldToLocalDF(FMaterialVertexParameters Parameters)
 {
 	return GetPrimitiveData(Parameters).PreviousWorldToLocal;
 }
-
-#line 1744 "/Engine/Generated/Material.ush"
 FDFInverseMatrix GetPrevWorldToLocalDF(FMaterialPixelParameters Parameters)
 {
 	return GetPrimitiveData(Parameters).PreviousWorldToLocal;
 }
-
-#line 1875 "/Engine/Generated/Material.ush"
 FMaterialLWCData MakeMaterialLWCData(FMaterialVertexParameters Parameters)
 {
 	FMaterialLWCData Result = (FMaterialLWCData)0;
-
-
 	Result.PreViewTranslation = ResolvedView.TileOffset.PreViewTranslation;
 	Result.PrevPreViewTranslation = ResolvedView.TileOffset.PrevPreViewTranslation;
 	Result.WorldViewOrigin = ResolvedView.TileOffset.WorldViewOrigin;
 	Result.PrevWorldViewOrigin = ResolvedView.TileOffset.PrevWorldViewOrigin;
 	Result.WorldCameraOrigin = ResolvedView.TileOffset.WorldCameraOrigin;
 	Result.PrevWorldCameraOrigin = ResolvedView.TileOffset.PrevWorldCameraOrigin;
-
-
-
-
-
-
-
-
-
 	Result.AbsoluteWorldPosition = LWCSubtract(Parameters.WorldPosition, Result.PreViewTranslation);
-
 	Result.InstanceToWorld = DFToWS(GetInstanceToWorldDF(Parameters));
 	Result.WorldToInstance = DFToWS(GetWorldToInstanceDF(Parameters));
 	Result.PreviousInstanceToWorld = DFToWS(GetPrevInstanceToWorldDF(Parameters));
-
 	Result.LocalToWorld = DFToWS(GetLocalToWorldDF(Parameters));
 	Result.WorldToLocal = DFToWS(GetWorldToLocalDF(Parameters));
 	Result.PreviousLocalToWorld = DFToWS(GetPrevLocalToWorldDF(Parameters));
 	Result.PreviousWorldToLocal = DFToWS(GetPrevWorldToLocalDF(Parameters));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	Result.ObjectWorldPosition = GetPrimitiveData(Parameters).ObjectWorldPositionTO;
-
-
-
-
-
 	Result.ActorWorldPosition = GetPrimitiveData(Parameters).ActorWorldPositionTO;
-
-
-
-
-
-
 	Result.ParticleToWorld = DFFastToWS(Parameters.Particle.ParticleToWorld);
 	Result.WorldToParticle = DFFastToWS(Parameters.Particle.WorldToParticle);
 	Result.ParticleWorldPosition = LWCSubtract(Parameters.Particle.TranslatedWorldPositionAndSize.xyz, Result.PreViewTranslation);
 	Result.PrevParticleWorldPosition = LWCSubtract(Parameters.Particle.PrevTranslatedWorldPositionAndSize.xyz, Result.PrevPreViewTranslation);
-
 	return Result;
 }
-
-#line 1946 "/Engine/Generated/Material.ush"
 FMaterialLWCData MakeMaterialLWCData(FMaterialPixelParameters Parameters)
 {
 	FMaterialLWCData Result = (FMaterialLWCData)0;
-
-
 	Result.PreViewTranslation = ResolvedView.TileOffset.PreViewTranslation;
 	Result.PrevPreViewTranslation = ResolvedView.TileOffset.PrevPreViewTranslation;
 	Result.WorldViewOrigin = ResolvedView.TileOffset.WorldViewOrigin;
 	Result.PrevWorldViewOrigin = ResolvedView.TileOffset.PrevWorldViewOrigin;
 	Result.WorldCameraOrigin = ResolvedView.TileOffset.WorldCameraOrigin;
 	Result.PrevWorldCameraOrigin = ResolvedView.TileOffset.PrevWorldCameraOrigin;
-
-
-
-
-
-
-
-
-
 	Result.AbsoluteWorldPosition = LWCSubtract(Parameters.WorldPosition_CamRelative, Result.PreViewTranslation);
 	Result.WorldPosition_NoOffsets = LWCSubtract(Parameters.WorldPosition_NoOffsets_CamRelative, Result.PreViewTranslation);
-
 	Result.InstanceToWorld = DFToWS(GetInstanceToWorldDF(Parameters));
 	Result.WorldToInstance = DFFastToWS(GetWorldToInstanceDF(Parameters));
 	Result.PreviousInstanceToWorld = DFToWS(GetPrevInstanceToWorldDF(Parameters));
-
 	Result.LocalToWorld = DFToWS(GetLocalToWorldDF(Parameters));
 	Result.WorldToLocal = DFFastToWS(GetWorldToLocalDF(Parameters));
 	Result.PreviousLocalToWorld = DFToWS(GetPrevLocalToWorldDF(Parameters));
 	Result.PreviousWorldToLocal = DFFastToWS(GetPrevWorldToLocalDF(Parameters));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	Result.ObjectWorldPosition = GetPrimitiveData(Parameters).ObjectWorldPositionTO;
 	Result.ActorWorldPosition = GetPrimitiveData(Parameters).ActorWorldPositionTO;
-
-
-
-
-
-
-
 	Result.ParticleToWorld = DFFastToWS(Parameters.Particle.ParticleToWorld);
 	Result.WorldToParticle = DFFastToWS(Parameters.Particle.WorldToParticle);
 	Result.ParticleWorldPosition = LWCSubtract(Parameters.Particle.TranslatedWorldPositionAndSize.xyz, Result.PreViewTranslation);
 	Result.PrevParticleWorldPosition = LWCSubtract(Parameters.Particle.PrevTranslatedWorldPositionAndSize.xyz, Result.PrevPreViewTranslation);
-
 	return Result;
 }
-
-#line 2664 "/Engine/Generated/Material.ush"
 SamplerState GetMaterialSharedSampler(SamplerState TextureSampler, SamplerState SharedSampler)
 {
-
 	return SharedSampler;
-
-
-
-
-
 }
-
-#line 2676 "/Engine/Generated/Material.ush"
 float3 ReflectionAboutCustomWorldNormal(FMaterialPixelParameters Parameters, float3 WorldNormal, bool bNormalizeInputNormal)
 {
 	if (bNormalizeInputNormal)
 	{
 		WorldNormal = normalize(WorldNormal);
 	}
-
 	return -Parameters.CameraVector + WorldNormal * dot(WorldNormal, Parameters.CameraVector) * 2.0;
 }
-
-#line 3569 "/Engine/Generated/Material.ush"
 _Pragma("dxc diagnostic push")
 _Pragma("dxc diagnostic ignored \"-Wall\"") 					_Pragma("dxc diagnostic ignored \"-Wconversion\"") 				_Pragma("dxc diagnostic ignored \"-Wfor-redefinition\"") 		_Pragma("dxc diagnostic ignored \"-Winline-asm\"")				_Pragma("dxc diagnostic ignored \"-Wunsequenced\"")
-
 FloatDeriv ConstructConstantFloatDeriv(float Value)
 {
 	FloatDeriv Ret;
@@ -6062,28 +4375,16 @@ FloatDeriv ConstructConstantFloatDeriv(float Value)
 	Ret.Ddy = 0;
 	return Ret;
 }
-
-#line 12 "/Plugin/Water/Private/WaterDataFunctions.ush"
 struct FWaterBodyData
 {
-
 	int WaterZoneIndex;
-
-
 	int WaveDataIndex;
-
-
 	int NumWaves;
-
-
 	float TargetWaveMaskDepth;
-
 	float3 FixedVelocity;
 	float FixedZHeight;
 	float FixedWaterDepth;
 };
-
-#line 32 "/Plugin/Water/Private/WaterDataFunctions.ush"
 struct FWaterZoneData
 {
 	float2 Location;
@@ -6091,8 +4392,6 @@ struct FWaterZoneData
 	float2 HeightExtent;
 	float GroundZMin;
 };
-
-#line 40 "/Plugin/Water/Private/WaterDataFunctions.ush"
 struct FWaveParams
 {
 	float2 Direction;
@@ -6100,55 +4399,37 @@ struct FWaveParams
 	float Amplitude;
 	float Steepness;
 };
-
-#line 48 "/Plugin/Water/Private/WaterDataFunctions.ush"
 struct FWaterZoneViewData
 {
 	float2 Location;
 };
-
-#line 53 "/Plugin/Water/Private/WaterDataFunctions.ush"
 int GetWaterZoneDataOffset()
 {
 	return (int)View_WaterData[0].x;
 }
-
-#line 58 "/Plugin/Water/Private/WaterDataFunctions.ush"
 int GetWaveDataOffset()
 {
 	return (int)View_WaterData[0].y;
 }
-
-#line 63 "/Plugin/Water/Private/WaterDataFunctions.ush"
 int GetWaterZoneViewDataOffset()
 {
 	return (int)View_WaterData[0].z;
 }
-
-#line 68 "/Plugin/Water/Private/WaterDataFunctions.ush"
 int GetNumWaterViewData()
 {
 	return (int)View_WaterData[0].w;
 }
-
-#line 73 "/Plugin/Water/Private/WaterDataFunctions.ush"
 bool IsWaterLocalTessellationEnabled(int InWaterZoneIndex)
 {
 	const int WaterZoneDataBufferOffset = GetWaterZoneDataOffset();
 	const int WaterZoneOffset = WaterZoneDataBufferOffset + (InWaterZoneIndex * 2);
-
 	return View_WaterData[WaterZoneOffset + 1].y > 0;
 }
-
-#line 81 "/Plugin/Water/Private/WaterDataFunctions.ush"
 int GetWaterInfoTextureViewIndex(int InWaterZoneIndex)
 {
 	int Index = IsWaterLocalTessellationEnabled(InWaterZoneIndex) ? View_WaterInfoTextureViewIndex : 0;
-
 	return Index;
 }
-
-#line 89 "/Plugin/Water/Private/WaterDataFunctions.ush"
 FWaterBodyData DecodeWaterBodyData(float4 InDataToDecode0, float4 InDataToDecode1)
 {
 	FWaterBodyData OutWaterBodyData = (FWaterBodyData)0;
@@ -6159,21 +4440,15 @@ FWaterBodyData DecodeWaterBodyData(float4 InDataToDecode0, float4 InDataToDecode
 	OutWaterBodyData.FixedVelocity = float3(f16tof32(asuint(InDataToDecode1.x)), f16tof32(asuint(InDataToDecode1.x) >> 16u), InDataToDecode1.y);
 	OutWaterBodyData.FixedZHeight = InDataToDecode1.z;
 	OutWaterBodyData.FixedWaterDepth = InDataToDecode1.w;
-
 	return OutWaterBodyData;
 }
-
-#line 103 "/Plugin/Water/Private/WaterDataFunctions.ush"
 FWaterBodyData GetWaterBodyData(int InWaterBodyIndex)
 {
 	const int WaterBodyOffset = InWaterBodyIndex * 2;
 	const float4 Data0 = View_WaterIndirection[WaterBodyOffset];
 	const float4 Data1 = View_WaterIndirection[WaterBodyOffset + 1];
-
 	return DecodeWaterBodyData(Data0, Data1);
 }
-
-#line 113 "/Plugin/Water/Private/WaterDataFunctions.ush"
 FWaveParams DecodeWaveParams(float4 InDataToDecode0, float4 InDataToDecode1)
 {
 	FWaveParams OutWaveParams = (FWaveParams)0;
@@ -6181,22 +4456,16 @@ FWaveParams DecodeWaveParams(float4 InDataToDecode0, float4 InDataToDecode1)
 	OutWaveParams.Wavelength = InDataToDecode0.z;
 	OutWaveParams.Amplitude = InDataToDecode0.w;
 	OutWaveParams.Steepness = InDataToDecode1.x;
-
 	return OutWaveParams;
 }
-
-#line 124 "/Plugin/Water/Private/WaterDataFunctions.ush"
 FWaveParams GetWaveDataNew(int InWaveIndex, FWaterBodyData InWaterBodyData)
 {
 	const int WaveDataOffset = GetWaveDataOffset();
 	const int AbsoluteWaveDataIndex = WaveDataOffset + (InWaterBodyData.WaveDataIndex + InWaveIndex) * 2;
 	const float4 Data0 = View_WaterData[AbsoluteWaveDataIndex];
 	const float4 Data1 = View_WaterData[AbsoluteWaveDataIndex + 1];
-
 	return DecodeWaveParams(Data0, Data1);
 }
-
-#line 134 "/Plugin/Water/Private/WaterDataFunctions.ush"
 FWaterZoneData DecodeWaterZoneData(float2 Location, float4 Data0, float4 Data1)
 {
 	FWaterZoneData OutWaterZoneData = (FWaterZoneData)0;
@@ -6204,287 +4473,183 @@ FWaterZoneData DecodeWaterZoneData(float2 Location, float4 Data0, float4 Data1)
 	OutWaterZoneData.Extent = Data0.xy;
 	OutWaterZoneData.HeightExtent = Data0.zw;
 	OutWaterZoneData.GroundZMin = Data1.x;
-
 	return OutWaterZoneData;
 }
-
-#line 145 "/Plugin/Water/Private/WaterDataFunctions.ush"
 FWaterZoneViewData GetWaterZoneViewData(int InWaterZoneIndex)
 {
 	const int NumViews = GetNumWaterViewData();
-
 	const int ViewIndex = GetWaterInfoTextureViewIndex(InWaterZoneIndex);
-
 	const int WaterZoneViewDataBufferOffset = GetWaterZoneViewDataOffset();
 	const int WaterZoneViewOffset = WaterZoneViewDataBufferOffset + (InWaterZoneIndex * NumViews + ViewIndex) * 1;
-
 	FWaterZoneViewData WaterZoneViewData = (FWaterZoneViewData)0;
 	WaterZoneViewData.Location = View_WaterData[WaterZoneViewOffset].xy;
-
 	return WaterZoneViewData;
 }
-
-#line 160 "/Plugin/Water/Private/WaterDataFunctions.ush"
 FWaterZoneData GetWaterZoneData(int InWaterZoneIndex)
 {
 	const int WaterZoneDataBufferOffset = GetWaterZoneDataOffset();
 	const int WaterZoneOffset = WaterZoneDataBufferOffset + (InWaterZoneIndex * 2);
-
 	FWaterZoneViewData WaterZoneViewData = GetWaterZoneViewData(InWaterZoneIndex);
-
 	const float2 ZoneViewLocation = WaterZoneViewData.Location;
-
 	const float4 Data0 = View_WaterData[WaterZoneOffset];
 	const float4 Data1 = View_WaterData[WaterZoneOffset + 1];
-
 	return DecodeWaterZoneData(ZoneViewLocation, Data0, Data1);
 }
-
-#line 182 "/Plugin/Water/Private/WaterDataFunctions.ush"
 float DecodeWaterInfoGroundHeight(float4 WaterInfoSample, int WaterZoneIndex)
 {
 	const float GroundZNormalized = WaterInfoSample.w;
 	const FWaterZoneData WaterZoneData = GetWaterZoneData(WaterZoneIndex);
-
 	const float GroundZScale = WaterZoneData.HeightExtent.y - WaterZoneData.GroundZMin;
-
 	return GroundZNormalized * GroundZScale + WaterZoneData.GroundZMin;
 }
-
-#line 192 "/Plugin/Water/Private/WaterDataFunctions.ush"
 float DecodeWaterInfoZHeight(float4 WaterInfoSample, int WaterZoneIndex)
 {
 	const float WaterZNormalized = WaterInfoSample.z;
 	const FWaterZoneData WaterZoneData = GetWaterZoneData(WaterZoneIndex);
-
 	const float WaterZScale = WaterZoneData.HeightExtent.y - WaterZoneData.HeightExtent.x;
 	float WaterZ = WaterZNormalized * WaterZScale + WaterZoneData.HeightExtent.x;
-
-
 	if (WaterZNormalized <= 0.0)
 	{
 		WaterZ = DecodeWaterInfoGroundHeight(WaterInfoSample, WaterZoneIndex) - 256.0;
 	}
-
 	return WaterZ;
 }
-
-#line 15 "/Plugin/Water/Private/GerstnerWaveFunctions.ush"
 struct WaveOutput
 {
 	float3 Normal;
 	float3 WPO;
 };
-
-#line 274 "/Plugin/Water/Private/GerstnerWaveFunctions.ush"
 WaveOutput AddWavesNew(WaveOutput inWaveA, WaveOutput inWaveB)
 {
 	inWaveA.Normal += inWaveB.Normal;
 	inWaveA.WPO += inWaveB.WPO;
-
 	return inWaveA;
 }
-
-#line 282 "/Plugin/Water/Private/GerstnerWaveFunctions.ush"
 float3 FinalizeNormalNew(float3 inNormal)
 {
 	return normalize(float3(inNormal.xy, 1.0f - inNormal.z));
 }
-
-#line 293 "/Plugin/Water/Private/GerstnerWaveFunctions.ush"
 float3 PackNormalAndWPONew(WaveOutput inWave)
 {
 	float3 packedoutput = (float3)0;
-
 	packedoutput = floor(inWave.WPO * 100);
 	packedoutput += ((inWave.Normal + 1.01) / 2.02);
-
 	return packedoutput;
 }
-
-#line 303 "/Plugin/Water/Private/GerstnerWaveFunctions.ush"
 WaveOutput GetSingleGerstnerWaveNew(int InWaveIndex, FWaterBodyData InWaterBodyData, float InTime, FDFVector2 InWorldPos)
 {
 	WaveOutput OutWave = (WaveOutput)0;
-
 	FWaveParams CurrentWave = GetWaveDataNew(InWaveIndex, InWaterBodyData);
-
 	float Dispersion = 2 * PI / CurrentWave.Wavelength;
 	float2 WaveVector = CurrentWave.Direction * Dispersion;
 	float WaveSpeed = sqrt(Dispersion * 980);
 	float WaveTime = WaveSpeed * InTime;
-
-
-
 	FLWCVector2 LWCWorldPos = DFToTileOffset(InWorldPos);
 	float2 WorldPos = LWCWorldPos.Offset;	
-
 	float WavePos = dot(WorldPos, WaveVector) - WaveTime;
 	float WaveSin, WaveCos;
 	sincos(WavePos, WaveSin, WaveCos);
-
-
 	const float2 TileBorderDist = (2097152.00f * 0.5f) - abs(WorldPos);
 	const float BlendZoneWidth = 400.0f; 
 	if (any(TileBorderDist < BlendZoneWidth))
 	{
 		const float2 BlendWorldPos = TileBorderDist;
-
 		const float2 BlendAlpha2 = saturate(TileBorderDist / BlendZoneWidth);
 		const float BlendAlpha = BlendAlpha2.x * BlendAlpha2.y;
-
 		const float BlendWavePos = dot(BlendWorldPos, WaveVector) - WaveTime;
 		WaveSin = lerp(sin(BlendWavePos), WaveSin, BlendAlpha);
 		WaveCos = lerp(cos(BlendWavePos), WaveCos, BlendAlpha);
 	}
-
 	float wKA = CurrentWave.Amplitude * Dispersion;
-
 	float q = CurrentWave.Steepness / wKA;
-
 	OutWave.Normal.xy = WaveSin * wKA * CurrentWave.Direction;
-
-
 		OutWave.Normal.z = WaveCos *  CurrentWave.Steepness * saturate( (CurrentWave.Amplitude * 50) / CurrentWave.Wavelength );
-
-
-
-
-
 	OutWave.WPO.xy = -q * WaveSin * CurrentWave.Direction *  CurrentWave.Amplitude;
 	OutWave.WPO.z = WaveCos * CurrentWave.Amplitude;
-
 	return OutWave;
-
 }
-
-#line 358 "/Plugin/Water/Private/GerstnerWaveFunctions.ush"
 WaveOutput GetAllGerstnerWavesNew(int InWaterBodyIndex, float InTime, FDFVector2 InWorldPos)
 {		
 	WaveOutput OutWaves = (WaveOutput)0;
 	WaveOutput CurrentWave = (WaveOutput)0;
-
 	const FWaterBodyData WaterBodyData = GetWaterBodyData(InWaterBodyIndex);
 	const int NumWaves = WaterBodyData.NumWaves;
-
 	for (int i = 0; i < NumWaves; i++)
 	{
 		CurrentWave = GetSingleGerstnerWaveNew(i, WaterBodyData, InTime, InWorldPos);
 		OutWaves = AddWavesNew(OutWaves, CurrentWave);
 	}
-
-
 	OutWaves.Normal = FinalizeNormalNew(OutWaves.Normal);
 	return OutWaves;
 }
-
-#line 377 "/Plugin/Water/Private/GerstnerWaveFunctions.ush"
 WaveOutput GetAllGerstnerWavesNew(int InWaterBodyIndex, float InTime, FLWCVector2 InWorldPos) { return GetAllGerstnerWavesNew(InWaterBodyIndex, InTime, DFFromTileOffset(InWorldPos)); }
-
-#line 423 "/Plugin/Water/Private/GerstnerWaveFunctions.ush"
 float ComputeWaveDepthAttenuationFactorNew(int InWaterBodyIndex, float InWaterDepth)
 {
 	const FWaterBodyData WaterBodyData = GetWaterBodyData(InWaterBodyIndex);
-
-
 	const float TotalErasureFactor = saturate((float)WaterBodyData.NumWaves);
 	const float StrengthCoefficient = exp(-max(InWaterDepth, 0.0f) / (WaterBodyData.TargetWaveMaskDepth / 2.0f));
 	return saturate(1.0f - StrengthCoefficient) * TotalErasureFactor;
 }
-
-#line 3752 "/Engine/Generated/Material.ush"
 float2 CustomExpression11(FMaterialPixelParameters Parameters,float WaterZoneIndex, inout float2 Extent, inout float2 HeightExtent, inout float GroundZMin)
 {
 FWaterZoneData ZoneData; ZoneData = GetWaterZoneData(WaterZoneIndex);
-
 Extent = ZoneData.Extent;
 HeightExtent = ZoneData.HeightExtent; 
 GroundZMin= ZoneData.GroundZMin;
-
 return ZoneData.Location;
 }
-
-#line 3764 "/Engine/Generated/Material.ush"
 float CustomExpression12(FMaterialPixelParameters Parameters)
 {
 return GetWaterWaveParamIndex(Parameters);
 }
-
-#line 3771 "/Engine/Generated/Material.ush"
 float2 CustomExpression13(FMaterialPixelParameters Parameters,float WaterBodyIndex)
 {
 return GetWaterBodyData((int)WaterBodyIndex).WaterZoneIndex;
 }
-
-#line 3778 "/Engine/Generated/Material.ush"
 float CustomExpression14(FMaterialPixelParameters Parameters,float2 WaterZoneIndex)
 {
 return GetWaterInfoTextureViewIndex(WaterZoneIndex);
 }
-
-#line 3785 "/Engine/Generated/Material.ush"
 float CustomExpression15(FMaterialPixelParameters Parameters,float4 WaterInfoSample,float2 WaterZoneIndex)
 {
 return DecodeWaterInfoZHeight(WaterInfoSample, WaterZoneIndex);
 }
-
-#line 3792 "/Engine/Generated/Material.ush"
 float CustomExpression16(FMaterialPixelParameters Parameters,float4 WaterInfoSample,float2 WaterZoneIndex)
 {
 return DecodeWaterInfoGroundHeight(WaterInfoSample, WaterZoneIndex);
 }
-
-#line 3798 "/Engine/Generated/Material.ush"
 float CustomExpression17(FMaterialPixelParameters Parameters)
 {
 return GetWaterWaveParamIndex(Parameters);
 }
-
-#line 3805 "/Engine/Generated/Material.ush"
 float3 CustomExpression18(FMaterialPixelParameters Parameters,float WaterBodyIndex,float2 WorldPosition,float Time)
 {
 WaveOutput Waves;
-
 Waves = GetAllGerstnerWavesNew(WaterBodyIndex, Time, LWCWorldPosition);
 return PackNormalAndWPONew(Waves);
 }
-
-#line 3814 "/Engine/Generated/Material.ush"
 float3 CustomExpression19(FMaterialPixelParameters Parameters,float3 inPackedWave)
 {
 		float3 outWPO;
 		outWPO = floor(inPackedWave) / 100;
 		return outWPO;
 }
-
-#line 3823 "/Engine/Generated/Material.ush"
 float CustomExpression20(FMaterialPixelParameters Parameters,float4 WaterInfoSample,float2 WaterZoneIndex)
 {
 return DecodeWaterInfoZHeight(WaterInfoSample, WaterZoneIndex);
 }
-
-#line 3830 "/Engine/Generated/Material.ush"
 float CustomExpression21(FMaterialPixelParameters Parameters,float4 WaterInfoSample,float2 WaterZoneIndex)
 {
 return DecodeWaterInfoGroundHeight(WaterInfoSample, WaterZoneIndex);
 }
-
-#line 3837 "/Engine/Generated/Material.ush"
 float CustomExpression22(FMaterialPixelParameters Parameters,float WaterBodyIndex,float WaterDepth)
 {
 return ComputeWaveDepthAttenuationFactorNew(WaterBodyIndex, WaterDepth);
 }
-
-#line 3843 "/Engine/Generated/Material.ush"
 float3 CustomExpression23(FMaterialPixelParameters Parameters,float3 Color,float x)
 {
-
-
-
 return Color;
 }
-
-#line 3852 "/Engine/Generated/Material.ush"
 float3 CustomExpression24(FMaterialPixelParameters Parameters,float3 Color,float2 Position,float2 BoundsMin,float2 BoundsMax)
 {
 if ((Position.x < BoundsMin.x) || (Position.x > BoundsMax.x) ||
@@ -6494,307 +4659,146 @@ if ((Position.x < BoundsMin.x) || (Position.x > BoundsMax.x) ||
 }
 return Color;
 }
-
-#line 4008 "/Engine/Generated/Material.ush"
 _Pragma("dxc diagnostic pop")
-
-#line 4075 "/Engine/Generated/Material.ush"
-
-
-
 float3 GetMaterialNormalRaw(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return PixelMaterialInputs.Normal;
 }
-
-#line 4083 "/Engine/Generated/Material.ush"
 float3 GetMaterialNormal(FMaterialPixelParameters Parameters, FPixelMaterialInputs PixelMaterialInputs)
 {
 	float3 RetNormal;
-
 	RetNormal = GetMaterialNormalRaw(PixelMaterialInputs);
-
-
 	{
-
 		float3 OverrideNormal = ResolvedView.NormalOverrideParameter.xyz;
-
-
 			OverrideNormal = Parameters.TangentToWorld[2] * (1 - ResolvedView.NormalOverrideParameter.w);
-
-
 		RetNormal = RetNormal * ResolvedView.NormalOverrideParameter.w + OverrideNormal;
 	}
-
-
 	return RetNormal;
 }
-
-#line 4105 "/Engine/Generated/Material.ush"
 float3 GetMaterialTangentRaw(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return PixelMaterialInputs.Tangent;
 }
-
-#line 4110 "/Engine/Generated/Material.ush"
 float3 GetMaterialTangent(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return GetMaterialTangentRaw(PixelMaterialInputs);
 }
-
-#line 4115 "/Engine/Generated/Material.ush"
 float3 GetMaterialEmissiveRaw(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return PixelMaterialInputs.EmissiveColor;
 }
-
-#line 4120 "/Engine/Generated/Material.ush"
 float3 GetMaterialEmissive(FPixelMaterialInputs PixelMaterialInputs)
 {
 	float3 EmissiveColor = GetMaterialEmissiveRaw(PixelMaterialInputs);
-
 	EmissiveColor = max(EmissiveColor, 0.0f);
-
 	return EmissiveColor;
 }
-
-#line 4138 "/Engine/Generated/Material.ush"
 uint GetMaterialShadingModel(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return PixelMaterialInputs.ShadingModel;
 }
-
-#line 4143 "/Engine/Generated/Material.ush"
 float3 GetMaterialBaseColorRaw(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return PixelMaterialInputs.BaseColor;
 }
-
-#line 4148 "/Engine/Generated/Material.ush"
 float3 GetMaterialBaseColor(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return saturate(GetMaterialBaseColorRaw(PixelMaterialInputs));
 }
-
-#line 4153 "/Engine/Generated/Material.ush"
 float GetMaterialMetallicRaw(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return PixelMaterialInputs.Metallic;
 }
-
-#line 4158 "/Engine/Generated/Material.ush"
 float GetMaterialMetallic(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return saturate(GetMaterialMetallicRaw(PixelMaterialInputs));
 }
-
-#line 4163 "/Engine/Generated/Material.ush"
 float GetMaterialSpecularRaw(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return PixelMaterialInputs.Specular;
 }
-
-#line 4168 "/Engine/Generated/Material.ush"
 float GetMaterialSpecular(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return saturate(GetMaterialSpecularRaw(PixelMaterialInputs));
 }
-
-#line 4173 "/Engine/Generated/Material.ush"
 float GetMaterialRoughnessRaw(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return PixelMaterialInputs.Roughness;
 }
-
-#line 4178 "/Engine/Generated/Material.ush"
 float GetMaterialRoughness(FPixelMaterialInputs PixelMaterialInputs)
 {
-
 	return 1;
-
 	float Roughness = saturate(GetMaterialRoughnessRaw(PixelMaterialInputs));
-
-
 	{
-
 		Roughness = Roughness * ResolvedView.RoughnessOverrideParameter.y + ResolvedView.RoughnessOverrideParameter.x;
 	}
-
-
 	return Roughness;
 }
-
-#line 4195 "/Engine/Generated/Material.ush"
 float GetMaterialAnisotropyRaw(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return PixelMaterialInputs.Anisotropy;
 }
-
-#line 4200 "/Engine/Generated/Material.ush"
 float GetMaterialAnisotropy(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return clamp(GetMaterialAnisotropyRaw(PixelMaterialInputs), -1.0f, 1.0f);
 }
-
-#line 4205 "/Engine/Generated/Material.ush"
 _Pragma("dxc diagnostic push")
 _Pragma("dxc diagnostic ignored \"-Wall\"") 					_Pragma("dxc diagnostic ignored \"-Wconversion\"") 				_Pragma("dxc diagnostic ignored \"-Wfor-redefinition\"") 		_Pragma("dxc diagnostic ignored \"-Winline-asm\"")				_Pragma("dxc diagnostic ignored \"-Wunsequenced\"")
-
 float GetMaterialTranslucencyDirectionalLightingIntensity()
 {
 return 1.00000;
 }
-
-#line 4245 "/Engine/Generated/Material.ush"
 float GetMaterialOpacityMaskClipValue()
 {
 return 0.50000;
 }
-
-#line 4250 "/Engine/Generated/Material.ush"
 _Pragma("dxc diagnostic pop")
-
-
-
-
-
-
-
-
-
-
-
-
-
 float GetMaterialOpacityRaw(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return PixelMaterialInputs.Opacity;
 }
-
-#line 4286 "/Engine/Generated/Material.ush"
 float GetMaterialOpacity(FPixelMaterialInputs PixelMaterialInputs)
 {
-
 	return saturate(GetMaterialOpacityRaw(PixelMaterialInputs));
 }
-
-#line 4419 "/Engine/Generated/Material.ush"
 _Pragma("dxc diagnostic push")
 _Pragma("dxc diagnostic ignored \"-Wall\"") 					_Pragma("dxc diagnostic ignored \"-Wconversion\"") 				_Pragma("dxc diagnostic ignored \"-Wfor-redefinition\"") 		_Pragma("dxc diagnostic ignored \"-Winline-asm\"")				_Pragma("dxc diagnostic ignored \"-Wunsequenced\"")
-
 float GetMaterialCustomData0(in out FMaterialPixelParameters Parameters)
 {
 	return 1.00000000;;
 }
-
-#line 4432 "/Engine/Generated/Material.ush"
 _Pragma("dxc diagnostic pop")
-
 float GetMaterialAmbientOcclusionRaw(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return PixelMaterialInputs.AmbientOcclusion;
 }
-
-#line 4439 "/Engine/Generated/Material.ush"
 float GetMaterialAmbientOcclusion(FPixelMaterialInputs PixelMaterialInputs)
 {
 	return saturate(GetMaterialAmbientOcclusionRaw(PixelMaterialInputs));
 }
-
-#line 4531 "/Engine/Generated/Material.ush"
 float3 CalculateAnisotropyTangent(in out FMaterialPixelParameters Parameters, FPixelMaterialInputs PixelMaterialInputs)
 {
 	float3 Normal = Parameters.WorldNormal;
-
-
-
-
-
-
-
-
 	float3 Tangent = GetMaterialTangent(PixelMaterialInputs);
-
-
-
-
-
 	float3 BiTangent = cross(Normal, Tangent);
 	Tangent = normalize(cross(BiTangent, Normal));
-
 	return Tangent;
 }
-
-#line 4579 "/Engine/Generated/Material.ush"
 _Pragma("dxc diagnostic push")
 _Pragma("dxc diagnostic ignored \"-Wall\"") 					_Pragma("dxc diagnostic ignored \"-Wconversion\"") 				_Pragma("dxc diagnostic ignored \"-Wfor-redefinition\"") 		_Pragma("dxc diagnostic ignored \"-Winline-asm\"")				_Pragma("dxc diagnostic ignored \"-Wunsequenced\"")
-
-
-
-
 _Pragma("dxc diagnostic pop")
-
-
-
-
-
-
-
 void CalcPixelMaterialInputs(in out FMaterialPixelParameters Parameters, in out FPixelMaterialInputs PixelMaterialInputs)
 {
 _Pragma("dxc diagnostic push")
 _Pragma("dxc diagnostic ignored \"-Wall\"") 					_Pragma("dxc diagnostic ignored \"-Wconversion\"") 				_Pragma("dxc diagnostic ignored \"-Wfor-redefinition\"") 		_Pragma("dxc diagnostic ignored \"-Winline-asm\"")				_Pragma("dxc diagnostic ignored \"-Wunsequenced\"")
-
-
-
 	PixelMaterialInputs.Normal = 1.00000000;
-
 _Pragma("dxc diagnostic pop")
-
-
-
-
-
-
-
-
-
-
-
-
 	float3 MaterialNormal = GetMaterialNormal(Parameters, PixelMaterialInputs);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	Parameters.WorldNormal = normalize(MaterialNormal);
-
-
-
-
-
-
-
-
 	Parameters.ReflectionVector = ReflectionAboutCustomWorldNormal(Parameters, Parameters.WorldNormal, false);
-
-
 	Parameters.Particle.MotionBlurFade = 1.0f;
-
-
 _Pragma("dxc diagnostic push")
 _Pragma("dxc diagnostic ignored \"-Wall\"") 					_Pragma("dxc diagnostic ignored \"-Wconversion\"") 				_Pragma("dxc diagnostic ignored \"-Wfor-redefinition\"") 		_Pragma("dxc diagnostic ignored \"-Winline-asm\"")				_Pragma("dxc diagnostic ignored \"-Wunsequenced\"")
-
 	float4 Local33 = MaterialCollection0_Vectors[3];
 	float3 Local34 = (Material_PreshaderBuffer[0].yzw / ((float3)Local33.b));
 	float2 Local35 = float2(0.0f, 0.0f);
@@ -6927,7 +4931,6 @@ _Pragma("dxc diagnostic ignored \"-Wall\"") 					_Pragma("dxc diagnostic ignored
 	float2 Local162 = (Local38 + Local39);
 	float3 Local163 = CustomExpression24(Parameters,Local161,float3(0.00000000,0.00000000,0.00000000).rgb.rg,Local40,Local162);
 	float3 Local164 = saturate(Local163);
-
 	PixelMaterialInputs.EmissiveColor = Local164;
 	PixelMaterialInputs.Opacity = 1.00000000;
 	PixelMaterialInputs.OpacityMask = 1.00000000;
@@ -6946,24 +4949,14 @@ _Pragma("dxc diagnostic ignored \"-Wall\"") 					_Pragma("dxc diagnostic ignored
 	PixelMaterialInputs.FrontMaterial = GetInitialisedSubstrateData();
 	PixelMaterialInputs.SurfaceThickness = 0.01000000;
 	PixelMaterialInputs.Displacement = 0.00000000;
-
 _Pragma("dxc diagnostic pop")
-
-
 	Parameters.WorldTangent = CalculateAnisotropyTangent(Parameters, PixelMaterialInputs);
-
-
-
 }
 void ClipLODTransition(float2 SvPosition, float DitherFactor)
 {
 	if (abs(DitherFactor) > .001)
 	{
 		float ArgCos = dot(floor(SvPosition.xy), float2(347.83451793, 3343.28371963));
-
-
-
-
 		float RandCos = cos(ArgCos);
 		float RandomVal = frac(RandCos * 1000.0);
 		float RetVal = (DitherFactor < 0.0) ?
@@ -6972,46 +4965,24 @@ void ClipLODTransition(float2 SvPosition, float DitherFactor)
 		clip(RetVal - .001);
 	}
 }
-
-#line 3638 "/Engine/Generated/Material.ush"
 void ClipLODTransition(FMaterialPixelParameters Parameters, float DitherFactor)
 {
 	ClipLODTransition(Parameters.SvPosition.xy, DitherFactor);
 }
-
-#line 3667 "/Engine/Generated/Material.ush"
 void ClipLODTransition(FMaterialPixelParameters Parameters)
 {
 }
-
-#line 3670 "/Engine/Generated/Material.ush"
 void ClipLODTransition(float2 SvPosition)
 {
 }
-
-#line 3701 "/Engine/Generated/Material.ush"
 void GetMaterialCoverageAndClipping(FMaterialPixelParameters Parameters, FPixelMaterialInputs PixelMaterialInputs)
 {
 	ClipLODTransition(Parameters);
-
-#line 3729 "/Engine/Generated/Material.ush"
-
 }
-
-#line 3785 "/Engine/Generated/Material.ush"
 float GetFloatFacingSign(bool bIsFrontFace)
 {
-
-
-
-
-
-
 		return bIsFrontFace ? +1 : -1;
-
 }
-
-#line 3808 "/Engine/Generated/Material.ush"
 void CalcMaterialParametersEx(
 	in out FMaterialPixelParameters Parameters,
 	in out FPixelMaterialInputs PixelMaterialInputs,
@@ -7023,156 +4994,41 @@ void CalcMaterialParametersEx(
 {
 	Parameters.WorldPosition_CamRelative = TranslatedWorldPosition;
 	Parameters.WorldPosition_NoOffsets_CamRelative = TranslatedWorldPositionExcludingShaderOffsets;
-
 	Parameters.LWCData = MakeMaterialLWCData(Parameters);
-
-
 	Parameters.AbsoluteWorldPosition = DFMultiplyLHSAndFastTwoSum(Parameters.LWCData.AbsoluteWorldPosition.Tile, 2097152.00f, Parameters.LWCData.AbsoluteWorldPosition.Offset);
-
-
-
-
-
-
-
-
 	Parameters.WorldPosition_NoOffsets = DFMultiplyLHSAndFastTwoSum(Parameters.LWCData.WorldPosition_NoOffsets.Tile, 2097152.00f, Parameters.LWCData.WorldPosition_NoOffsets.Offset);
-
-
-
-
-
 	Parameters.SvPosition = SvPosition;
 	Parameters.ScreenPosition = ScreenPosition;
 	Parameters.ViewBufferUV = ScreenPositionToBufferUV(ScreenPosition);
-
-
-
-
-
 		Parameters.CameraVector =  select_internal( IsOrthoProjection(ResolvedView) , -ResolvedView.ViewForward , normalize(-Parameters.WorldPosition_CamRelative.xyz) );
-
-
 	Parameters.LightVector = 0;
-
-
-
-
-
-
-
 	Parameters.TwoSidedSign = 1.0f;
-
-
-
-
 		Parameters.TwoSidedSign *= ResolvedView.CullingSign * GetPrimitive_DeterminantSign(Parameters.PrimitiveId);
-
-
-
-
-
-
-
-
-
 		Parameters.TwoSidedSign *= GetFloatFacingSign(bIsFrontFace);
-
-
-
-
-
-
-
-
-
-
-
-
 	{
 		CalcPixelMaterialInputs(Parameters, PixelMaterialInputs);
 	}
 }
-
-#line 3923 "/Engine/Generated/Material.ush"
 float3x3 AssembleTangentToWorld( float3 TangentToWorld0, float4 TangentToWorld2 )
 {
-
-
-
-
-
 	float3 TangentToWorld1 = cross(TangentToWorld2.xyz,TangentToWorld0) * TangentToWorld2.w;
-
 	return float3x3(TangentToWorld0, TangentToWorld1, TangentToWorld2.xyz);
 }
-
-#line 4054 "/Engine/Generated/Material.ush"
 float3 GetWorldBentNormalZero(in FMaterialPixelParameters MaterialParameters)
 {
-
-
-
-
-
-
-
 	return MaterialParameters.WorldNormal;
-
 }
-
-#line 72 "/Engine/Private/BasePassCommon.ush"
 struct FSharedBasePassInterpolants
 {
-
-
-
 	float4 VertexFog		: TEXCOORD7;
-
-
-
-
-
-
-
 	float3 PixelPositionExcludingWPO : TEXCOORD9;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 };
-
-#line 127 "/Engine/Private/BasePassCommon.ush"
 struct FShadingOcclusion
 {
 	float  DiffOcclusion;
 	float  SpecOcclusion;
 	float3 BentNormal;
 };
-
-#line 224 "/Engine/Private/BasePassCommon.ush"
 FShadingOcclusion ApplyBentNormal(
 	in float3 CameraVector, 
 	in float3 WorldNormal, 
@@ -7184,351 +5040,121 @@ FShadingOcclusion ApplyBentNormal(
 	Out.DiffOcclusion = MaterialAO;
 	Out.SpecOcclusion = MaterialAO;
 	Out.BentNormal    = WorldNormal;
-
-#line 259 "/Engine/Private/BasePassCommon.ush"
-
 	return Out;
 }
-
-#line 9 "/Engine/Private/LocalVertexFactoryCommon.ush"
 struct FVertexFactoryInterpolantsVSToPS
 {
 	float4 TangentToWorld0 : TEXCOORD10_centroid; float4	TangentToWorld2	: TEXCOORD11_centroid;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	nointerpolation uint EyeIndex : PACKED_EYE_INDEX;
-
-
 	nointerpolation uint PrimitiveId : PRIMITIVE_ID;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 };
-
-#line 90 "/Engine/Private/LocalVertexFactoryCommon.ush"
 float4 GetColor(FVertexFactoryInterpolantsVSToPS Interpolants)
 {
-
-
-
 	return 0;
-
 }
-
-#line 136 "/Engine/Private/LocalVertexFactoryCommon.ush"
 float4 GetTangentToWorld2(FVertexFactoryInterpolantsVSToPS Interpolants)
 {
 	return Interpolants.TangentToWorld2;
 }
-
-#line 141 "/Engine/Private/LocalVertexFactoryCommon.ush"
 float4 GetTangentToWorld0(FVertexFactoryInterpolantsVSToPS Interpolants)
 {
 	return Interpolants.TangentToWorld0;
 }
-
-#line 155 "/Engine/Private/LocalVertexFactoryCommon.ush"
 uint GetPrimitiveId(FVertexFactoryInterpolantsVSToPS Interpolants)
 {
-
 	return Interpolants.PrimitiveId;
-
-
-
 }
-
-#line 281 "/Engine/Private/LocalVertexFactory.ush"
 struct FVertexFactoryIntermediatesCommon
 {
-
 	FSceneDataIntermediates SceneData;
-
-
-
-
-
-
 };
-
-#line 296 "/Engine/Private/LocalVertexFactory.ush"
 struct FVertexFactoryIntermediates
 {
 	FVertexFactoryIntermediatesCommon Common;
-
 	int PrimitiveLocalInstanceIndex;
-
-
 	float3x3 TangentToLocal;
 	float3x3 TangentToWorld;
 	float TangentToWorldSign;
-
 	float4 Color;
-
 	bool bEvaluateWorldPositionOffset;
-
-
-
-
-
-
 	float IsVisible;
-
-
-
-
-
-
-
 	float3 PreSkinPosition;
 };
-
-#line 327 "/Engine/Private/LocalVertexFactory.ush"
 FPrimitiveSceneData GetPrimitiveData(FVertexFactoryIntermediatesCommon Intermediates)
 {
 	return Intermediates.SceneData.Primitive;
 }
-
-#line 332 "/Engine/Private/LocalVertexFactory.ush"
 FPrimitiveSceneData GetPrimitiveData(FVertexFactoryIntermediates Intermediates)
 {
 	return GetPrimitiveData(Intermediates.Common);
 }
-
-#line 510 "/Engine/Private/LocalVertexFactory.ush"
 FMaterialPixelParameters GetMaterialPixelParameters(FVertexFactoryInterpolantsVSToPS Interpolants, float4 SvPosition)
 {
-
 	FMaterialPixelParameters Result = MakeInitializedMaterialPixelParameters();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	float3 TangentToWorld0 = GetTangentToWorld0(Interpolants).xyz;
 	float4 TangentToWorld2 = GetTangentToWorld2(Interpolants);
 	Result.UnMirrored = TangentToWorld2.w;
-
 	Result.VertexColor = GetColor(Interpolants);
-
-
 	Result.Particle.Color = float4(1,1,1,1);
-
-
-
-
-
-
-
-
 	Result.TangentToWorld = AssembleTangentToWorld( TangentToWorld0, TangentToWorld2 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	Result.TwoSidedSign = 1;
 	Result.PrimitiveId = GetPrimitiveId(Interpolants);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	return Result;
 }
-
-#line 25 "/Engine/Private/VolumetricLightmapShared.ush"
 float3 ComputeVolumetricLightmapBrickTextureUVs(float3 WorldPosition) 
 {
-
 	float3 IndirectionVolumeUVs = clamp(WorldPosition * View_VolumetricLightmapWorldToUVScale + View_VolumetricLightmapWorldToUVAdd, 0.0f, .99f);
 	float3 IndirectionTextureTexelCoordinate = IndirectionVolumeUVs * View_VolumetricLightmapIndirectionTextureSize;
 	float4 BrickOffsetAndSize = View_VolumetricLightmapIndirectionTexture.Load(int4(IndirectionTextureTexelCoordinate, 0));
-
 	float PaddedBrickSize = View_VolumetricLightmapBrickSize + 1;
 	return (BrickOffsetAndSize.xyz * PaddedBrickSize + frac(IndirectionTextureTexelCoordinate / BrickOffsetAndSize.w) * View_VolumetricLightmapBrickSize + .5f) * View_VolumetricLightmapBrickTexelSize;
 }
-
-#line 134 "/Engine/Private/VolumetricLightmapShared.ush"
 float GetVolumetricLightmapDirectionalLightShadowing(float3 BrickTextureUVs)
 {
 	return Texture3DSampleLevel(View_DirectionalLightShadowingBrickTexture, View_SharedBilinearClampedSampler, BrickTextureUVs, 0).x;
 }
-
-#line 230 "/Engine/Private/LightmapCommon.ush"
 float4 GetPrecomputedShadowMasks(float LightmapVTPageTableResult, FVertexFactoryInterpolantsVSToPS Interpolants, FMaterialPixelParameters MaterialParameters, float3 VolumetricLightmapBrickTextureUVs)
 {
-
-#line 261 "/Engine/Private/LightmapCommon.ush"
-
-
 		float DirectionalLightShadowing = 1.0f;
-
-
-
-
-
-
-
-
 		[branch]
 		if ((GetPrimitiveData(MaterialParameters).Flags & 0x4) != 0)
 		{
-
-
 				VolumetricLightmapBrickTextureUVs = ComputeVolumetricLightmapBrickTextureUVs(LWCToFloat(GetWorldPosition(MaterialParameters)));
-
-
 			DirectionalLightShadowing = GetVolumetricLightmapDirectionalLightShadowing(VolumetricLightmapBrickTextureUVs);
 		}
-
-
 		return float4(DirectionalLightShadowing, 1, 1, 1);
-
-
-
-
-
-
 }
-
-#line 722 "/Engine/Private/BRDF.ush"
 void EnvBRDFApproxFullyRough(inout float3 DiffuseColor, inout float3 SpecularColor)
 {
-
 	DiffuseColor += SpecularColor * 0.45;
 	SpecularColor = 0;
-
 }
-
-#line 729 "/Engine/Private/BRDF.ush"
 void EnvBRDFApproxFullyRough(inout float3 DiffuseColor, inout float SpecularColor)
 {
 	DiffuseColor += SpecularColor * 0.45;
 	SpecularColor = 0;
 }
-
-#line 734 "/Engine/Private/BRDF.ush"
 void EnvBRDFApproxFullyRough(inout float3 DiffuseColor, inout float3 F0, inout float3 F90)
 {
 	DiffuseColor += F0 * 0.45;
 	F0 = F90 = 0;
 }
-
-#line 87 "/Engine/Private/ParticipatingMediaCommon.ush"
 float HenyeyGreensteinPhase(float G, float CosTheta)
 {
-
-
 	float Numer = 1.0f - G * G;
 	float Denom = 1.0f + G * G + 2.0f * G * CosTheta;
 	return Numer / (4.0f * PI * Denom * sqrt(Denom));
 }
-
-#line 417 "/Engine/Private/HeightFogCommon.ush"
 float4 CombineVolumetricFog(float4 GlobalFog, float3 VolumeUV, uint EyeIndex, float SceneDepth, ViewState InView)
 {
 	float4 VolumetricFogLookup = float4(0, 0, 0, 1);
-
 	if (InView.RenderingReflectionCaptureMask == 0.0f && ! (( InView.EnvironmentComponentsFlags [0] & 0x20)  > 0))
 	{
 		return VolumetricFogLookup;
 	}
-
-
 	float VolFogStartDistance = 0.0f;
 	if (OpaqueBasePass_Shared_Fog_ApplyVolumetricFog > 0)
 	{
-
 		if (EyeIndex == 0)
 		{
 			VolFogStartDistance = OpaqueBasePass_Shared_Fog_VolumetricFogStartDistance;
@@ -7539,94 +5165,51 @@ float4 CombineVolumetricFog(float4 GlobalFog, float3 VolumeUV, uint EyeIndex, fl
 			VolFogStartDistance = OpaqueBasePass_Shared_FogISR_VolumetricFogStartDistance;
 			VolumetricFogLookup = Texture3DSampleLevel(OpaqueBasePass_Shared_FogISR_IntegratedLightScattering, View_SharedBilinearClampedSampler, VolumeUV, 0);
 		}
-
-
-
-
-
-
 		VolumetricFogLookup.rgb *= InView.OneOverPreExposure;
 	}
-
-
-
 	VolumetricFogLookup = lerp(float4(0, 0, 0, 1), VolumetricFogLookup, saturate((SceneDepth - VolFogStartDistance) * 100000000.0f));
-
-
-
-
-
-
-
-
-
-
-
-
-
 	return float4(VolumetricFogLookup.rgb + GlobalFog.rgb * VolumetricFogLookup.a, VolumetricFogLookup.a * GlobalFog.a);
 }
-
-#line 469 "/Engine/Private/HeightFogCommon.ush"
 float4 CombineVolumetricFog(float4 GlobalFog, float3 VolumeUV, uint EyeIndex, float SceneDepth)
 {
 	return CombineVolumetricFog(GlobalFog, VolumeUV, EyeIndex, SceneDepth, GetPrimaryView());
 }
-
-#line 474 "/Engine/Private/HeightFogCommon.ush"
 float ComputeNormalizedZSliceFromDepth(float SceneDepth, ViewState InView)
 {
 	return log2(SceneDepth * InView.VolumetricFogGridZParams.x + InView.VolumetricFogGridZParams.y) * InView.VolumetricFogGridZParams.z * InView.VolumetricFogInvGridSize.z;
 }
-
-#line 479 "/Engine/Private/HeightFogCommon.ush"
 float ComputeNormalizedZSliceFromDepth(float SceneDepth)
 {
 	return ComputeNormalizedZSliceFromDepth(SceneDepth, GetPrimaryView());
 }
-
-#line 484 "/Engine/Private/HeightFogCommon.ush"
 float3 ComputeVolumeUVFromNDC(float4 NDCPosition, ViewState InView)
 {
 	NDCPosition.xy /= NDCPosition.w;
 	float3 VolumeUV = float3(NDCPosition.xy * float2(.5f, -.5f) + .5f, ComputeNormalizedZSliceFromDepth(NDCPosition.w, InView));
 	return min(VolumeUV * float3(InView.VolumetricFogScreenToResourceUV.xy, 1.0), float3(InView.VolumetricFogUVMax, 1.0));
 }
-
-#line 491 "/Engine/Private/HeightFogCommon.ush"
 float3 ComputeVolumeUVFromNDC(float4 NDCPosition)
 {
 	return ComputeVolumeUVFromNDC(NDCPosition, GetPrimaryView());
 }
-
-#line 510 "/Engine/Private/HeightFogCommon.ush"
 float3 ComputeVolumeUV(FDFVector3 WorldPosition, FDFInverseMatrix WorldToClip, ViewState InView)
 {
 	float4 NDCPosition = DFMultiplyDemote(MakeDFVector(WorldPosition, 1.0f), WorldToClip);
 	return ComputeVolumeUVFromNDC(NDCPosition, InView);
 }
-
-#line 515 "/Engine/Private/HeightFogCommon.ush"
 float3 ComputeVolumeUV(FDFVector3 WorldPosition, FDFInverseMatrix WorldToClip)
 {
 	return ComputeVolumeUV(WorldPosition, WorldToClip, GetPrimaryView());
 }
-
-#line 110 "/Engine/Private/ReflectionEnvironmentShared.ush"
 float3 GetSkySHDiffuseSimple(float3 Normal)
 {
 	float4 NormalVector = float4(Normal, 1);
-
 	float3 Intermediate0;
 	Intermediate0.x = dot(View_SkyIrradianceEnvironmentMap[0], NormalVector);
 	Intermediate0.y = dot(View_SkyIrradianceEnvironmentMap[1], NormalVector);
 	Intermediate0.z = dot(View_SkyIrradianceEnvironmentMap[2], NormalVector);		
-
-
 	return max(0, Intermediate0);
 }
-
-#line 12 "/Engine/Private/ShadingModelsMaterial.ush"
 void SetGBufferForShadingModel(
 	in out FGBufferData GBuffer, 
 	in out FMaterialPixelParameters MaterialParameters,
@@ -7649,92 +5232,34 @@ void SetGBufferForShadingModel(
 	GBuffer.Roughness = Roughness;
 	GBuffer.Anisotropy = Anisotropy;
 	GBuffer.ShadingModelID = ShadingModel;
-
-
-
-
 	if (false)
 	{
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#line  84 "/Engine/Private/ShadingModelsMaterial.ush"
-
-#line 118 "/Engine/Private/ShadingModelsMaterial.ush"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#line 203 "/Engine/Private/ShadingModelsMaterial.ush"
-
 }
-
-#line 14 "/Engine/Private/LocalFogVolumes/LocalFogVolumeCommon.ush"
 struct FLocalFogVolumeGPUInstanceData
 {
 	float3x3	PreTranslatedInvTransform;
 	float3		TranslatedWorlPos;
 	float		UniformScale;
 	float		UniformScaleInv;		
-
 	float		RadialFogExtinction;
 	float		HeightFogExtinction;
 	float		HeightFogFalloff;
 	float		HeightFogOffset;
-
 	float3		Emissive;
 	float3		Albedo;
 	float		PhaseG;
 };
-
-#line 84 "/Engine/Private/LocalFogVolumes/LocalFogVolumeCommon.ush"
 FLocalFogVolumeGPUInstanceData GetLocalFogVolumeGPUInstanceData(uint Index)
 {
 	FLocalFogVolumeGPUInstanceData Data;
 	uint Offset = Index * 3;
-
 	float4 Data0 = OpaqueBasePass_Shared_LFV_LocalFogVolumeInstances[Offset + 0];
 	float4 Data1 = OpaqueBasePass_Shared_LFV_LocalFogVolumeInstances[Offset + 1];
 	float4 Data2 = OpaqueBasePass_Shared_LFV_LocalFogVolumeInstances[Offset + 2];
-
-
-
 	Data.TranslatedWorlPos	= Data0.xyz;
 	Data.UniformScale		= Data0.w;
 	Data.UniformScaleInv	= 1.0f / Data.UniformScale;
-
-
 	float3 XVec;
 	float3 YVec;
 	XVec.xy		= UnpackFloat2FromUInt(asuint(Data1.x));
@@ -7742,17 +5267,12 @@ FLocalFogVolumeGPUInstanceData GetLocalFogVolumeGPUInstanceData(uint Index)
 	XVec.z		= Temp.x;
 	YVec.x		= Temp.y;
 	YVec.yz		= UnpackFloat2FromUInt(asuint(Data1.z));
-
 	float3 ZVec = cross(XVec, YVec);
-
 	Data.PreTranslatedInvTransform = float3x3(float3(XVec * Data.UniformScaleInv), float3(YVec * Data.UniformScaleInv), float3(ZVec * Data.UniformScaleInv));
-
-
 	float3 Data2X			= UnpackR11G11B10F(asuint(Data2.x));
 	Data.RadialFogExtinction= Data2X.x;
 	Data.HeightFogExtinction= Data2X.y;
 	Data.HeightFogFalloff	= Data2X.z;
-
 	uint PackEmissiveData   = asuint(Data2.y);
 	if (PackEmissiveData > 0)
 	{
@@ -7762,54 +5282,37 @@ FLocalFogVolumeGPUInstanceData GetLocalFogVolumeGPUInstanceData(uint Index)
 	{
 		Data.Emissive = 0.0f.xxx;
 	}
-
 	float4 Data2Z			= UnpackRGBA8(asuint(Data2.z));
 	Data.Albedo				= Data2Z.rgb;
 	Data.PhaseG				= Data2Z.a;
 	Data.HeightFogOffset	= Data2.w;
-
 	return Data;
 }
-
-#line 160 "/Engine/Private/LocalFogVolumes/LocalFogVolumeCommon.ush"
 struct FFogData
 {
 	float IntegratedLuminanceFactor;
 	float Coverage;
 };
-
-#line 166 "/Engine/Private/LocalFogVolumes/LocalFogVolumeCommon.ush"
 FFogData LocalFogVolumeEvaluateAnalyticalIntegral(FLocalFogVolumeGPUInstanceData FogInstance, float3 RayStartU, float3 RayDirU, float RayLengthU)
 {
 	FFogData FogData;
-
 	float RadialOpticalDepth = 0.0f;
 	float HeightOpticalDepth = 0.0f;
-
 	if (FogInstance.RadialFogExtinction > 0.0f)
 	{
-
-
-
-
 		float3 SphereCenter = 0.0f;
 		float3 VolumeCenterToRayO = (RayStartU - SphereCenter);
-
 		float b = dot(RayDirU, VolumeCenterToRayO);
 		float c = dot(VolumeCenterToRayO, VolumeCenterToRayO) - 1.0f;
 		float h = b * b - c;
-
 		if (h >= 0.0)
 		{
 			h = sqrt(h);
 			float Length0 = -b - h;
 			float Length1 = -b + h;
-
 			Length0 = max(Length0, 0.0);
 			Length1 = max(Length1, 0.0);
 			Length1 = min(Length1, RayLengthU);
-
-
 			const float Length0Sqr = Length0 * Length0;
 			const float Length1Sqr = Length1 * Length1;
 			float Integral0 = -(c * Length0 + b * Length0Sqr + Length0Sqr * Length0 / 3.0f);
@@ -7817,126 +5320,40 @@ FFogData LocalFogVolumeEvaluateAnalyticalIntegral(FLocalFogVolumeGPUInstanceData
 			RadialOpticalDepth = max(0.0, FogInstance.RadialFogExtinction * (Integral1 - Integral0) * (3.0f / 4.0f));
 		}
 	}
-
 	if (FogInstance.HeightFogExtinction > 0.0f)
 	{
-
-
-
-
 		float StartHeight = RayStartU.z - FogInstance.HeightFogOffset; 
-
-
 		const float SafeDirThreshold = 0.0001;
 		const float SignRayDirUZ = RayDirU.z >= 0.0f ? 1.0f : -1.0f;
 		const float SafeRayDirUZ = (abs(RayDirU.z) < SafeDirThreshold) ? SafeDirThreshold * SignRayDirUZ : RayDirU.z;
-
-
-
-
-
-
-
-
-
 		float Factor0 = StartHeight * FogInstance.HeightFogFalloff;
 		float Factor1 = SafeRayDirUZ * RayLengthU * FogInstance.HeightFogFalloff;
 		Factor0 = max(-80.0f, Factor0); 
-
 		HeightOpticalDepth += (FogInstance.HeightFogExtinction / (FogInstance.HeightFogFalloff * SafeRayDirUZ)) * (exp(-Factor0) - exp(-(Factor0 + Factor1)));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	}
-
-
-
-
-
 	float TR = exp(-RadialOpticalDepth);
 	float TH = exp(-HeightOpticalDepth);
 	float T = 1 - (1 - TR) * (1 - TH);
 	float OpticalDepth = -log(T);
-
-
 	float Transmittance = exp(-OpticalDepth * FogInstance.UniformScale * (1.0f / 100.0f));
-
-
-
-
-
-
-
-
-
 	FogData.Coverage = (1.0 - Transmittance);
-
-
 	FogData.IntegratedLuminanceFactor = FogData.Coverage;
-
 	return FogData;
 }
-
-#line 298 "/Engine/Private/LocalFogVolumes/LocalFogVolumeCommon.ush"
 float3 LocalFogVolumeEvaluateInScattering(in FLocalFogVolumeGPUInstanceData FogInstance, in FFogData FogData, in float3 RayDirWorld)
 {
 	float3 InScattering = 0.0f;
-
-
-
-
 	InScattering += OpaqueBasePass_Shared_LFV_DirectionalLightColor * HenyeyGreensteinPhase(-FogInstance.PhaseG, dot(RayDirWorld, OpaqueBasePass_Shared_LFV_DirectionalLightDirection));
-
-
 	if (View_SkyLightVolumetricScatteringIntensity > 0)
 	{
 		float3 SkyLighting = View_SkyLightColor.rgb * GetSkySHDiffuseSimple(RayDirWorld * -FogInstance.PhaseG);
-
 		const float SkyVisibility = 1.0f; 
 		InScattering += (SkyVisibility * View_SkyLightVolumetricScatteringIntensity) * SkyLighting;
 	}
-
-
 	InScattering *= FogInstance.Albedo;
-
-
-
 	InScattering += FogInstance.Emissive;
-
-
 	return InScattering * FogData.IntegratedLuminanceFactor;
 }
-
-#line 333 "/Engine/Private/LocalFogVolumes/LocalFogVolumeCommon.ush"
 float4 GetLFVInstanceContribution(
 	in uint InstanceIndex,
 	in float3 CamRayTranslatedWorldOrigin,
@@ -7945,54 +5362,37 @@ float4 GetLFVInstanceContribution(
 	in bool bPlatformSupportsVolumetricFogOntranslucent)
 {
 	FLocalFogVolumeGPUInstanceData FogInstance = GetLocalFogVolumeGPUInstanceData(InstanceIndex);
-
 	float3 LuminanceColor = float3(0.0f, 0.0f, 0.0f);
 	float Transmittance = 1.0f;
-
-
 	float3 DepthBufferPosU	= mul(DepthBufferTranslatedWorldPos - FogInstance.TranslatedWorlPos,	FogInstance.PreTranslatedInvTransform);
 	float3 RayPosU			= mul(CamRayTranslatedWorldOrigin - FogInstance.TranslatedWorlPos,		FogInstance.PreTranslatedInvTransform);
 	float3 RayDirU			= mul(CamRayTranslatedWorldDir,											FogInstance.PreTranslatedInvTransform);
 	RayDirU.xyz				= normalize(RayDirU);
-
 	float2 TsU = RayIntersectSphere(RayPosU, RayDirU, float4(0.0, 0.0, 0.0, 1.0));
-
-
 	TsU = max(OpaqueBasePass_Shared_LFV_GlobalStartDistance.xx * FogInstance.UniformScaleInv, TsU);
-
-
 	float3 ViewToDepthVector = DepthBufferPosU - RayPosU;
 	float ViewToDepthVectorSqrLength = dot(ViewToDepthVector, ViewToDepthVector);
 	float LengthDepthBufferU = sqrt(ViewToDepthVectorSqrLength);
 	TsU = min(TsU, LengthDepthBufferU);
-
 	if (any(TsU > 0.0))
 	{
-
 		if (OpaqueBasePass_Shared_LFV_ShouldRenderLocalFogVolumeInVolumetricFog && bPlatformSupportsVolumetricFogOntranslucent)
 		{
-
 			float CosAngle = dot(CamRayTranslatedWorldDir, View_ViewForward);
 			float InvCosAngle = (CosAngle > 0.0001) ? rcp(CosAngle) : 0;
 			float ExcludeDistance = View_VolumetricFogMaxDistance * InvCosAngle * FogInstance.UniformScaleInv;
 			TsU = max(TsU, ExcludeDistance);
 		}
-
 		float RayTracedLengthU = max(0.0, abs(TsU.y - TsU.x));
-
 		if (RayTracedLengthU > 0.0)
 		{
 			FFogData FogData = LocalFogVolumeEvaluateAnalyticalIntegral(FogInstance, RayPosU + RayDirU * TsU.x, RayDirU, RayTracedLengthU);
-
 			LuminanceColor = LocalFogVolumeEvaluateInScattering(FogInstance, FogData, CamRayTranslatedWorldDir);
 			Transmittance = 1.0 - FogData.Coverage;
 		}
 	}
-
 	return float4(LuminanceColor, Transmittance);
 }
-
-#line 392 "/Engine/Private/LocalFogVolumes/LocalFogVolumeCommon.ush"
 float4 GetLFVContribution(
 	in ViewState ResolvedView,
 	in uint2 TilePos,
@@ -8002,27 +5402,22 @@ float4 GetLFVContribution(
 {
 	const float3 CamRayTranslatedWorldOrigin= ResolvedView.TranslatedWorldCameraOrigin;
 	const float3 CamRayWorldDir				= normalize(DepthBufferTranslatedWorldPos - CamRayTranslatedWorldOrigin);
-
 	OutLFVCount = OpaqueBasePass_Shared_LFV_LocalFogVolumeTileDataTexture[uint3(TilePos, 0)];
 	const float4 DefaultColorTransmittance = float4(0.0, 0.0, 0.0, 1.0);
 	float4 LFVContribution = DefaultColorTransmittance;
 	for (int LFVIndex = 0; LFVIndex < OutLFVCount; ++LFVIndex)
 	{
 		uint InstanceIndex = OpaqueBasePass_Shared_LFV_LocalFogVolumeTileDataTexture[uint3(TilePos, 1 + LFVIndex)];
-
 		float4 LFVLuminanceColorTransmittance = GetLFVInstanceContribution(
 			InstanceIndex,
 			CamRayTranslatedWorldOrigin,
 			CamRayWorldDir,
 			DepthBufferTranslatedWorldPos,
 			bPlatformSupportsVolumetricFogOntranslucent);
-
 		LFVContribution = float4(LFVContribution.rgb * LFVLuminanceColorTransmittance.a + LFVLuminanceColorTransmittance.rgb, LFVContribution.a * LFVLuminanceColorTransmittance.a);
 	}
 	return LFVContribution;
 }
-
-#line 421 "/Engine/Private/LocalFogVolumes/LocalFogVolumeCommon.ush"
 float4 GetLFVContribution(
 	in ViewState ResolvedView,
 	in uint2 TilePos,
@@ -8032,17 +5427,11 @@ float4 GetLFVContribution(
 	uint OutLFVCount = 0;
 	return GetLFVContribution(ResolvedView, TilePos, TranslatedWorldPosition, bPlatformSupportsVolumetricFogOntranslucent, OutLFVCount);
 }
-
-#line 756 "/Engine/Private/BasePassPixelShader.usf"
 uint GetDiffuseIndirectSampleOcclusion(FGBufferData GBuffer, float3 V, float3 WorldNormal, float3 WorldBentNormal, float2 SvPosition, float MaterialAO)
 {
 	uint DiffuseIndirectSampleOcclusion = 0;
-#line 785 "/Engine/Private/BasePassPixelShader.usf"
-
 	return DiffuseIndirectSampleOcclusion;
 }
-
-#line 814 "/Engine/Private/BasePassPixelShader.usf"
 void FPixelShaderInOut_MainPS(
 	FVertexFactoryInterpolantsVSToPS Interpolants,
 	FSharedBasePassInterpolants BasePassInterpolants,
@@ -8050,170 +5439,44 @@ void FPixelShaderInOut_MainPS(
 	inout FPixelShaderOut Out,
 	bool bAllowWrite=true)
 {
-
 	const uint EyeIndex = Interpolants.EyeIndex;
 	ResolvedView = ResolveView(EyeIndex);
-
-
-
-
-
-
 	float4 OutVelocity = 0;
-
-
 	float4 OutGBufferD = 0;
-
-
 	float4 OutGBufferE = 0;
-
 	FMaterialPixelParameters MaterialParameters = GetMaterialPixelParameters(Interpolants, In.SvPosition);
 	FPixelMaterialInputs PixelMaterialInputs;
-
 	float LightmapVTPageTableResult = (float)0.0f;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	{
 		float4 ScreenPosition = SvPositionToResolvedScreenPosition(In.SvPosition);
 		float3 TranslatedWorldPosition = SvPositionToResolvedTranslatedWorld(In.SvPosition);
 		CalcMaterialParametersEx(MaterialParameters, PixelMaterialInputs, In.SvPosition, ScreenPosition, In.bIsFrontFace, TranslatedWorldPosition, BasePassInterpolants.PixelPositionExcludingWPO);
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	const bool bEditorWeightedZBuffering = false;
-
-
-
-
-
-
-
-
 	if (!bEditorWeightedZBuffering)
 	{
-
-
-
 		GetMaterialCoverageAndClipping(MaterialParameters, PixelMaterialInputs);
-
 	}
-
-
 	const float Dither = InterleavedGradientNoise(MaterialParameters.SvPosition.xy, View_StateFrameIndexMod8);
-
-
-
-
-
-
-
-
-
-
-
 	float3 BaseColor = GetMaterialBaseColor(PixelMaterialInputs);
 	float  Metallic = GetMaterialMetallic(PixelMaterialInputs);
 	float  Specular = GetMaterialSpecular(PixelMaterialInputs);
-
 	float Roughness = GetMaterialRoughness(PixelMaterialInputs);
 	float Anisotropy = GetMaterialAnisotropy(PixelMaterialInputs);
 	uint ShadingModel = GetMaterialShadingModel(PixelMaterialInputs);
 	float Opacity = GetMaterialOpacity(PixelMaterialInputs);
-
-
-
-
-
-
-
-
-
-
-
 	float MaterialAO = GetMaterialAmbientOcclusion(PixelMaterialInputs);
-
-
 	float3 SubsurfaceColor = 0;
-
 	float SubsurfaceProfile = 0;
-
-#line 968 "/Engine/Private/BasePassPixelShader.usf"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#line 1011 "/Engine/Private/BasePassPixelShader.usf"
-
-
 	float DBufferOpacity = 1.0f;
-#line 1043 "/Engine/Private/BasePassPixelShader.usf"
-
-
 	const float BaseMaterialCoverageOverWater = Opacity;
 	const float WaterVisibility = 1.0 - BaseMaterialCoverageOverWater;
-
 	float3 VolumetricLightmapBrickTextureUVs;
-
-
-
-
-
 	FGBufferData GBuffer = (FGBufferData)0;
-
 	GBuffer.GBufferAO = MaterialAO;
 	GBuffer.PerObjectGBufferData = GetPrimitive_PerObjectGBufferData(MaterialParameters.PrimitiveId);
 	GBuffer.Depth = MaterialParameters.ScreenPosition.w;
 	GBuffer.PrecomputedShadowFactors = GetPrecomputedShadowMasks(LightmapVTPageTableResult, Interpolants, MaterialParameters, VolumetricLightmapBrickTextureUVs);
-
-
-
 	SetGBufferForShadingModel(
 		GBuffer,
 		MaterialParameters,
@@ -8228,220 +5491,60 @@ void FPixelShaderInOut_MainPS(
 		Dither,
 		ShadingModel
 		);
-
-
-
-#line 1107 "/Engine/Private/BasePassPixelShader.usf"
-
-
-
-
-
-
-
-
-
-#line 1135 "/Engine/Private/BasePassPixelShader.usf"
-
-
 	const bool bChecker = CheckerFromPixelPos(MaterialParameters.SvPosition.xy);
-
-
-
 	GBuffer.SpecularColor = ComputeF0(Specular, BaseColor, Metallic);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	GBuffer.DiffuseColor = BaseColor - BaseColor * Metallic;
-
-
 	{
-
 		GBuffer.DiffuseColor = GBuffer.DiffuseColor * View_DiffuseOverrideParameter.w + View_DiffuseOverrideParameter.xyz;
 		GBuffer.SpecularColor = GBuffer.SpecularColor * View_SpecularOverrideParameter.w + View_SpecularOverrideParameter.xyz;
 	}
-
-
-
-
-
 	{
 		EnvBRDFApproxFullyRough(GBuffer.DiffuseColor, GBuffer.SpecularColor);
-
 	}
-
 	float3 InputBentNormal = MaterialParameters.WorldNormal;
-
-
 	[branch] if( GBuffer.ShadingModelID == 4 && 0)
 	{
 		const float2 oct1 = ((float2(GBuffer.CustomData.a, GBuffer.CustomData.z) * 4) - (512.0/255.0)) + UnitVectorToOctahedron(GBuffer.WorldNormal);
 		InputBentNormal = OctahedronToUnitVector(oct1);
 	}
-
 	const FShadingOcclusion ShadingOcclusion = ApplyBentNormal(MaterialParameters.CameraVector, InputBentNormal, GetWorldBentNormalZero(MaterialParameters), GBuffer.Roughness, MaterialAO);
-
-
 	GBuffer.GBufferAO = AOMultiBounce( Luminance( GBuffer.SpecularColor ), ShadingOcclusion.SpecOcclusion ).g;
-
 	GBuffer.DiffuseIndirectSampleOcclusion = GetDiffuseIndirectSampleOcclusion(GBuffer, MaterialParameters.CameraVector, MaterialParameters.WorldNormal, GetWorldBentNormalZero(MaterialParameters), In.SvPosition.xy, MaterialAO);
-
-
-
 	float3 DiffuseColor = 0;
 	float3 Color = 0;
 	float IndirectIrradiance = 0;
-
 	float3 ColorSeparateSpecular = 0;
 	float3 ColorSeparateEmissive = 0;
-
 	float3 DiffuseIndirectLighting = 0;
 	float3 SubsurfaceIndirectLighting = 0;
-
 	float3 SeparatedWaterMainDirLightLuminance = float3(0, 0, 0); 
-
-
-
-#line 1348 "/Engine/Private/BasePassPixelShader.usf"
-
-
-
-
-
-
-
-
-
-
-
 		float4 HeightFogging = BasePassInterpolants.VertexFog;
-
-
-
-
-
-
-
-
-
-
 	float4 Fogging = HeightFogging;
-
-
-
-
-
-
-
-
-
-
-
 	if (OpaqueBasePass_Shared_Fog_ApplyVolumetricFog > 0) 
 	{
-
 		float3 TranslatedWorldPosition = SvPositionToResolvedTranslatedWorld(In.SvPosition);
 		uint2 TilePos = clamp(uint2(In.SvPosition.xy / float(OpaqueBasePass_Shared_LFV_LocalFogVolumeTilePixelSize)), uint2(0, 0), OpaqueBasePass_Shared_LFV_LocalFogVolumeTileDataTextureResolution - 1);
 		float4 LocalFogVolumeContrib = GetLFVContribution(ResolvedView, TilePos, TranslatedWorldPosition);
 		Fogging = float4(LocalFogVolumeContrib.rgb + Fogging.rgb * LocalFogVolumeContrib.a, LocalFogVolumeContrib.a * Fogging.a);
-
-
 		float3 VolumeUV = ComputeVolumeUV(MaterialParameters.AbsoluteWorldPosition, ResolvedView.WorldToClip, ResolvedView);
 		Fogging = CombineVolumetricFog(Fogging, VolumeUV, EyeIndex, GBuffer.Depth, ResolvedView);
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#line 1423 "/Engine/Private/BasePassPixelShader.usf"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	float3 Emissive = 0;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	Emissive = GetMaterialEmissive(PixelMaterialInputs);
-
-
-
-
 	float3 OutOfBoundsMaskLuminance = 0;
-
-
-
-
 		[branch]
 		if (View_OutOfBoundsMask > 0)
 		{
 			FPrimitiveSceneData PrimitiveData = GetPrimitiveData(MaterialParameters);
-
 			float3 ObjectBounds =
 				float3(
 					PrimitiveData.ObjectBoundsX,
 					PrimitiveData.ObjectBoundsY,
 					PrimitiveData.ObjectBoundsZ
 				);
-
 			if (any(abs(DFFastLocalSubtractDemote(MaterialParameters.AbsoluteWorldPosition, PrimitiveData.ObjectWorldPosition)) > ObjectBounds + 1))
 			{
-
 				float3 WorldPosModulo = DFFmodByPow2Demote(MaterialParameters.AbsoluteWorldPosition, 65536.0);
-
 				float Gradient = frac(dot(WorldPosModulo, float3(.577f, .577f, .577f) / 500.0f));
 				OutOfBoundsMaskLuminance = lerp(float3(1,1,0), float3(0,1,1), Gradient.xxx > .5f);
 				Emissive = OutOfBoundsMaskLuminance;
@@ -8449,7 +5552,6 @@ void FPixelShaderInOut_MainPS(
 			}
 			else if (PrimitiveData.MaxWPOExtent > 0.0f)
 			{
-
 				const float3 OffsetAmt = abs(MaterialParameters.WorldPosition_CamRelative - MaterialParameters.WorldPosition_NoOffsets_CamRelative);
 				const float MaxOffsetDim = max3(OffsetAmt.x, OffsetAmt.y, OffsetAmt.z);
 				const float Proximity = 1.0f - saturate(abs(MaxOffsetDim - PrimitiveData.MaxWPOExtent) / 0.05f);
@@ -8457,310 +5559,42 @@ void FPixelShaderInOut_MainPS(
 				Opacity = sign(Proximity);
 			}
 		}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	Color += DiffuseColor;
-
-
-
 	Color += Emissive;
-
-
-
-
-#line 1575 "/Engine/Private/BasePassPixelShader.usf"
-
-
-#line 1599 "/Engine/Private/BasePassPixelShader.usf"
-
-
-
-
-
-
 	bool bSubstrateSubsurfaceEnable = false;
-#line 1922 "/Engine/Private/BasePassPixelShader.usf"
-
-
-#line 1999 "/Engine/Private/BasePassPixelShader.usf"
-
 		{
 			FLightAccumulator LightAccumulator = (FLightAccumulator)0;
-
-
 			Color = Color * Fogging.a + Fogging.rgb;
-
-#line 2018 "/Engine/Private/BasePassPixelShader.usf"
-
 			LightAccumulator_Add(LightAccumulator, Color, 0, 1.0f, false);
-
 			Out.MRT[0] =  ( LightAccumulator_GetResult(LightAccumulator) );
-
-
-
-
 				Out.MRT[0].a = 0;
-
 		}
-
-
-#line 2099 "/Engine/Private/BasePassPixelShader.usf"
-
-
-
-
-
-
-
-
-
 	if(bEditorWeightedZBuffering)
 	{
 		Out.MRT[0].a = 1;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 			clip(Out.MRT[0].a - GetMaterialOpacityMaskClipValue());
-
 	}
-
-
-
-
-
-
 	const float ViewPreExposure = View_PreExposure;
-
-
-
-
-
-
-
-
 		Out.MRT[0].rgba *= ViewPreExposure;
-
-
-
-
-
-#line 2204 "/Engine/Private/BasePassPixelShader.usf"
-
-
 	Out.MRT[0].xyz = min(Out.MRT[0].xyz, View_MaterialMaxEmissiveValue.xxx);
-
-#line 2222 "/Engine/Private/BasePassPixelShader.usf"
-
-
-
-
-
-
-#line 2371 "/Engine/Private/BasePassPixelShader.usf"
-
-
 }
-
-#line 12 "/Engine/Private/PixelShaderOutputCommon.ush"
 void MainPS
 	(
-
-
-
-
 		FVertexFactoryInterpolantsVSToPS Interpolants,
-
-
-
 		FSharedBasePassInterpolants BasePassInterpolants,
-
-
-
-
-
-
-
-
-
-
 		in   float4 SvPosition : SV_Position		
-
 		, in bool bIsFrontFace : SV_IsFrontFace
-
-
-
-
-
 		, out float4 OutTarget0 : SV_Target0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#line  91 "/Engine/Private/PixelShaderOutputCommon.ush"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		 
-
-
-
-
-
-
-
 	)
 {
-
-
-
-
-
-
-
-
-
-
-
 	FPixelShaderIn PixelShaderIn = (FPixelShaderIn)0;
 	FPixelShaderOut PixelShaderOut = (FPixelShaderOut)0;
-
-
-
-
-
-
-
-
-
-
 	PixelShaderIn.SvPosition = SvPosition;
 	PixelShaderIn.bIsFrontFace = bIsFrontFace;
-
 uint ArrayIndex = 0;
-
-
-
-
-
-
-
 	FPixelShaderInOut_MainPS(Interpolants, BasePassInterpolants, PixelShaderIn, PixelShaderOut);
-
-
-
-
-
-
-
-
-
 	OutTarget0 = PixelShaderOut.MRT[0];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#line 211 "/Engine/Private/PixelShaderOutputCommon.ush"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /* BASE64_ENV
