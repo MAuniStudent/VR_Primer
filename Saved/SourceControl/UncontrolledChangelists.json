@@ -16,7 +16,9 @@
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/PrimeRoads/Intersection.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/PrimeRoads/MotorwayBridge.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap_BuiltData.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap.umap"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Materials/ConcreteTwo_M.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/PrimeRoads/Bridge.uasset"
 			]
 		}
 	]
