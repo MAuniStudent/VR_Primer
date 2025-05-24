@@ -6,15 +6,7 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/MainRoadBrushes/RoadWithBarrier.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/MainRoadBrushes/Road.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/MainRoadBrushes/RoadLeftPavement.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/MainRoadBrushes/DoublePavementRoad.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/MainRoadBrushes/WallRoad.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/MainRoadBrushes/RoadBridge.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/MainRoadBrushes/CrossRoads.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/MainRoadBrushes/T_Junction.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap"
 			]
 		}
 	]
