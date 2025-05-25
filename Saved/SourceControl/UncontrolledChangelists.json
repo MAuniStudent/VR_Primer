@@ -1,0 +1,28 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Flaked_Painted_Brick_Wall_vhqkddj/Medium/T_vhqkddj_2K_B_Mat.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Dirty_Sidewalk_Tiles_ugxjcdpn/Medium/T_ugxjcdpn_2K_B_Mat.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/BuildingMeshes/Doorway.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/BuildingMeshes/InnerStairWall.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/BuildingMeshes/Stairs.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_DoubleBaseWithStairs.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/BuildingMeshes/StairWall.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/BuildingMeshes/StairsFloor.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_BalconyTowerBase.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_BalconyBase.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_PrimeBalconyBase.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_Balcony_A.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_BalconySecondFloor.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_Balcony2nd.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_Base_A.uasset"
+			]
+		}
+	]
+}
