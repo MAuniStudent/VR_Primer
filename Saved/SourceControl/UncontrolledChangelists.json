@@ -5,8 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap"
 			]
 		}
 	]
