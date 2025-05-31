@@ -18,7 +18,21 @@
 				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Rough_Concrete_Wall_vh2ifg1/Medium/T_vh2ifg1_2K_N.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Rough_Concrete_Wall_vh2ifg1/Medium/T_vh2ifg1_2K_ORM.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Rough_Concrete_Wall_vh2ifg1/Medium/T_vh2ifg1_2K_B.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Rough_Concrete_Wall_vh2ifg1/Medium/MI_vh2ifg1.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Rough_Concrete_Wall_vh2ifg1/Medium/MI_vh2ifg1.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/BuildingMeshes/WallMeshs/BalconyCorner.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/BuildingMeshes/WallMeshs/BalconyCornerTop.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/BuildingMeshes/WallMeshs/OpenWindow.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/BuildingMeshes/WallMeshs/WindowOnOff.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/BuildingMeshes/WallMeshs/RoundWall.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/BuildingMeshes/WallMeshs/DoorFrame.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/BuildingMeshes/WallMeshs/balcony.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/BuildingMeshes/WallMeshs/balconytwo.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Materials/M_BaseLight.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_BlockOfFlats.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/BuildingMeshes/WallMeshs/FlatsRoof.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_BalconyFlats.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/NewFlats.uasset"
 			]
 		}
 	]
