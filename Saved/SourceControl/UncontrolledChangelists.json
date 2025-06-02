@@ -37,6 +37,14 @@
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/BuildingMeshes/WallMeshs/RoundWallFloor.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_LargeFlatBlock.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SquareFlatBlock.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/CornerTrim.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/LongTrim.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/cornerTrimWall.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/TrimWall.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/SM_CornerTrimWithWall.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/LongTrimWall.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/SM_LongTrimWithWall.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/TrimEnd.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_BlockOfFlats.uasset"
 			]
 		}
