@@ -45,6 +45,21 @@
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/LongTrimWall.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/SM_LongTrimWithWall.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/TrimEnd.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/My_Roads/RoadJunctionBase.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/My_Roads/CornerCurb.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/My_Roads/Junct_Curb.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/My_Roads/SM_RoadJunction.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/My_Roads/RoadBase.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/My_Roads/StraightCurb.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/My_Roads/SM_StraightCurbedRoad.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/My_Roads/SM_LeftTurn.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/My_Roads/SM_RightTurn.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/My_Roads/SingleTileRoad.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/My_Roads/SingleTileRoadTwo.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/My_Roads/SM_CrossRoads.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Materials/M_BaseColourTwo.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/door.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_RedTowerBlock.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_BlockOfFlats.uasset"
 			]
 		}
