@@ -6,20 +6,7 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap.umap",
-				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Brick_Wall_xevtfjz/Medium/T_xevtfjz_2K_N.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Brick_Wall_xevtfjz/Medium/T_xevtfjz_2K_ORM.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Brick_Wall_xevtfjz/Medium/T_xevtfjz_2K_B.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Brick_Wall_xevtfjz/Medium/MI_xevtfjz.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Damaged_Wall_Plaster_uc2lddzcw/Medium/T_uc2lddzcw_2K_N.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Damaged_Wall_Plaster_uc2lddzcw/Medium/T_uc2lddzcw_2K_ORM.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Damaged_Wall_Plaster_uc2lddzcw/Medium/T_uc2lddzcw_2K_B.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Damaged_Wall_Plaster_uc2lddzcw/Medium/MI_uc2lddzcw.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Damaged_Brick_Wall_Plaster_vcvodh0/Medium/T_vcvodh0_2K_N.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Damaged_Brick_Wall_Plaster_vcvodh0/Medium/T_vcvodh0_2K_ORM.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Damaged_Brick_Wall_Plaster_vcvodh0/Medium/T_vcvodh0_2K_B.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/Surfaces/Damaged_Brick_Wall_Plaster_vcvodh0/Medium/MI_vcvodh0.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap"
 			]
 		}
 	]
