@@ -6,27 +6,7 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/FoundationColumn.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/FoundationPillerBase.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/FoundationStrip.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/HaflFoundationStrip.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Materials/M_Steel.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Textures/M_Steel.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Girder.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/GirderBase.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/GirderWithBase.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/smallGirder.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/SM_BuildingShell.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap_BuiltData.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap.umap",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/SM_BuildingFrame.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/MainRoadBrushes/DoublePavementRoad.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/PrimeRoads/DoublePavedRoad.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/PrimeRoads/Bridge.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/PrimeRoads/RightTurn.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/PrimeRoads/Road.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Roads/PrimeRoads/BarrierRoad.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap"
 			]
 		}
 	]
