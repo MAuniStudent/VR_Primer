@@ -6,10 +6,7 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/CornerCurb.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/BuildingMeshes/WallMeshs/DoorWindowWall.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Materials/M_BaseColourThree.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap"
 			]
 		}
 	]
