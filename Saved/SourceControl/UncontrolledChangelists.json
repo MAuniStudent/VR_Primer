@@ -6,7 +6,20 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/CBP_SandboxCharacter.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/CBP_SandboxCharacter.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/LevelPrototyping/Fence.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/LevelPrototyping/BrokenFence.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/CustomTraversableMeshs/BrokenFence.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/CustomTraversableMeshs/Fence.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/SM_BrokenFenceWall.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/CustomTraversableMeshs/300Wall.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/ShopWindowHighWall.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/ShopLowFront.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/FoundationPillerBase.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/FoundationColumn.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/CustomTraversableMeshs/FoundationPillerBase.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/CustomTraversableMeshs/FoundationStrip.uasset"
 			]
 		}
 	]
