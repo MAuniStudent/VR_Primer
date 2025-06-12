@@ -6,7 +6,9 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/CustomTraversableMeshs/FoundationPillerBase.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/SM_GirderFormation.uasset"
 			]
 		}
 	]
