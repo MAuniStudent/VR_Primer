@@ -8,7 +8,11 @@
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/CustomTraversableMeshs/FoundationPillerBase.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/SM_GirderFormation.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/SM_GirderFormation.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/CustomTraversableMeshs/GrabableGirder.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/WallCorner.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/RoadBarrier.uasset"
 			]
 		}
 	]
