@@ -1,0 +1,20 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/3D/Modular_Snow_Road_uhpqdjvfa/Medium/uhpqdjvfa_tier_2.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/Megascans/3D/Modular_Snow_Road_uhpqdjvfa/Medium/MI_uhpqdjvfa.uasset",
+				"D:/Program Files/Epic Games/UE_5.5/Engine/Plugins/Fab/Content/Materials/Standard/M_MS_Base_Trm.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_BalconyBlock.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/BalconyBlock.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap.umap"
+			]
+		}
+	]
+}
