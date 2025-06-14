@@ -13,7 +13,25 @@
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_BalconyBlock.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/BalconyBlock.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap_BuiltData.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap.umap"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/UEFN_Manny_Zombie_Animation_Sample_Pack/T_UEFN_Mannequin_Mat_BaseColor.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/UEFN_Manny_Zombie_Animation_Sample_Pack/T_UEFN_Mannequin_Mat_Normal.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/UEFN_Manny_Zombie_Animation_Sample_Pack/T_UEFN_Mannequin_Mat.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/UEFN_Manny_Zombie_Animation_Sample_Pack/T_UEFN_Mannequin_Mat1.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/UEFN_Manny_Zombie_Animation_Sample_Pack/Picsart_240613_012024735.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/UEFN_Manny_Zombie_Animation_Sample_Pack/T_UEFN_Mannequin_Debug_Mat_Normal.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/UEFN_Manny_Zombie_Animation_Sample_Pack/T_UEFN_Mannequin_Debug_Mat.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/UEFN_Manny_Zombie_Animation_Sample_Pack/T_UEFN_Mannequin_Debug_Mat1.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/Zombie_Female_-_Animated/PackedMaterial0.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/Zombie_Female_-_Animated/zombie_female_animated.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/Zombie_Female_-_Animated/zombie_female_animated_Anim.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/Zombie_Female_-_Animated/zombie_female_animated_PhysicsAsset.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/Zombie_Female_-_Animated/zombie_female_animated_Skeleton.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/Zombie_Female_-_Animated/zombie_female_animated_texture_0.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/Zombie_Female_-_Animated/zombie_female_animated_texture_1.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/Zombie_Female_-_Animated/zombie_female_animated_texture_2.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Fab/Zombie_Female_-_Animated/zombie_female_animated_texture_3.uasset"
 			]
 		}
 	]
