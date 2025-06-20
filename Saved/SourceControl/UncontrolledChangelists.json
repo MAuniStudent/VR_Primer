@@ -1,0 +1,21 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/MasterZombie.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Farmer.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Mortition.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/NecroticNurse.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Soldier.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Police.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Builder.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/ZombieHealthbar.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset"
+			]
+		}
+	]
+}
