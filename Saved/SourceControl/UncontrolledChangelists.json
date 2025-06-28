@@ -11,7 +11,14 @@
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Weapons/CM_2000/EquippedCM2000.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Weapons/DE_42/EquippedDE42.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Animations/Equiping_Interacting/Shooting1.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Animations/Equiping_Interacting/Shooting1_Montage.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Animations/Equiping_Interacting/Shooting1_Montage.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/PlayerHUD.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Characters/UEFN_Mannequin/Meshes/SK_UEFN_Mannequin.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Weapons/Mesh/Sniper/SK_CM-2000_Sniper_Xaxis.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Weapons/Mesh/Sniper/SK_CM-2000_Sniper_Xaxis_Skeleton.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Weapons/Mesh/Assault/SK_AK-110_Assault_Xaxis.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Weapons/Mesh/Assault/SK_AK-110_Assault_Xaxis_Skeleton.uasset"
 			]
 		}
 	]
