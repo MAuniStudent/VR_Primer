@@ -6,7 +6,12 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/CBP_SandboxCharacter.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Weapons/CM_2000/EquippedCM2000.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Weapons/DE_42/EquippedDE42.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Animations/Equiping_Interacting/Shooting1.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Animations/Equiping_Interacting/Shooting1_Montage.uasset"
 			]
 		}
 	]
