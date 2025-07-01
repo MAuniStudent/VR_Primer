@@ -13,11 +13,17 @@
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Weapons/MasterProjectile_BP.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/ZombieAnimations/Zombie_Reaction_Hit.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/ZombieAnimations/Zombie_Reaction_Hit_Montage.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Zombie/Meshes/MasterZombieAnimBP.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Zombie/RetargetedZombieAnims/Zombie_Reaction_Hit.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Zombie/RetargetedZombieAnims/Zombie_Reaction_Hit_Montage.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Zombie/RetargetedZombieAnims/Idle_Hit_Strong_Left.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Zombie/RetargetedZombieAnims/Idle_Hit_Strong_Left.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Characters/UEFN_Mannequin/Meshes/SK_UEFN_Mannequin.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/PlayerHUD.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/Assets/healthredbar.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/Assets/myhealthbar.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/Assets/xpyellowbar.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/ZombieAnimations/Zombie_Reaction_Hit_Montage.uasset"
 			]
 		}
 	]
