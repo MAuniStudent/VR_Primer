@@ -6,7 +6,18 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Animations/Equiping_Interacting/Rifle_Pull_Out1_Montage.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Animations/Equiping_Interacting/Rifle_Put_Away__1_1_Montage.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Animations/Equiping_Interacting/Sheathing_Sword_Montage.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Animations/Equiping_Interacting/Standing_Disarm_Pistol_1_1_Montage.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Animations/Equiping_Interacting/Standing_Equip_Pistol_1_1_Montage.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Animations/Equiping_Interacting/Withdrawing_Sword_Montage.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/ABP_SandboxCharacter.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Characters/UEFN_Mannequin/Meshes/SK_UEFN_Mannequin.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Weapons/AK_110/EquippedAK110.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/CBP_SandboxCharacter.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/PlayerHUD.uasset"
 			]
 		}
 	]
