@@ -17,7 +17,12 @@
 				"D:/FALMOUTH/VR_Primer/Content/Characters/UEFN_Mannequin/Meshes/SK_UEFN_Mannequin.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Weapons/AK_110/EquippedAK110.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/CBP_SandboxCharacter.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/PlayerHUD.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/PlayerHUD.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_HalfBuilt.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMap_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset"
 			]
 		}
 	]
