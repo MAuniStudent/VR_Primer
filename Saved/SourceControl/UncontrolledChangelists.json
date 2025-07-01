@@ -11,7 +11,13 @@
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/MasterZombie.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Weapons/MasterProjectile_BP.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Weapons/MasterProjectile_BP.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/ZombieAnimations/Zombie_Reaction_Hit.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/ZombieAnimations/Zombie_Reaction_Hit_Montage.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Zombie/Meshes/MasterZombieAnimBP.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Zombie/RetargetedZombieAnims/Zombie_Reaction_Hit.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Zombie/RetargetedZombieAnims/Zombie_Reaction_Hit_Montage.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Zombie/RetargetedZombieAnims/Idle_Hit_Strong_Left.uasset"
 			]
 		}
 	]
