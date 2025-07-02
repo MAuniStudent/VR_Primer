@@ -42,7 +42,10 @@
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/zombieAlert_Cue.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/zombieDeath_Cue.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/ZombieEat_Cue.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/zombieone_Cue.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/zombieone_Cue.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Zombie/Meshes/MasterZombieAnimBP.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/Assets/inventoryback.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/ZombieHealthbar.uasset"
 			]
 		}
 	]
