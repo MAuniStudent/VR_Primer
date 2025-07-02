@@ -26,7 +26,23 @@
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Zombie/RetargetedZombieAnims/Idle_Hit_Strong_Right.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Zombie/RetargetedZombieAnims/Idle_Hit_Strong_Right_Montage.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Zombie/RetargetedZombieAnims/Zombie_Reaction_Hit_Montage.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/MasterZombie.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/MasterZombie.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Animations/Equiping_Interacting/Idle_Hit_Strong_Left.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Animations/Equiping_Interacting/Idle_Hit_Strong_Right.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Animations/Equiping_Interacting/Idle_Hit_Strong_Left_Montage.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Animations/Equiping_Interacting/Idle_Hit_Strong_Right_Montage.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/ZombieEat.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/zombieDeath.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/zombieAlert.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/zombieone.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/MaleSceam2.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/MaleScream1.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/MaleSceam2_Cue.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/MaleScream1_Cue.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/zombieAlert_Cue.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/zombieDeath_Cue.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/ZombieEat_Cue.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/FX/Sounds/zombieone_Cue.uasset"
 			]
 		}
 	]
