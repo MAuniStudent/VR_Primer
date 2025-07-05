@@ -5215,3 +5215,87 @@ Please set its path in Project Settings / Meta XR Plugin / PC.
 [2025.07.05-00.00.34:525][979]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
 [2025.07.05-00.00.34:774][980]LogSourceControl: Uncontrolled asset enumeration finished in 0.251906 seconds (Found 12712 uncontrolled assets)
 [2025.07.05-00.00.34:953][981]LogAssetRegistry: Display: Asset registry cache written as 68.0 MiB to ../../../../../../FALMOUTH/VR_Primer/Intermediate/CachedAssetRegistry_*.bin
+[2025.07.05-00.01.19:076][113]LogDerivedDataCache: C:/Users/devat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.07.05-00.01.35:756][281]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.07.05-00.01.35:758][281]Cmd: MAP REBUILD ALLVISIBLE
+[2025.07.05-00.01.35:759][281]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2025.07.05-00.01.35:762][281]LogWorld: UWorld::CleanupWorld for VR_TestPawn, bSessionEnded=true, bCleanupResources=true
+[2025.07.05-00.01.35:764][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.05-00.01.35:764][281]LogChaosDD: Creating Chaos Debug Draw Scene for world VR_TestPawn
+[2025.07.05-00.01.35:765][281]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Blueprints/Maps/VR_TestPawn.VR_TestPawn'.
+[2025.07.05-00.01.35:780][281]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2025.07.05-00.01.35:780][281]LogNavigationDataBuild: Display: UNavigationSystemV1::Build total execution time: 0.00s
+[2025.07.05-00.01.35:832][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.07.05-00.01.37:738][281]LogLevel: Display: Export Material TexCoord Scales took 0.099 seconds.
+[2025.07.05-00.01.37:743][281]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2025.07.05-00.01.37:758][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.07.05-00.01.37:798][281]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2025.07.05-00.01.37:859][281]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2025.07.05-00.01.37:872][281]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2025.07.05-00.01.38:389][281]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2025.07.05-00.01.38:389][281]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12292
+[2025.07.05-00.01.46:011][281]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2025.07.05-00.01.46:011][281]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2025.07.05-00.01.46:011][281]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2025.07.05-00.01.46:011][281]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2025.07.05-00.01.46:011][281]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2025.07.05-00.01.46:143][281]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2025.07.05-00.01.46:143][281]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.447ms to complete.
+[2025.07.05-00.01.46:143][281]LogEditorBuildUtils: Build time 0:10
+[2025.07.05-00.01.46:230][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.07.05-00.01.46:946][318]Job is a success!
+[2025.07.05-00.01.47:056][319]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2025.07.05-00.01.47:056][319]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2025.07.05-00.01.47:056][319]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2025.07.05-00.01.47:057][319]LogVolumetricLightmapImport:      Bricks at depth
+[2025.07.05-00.01.47:057][319]LogVolumetricLightmapImport:          0: 25.0% covering 100.0% of volume
+[2025.07.05-00.01.47:057][319]LogVolumetricLightmapImport:          1: 75.0% covering 4.7% of volume
+[2025.07.05-00.01.47:057][319]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2025.07.05-00.01.47:057][319]LogVolumetricLightmapImport:      Bricks in each level
+[2025.07.05-00.01.47:057][319]LogVolumetricLightmapImport:          VR_TestPawn 			 4 bricks 	 100.0% (Persistent Level)
+[2025.07.05-00.01.47:082][319]LogStaticLightingSystem: VR_TestPawn_BuiltData storing lightmap data for 11 meshes in 2 LightmapResourceClusters (5.5 Meshes per cluster).
+[2025.07.05-00.01.47:097][319]Lightmass on DEVATOX: 470.435 ms total, 70.063 ms importing, 1.285 ms setup, 20.901 ms photons, 359.686 ms processing, 0 us extra exporting [11/11 mappings]. Threads: 3.94 sec total, 36.877 ms processing.
+[2025.07.05-00.01.47:097][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.07.05-00.01.47:143][319]LogStaticLightingSystem: Illumination: 9.31 sec (1.694 ms encoding lightmaps, 16 us encoding shadowmaps)
+[2025.07.05-00.01.47:143][319]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2025.07.05-00.01.47:143][319]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2025.07.05-00.01.48:019][319]DumpUnbuiltLightIteractions
+[2025.07.05-00.01.48:019][319]Lights with unbuilt interactions: 0
+[2025.07.05-00.01.48:019][319]
+[2025.07.05-00.01.48:019][319]Primitives with unbuilt interactions: 0
+[2025.07.05-00.01.48:827][319]Cmd: MAP CHECK NOTIFYRESULTS
+[2025.07.05-00.01.48:827][319]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.303ms to complete.
+[2025.07.05-00.02.03:674][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.07.05-00.02.03:679][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.05-00.02.03:722][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/VR_TestPawn" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.07.05-00.02.03:764][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.07.05-00.02.03:792][ 62]LogSavePackage: Moving output files for package: /Game/Blueprints/Maps/VR_TestPawn
+[2025.07.05-00.02.03:794][ 62]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/VR_TestPawnD4BE408748B57E4321F58F8B2054481C.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap'
+[2025.07.05-00.02.03:801][ 62]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Blueprints/Maps/VR_TestPawn_BuiltData
+[2025.07.05-00.02.03:801][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.05-00.02.03:801][ 62]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Maps/VR_TestPawn_BuiltData] ([1] browsable assets)...
+[2025.07.05-00.02.03:801][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Maps/VR_TestPawn_BuiltData]
+[2025.07.05-00.02.03:801][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/VR_TestPawn_BuiltData" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset" SILENT=true
+[2025.07.05-00.02.03:804][ 62]LogSavePackage: Moving output files for package: /Game/Blueprints/Maps/VR_TestPawn_BuiltData
+[2025.07.05-00.02.03:804][ 62]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/VR_TestPawn_BuiltDataE3C53A2C43AD98E439F60EB1625903FD.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset'
+[2025.07.05-00.02.03:806][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.561 ms
+[2025.07.05-00.02.03:806][ 62]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Blueprints/Maps/VR_TestPawn_BuiltData
+[2025.07.05-00.02.03:806][ 62]LogFileHelpers: Saving map 'VR_TestPawn' took 0.084
+[2025.07.05-00.02.03:806][ 62]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Maps/VR_TestPawn_BuiltData] ([1] browsable assets)...
+[2025.07.05-00.02.03:806][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Maps/VR_TestPawn_BuiltData]
+[2025.07.05-00.02.03:806][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/VR_TestPawn_BuiltData" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset" SILENT=true
+[2025.07.05-00.02.03:809][ 62]LogSavePackage: Moving output files for package: /Game/Blueprints/Maps/VR_TestPawn_BuiltData
+[2025.07.05-00.02.03:809][ 62]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/VR_TestPawn_BuiltData971B9EA34B6D86694AEC9F930C315201.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset'
+[2025.07.05-00.02.03:819][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave took 139.778 ms (total: 144.339 ms)
+[2025.07.05-00.02.03:852][ 62]LogContentValidation: Display: Starting to validate 2 assets
+[2025.07.05-00.02.03:852][ 62]LogContentValidation: Enabled validators:
+[2025.07.05-00.02.03:852][ 62]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.05-00.02.03:852][ 62]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.05-00.02.03:852][ 62]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.05-00.02.03:852][ 62]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.05-00.02.03:852][ 62]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.05-00.02.03:852][ 62]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.05-00.02.03:854][ 62]AssetCheck: /Game/Blueprints/Maps/VR_TestPawn Validating asset
+[2025.07.05-00.02.03:854][ 62]AssetCheck: /Game/Blueprints/Maps/VR_TestPawn_BuiltData Validating asset
