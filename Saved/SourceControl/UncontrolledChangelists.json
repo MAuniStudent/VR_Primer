@@ -5,11 +5,6 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Weapons/MasterEquippedWeapon.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/CBP_SandboxCharacter.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Weapons/DE_42/EquippedDE42.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Weapons/AK_110/EquippedAK110.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Weapons/CM_2000/EquippedCM2000.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap"
 			]
