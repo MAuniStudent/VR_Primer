@@ -8,7 +8,9 @@
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/Zombie/Zombie_AnimationBP.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/CBP_SandboxCharacter.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap"
 			]
 		}
 	]
