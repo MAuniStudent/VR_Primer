@@ -99291,3 +99291,939 @@ Disable Touch Interface
 [2025.07.26-14.41.39:067][924]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.07.26-14.41.39:067][924]AssetCheck: /Game/Blueprints/Maps/VR_TestPawn Validating asset
 [2025.07.26-14.41.39:067][924]AssetCheck: /Game/Blueprints/Maps/VR_TestPawn_BuiltData Validating asset
+[2025.07.26-14.43.51:798][307]LogStreaming: Display: FlushAsyncLoading(3232): 1 QueuedPackages, 0 AsyncPackages
+[2025.07.26-14.43.52:102][307]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Characters/QuantumCharacter/Mesh/SKM_QuantumCharacter_NoHead.SKM_QuantumCharacter_NoHead
+[2025.07.26-14.43.52:370][307]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2025.07.26-14.43.52:370][307]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_18'.
+[2025.07.26-14.43.52:667][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.07.26-14.43.55:562][313]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2025.07.26-14.43.55:562][313]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_19'.
+[2025.07.26-14.43.57:824][373]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2025.07.26-14.43.57:825][373]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_20'.
+[2025.07.26-14.43.57:855][374]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2025.07.26-14.43.57:855][374]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_21'.
+[2025.07.26-14.44.40:407][487]LogSlate: Window 'SKM_QuantumCharacter_NoHead' being destroyed
+[2025.07.26-14.44.40:747][487]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.07.26-14.44.40:747][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.26-14.44.40:934][487]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2025.07.26-14.45.50:012][897]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 236200.984375
+[2025.07.26-14.45.50:140][907]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.26-14.45.50:140][908]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 236201.125000, Update Interval: 322.445740
+[2025.07.26-14.46.24:688][494]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.07.26-14.46.24:718][494]LogStreaming: Display: FlushAsyncLoading(3239): 1 QueuedPackages, 0 AsyncPackages
+[2025.07.26-14.46.25:585][494]LogTexture: Display: Building textures: /Game/Characters/QuantumCharacter/Textures/Body/T_Body_BC.T_Body_BC (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Fast
+[2025.07.26-14.46.25:587][494]LogTexture: Display: Building textures: /Game/Characters/QuantumCharacter/Textures/Body/T_Body_ORM.T_Body_ORM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Fast
+[2025.07.26-14.46.25:883][494]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2025.07.26-14.46.25:925][494]LogTexture: Display: Building textures: /Game/Characters/QuantumCharacter/Textures/Body/T_Body_N.T_Body_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1216.999984 MB), EncodeSpeed: Fast
+[2025.07.26-14.46.29:872][494]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_22
+[2025.07.26-14.46.29:872][494]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_22'.
+[2025.07.26-14.46.32:162][494]LogSlate: Window 'Delete Assets' being destroyed
+[2025.07.26-14.46.32:859][494]LogUObjectGlobals: Force Deleting 56 Package(s):
+	Asset Name: /Game/Characters/QuantumCharacter/Textures/Shirt_RolledUp/T_Shirt_RolledUp_OcclusionRoughnessMetallic.T_Shirt_RolledUp_OcclusionRoughnessMetallic
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/QuantumCharacter/Textures/Shirt_RolledUp/T_Shirt_RolledUp_Normal.T_Shirt_RolledUp_Normal
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/QuantumCharacter/Textures/Shirt_RolledUp/T_Shirt_RolledUp_Blue_BaseColor.T_Shirt_RolledUp_Blue_BaseColor
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/QuantumCharacter/Textures/Patches/T_Patches_ORM.T_Patches_ORM
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/QuantumCharacter/Textures/Patches/T_Patches_N.T_Patches_N
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/QuantumCharacter/Textures/Patches/T_Patches_BaseColor.T_Patches_BaseColor
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/QuantumCharacter/Textures/Jeans/T_Jeans_OcclusionRoughnessMetallic.T_Jeans_OcclusionRoughnessMetallic
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/QuantumCharacter/Textures/Jeans/T_Jeans_Normal.T_Jeans_Normal
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/QuantumCharacter/Textures/Jeans/T_Jeans_Beje_BaseColor.T_Jeans_Beje_BaseColor
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/QuantumCharacter/Textures/Pistol/T_Pistol_ORM.T_Pistol_ORM
+	Asset Type: Texture2D
+[2025.07.26-14.46.34:732][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Shirt_RolledUp_Blue.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:732][494]LogMaterial: Warning: M_Shirt_RolledUp_Blue: Requesting an invalid TextureIndex! (2 / 1)
+[2025.07.26-14.46.34:735][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Shirt_RolledUp_Blue.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:738][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Shirt_RolledUp_Blue.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:739][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Shirt_RolledUp_Blue.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:742][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Shirt_RolledUp_Blue.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:744][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Patches.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:745][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Patches.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:747][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Patches.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:747][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Patches.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:750][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Patches.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:751][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Jeasn.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:752][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Jeasn.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:752][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Jeasn.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:755][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Jeasn.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:755][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Jeasn.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:757][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Pistol.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:758][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Pistol.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:759][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Pistol.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:761][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Pistol.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:762][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Pistol.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:764][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Holster_Hard_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:765][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Holster_Hard_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:767][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Holster_Hard_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:768][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Holster_Hard_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:770][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Holster_Hard_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:773][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\Eye\M_Eye.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) UVs not scaled by center as the base UVs are a ortho projection and this depth needs to stay in that space> Missing input texture
+	(Node TextureSample) Sample Displacement map as above, sampled at the Iris Radius> Missing input texture
+	(Node MakeMaterialAttributes) Error on property BaseColor
+	(Node MakeMaterialAttributes) Error on property ClearCoatRoughness
+
+[2025.07.26-14.46.34:775][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\Eye\M_Eye.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) UVs not scaled by center as the base UVs are a ortho projection and this depth needs to stay in that space> Missing input texture
+	(Node TextureSample) Sample Displacement map as above, sampled at the Iris Radius> Missing input texture
+	(Node MakeMaterialAttributes) Error on property BaseColor
+	(Node MakeMaterialAttributes) Error on property ClearCoatRoughness
+
+[2025.07.26-14.46.34:777][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\Eye\M_Eye.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) UVs not scaled by center as the base UVs are a ortho projection and this depth needs to stay in that space> Missing input texture
+	(Node TextureSample) Sample Displacement map as above, sampled at the Iris Radius> Missing input texture
+	(Node MakeMaterialAttributes) Error on property BaseColor
+	(Node MakeMaterialAttributes) Error on property ClearCoatRoughness
+
+[2025.07.26-14.46.34:779][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\Eye\M_Eye.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) UVs not scaled by center as the base UVs are a ortho projection and this depth needs to stay in that space> Missing input texture
+	(Node TextureSample) Sample Displacement map as above, sampled at the Iris Radius> Missing input texture
+	(Node MakeMaterialAttributes) Error on property BaseColor
+	(Node MakeMaterialAttributes) Error on property ClearCoatRoughness
+
+[2025.07.26-14.46.34:780][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\Eye\M_Eye.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) UVs not scaled by center as the base UVs are a ortho projection and this depth needs to stay in that space> Missing input texture
+	(Node TextureSample) Sample Displacement map as above, sampled at the Iris Radius> Missing input texture
+	(Node MakeMaterialAttributes) Error on property BaseColor
+	(Node MakeMaterialAttributes) Error on property ClearCoatRoughness
+
+[2025.07.26-14.46.34:782][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\Eye\M_Eye.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) UVs not scaled by center as the base UVs are a ortho projection and this depth needs to stay in that space> Missing input texture
+	(Node TextureSample) Sample Displacement map as above, sampled at the Iris Radius> Missing input texture
+	(Node MakeMaterialAttributes) Error on property BaseColor
+	(Node MakeMaterialAttributes) Error on property ClearCoatRoughness
+
+[2025.07.26-14.46.34:785][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\Eye\M_Eye.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) UVs not scaled by center as the base UVs are a ortho projection and this depth needs to stay in that space> Missing input texture
+	(Node TextureSample) Sample Displacement map as above, sampled at the Iris Radius> Missing input texture
+	(Node MakeMaterialAttributes) Error on property BaseColor
+	(Node MakeMaterialAttributes) Error on property ClearCoatRoughness
+
+[2025.07.26-14.46.34:786][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\Eye\M_Eye.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) UVs not scaled by center as the base UVs are a ortho projection and this depth needs to stay in that space> Missing input texture
+	(Node TextureSample) Sample Displacement map as above, sampled at the Iris Radius> Missing input texture
+	(Node MakeMaterialAttributes) Error on property BaseColor
+	(Node MakeMaterialAttributes) Error on property ClearCoatRoughness
+
+[2025.07.26-14.46.34:789][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\Eye\M_Eye.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) UVs not scaled by center as the base UVs are a ortho projection and this depth needs to stay in that space> Missing input texture
+	(Node TextureSample) Sample Displacement map as above, sampled at the Iris Radius> Missing input texture
+	(Node MakeMaterialAttributes) Error on property BaseColor
+	(Node MakeMaterialAttributes) Error on property ClearCoatRoughness
+
+[2025.07.26-14.46.34:790][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\Eye\M_Eye.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) UVs not scaled by center as the base UVs are a ortho projection and this depth needs to stay in that space> Missing input texture
+	(Node TextureSample) Sample Displacement map as above, sampled at the Iris Radius> Missing input texture
+	(Node MakeMaterialAttributes) Error on property BaseColor
+	(Node MakeMaterialAttributes) Error on property ClearCoatRoughness
+
+[2025.07.26-14.46.34:793][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\Eye\M_Eye.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) UVs not scaled by center as the base UVs are a ortho projection and this depth needs to stay in that space> Missing input texture
+	(Node TextureSample) Sample Displacement map as above, sampled at the Iris Radius> Missing input texture
+	(Node MakeMaterialAttributes) Error on property BaseColor
+	(Node MakeMaterialAttributes) Error on property ClearCoatRoughness
+
+[2025.07.26-14.46.34:795][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\Eye\M_Eye.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) UVs not scaled by center as the base UVs are a ortho projection and this depth needs to stay in that space> Missing input texture
+	(Node TextureSample) Sample Displacement map as above, sampled at the Iris Radius> Missing input texture
+	(Node MakeMaterialAttributes) Error on property BaseColor
+	(Node MakeMaterialAttributes) Error on property ClearCoatRoughness
+
+[2025.07.26-14.46.34:796][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Cap_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:799][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Cap_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:801][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Cap_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:802][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Cap_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:804][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Cap_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:807][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\Eye\M_Eye.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) UVs not scaled by center as the base UVs are a ortho projection and this depth needs to stay in that space> Missing input texture
+	(Node TextureSample) Sample Displacement map as above, sampled at the Iris Radius> Missing input texture
+	(Node MakeMaterialAttributes) Error on property BaseColor
+	(Node MakeMaterialAttributes) Error on property ClearCoatRoughness
+
+[2025.07.26-14.46.34:816][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Teeth.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:818][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Teeth.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:819][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Teeth.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:821][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Teeth.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:822][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Teeth.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:822][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Head.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:824][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Head.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:825][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Head.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:827][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Head.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:828][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Head.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:830][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Eyelashesh.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:831][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Eyelashesh.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:833][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Eyelashesh.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:836][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Eyelashesh.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:837][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Eyelashesh.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:839][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Eyeball.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:840][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Eyeball.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:842][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Eyeball.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:843][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Eyeball.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:845][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Eyeball.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:846][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Drops_Tactical_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:847][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Drops_Tactical_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:849][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Drops_Tactical_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:850][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Drops_Tactical_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:852][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Drops_Tactical_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:853][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Bulletproof_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:855][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Bulletproof_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:855][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Bulletproof_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:856][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Bulletproof_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:859][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Bulletproof_Bege.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:861][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Arms.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:862][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Arms.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:864][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Arms.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:865][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Arms.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:867][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Arms.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.34:867][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\Eye\ML_EyeRefraction.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) UVs not scaled by center as the base UVs are a ortho projection and this depth needs to stay in that space> Missing input texture
+
+[2025.07.26-14.46.34:868][494]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\Eye\ML_EyeRefraction.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) UVs not scaled by center as the base UVs are a ortho projection and this depth needs to stay in that space> Missing input texture
+
+[2025.07.26-14.46.43:222][494]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.07.26-14.46.43:255][494]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2025.07.26-14.46.43:286][494]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.07.26-14.46.47:090][792]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.07.26-14.46.47:090][792]LogStreaming: Display: FlushAsyncLoading(3249): 1 QueuedPackages, 0 AsyncPackages
+[2025.07.26-14.46.47:117][792]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Materials/M_Rifle_Olive (0xE9FAD3980287EA90) /Game/Characters/QuantumCharacter/Materials/M_Rifle_Olive (0xE9FAD3980287EA90) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Textures/Rifle/T_Rifle_Olive_BaseColor (0x807236247E49B118)
+[2025.07.26-14.46.47:117][792]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Materials/M_Rifle_Olive (0xE9FAD3980287EA90) /Game/Characters/QuantumCharacter/Materials/M_Rifle_Olive (0xE9FAD3980287EA90) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Textures/Rifle/T_Rifle_Olive_Normal (0x540D83541820B08A)
+[2025.07.26-14.46.47:117][792]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Materials/M_Rifle_Olive (0xE9FAD3980287EA90) /Game/Characters/QuantumCharacter/Materials/M_Rifle_Olive (0xE9FAD3980287EA90) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Textures/Rifle/T_Rifle_Olive_OcclusionRoughnessMetallic (0x3F719AC458A2472B)
+[2025.07.26-14.46.47:118][792]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Rifle_Olive.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.46.47:149][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.07.26-14.47.01:799][792]LogSlate: Window 'Delete Assets' being destroyed
+[2025.07.26-14.47.01:853][792]LogUObjectGlobals: Force Deleting 22 Package(s):
+	Asset Name: /Game/Characters/QuantumCharacter/Mesh/PA_QuantumCharacter.PA_QuantumCharacter
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Shirt_RolledUp_Blue.SKM_Shirt_RolledUp_Blue
+	Asset Type: SkeletalMesh
+	Asset Name: /Game/Characters/QuantumCharacter/Mesh/Modules/PA_Shirt_RolledUp.PA_Shirt_RolledUp
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Patch_Back.SKM_Patch_Back
+	Asset Type: SkeletalMesh
+	Asset Name: /Game/Characters/QuantumCharacter/Mesh/Modules/PA_Patch_Back_Physics.PA_Patch_Back_Physics
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Jeans.SKM_Jeans
+	Asset Type: SkeletalMesh
+	Asset Name: /Game/Characters/QuantumCharacter/Mesh/Modules/PA_Jeans.PA_Jeans
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Holster_Hard_Bege.SKM_Holster_Hard_Bege
+	Asset Type: SkeletalMesh
+	Asset Name: /Game/Characters/QuantumCharacter/Mesh/Modules/PA_Holster_Hard_Bege_Physics.PA_Holster_Hard_Bege_Physics
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Head.SKM_Head
+	Asset Type: SkeletalMesh
+[2025.07.26-14.47.02:891][792]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_QuantumCharacter_NoHead) ...
+[2025.07.26-14.47.03:015][792]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_QuantumCharacter) ...
+[2025.07.26-14.47.04:305][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2025.07.26-14.47.04:336][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2025.07.26-14.47.04:366][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.07.26-14.47.04:515][792]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Textures/Rifle/T_Rifle_Olive_BaseColor which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.04:515][792]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Materials/M_Rifle_Olive, a dependent package /Game/Characters/QuantumCharacter/Textures/Rifle/T_Rifle_Olive_BaseColor was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Textures/Rifle/T_Rifle_Olive_BaseColor has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Textures/Rifle/T_Rifle_Olive_BaseColor.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.04:515][792]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Textures/Rifle/T_Rifle_Olive_Normal which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.04:515][792]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Materials/M_Rifle_Olive, a dependent package /Game/Characters/QuantumCharacter/Textures/Rifle/T_Rifle_Olive_Normal was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Textures/Rifle/T_Rifle_Olive_Normal has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Textures/Rifle/T_Rifle_Olive_Normal.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.04:515][792]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Textures/Rifle/T_Rifle_Olive_OcclusionRoughnessMetallic which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.04:515][792]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Materials/M_Rifle_Olive, a dependent package /Game/Characters/QuantumCharacter/Textures/Rifle/T_Rifle_Olive_OcclusionRoughnessMetallic was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Textures/Rifle/T_Rifle_Olive_OcclusionRoughnessMetallic has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Textures/Rifle/T_Rifle_Olive_OcclusionRoughnessMetallic.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.09:160][241]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.07.26-14.47.09:160][241]LogStreaming: Display: FlushAsyncLoading(3251): 1 QueuedPackages, 0 AsyncPackages
+[2025.07.26-14.47.09:186][241]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Materials/M_Body (0x1274C1C7D1D95C6) /Game/Characters/QuantumCharacter/Materials/M_Body (0x1274C1C7D1D95C6) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Textures/Body/T_Body_BC (0x5D9730C86498FC19)
+[2025.07.26-14.47.09:186][241]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Materials/M_Body (0x1274C1C7D1D95C6) /Game/Characters/QuantumCharacter/Materials/M_Body (0x1274C1C7D1D95C6) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Textures/Body/T_Body_N (0xBA4C7F1933445169)
+[2025.07.26-14.47.09:186][241]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Materials/M_Body (0x1274C1C7D1D95C6) /Game/Characters/QuantumCharacter/Materials/M_Body (0x1274C1C7D1D95C6) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Textures/Body/T_Body_ORM (0xBFE3BCB843AD40AC)
+[2025.07.26-14.47.09:187][241]LogMaterial: Warning: [AssetLog] D:\FALMOUTH\VR_Primer\Content\Characters\QuantumCharacter\Materials\M_Body.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.07.26-14.47.09:216][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.07.26-14.47.11:381][241]LogSlate: Window 'Delete Assets' being destroyed
+[2025.07.26-14.47.11:465][241]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2025.07.26-14.47.11:497][241]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2025.07.26-14.47.11:526][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.07.26-14.47.11:638][241]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Textures/Body/T_Body_BC which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.11:638][241]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Materials/M_Body, a dependent package /Game/Characters/QuantumCharacter/Textures/Body/T_Body_BC was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Textures/Body/T_Body_BC has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Textures/Body/T_Body_BC.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.11:638][241]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Textures/Body/T_Body_N which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.11:638][241]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Materials/M_Body, a dependent package /Game/Characters/QuantumCharacter/Textures/Body/T_Body_N was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Textures/Body/T_Body_N has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Textures/Body/T_Body_N.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.11:638][241]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Textures/Body/T_Body_ORM which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.11:638][241]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Materials/M_Body, a dependent package /Game/Characters/QuantumCharacter/Textures/Body/T_Body_ORM was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Textures/Body/T_Body_ORM has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Textures/Body/T_Body_ORM.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.15:542][621]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.07.26-14.47.15:542][621]LogStreaming: Display: FlushAsyncLoading(3253): 1 QueuedPackages, 0 AsyncPackages
+[2025.07.26-14.47.15:543][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Arms (0x9EB01B3F9F13C43A)
+[2025.07.26-14.47.15:543][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Bulletproof_Bege (0x6D3B1D413E013D73)
+[2025.07.26-14.47.15:543][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Drops_1_Bege (0x831FB5EAE9F2ACB1)
+[2025.07.26-14.47.15:543][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Head (0xB74A5415A109DF99)
+[2025.07.26-14.47.15:543][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Holster_Hard_Bege (0xE443693FFA50F45C)
+[2025.07.26-14.47.15:543][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Jeans (0x462A23696D7C73BC)
+[2025.07.26-14.47.15:543][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Patch_Back (0xA60DA54253878A47)
+[2025.07.26-14.47.15:543][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Shirt_RolledUp_Blue (0xD309F5AC59FA2BC8)
+[2025.07.26-14.47.15:543][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter (0x65CC99AC9D34D21D) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/Modules/SM_Cap_Bege (0x5CF8D9649088E3E3)
+[2025.07.26-14.47.15:543][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/Animations/A_Preset_Pose_0 (0x40433E19097E9F2F) /Game/Characters/QuantumCharacter/Demo/Animations/A_Preset_Pose_0 (0x40433E19097E9F2F) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton (0x65AC9D55B4D3C073)
+[2025.07.26-14.47.15:567][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_Preset_Pose_0 : Unable to retrieve target USkeleton for Animation Asset (/Game/Characters/QuantumCharacter/Demo/Animations/A_Preset_Pose_0.A_Preset_Pose_0)
+[2025.07.26-14.47.15:568][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_Preset_Pose_0 : Invalid USkeleton supplied
+[2025.07.26-14.47.15:568][621]LogAnimation: Warning: Animation Compression request for A_Preset_Pose_0 failed, Skeleton == nullptr.
+[2025.07.26-14.47.15:570][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Walk_InPlace (0x2063EC48E898534C) /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Walk_InPlace (0x2063EC48E898534C) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton (0x65AC9D55B4D3C073)
+[2025.07.26-14.47.15:588][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Walk_InPlace : Unable to retrieve target USkeleton for Animation Asset (/Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Walk_InPlace.A_MM_Walk_InPlace)
+[2025.07.26-14.47.15:588][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Walk_InPlace : Invalid USkeleton supplied
+[2025.07.26-14.47.15:588][621]LogAnimation: Warning: Animation Compression request for A_MM_Walk_InPlace failed, Skeleton == nullptr.
+[2025.07.26-14.47.15:590][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Walk_Fwd (0x78127855EDD79EA5) /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Walk_Fwd (0x78127855EDD79EA5) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton (0x65AC9D55B4D3C073)
+[2025.07.26-14.47.15:600][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Walk_Fwd : Unable to retrieve target USkeleton for Animation Asset (/Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Walk_Fwd.A_MM_Walk_Fwd)
+[2025.07.26-14.47.15:600][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Walk_Fwd : Invalid USkeleton supplied
+[2025.07.26-14.47.15:600][621]LogAnimation: Warning: Animation Compression request for A_MM_Walk_Fwd failed, Skeleton == nullptr.
+[2025.07.26-14.47.15:602][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Run_Fwd (0xFE9A3764AFF71DD0) /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Run_Fwd (0xFE9A3764AFF71DD0) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton (0x65AC9D55B4D3C073)
+[2025.07.26-14.47.15:612][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Run_Fwd : Unable to retrieve target USkeleton for Animation Asset (/Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Run_Fwd.A_MM_Run_Fwd)
+[2025.07.26-14.47.15:612][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Run_Fwd : Invalid USkeleton supplied
+[2025.07.26-14.47.15:612][621]LogAnimation: Warning: Animation Compression request for A_MM_Run_Fwd failed, Skeleton == nullptr.
+[2025.07.26-14.47.15:613][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Land (0xF40DA5D0ED9EE52) /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Land (0xF40DA5D0ED9EE52) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton (0x65AC9D55B4D3C073)
+[2025.07.26-14.47.15:619][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Land : Unable to retrieve target USkeleton for Animation Asset (/Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Land.A_MM_Land)
+[2025.07.26-14.47.15:619][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Land : Invalid USkeleton supplied
+[2025.07.26-14.47.15:619][621]LogAnimation: Warning: Animation Compression request for A_MM_Land failed, Skeleton == nullptr.
+[2025.07.26-14.47.15:621][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Jump (0xE21E369F2A4EDB23) /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Jump (0xE21E369F2A4EDB23) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton (0x65AC9D55B4D3C073)
+[2025.07.26-14.47.15:627][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Jump : Unable to retrieve target USkeleton for Animation Asset (/Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Jump.A_MM_Jump)
+[2025.07.26-14.47.15:627][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Jump : Invalid USkeleton supplied
+[2025.07.26-14.47.15:627][621]LogAnimation: Warning: Animation Compression request for A_MM_Jump failed, Skeleton == nullptr.
+[2025.07.26-14.47.15:628][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Idle (0x6886212C4158D04D) /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Idle (0x6886212C4158D04D) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton (0x65AC9D55B4D3C073)
+[2025.07.26-14.47.15:668][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Idle : Unable to retrieve target USkeleton for Animation Asset (/Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Idle.A_MM_Idle)
+[2025.07.26-14.47.15:668][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Idle : Invalid USkeleton supplied
+[2025.07.26-14.47.15:668][621]LogAnimation: Warning: Animation Compression request for A_MM_Idle failed, Skeleton == nullptr.
+[2025.07.26-14.47.15:670][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Fall_Loop (0x3AA2F8BA6E1AAE8A) /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Fall_Loop (0x3AA2F8BA6E1AAE8A) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton (0x65AC9D55B4D3C073)
+[2025.07.26-14.47.15:686][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Fall_Loop : Unable to retrieve target USkeleton for Animation Asset (/Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Fall_Loop.A_MM_Fall_Loop)
+[2025.07.26-14.47.15:687][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Fall_Loop : Invalid USkeleton supplied
+[2025.07.26-14.47.15:687][621]LogAnimation: Warning: Animation Compression request for A_MM_Fall_Loop failed, Skeleton == nullptr.
+[2025.07.26-14.47.15:689][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/Animations/A_MF_Walk_Fwd (0x41277A0724636900) /Game/Characters/QuantumCharacter/Demo/Animations/A_MF_Walk_Fwd (0x41277A0724636900) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton (0x65AC9D55B4D3C073)
+[2025.07.26-14.47.15:695][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MF_Walk_Fwd : Unable to retrieve target USkeleton for Animation Asset (/Game/Characters/QuantumCharacter/Demo/Animations/A_MF_Walk_Fwd.A_MF_Walk_Fwd)
+[2025.07.26-14.47.15:695][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MF_Walk_Fwd : Invalid USkeleton supplied
+[2025.07.26-14.47.15:695][621]LogAnimation: Warning: Animation Compression request for A_MF_Walk_Fwd failed, Skeleton == nullptr.
+[2025.07.26-14.47.15:696][621]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Characters/QuantumCharacter/Demo/Animations/A_MF_Run_Fwd (0xBDF426AFE5D9D497) /Game/Characters/QuantumCharacter/Demo/Animations/A_MF_Run_Fwd (0xBDF426AFE5D9D497) - Skipping non mounted imported package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton (0x65AC9D55B4D3C073)
+[2025.07.26-14.47.15:711][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MF_Run_Fwd : Unable to retrieve target USkeleton for Animation Asset (/Game/Characters/QuantumCharacter/Demo/Animations/A_MF_Run_Fwd.A_MF_Run_Fwd)
+[2025.07.26-14.47.15:711][621]LogScript: Error: Script Msg: /Game/Characters/QuantumCharacter/Demo/Animations/A_MF_Run_Fwd : Invalid USkeleton supplied
+[2025.07.26-14.47.15:711][621]LogAnimation: Warning: Animation Compression request for A_MF_Run_Fwd failed, Skeleton == nullptr.
+[2025.07.26-14.47.15:755][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2025.07.26-14.47.18:679][621]LogSlate: Window 'Delete Assets' being destroyed
+[2025.07.26-14.47.18:874][621]LogUObjectGlobals: Force Deleting 11 Package(s):
+	Asset Name: /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter.CBP_QuantumCharacter
+	Asset Type: Blueprint
+	Asset Name: /Game/Characters/QuantumCharacter/Demo/Animations/A_Preset_Pose_0.A_Preset_Pose_0
+	Asset Type: AnimSequence
+	Asset Name: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Walk_InPlace.A_MM_Walk_InPlace
+	Asset Type: AnimSequence
+	Asset Name: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Walk_Fwd.A_MM_Walk_Fwd
+	Asset Type: AnimSequence
+	Asset Name: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Run_Fwd.A_MM_Run_Fwd
+	Asset Type: AnimSequence
+	Asset Name: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Land.A_MM_Land
+	Asset Type: AnimSequence
+	Asset Name: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Jump.A_MM_Jump
+	Asset Type: AnimSequence
+	Asset Name: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Idle.A_MM_Idle
+	Asset Type: AnimSequence
+	Asset Name: /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Fall_Loop.A_MM_Fall_Loop
+	Asset Type: AnimSequence
+	Asset Name: /Game/Characters/QuantumCharacter/Demo/Animations/A_MF_Walk_Fwd.A_MF_Walk_Fwd
+	Asset Type: AnimSequence
+[2025.07.26-14.47.19:897][621]LogAnimation: Warning: Invalid animation skeleton
+[2025.07.26-14.47.22:160][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2025.07.26-14.47.22:200][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2025.07.26-14.47.22:229][621]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.07.26-14.47.22:341][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SKM_Arms which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:341][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter, a dependent package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Arms was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Arms has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SKM_Arms.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:341][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SKM_Bulletproof_Bege which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:341][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter, a dependent package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Bulletproof_Bege was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Bulletproof_Bege has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SKM_Bulletproof_Bege.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:341][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SKM_Drops_1_Bege which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:341][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter, a dependent package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Drops_1_Bege was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Drops_1_Bege has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SKM_Drops_1_Bege.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:341][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SKM_Head which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:341][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter, a dependent package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Head was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Head has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SKM_Head.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:341][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SKM_Holster_Hard_Bege which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:342][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter, a dependent package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Holster_Hard_Bege was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Holster_Hard_Bege has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SKM_Holster_Hard_Bege.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:342][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SKM_Jeans which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:342][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter, a dependent package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Jeans was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Jeans has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SKM_Jeans.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:342][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SKM_Patch_Back which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:342][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter, a dependent package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Patch_Back was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Patch_Back has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SKM_Patch_Back.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:342][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SKM_Shirt_RolledUp_Blue which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:342][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter, a dependent package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Shirt_RolledUp_Blue was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/Modules/SKM_Shirt_RolledUp_Blue has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SKM_Shirt_RolledUp_Blue.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:342][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SM_Cap_Bege which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:342][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/CBP_QuantumCharacter, a dependent package /Game/Characters/QuantumCharacter/Mesh/Modules/SM_Cap_Bege was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/Modules/SM_Cap_Bege has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/Modules/SM_Cap_Bege.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:342][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:342][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/Animations/A_Preset_Pose_0, a dependent package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:342][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:342][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Walk_InPlace, a dependent package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:342][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:342][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Walk_Fwd, a dependent package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:342][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:342][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Run_Fwd, a dependent package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:342][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:342][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Land, a dependent package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:342][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:342][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Jump, a dependent package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:342][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:342][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Idle, a dependent package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:342][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:342][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/Animations/A_MM_Fall_Loop, a dependent package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:342][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:342][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/Animations/A_MF_Walk_Fwd, a dependent package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.22:342][621]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.07.26-14.47.22:342][621]LoadErrors: Warning: While trying to load package /Game/Characters/QuantumCharacter/Demo/Animations/A_MF_Run_Fwd, a dependent package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'D:/FALMOUTH/VR_Primer/Content/Characters/QuantumCharacter/Mesh/SK_Military_Character_Skeleton.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.07.26-14.47.37:705][939]LogStreaming: Display: FlushAsyncLoading(3263): 1 QueuedPackages, 0 AsyncPackages
+[2025.07.26-14.47.38:499][939]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.26-14.47.38:499][939]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset] ([1] browsable assets)...
+[2025.07.26-14.47.38:499][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset]
+[2025.07.26-14.47.38:499][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset" FILE="../../../../../../FALMOUTH/VR_Primer/Content/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset" SILENT=true
+[2025.07.26-14.47.38:500][939]LogSavePackage: Moving output files for package: /Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset
+[2025.07.26-14.47.38:502][939]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/SK_FPGun_PhysicsAsset3726A4A940933422BEB93F92D0A5CCF8.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset'
+[2025.07.26-14.47.38:502][939]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FPWeapon/Mesh/SK_FPGun_Skeleton] ([1] browsable assets)...
+[2025.07.26-14.47.38:503][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/FPWeapon/Mesh/SK_FPGun_Skeleton]
+[2025.07.26-14.47.38:503][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../../FALMOUTH/VR_Primer/Content/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
+[2025.07.26-14.47.38:503][939]LogSavePackage: Moving output files for package: /Game/FPWeapon/Mesh/SK_FPGun_Skeleton
+[2025.07.26-14.47.38:503][939]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/SK_FPGun_SkeletonEE112CFA4CF63DCDF93B2985A2848B06.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
+[2025.07.26-14.47.38:505][939]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FPWeapon/Mesh/SK_FPGun_Physics] ([1] browsable assets)...
+[2025.07.26-14.47.38:505][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/FPWeapon/Mesh/SK_FPGun_Physics]
+[2025.07.26-14.47.38:505][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FPWeapon/Mesh/SK_FPGun_Physics" FILE="../../../../../../FALMOUTH/VR_Primer/Content/FPWeapon/Mesh/SK_FPGun_Physics.uasset" SILENT=true
+[2025.07.26-14.47.38:506][939]LogSavePackage: Moving output files for package: /Game/FPWeapon/Mesh/SK_FPGun_Physics
+[2025.07.26-14.47.38:506][939]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/SK_FPGun_PhysicsABDDCF6843D77557CDC7F2BE4E5CFF1D.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/FPWeapon/Mesh/SK_FPGun_Physics.uasset'
+[2025.07.26-14.47.38:508][939]LogFileHelpers: InternalPromptForCheckoutAndSave took 9.292 ms (total: 1.12 sec)
+[2025.07.26-14.47.51:148][939]LogSlate: Window 'Redirector Update Report' being destroyed
+[2025.07.26-14.47.51:190][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.07.26-14.47.51:225][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2025.07.26-14.47.51:278][939]LogContentValidation: Display: Starting to validate 3 assets
+[2025.07.26-14.47.51:278][939]LogContentValidation: Enabled validators:
+[2025.07.26-14.47.51:278][939]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.26-14.47.51:278][939]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.26-14.47.51:278][939]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.26-14.47.51:278][939]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.26-14.47.51:278][939]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.26-14.47.51:278][939]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.26-14.47.51:278][939]AssetCheck: /Game/FPWeapon/Mesh/SK_FPGun_Skeleton Validating asset
+[2025.07.26-14.47.51:278][939]AssetCheck: /Game/FPWeapon/Mesh/SK_FPGun_Physics Validating asset
+[2025.07.26-14.47.56:169][353]Cmd: MAP REBUILD ALLVISIBLE
+[2025.07.26-14.47.56:171][353]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2025.07.26-14.47.56:812][353]LogWorld: UWorld::CleanupWorld for VR_TestPawn, bSessionEnded=true, bCleanupResources=true
+[2025.07.26-14.47.56:814][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.26-14.47.56:814][353]LogChaosDD: Creating Chaos Debug Draw Scene for world VR_TestPawn
+[2025.07.26-14.47.56:816][353]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Blueprints/Maps/VR_TestPawn.VR_TestPawn'.
+[2025.07.26-14.47.56:837][353]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2025.07.26-14.47.56:837][353]LogNavigationDataBuild: Display: UNavigationSystemV1::Build total execution time: 0.00s
+[2025.07.26-14.47.56:869][353]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2025.07.26-14.47.56:932][353]LogLevel: Display: Export Material TexCoord Scales took 0.060 seconds.
+[2025.07.26-14.47.56:940][353]TextureStreamingBuild: Display: Build Texture Streaming took 0.008 seconds.
+[2025.07.26-14.47.56:967][353]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.07.26-14.47.56:977][353]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2025.07.26-14.47.56:985][353]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2025.07.26-14.47.56:985][353]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2025.07.26-14.47.56:985][353]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2025.07.26-14.47.56:985][353]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11460
+[2025.07.26-14.48.01:607][353]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2025.07.26-14.48.01:607][353]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2025.07.26-14.48.01:607][353]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2025.07.26-14.48.01:607][353]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2025.07.26-14.48.01:607][353]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2025.07.26-14.48.01:707][353]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2025.07.26-14.48.01:708][353]MapCheck: Warning: AK-110_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.01:708][353]MapCheck: Warning: AK-110_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.01:708][353]MapCheck: Warning: AK-110_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.01:708][353]MapCheck: Warning: CM_2000_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.01:708][353]MapCheck: Warning: CM_2000_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.01:708][353]MapCheck: Warning: CM_2000_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.01:708][353]MapCheck: Warning: DE_42_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.01:708][353]MapCheck: Warning: DE_42_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.01:708][353]MapCheck: Warning: DE_42_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.01:708][353]MapCheck: Warning: Knife_C_2 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.01:708][353]MapCheck: Warning: Knife_C_2 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.01:708][353]MapCheck: Warning: Knife_C_2 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.01:708][353]MapCheck: Map check complete: 0 Error(s), 12 Warning(s), took 0.674ms to complete.
+[2025.07.26-14.48.01:708][353]LogEditorBuildUtils: Build time 0:05
+[2025.07.26-14.48.01:882][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.07.26-14.48.02:596][355]Job is a success!
+[2025.07.26-14.48.03:110][356]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2025.07.26-14.48.03:110][356]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2025.07.26-14.48.03:110][356]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2025.07.26-14.48.03:110][356]LogVolumetricLightmapImport:      Bricks at depth
+[2025.07.26-14.48.03:110][356]LogVolumetricLightmapImport:          0: 20.0% covering 100.0% of volume
+[2025.07.26-14.48.03:110][356]LogVolumetricLightmapImport:          1: 80.0% covering 6.2% of volume
+[2025.07.26-14.48.03:110][356]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2025.07.26-14.48.03:110][356]LogVolumetricLightmapImport:      Bricks in each level
+[2025.07.26-14.48.03:110][356]LogVolumetricLightmapImport:          VR_TestPawn 			 5 bricks 	 100.0% (Persistent Level)
+[2025.07.26-14.48.03:135][356]LogStaticLightingSystem: VR_TestPawn_BuiltData storing lightmap data for 15 meshes in 2 LightmapResourceClusters (7.5 Meshes per cluster).
+[2025.07.26-14.48.03:157][356]Lightmass on DEVATOX: 866.411 ms total, 66.578 ms importing, 1.305 ms setup, 20.870 ms photons, 760.355 ms processing, 0 us extra exporting [15/15 mappings]. Threads: 8.35 sec total, 43.563 ms processing.
+[2025.07.26-14.48.03:169][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.07.26-14.48.03:230][356]LogStaticLightingSystem: Illumination: 6.12 sec (1.742 ms encoding lightmaps, 12 us encoding shadowmaps)
+[2025.07.26-14.48.03:231][356]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2025.07.26-14.48.03:231][356]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2025.07.26-14.48.08:619][356]DumpUnbuiltLightIteractions
+[2025.07.26-14.48.08:619][356]Lights with unbuilt interactions: 0
+[2025.07.26-14.48.08:619][356]
+[2025.07.26-14.48.08:619][356]Primitives with unbuilt interactions: 0
+[2025.07.26-14.48.08:862][356]Cmd: MAP CHECK NOTIFYRESULTS
+[2025.07.26-14.48.08:862][356]MapCheck: Warning: AK-110_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.08:862][356]MapCheck: Warning: AK-110_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.08:862][356]MapCheck: Warning: AK-110_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.08:862][356]MapCheck: Warning: CM_2000_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.08:862][356]MapCheck: Warning: CM_2000_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.08:862][356]MapCheck: Warning: CM_2000_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.08:862][356]MapCheck: Warning: DE_42_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.08:862][356]MapCheck: Warning: DE_42_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.08:862][356]MapCheck: Warning: DE_42_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.08:862][356]MapCheck: Warning: Knife_C_2 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.08:862][356]MapCheck: Warning: Knife_C_2 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.08:862][356]MapCheck: Warning: Knife_C_2 Static mesh actor has NULL StaticMesh property 
+[2025.07.26-14.48.08:862][356]MapCheck: Map check complete: 0 Error(s), 12 Warning(s), took 0.607ms to complete.
+[2025.07.26-14.48.13:193][668]LogSlate: Window 'Message Log' being destroyed
+[2025.07.26-14.48.13:208][668]LogSlate: Window 'Message Log' being destroyed
+[2025.07.26-14.48.18:235][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2025.07.26-14.48.18:240][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.26-14.48.18:282][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/VR_TestPawn" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.07.26-14.48.18:326][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.07.26-14.48.18:357][ 87]LogSavePackage: Moving output files for package: /Game/Blueprints/Maps/VR_TestPawn
+[2025.07.26-14.48.18:357][ 87]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/VR_TestPawn631CB2324E68948ECBEB9487C4EF69C2.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap'
+[2025.07.26-14.48.18:365][ 87]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Blueprints/Maps/VR_TestPawn_BuiltData
+[2025.07.26-14.48.18:365][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.26-14.48.18:365][ 87]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Maps/VR_TestPawn_BuiltData] ([1] browsable assets)...
+[2025.07.26-14.48.18:365][ 87]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Maps/VR_TestPawn_BuiltData]
+[2025.07.26-14.48.18:365][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/VR_TestPawn_BuiltData" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset" SILENT=true
+[2025.07.26-14.48.18:368][ 87]LogSavePackage: Moving output files for package: /Game/Blueprints/Maps/VR_TestPawn_BuiltData
+[2025.07.26-14.48.18:370][ 87]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/VR_TestPawn_BuiltData5AEF67524B2ABCD0EC856FACC9A4EAD5.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset'
+[2025.07.26-14.48.18:370][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.650 ms (total: 1.13 sec)
+[2025.07.26-14.48.18:370][ 87]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Blueprints/Maps/VR_TestPawn_BuiltData
+[2025.07.26-14.48.18:370][ 87]LogFileHelpers: Saving map 'VR_TestPawn' took 0.088
+[2025.07.26-14.48.18:371][ 87]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Maps/VR_TestPawn_BuiltData] ([1] browsable assets)...
+[2025.07.26-14.48.18:371][ 87]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Maps/VR_TestPawn_BuiltData]
+[2025.07.26-14.48.18:371][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/VR_TestPawn_BuiltData" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset" SILENT=true
+[2025.07.26-14.48.18:374][ 87]LogSavePackage: Moving output files for package: /Game/Blueprints/Maps/VR_TestPawn_BuiltData
+[2025.07.26-14.48.18:374][ 87]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/VR_TestPawn_BuiltData917F2E43441E48EA9F7801B4C66DC9C4.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset'
+[2025.07.26-14.48.18:386][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave took 145.104 ms (total: 1.28 sec)
+[2025.07.26-14.48.18:429][ 87]LogContentValidation: Display: Starting to validate 2 assets
+[2025.07.26-14.48.18:429][ 87]LogContentValidation: Enabled validators:
+[2025.07.26-14.48.18:429][ 87]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.26-14.48.18:429][ 87]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.26-14.48.18:429][ 87]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.26-14.48.18:429][ 87]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.26-14.48.18:429][ 87]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.26-14.48.18:429][ 87]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.26-14.48.18:429][ 87]AssetCheck: /Game/Blueprints/Maps/VR_TestPawn Validating asset
+[2025.07.26-14.48.18:429][ 87]AssetCheck: /Game/Blueprints/Maps/VR_TestPawn_BuiltData Validating asset
+[2025.07.26-14.48.19:416][160]LogShaderCompilers: Display: ================================================
+[2025.07.26-14.48.19:416][160]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.07.26-14.48.19:416][160]LogShaderCompilers: Display: Total job queries 1,557, among them cache hits 512 (32.88%), DDC hits 1,037 (66.60%), Duplicates 5 (0.32%)
+[2025.07.26-14.48.19:416][160]LogShaderCompilers: Display: Tracking 1,040 distinct input hashes that result in 648 distinct outputs (62.31%)
+[2025.07.26-14.48.19:437][160]LogShaderCompilers: Display: RAM used: 419.26 KiB of 1.60 GiB budget. Usage: 0.02%
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Shaders Compiled: 3
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Jobs assigned 3, completed 3 (100%)
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.06 s
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Job execution time: average 4.89 s, max 5.23 s
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Job life time (pending + execution): average 4.95 s, max 5.29
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Shader code size: average 12.217 KiB, min 11.285 KiB, max 12.77 KiB
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.29 s
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Average processing rate: 0.57 jobs/sec
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Total thread time: 2.068 s
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Total thread preprocess time: 26.199 s
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Percentage time preprocessing: 1266.76%
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Effective parallelization: 0.39 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 1.01 sec, max 1.01 sec, min 1.01 sec)
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.65 sec, max 0.65 sec, min 0.65 sec)
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.41 sec, max 0.41 sec, min 0.41 sec)
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 48.64% of total time (compiled    1 times, average 1.01 sec, max 1.01 sec, min 1.01 sec)
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 31.62% of total time (compiled    1 times, average 0.65 sec, max 0.65 sec, min 0.65 sec)
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.74% of total time (compiled    1 times, average 0.41 sec, max 0.41 sec, min 0.41 sec)
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: === Material stats ===
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Materials Translated:    298
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Material Total Translate Time: 0.31 s
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Material Translation Only: 0.10 s (33%)
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: Material Cache Hits: 81 (27%)
+[2025.07.26-14.48.19:447][160]LogShaderCompilers: Display: ================================================
