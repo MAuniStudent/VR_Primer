@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/CBP_Primer_Character.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/CBP_SandboxCharacter.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap"
+			]
+		}
+	]
+}
