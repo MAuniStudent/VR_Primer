@@ -5367,3 +5367,1041 @@ Please set its path in Project Settings / Meta XR Plugin / PC.
 [2025.08.02-01.53.22:950][ 15]LogFab: Display: User logged in
 [2025.08.02-01.53.22:950][ 15]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2025.08.02-01.53.23:616][ 17]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-iePtRV5ClkuRtIzuK9q8Lg--5YWA03Si0WLEzslZ1yw1A]
+[2025.08.02-01.54.56:028][154]LogDerivedDataCache: C:/Users/devat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.02-01.58.29:481][731]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 327.805817
+[2025.08.02-01.58.29:614][747]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-01.58.29:614][747]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 327.931030, Update Interval: 323.683594
+[2025.08.02-02.03.56:502][671]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 654.826416
+[2025.08.02-02.03.57:503][674]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-02.03.57:503][674]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 655.493408, Update Interval: 324.831696
+[2025.08.02-02.09.27:857][665]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 986.180725
+[2025.08.02-02.09.28:858][668]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-02.09.28:858][668]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 986.847534, Update Interval: 325.207062
+[2025.08.02-02.15.09:212][689]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1327.535400
+[2025.08.02-02.15.10:212][692]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-02.15.10:212][692]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1328.201904, Update Interval: 307.593628
+[2025.08.02-02.20.37:572][674]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1655.896606
+[2025.08.02-02.20.38:572][677]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-02.20.38:572][677]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1656.563232, Update Interval: 338.281189
+[2025.08.02-02.27.05:260][837]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2043.584106
+[2025.08.02-02.27.06:261][840]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-02.27.06:261][840]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2044.250854, Update Interval: 319.609375
+[2025.08.02-02.32.56:016][793]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2394.335693
+[2025.08.02-02.32.56:142][808]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-02.32.56:142][808]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2394.452637, Update Interval: 339.799194
+[2025.08.02-02.39.14:304][647]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2772.618164
+[2025.08.02-02.39.15:304][650]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-02.39.15:304][650]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2773.284912, Update Interval: 311.647705
+[2025.08.02-02.45.16:127][489]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3134.446045
+[2025.08.02-02.45.16:253][504]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-02.45.16:253][504]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3134.563232, Update Interval: 355.262909
+[2025.08.02-02.52.00:244][944]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3538.590820
+[2025.08.02-02.52.00:370][959]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-02.52.00:370][959]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3538.709473, Update Interval: 350.401306
+[2025.08.02-02.54.56:028][ 22]LogDerivedDataCache: C:/Users/devat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.02-02.58.33:230][ 54]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3931.575195
+[2025.08.02-02.58.33:338][ 67]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-02.58.33:338][ 67]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3931.675781, Update Interval: 359.419525
+[2025.08.02-03.05.07:475][320]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4325.875000
+[2025.08.02-03.05.07:617][337]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-03.05.07:617][337]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4326.008301, Update Interval: 339.176605
+[2025.08.02-03.11.45:680][ 33]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4724.110840
+[2025.08.02-03.11.45:822][ 50]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-03.11.45:822][ 50]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4724.243164, Update Interval: 357.471252
+[2025.08.02-03.18.19:019][225]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5117.529297
+[2025.08.02-03.18.19:127][238]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-03.18.19:127][238]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5117.628906, Update Interval: 343.855103
+[2025.08.02-03.24.44:822][513]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5503.425293
+[2025.08.02-03.24.44:938][527]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-03.24.44:938][527]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5503.533203, Update Interval: 333.760193
+[2025.08.02-03.31.09:861][705]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5888.548340
+[2025.08.02-03.31.10:002][722]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-03.31.10:003][722]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5888.681641, Update Interval: 326.014587
+[2025.08.02-03.37.34:795][889]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6273.545410
+[2025.08.02-03.37.34:919][904]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-03.37.34:920][904]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6273.662109, Update Interval: 324.789581
+[2025.08.02-03.43.55:309][385]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6652.798828
+[2025.08.02-03.43.55:426][399]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-03.43.55:426][399]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6652.907715, Update Interval: 335.056610
+[2025.08.02-03.50.16:176][ 82]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7033.662598
+[2025.08.02-03.50.16:317][ 99]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-03.50.16:317][ 99]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7033.795410, Update Interval: 303.433319
+[2025.08.02-03.51.42:660][459]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: 147...cf0
+[2025.08.02-03.51.42:660][459]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 100 RefreshExpires: 1.55e+07
+[2025.08.02-03.51.42:810][477]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 147...cf0 Access[Expires: 2025.08.02-05.51.42 Remaining: 7200.75] Refresh[Expires: 2026-01-28T12:05:48.114Z Remaining: 15495246.11] State: Valid
+[2025.08.02-03.54.57:350][817]LogDerivedDataCache: C:/Users/devat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.02-03.55.57:552][ 40]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7375.106934
+[2025.08.02-03.55.57:693][ 57]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-03.55.57:693][ 57]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7375.240234, Update Interval: 356.134521
+[2025.08.02-04.02.34:450][654]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7772.109375
+[2025.08.02-04.02.34:566][668]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-04.02.34:566][668]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7772.217285, Update Interval: 317.408356
+[2025.08.02-04.08.27:608][ 28]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8125.314941
+[2025.08.02-04.08.27:742][ 44]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-04.08.27:742][ 44]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8125.439453, Update Interval: 340.150757
+[2025.08.02-04.14.48:653][746]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8506.348633
+[2025.08.02-04.14.48:777][761]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-04.14.48:777][761]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8506.464844, Update Interval: 310.754120
+[2025.08.02-04.20.52:446][393]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8869.974609
+[2025.08.02-04.20.52:580][409]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-04.20.52:580][409]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8870.098633, Update Interval: 321.131012
+[2025.08.02-04.27.13:673][126]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9251.134766
+[2025.08.02-04.27.13:797][141]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-04.27.13:797][141]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9251.250000, Update Interval: 322.275452
+[2025.08.02-04.33.15:933][589]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9613.359375
+[2025.08.02-04.33.16:075][606]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-04.33.16:075][606]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9613.491211, Update Interval: 342.578827
+[2025.08.02-04.39.45:968][384]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10003.356445
+[2025.08.02-04.39.46:109][401]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-04.39.46:109][401]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10003.489258, Update Interval: 317.439484
+[2025.08.02-04.45.42:775][195]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10359.991211
+[2025.08.02-04.45.42:908][211]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-04.45.42:908][211]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10360.115234, Update Interval: 339.383514
+[2025.08.02-04.51.58:935][328]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10736.017578
+[2025.08.02-04.51.59:084][346]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-04.51.59:084][346]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10736.156250, Update Interval: 301.409943
+[2025.08.02-04.54.57:351][735]LogDerivedDataCache: C:/Users/devat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.02-04.57.47:406][132]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11084.314453
+[2025.08.02-04.57.47:539][148]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-04.57.47:539][148]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11084.438477, Update Interval: 338.365417
+[2025.08.02-05.04.00:252][866]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11456.862305
+[2025.08.02-05.04.00:385][882]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-05.04.00:385][882]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11456.985352, Update Interval: 338.938568
+[2025.08.02-05.10.39:230][736]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11855.675781
+[2025.08.02-05.10.39:346][750]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-05.10.39:346][750]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11855.783203, Update Interval: 352.384399
+[2025.08.02-05.17.10:017][624]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12246.239258
+[2025.08.02-05.17.10:142][639]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-05.17.10:142][639]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12246.357422, Update Interval: 336.270630
+[2025.08.02-05.23.30:293][191]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12626.289062
+[2025.08.02-05.23.30:426][207]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-05.23.30:426][207]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12626.416016, Update Interval: 352.360596
+[2025.08.02-05.30.16:480][921]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13032.356445
+[2025.08.02-05.30.16:596][935]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-05.30.16:596][935]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13032.464844, Update Interval: 344.389771
+[2025.08.02-05.36.54:894][722]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13430.516602
+[2025.08.02-05.36.55:028][738]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-05.36.55:028][738]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13430.644531, Update Interval: 311.603760
+[2025.08.02-05.42.53:703][772]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13789.095703
+[2025.08.02-05.42.53:845][789]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-05.42.53:845][789]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13789.230469, Update Interval: 313.028351
+[2025.08.02-05.48.43:536][743]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14138.776367
+[2025.08.02-05.48.43:668][759]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-05.48.43:669][759]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14138.902344, Update Interval: 346.845306
+[2025.08.02-05.50.02:848][259]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: 147...cf0
+[2025.08.02-05.50.02:848][259]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 100 RefreshExpires: 1.549e+07
+[2025.08.02-05.50.03:006][278]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 147...cf0 Access[Expires: 2025.08.02-07.50.03 Remaining: 7200.05] Refresh[Expires: 2026-01-28T12:05:48.114Z Remaining: 15488145.11] State: Valid
+[2025.08.02-05.54.57:351][588]LogDerivedDataCache: C:/Users/devat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.02-05.55.04:389][432]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14519.274414
+[2025.08.02-05.55.04:514][447]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-05.55.04:514][447]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14519.393555, Update Interval: 302.285217
+[2025.08.02-06.01.04:200][594]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14878.779297
+[2025.08.02-06.01.04:316][608]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-06.01.04:316][608]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14878.887695, Update Interval: 304.451416
+[2025.08.02-06.07.03:910][750]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15238.216797
+[2025.08.02-06.07.04:043][766]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-06.07.04:043][766]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15238.341797, Update Interval: 321.616272
+[2025.08.02-06.13.10:034][676]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15604.086914
+[2025.08.02-06.13.10:176][693]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-06.13.10:176][693]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15604.220703, Update Interval: 304.484375
+[2025.08.02-06.19.03:196][ 46]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15956.894531
+[2025.08.02-06.19.03:313][ 60]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-06.19.03:314][ 60]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15957.003906, Update Interval: 309.450348
+[2025.08.02-06.25.04:228][362]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16317.679688
+[2025.08.02-06.25.04:361][378]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-06.25.04:361][378]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16317.804688, Update Interval: 319.451874
+[2025.08.02-06.30.55:153][459]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16656.535156
+[2025.08.02-06.30.55:294][476]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-06.30.55:294][476]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16656.660156, Update Interval: 334.699554
+[2025.08.02-06.37.12:510][730]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17017.777344
+[2025.08.02-06.37.12:651][747]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-06.37.12:651][747]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17017.904297, Update Interval: 315.916016
+[2025.08.02-06.43.15:733][307]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17365.542969
+[2025.08.02-06.43.15:849][321]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-06.43.15:849][321]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17365.648438, Update Interval: 333.952454
+[2025.08.02-06.49.30:195][234]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17724.011719
+[2025.08.02-06.49.30:329][250]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-06.49.30:329][250]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17724.128906, Update Interval: 300.531036
+[2025.08.02-06.54.57:352][486]LogDerivedDataCache: C:/Users/devat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.02-06.55.06:365][567]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18046.125000
+[2025.08.02-06.55.06:490][582]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-06.55.06:490][582]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18046.234375, Update Interval: 342.998138
+[2025.08.02-07.01.34:126][ 82]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18417.478516
+[2025.08.02-07.01.34:259][ 98]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-07.01.34:259][ 98]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18417.597656, Update Interval: 318.637054
+[2025.08.02-07.07.51:135][313]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18778.666016
+[2025.08.02-07.07.51:269][329]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-07.07.51:269][329]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18778.785156, Update Interval: 319.222992
+[2025.08.02-07.13.47:755][ 96]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19120.273438
+[2025.08.02-07.13.47:897][113]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-07.13.47:897][113]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19120.402344, Update Interval: 310.939056
+[2025.08.02-07.19.58:607][585]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19475.431641
+[2025.08.02-07.19.58:716][598]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-07.19.58:716][598]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19475.529297, Update Interval: 306.808075
+[2025.08.02-07.25.57:109][593]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19819.113281
+[2025.08.02-07.25.57:251][610]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-07.25.57:251][610]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19819.238281, Update Interval: 355.171356
+[2025.08.02-07.32.35:395][371]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20200.802734
+[2025.08.02-07.32.35:521][386]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-07.32.35:521][386]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20200.914062, Update Interval: 346.546814
+[2025.08.02-07.39.15:456][367]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20584.140625
+[2025.08.02-07.39.15:580][382]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-07.39.15:581][382]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20584.250000, Update Interval: 349.560852
+[2025.08.02-07.46.03:411][311]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20975.373047
+[2025.08.02-07.46.03:543][327]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-07.46.03:543][327]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20975.494141, Update Interval: 342.208923
+[2025.08.02-07.48.23:387][104]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: 147...cf0
+[2025.08.02-07.48.23:387][104]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.99 RefreshExpires: 1.548e+07
+[2025.08.02-07.48.23:545][123]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 147...cf0 Access[Expires: 2025.08.02-09.48.23 Remaining: 7200.71] Refresh[Expires: 2026-01-28T12:05:48.114Z Remaining: 15481045.11] State: Valid
+[2025.08.02-07.52.45:281][524]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21360.765625
+[2025.08.02-07.52.45:415][540]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-07.52.45:415][540]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21360.888672, Update Interval: 306.692719
+[2025.08.02-07.54.57:352][370]LogDerivedDataCache: C:/Users/devat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.02-07.58.34:630][430]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21695.876953
+[2025.08.02-07.58.34:763][446]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-07.58.34:763][446]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21696.000000, Update Interval: 343.496216
+[2025.08.02-08.04.50:901][571]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22056.931641
+[2025.08.02-08.04.51:027][586]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-08.04.51:027][586]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22057.042969, Update Interval: 323.520630
+[2025.08.02-08.10.56:063][380]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22406.988281
+[2025.08.02-08.10.56:180][394]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-08.10.56:180][394]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22407.091797, Update Interval: 320.693390
+[2025.08.02-08.17.11:895][469]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22767.765625
+[2025.08.02-08.17.12:020][484]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-08.17.12:020][484]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22767.882812, Update Interval: 307.313446
+[2025.08.02-08.22.52:170][291]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23094.107422
+[2025.08.02-08.22.52:312][308]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-08.22.52:312][308]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23094.232422, Update Interval: 352.007202
+[2025.08.02-08.29.24:637][372]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23470.861328
+[2025.08.02-08.29.24:761][387]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-08.29.24:761][387]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23470.970703, Update Interval: 348.540894
+[2025.08.02-08.36.10:980][120]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23860.642578
+[2025.08.02-08.36.11:106][135]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-08.36.11:106][135]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23860.753906, Update Interval: 341.384918
+[2025.08.02-08.42.43:683][230]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24237.615234
+[2025.08.02-08.42.43:825][247]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-08.42.43:825][247]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24237.746094, Update Interval: 330.495300
+[2025.08.02-08.48.49:633][133]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24588.812500
+[2025.08.02-08.48.49:775][150]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-08.48.49:775][150]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24588.939453, Update Interval: 327.953735
+[2025.08.02-08.54.57:137][222]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24941.832031
+[2025.08.02-08.54.57:261][237]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-08.54.57:261][237]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24941.945312, Update Interval: 330.187683
+[2025.08.02-08.54.57:352][248]LogDerivedDataCache: C:/Users/devat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.02-09.01.24:949][585]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25316.175781
+[2025.08.02-09.01.25:075][600]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-09.01.25:075][600]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25316.294922, Update Interval: 328.893097
+[2025.08.02-09.07.37:244][188]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25677.619141
+[2025.08.02-09.07.37:360][202]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-09.07.37:360][202]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25677.728516, Update Interval: 359.326141
+[2025.08.02-09.14.19:542][349]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26067.892578
+[2025.08.02-09.14.19:659][363]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-09.14.19:659][363]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26067.996094, Update Interval: 303.382050
+[2025.08.02-09.20.17:969][348]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26412.330078
+[2025.08.02-09.20.18:094][363]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-09.20.18:094][363]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26412.443359, Update Interval: 354.805145
+[2025.08.02-09.27.02:658][899]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26801.345703
+[2025.08.02-09.27.02:783][914]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-09.27.02:783][914]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26801.455078, Update Interval: 321.973328
+[2025.08.02-09.33.18:059][932]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27162.228516
+[2025.08.02-09.33.18:184][947]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-09.33.18:184][947]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27162.339844, Update Interval: 338.057800
+[2025.08.02-09.39.37:246][422]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27526.580078
+[2025.08.02-09.39.37:372][437]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-09.39.37:372][437]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27526.693359, Update Interval: 335.768921
+[2025.08.02-09.46.07:046][185]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27901.361328
+[2025.08.02-09.46.07:187][202]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-09.46.07:187][202]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27901.486328, Update Interval: 332.657867
+[2025.08.02-09.46.44:263][650]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: 147...cf0
+[2025.08.02-09.46.44:265][650]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.99 RefreshExpires: 1.547e+07
+[2025.08.02-09.46.44:414][668]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 147...cf0 Access[Expires: 2025.08.02-11.46.44 Remaining: 7200.69] Refresh[Expires: 2026-01-28T12:05:48.114Z Remaining: 15473944.11] State: Valid
+[2025.08.02-09.52.18:658][766]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28258.833984
+[2025.08.02-09.52.18:776][780]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-09.52.18:776][780]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28258.937500, Update Interval: 307.031464
+[2025.08.02-09.54.57:353][800]LogDerivedDataCache: C:/Users/devat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.02-09.58.20:699][195]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28607.099609
+[2025.08.02-09.58.20:817][209]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-09.58.20:817][209]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28607.208984, Update Interval: 348.465820
+[2025.08.02-10.04.49:043][775]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28980.521484
+[2025.08.02-10.04.49:169][790]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-10.04.49:169][790]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28980.634766, Update Interval: 328.894928
+[2025.08.02-10.11.05:481][932]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 29342.671875
+[2025.08.02-10.11.05:599][946]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-10.11.05:599][946]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 29342.775391, Update Interval: 345.450012
+[2025.08.02-10.17.50:615][458]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 29732.535156
+[2025.08.02-10.17.50:756][475]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-10.17.50:756][475]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 29732.660156, Update Interval: 352.893463
+[2025.08.02-10.24.24:851][752]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 30111.804688
+[2025.08.02-10.24.24:985][768]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-10.24.24:985][768]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 30111.923828, Update Interval: 324.613800
+[2025.08.02-10.30.29:623][507]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 30462.931641
+[2025.08.02-10.30.29:740][521]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-10.30.29:740][521]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 30463.037109, Update Interval: 340.747711
+[2025.08.02-10.36.48:876][  4]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 30828.183594
+[2025.08.02-10.36.49:009][ 20]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-10.36.49:009][ 20]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 30828.302734, Update Interval: 354.250305
+[2025.08.02-10.43.14:935][317]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 31200.099609
+[2025.08.02-10.43.15:060][332]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-10.43.15:060][332]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 31200.210938, Update Interval: 302.254089
+[2025.08.02-10.49.11:782][126]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 31543.976562
+[2025.08.02-10.49.11:915][142]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-10.49.11:915][142]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 31544.099609, Update Interval: 358.767670
+[2025.08.02-10.54.57:353][582]LogDerivedDataCache: C:/Users/devat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.02-10.55.41:641][895]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 31919.460938
+[2025.08.02-10.55.41:758][909]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-10.55.41:758][909]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 31919.566406, Update Interval: 303.147675
+[2025.08.02-11.01.18:026][ 42]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 32247.935547
+[2025.08.02-11.01.18:168][ 59]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-11.01.18:168][ 59]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 32248.062500, Update Interval: 324.412354
+[2025.08.02-11.07.14:807][781]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 32596.148438
+[2025.08.02-11.07.14:940][797]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-11.07.14:940][797]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 32596.269531, Update Interval: 351.661133
+[2025.08.02-11.13.58:093][ 69]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 32982.472656
+[2025.08.02-11.13.58:236][ 86]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-11.13.58:236][ 86]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 32982.597656, Update Interval: 313.400055
+[2025.08.02-11.20.03:254][803]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 33326.988281
+[2025.08.02-11.20.03:380][818]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-11.20.03:380][818]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 33327.097656, Update Interval: 300.684845
+[2025.08.02-11.25.36:744][724]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 33641.390625
+[2025.08.02-11.25.36:861][738]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-11.25.36:861][738]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 33641.492188, Update Interval: 318.316589
+[2025.08.02-11.31.32:752][266]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 33976.941406
+[2025.08.02-11.31.32:884][282]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-11.31.32:884][282]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 33977.058594, Update Interval: 352.393555
+[2025.08.02-11.38.23:553][255]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 34382.566406
+[2025.08.02-11.38.24:553][258]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-11.38.24:553][258]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 34383.230469, Update Interval: 318.673676
+[2025.08.02-11.44.30:908][357]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 34748.730469
+[2025.08.02-11.44.31:909][360]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-11.44.31:909][360]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 34749.394531, Update Interval: 322.182068
+[2025.08.02-11.45.05:247][460]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: 147...cf0
+[2025.08.02-11.45.05:247][460]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.68 RefreshExpires: 1.547e+07
+[2025.08.02-11.45.06:247][463]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 147...cf0 Access[Expires: 2025.08.02-13.45.06 Remaining: 7200.11] Refresh[Expires: 2026-01-28T12:05:48.114Z Remaining: 15466842.11] State: Valid
+[2025.08.02-11.50.39:611][463]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 35116.273438
+[2025.08.02-11.50.40:611][466]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-11.50.40:611][466]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35116.937500, Update Interval: 316.696075
+[2025.08.02-11.54.57:353][237]LogDerivedDataCache: C:/Users/devat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.02-11.56.43:296][554]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 35478.804688
+[2025.08.02-11.56.44:296][557]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-11.56.44:296][557]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35479.468750, Update Interval: 347.861572
+[2025.08.02-12.03.26:661][764]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 35880.800781
+[2025.08.02-12.03.27:661][767]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-12.03.27:661][767]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35881.464844, Update Interval: 337.834412
+[2025.08.02-12.09.54:361][927]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 36267.226562
+[2025.08.02-12.09.55:361][930]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-12.09.55:361][930]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 36267.890625, Update Interval: 338.799408
+[2025.08.02-12.16.08:053][ 48]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 36639.636719
+[2025.08.02-12.16.09:053][ 51]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-12.16.09:053][ 51]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 36640.300781, Update Interval: 321.207916
+[2025.08.02-12.22.28:414][189]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 37018.730469
+[2025.08.02-12.22.29:414][192]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-12.22.29:414][192]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 37019.394531, Update Interval: 340.936310
+[2025.08.02-12.28.47:447][326]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 37396.558594
+[2025.08.02-12.28.48:448][329]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-12.28.48:448][329]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 37397.222656, Update Interval: 332.357544
+[2025.08.02-12.34.55:142][429]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 37763.109375
+[2025.08.02-12.34.56:142][432]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-12.34.56:142][432]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 37763.773438, Update Interval: 303.361908
+[2025.08.02-12.40.56:501][513]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 38123.250000
+[2025.08.02-12.40.57:501][516]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-12.40.57:501][516]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 38123.914062, Update Interval: 326.584076
+[2025.08.02-12.43.25:633][583]LogWebBrowser: Loaded CEF3 version 90.6.7.2358 from D:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/CEF3/Win64
+[2025.08.02-12.43.25:633][583]LogCEFBrowser: CEF GPU acceleration enabled
+[2025.08.02-12.44.17:050][816]LogFab: Display: Asset Type = glb
+[2025.08.02-12.44.17:051][816]LogFab: Display: Is Quixel = 0
+[2025.08.02-12.44.17:629][822]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 3892822
+[2025.08.02-12.44.17:629][822]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2025.08.02-12.44.17:635][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-12.44.36:797][ 42]LogStreaming: Display: FlushAsyncLoading(400): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.44.37:848][ 42]LogInterchangeEngine: Display: Interchange import: Using stack [OverridePipeline] to import.
+[2025.08.02-12.44.37:863][ 42]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/devat/AppData/Local/Temp/FabLibrary/426646e2-6537-4f9c-9aeb-9c44ab58c38d/post_apocalyptic_buildings.glb]
+[2025.08.02-12.44.38:289][ 56]LogStreaming: Display: FlushAsyncLoading(436): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.44.38:942][ 58]LogStreaming: Display: FlushAsyncLoading(452): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.44.38:985][ 59]LogStreaming: Display: FlushAsyncLoading(454): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.44.39:041][ 62]LogStreaming: Display: FlushAsyncLoading(456): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.44.39:104][ 67]LogStreaming: Display: FlushAsyncLoading(457): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.44.39:324][ 84]LogStreaming: Display: FlushAsyncLoading(459): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.44.39:401][ 90]LogStreaming: Display: FlushAsyncLoading(462): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.44.39:411][ 91]LogStreaming: Display: FlushAsyncLoading(464): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.44.39:919][100]LogStreaming: Display: FlushAsyncLoading(465): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.44.44:721][402]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_0.post_apocalyptic_buildings_texture_0 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.44:723][402]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_10.post_apocalyptic_buildings_texture_10 (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.44:723][402]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_1.post_apocalyptic_buildings_texture_1 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.44:725][402]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_13.post_apocalyptic_buildings_texture_13 (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.44:725][402]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_11.post_apocalyptic_buildings_texture_11 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.45:219][411]LogStaticMesh: Display: Building static mesh post_apocalyptic_buildings (Required Memory Estimate: 1823.03808 MB)...
+[2025.08.02-12.44.45:239][411]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_14.post_apocalyptic_buildings_texture_14 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.45:275][411]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_16.post_apocalyptic_buildings_texture_16 (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.45:288][411]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_15.post_apocalyptic_buildings_texture_15 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.45:294][411]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_2.post_apocalyptic_buildings_texture_2 (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.45:723][428]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_5.post_apocalyptic_buildings_texture_5 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.45:727][429]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_3.post_apocalyptic_buildings_texture_3 (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.45:736][429]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_4.post_apocalyptic_buildings_texture_4 (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.45:736][429]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_7.post_apocalyptic_buildings_texture_7 (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.47:013][532]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_8.post_apocalyptic_buildings_texture_8 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.47:013][532]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_9.post_apocalyptic_buildings_texture_9 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.47:082][535]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_12.post_apocalyptic_buildings_texture_12 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.47:415][565]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_6.post_apocalyptic_buildings_texture_6 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.47:445][566]LogTexture: Display: Building textures: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_17.post_apocalyptic_buildings_texture_17 (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.02-12.44.53:712][198]LogStaticMesh: Built static mesh [8.49s] /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings.post_apocalyptic_buildings
+[2025.08.02-12.44.56:511][503]LogStaticMesh: Warning: post_apocalyptic_buildings has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2025.08.02-12.44.56:511][503]LogStaticMesh: Warning: post_apocalyptic_buildings has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2025.08.02-12.44.57:404][504]LogInterchangeEngine: Display: Interchange import completed [C:/Users/devat/AppDa...9c-9aeb-9c44ab58c38d/post_apocalyptic_buildings.glb]
+[2025.08.02-12.44.57:589][507]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.08.02-12.44.57:589][507]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_0'.
+[2025.08.02-12.45.04:402][ 59]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.08.02-12.45.04:402][ 59]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_1'.
+[2025.08.02-12.45.12:631][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.08.02-12.45.12:635][728]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Blueprints/Maps/VR_TestPawn' took 0.079
+[2025.08.02-12.45.12:636][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/Glass_window] ([1] browsable assets)...
+[2025.08.02-12.45.12:653][728]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Post-apocalyptic_buildings/Glass_window.Glass_window]
+[2025.08.02-12.45.12:653][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/Glass_window]
+[2025.08.02-12.45.12:713][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/Glass_window_Auto1
+[2025.08.02-12.45.12:713][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/Glass_window_Auto1C31691D3481DDB0CAA7A5A8CADFEEF10.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/Glass_window_Auto1.uasset'
+[2025.08.02-12.45.12:714][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_0] ([1] browsable assets)...
+[2025.08.02-12.45.12:726][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_0.post_apocalyptic_buildings_texture_0]
+[2025.08.02-12.45.12:727][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_0]
+[2025.08.02-12.45.12:756][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_0_Auto1
+[2025.08.02-12.45.12:756][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu6A33414E4DF63951C8294599F5C71F2D.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_0_Auto1.uasset'
+[2025.08.02-12.45.12:757][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_1] ([1] browsable assets)...
+[2025.08.02-12.45.12:760][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_1.post_apocalyptic_buildings_texture_1]
+[2025.08.02-12.45.12:760][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_1]
+[2025.08.02-12.45.12:781][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_1_Auto1
+[2025.08.02-12.45.12:781][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textuE661E63D41140F2E6CA60C84033181DF.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_1_Auto1.uasset'
+[2025.08.02-12.45.12:782][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_10] ([1] browsable assets)...
+[2025.08.02-12.45.12:783][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_10.post_apocalyptic_buildings_texture_10]
+[2025.08.02-12.45.12:784][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_10]
+[2025.08.02-12.45.12:805][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_10_Auto1
+[2025.08.02-12.45.12:805][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu6BB7B9314F6C21F69B9E80AB49A23E8B.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_10_Auto1.uasset'
+[2025.08.02-12.45.12:807][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_11] ([1] browsable assets)...
+[2025.08.02-12.45.12:809][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_11.post_apocalyptic_buildings_texture_11]
+[2025.08.02-12.45.12:809][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_11]
+[2025.08.02-12.45.12:824][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_11_Auto1
+[2025.08.02-12.45.12:824][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu7C5A95FF415EF942D747AB8180DE0F9E.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_11_Auto1.uasset'
+[2025.08.02-12.45.12:825][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_13] ([1] browsable assets)...
+[2025.08.02-12.45.12:827][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_13.post_apocalyptic_buildings_texture_13]
+[2025.08.02-12.45.12:827][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_13]
+[2025.08.02-12.45.12:869][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_13_Auto1
+[2025.08.02-12.45.12:869][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu70E423E1479CB4BDC570268E21D1F206.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_13_Auto1.uasset'
+[2025.08.02-12.45.12:870][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_14] ([1] browsable assets)...
+[2025.08.02-12.45.12:872][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_14.post_apocalyptic_buildings_texture_14]
+[2025.08.02-12.45.12:872][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_14]
+[2025.08.02-12.45.12:887][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_14_Auto1
+[2025.08.02-12.45.12:887][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu5DBBCACC4B0FD141244E31AB3ECB1D6A.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_14_Auto1.uasset'
+[2025.08.02-12.45.12:888][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_15] ([1] browsable assets)...
+[2025.08.02-12.45.12:891][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_15.post_apocalyptic_buildings_texture_15]
+[2025.08.02-12.45.12:891][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_15]
+[2025.08.02-12.45.12:939][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_15_Auto1
+[2025.08.02-12.45.12:939][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu55E1B13F4A331057AA90A7B0ADF50F43.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_15_Auto1.uasset'
+[2025.08.02-12.45.12:940][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_16] ([1] browsable assets)...
+[2025.08.02-12.45.12:942][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_16.post_apocalyptic_buildings_texture_16]
+[2025.08.02-12.45.12:942][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_16]
+[2025.08.02-12.45.12:957][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_16_Auto1
+[2025.08.02-12.45.12:957][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textuCB5C55B14774C35C62EF74AFA6B58F8A.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_16_Auto1.uasset'
+[2025.08.02-12.45.12:958][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_2] ([1] browsable assets)...
+[2025.08.02-12.45.12:962][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_2.post_apocalyptic_buildings_texture_2]
+[2025.08.02-12.45.12:962][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_2]
+[2025.08.02-12.45.12:978][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_2_Auto1
+[2025.08.02-12.45.12:978][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu7E46C9A547D84EB53D7F558AC7052514.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_2_Auto1.uasset'
+[2025.08.02-12.45.12:979][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_3] ([1] browsable assets)...
+[2025.08.02-12.45.12:981][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_3.post_apocalyptic_buildings_texture_3]
+[2025.08.02-12.45.12:981][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_3]
+[2025.08.02-12.45.13:409][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_3_Auto1
+[2025.08.02-12.45.13:409][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textuC8DF0D14455078019BFA0F8F06D3BD42.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_3_Auto1.uasset'
+[2025.08.02-12.45.13:410][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_4] ([1] browsable assets)...
+[2025.08.02-12.45.13:413][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_4.post_apocalyptic_buildings_texture_4]
+[2025.08.02-12.45.13:413][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_4]
+[2025.08.02-12.45.13:983][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_4_Auto1
+[2025.08.02-12.45.13:983][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu445C37DE4D8E71D8069BDF8CD5931C9D.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_4_Auto1.uasset'
+[2025.08.02-12.45.13:984][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_5] ([1] browsable assets)...
+[2025.08.02-12.45.13:986][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_5.post_apocalyptic_buildings_texture_5]
+[2025.08.02-12.45.13:986][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_5]
+[2025.08.02-12.45.14:000][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_5_Auto1
+[2025.08.02-12.45.14:000][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textuAA595EBE492A1286EA700B9A56B253B2.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_5_Auto1.uasset'
+[2025.08.02-12.45.14:001][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_7] ([1] browsable assets)...
+[2025.08.02-12.45.14:003][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_7.post_apocalyptic_buildings_texture_7]
+[2025.08.02-12.45.14:003][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_7]
+[2025.08.02-12.45.14:017][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_7_Auto1
+[2025.08.02-12.45.14:017][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu03D1153B4F284A4D682375BF78E14036.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_7_Auto1.uasset'
+[2025.08.02-12.45.14:018][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_8] ([1] browsable assets)...
+[2025.08.02-12.45.14:019][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_8.post_apocalyptic_buildings_texture_8]
+[2025.08.02-12.45.14:019][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_8]
+[2025.08.02-12.45.14:033][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_8_Auto1
+[2025.08.02-12.45.14:033][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textuC08E35304D9B6B9DCC98F383F60E2786.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_8_Auto1.uasset'
+[2025.08.02-12.45.14:033][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_9] ([1] browsable assets)...
+[2025.08.02-12.45.14:035][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_9.post_apocalyptic_buildings_texture_9]
+[2025.08.02-12.45.14:035][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_9]
+[2025.08.02-12.45.14:049][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_9_Auto1
+[2025.08.02-12.45.14:049][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu81F3608D4A13185F89007498165025A2.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_9_Auto1.uasset'
+[2025.08.02-12.45.14:049][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/paint_B6] ([1] browsable assets)...
+[2025.08.02-12.45.14:055][728]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Post-apocalyptic_buildings/paint_B6.paint_B6]
+[2025.08.02-12.45.14:055][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/paint_B6]
+[2025.08.02-12.45.14:058][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/paint_B6_Auto1
+[2025.08.02-12.45.14:058][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/paint_B6_Auto191BBF8CD43954D48FCBD159E73C74150.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/paint_B6_Auto1.uasset'
+[2025.08.02-12.45.14:058][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/paint_B3] ([1] browsable assets)...
+[2025.08.02-12.45.14:064][728]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Post-apocalyptic_buildings/paint_B3.paint_B3]
+[2025.08.02-12.45.14:064][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/paint_B3]
+[2025.08.02-12.45.14:066][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/paint_B3_Auto1
+[2025.08.02-12.45.14:066][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/paint_B3_Auto11D93FC6B4A5B9C618E1D02AF2F2282A6.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/paint_B3_Auto1.uasset'
+[2025.08.02-12.45.14:067][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_12] ([1] browsable assets)...
+[2025.08.02-12.45.14:069][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_12.post_apocalyptic_buildings_texture_12]
+[2025.08.02-12.45.14:069][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_12]
+[2025.08.02-12.45.14:083][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_12_Auto1
+[2025.08.02-12.45.14:083][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textuC0712D38455649762577188A1FAEDBE8.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_12_Auto1.uasset'
+[2025.08.02-12.45.14:084][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/Metal_inner] ([1] browsable assets)...
+[2025.08.02-12.45.14:089][728]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Post-apocalyptic_buildings/Metal_inner.Metal_inner]
+[2025.08.02-12.45.14:089][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/Metal_inner]
+[2025.08.02-12.45.14:091][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/Metal_inner_Auto1
+[2025.08.02-12.45.14:091][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/Metal_inner_Auto13617AB7E401DDEB035FEA6A6582A97C3.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/Metal_inner_Auto1.uasset'
+[2025.08.02-12.45.14:093][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/Metal_bar] ([1] browsable assets)...
+[2025.08.02-12.45.14:098][728]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Post-apocalyptic_buildings/Metal_bar.Metal_bar]
+[2025.08.02-12.45.14:098][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/Metal_bar]
+[2025.08.02-12.45.14:100][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/Metal_bar_Auto1
+[2025.08.02-12.45.14:100][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/Metal_bar_Auto1DC697E6F45650542CC95E6A86D15EC39.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/Metal_bar_Auto1.uasset'
+[2025.08.02-12.45.14:101][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_17] ([1] browsable assets)...
+[2025.08.02-12.45.14:103][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_17.post_apocalyptic_buildings_texture_17]
+[2025.08.02-12.45.14:103][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_17]
+[2025.08.02-12.45.14:676][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_17_Auto1
+[2025.08.02-12.45.14:676][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu62D8411A4A733D06AFFCBE8A78EF9D19.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_17_Auto1.uasset'
+[2025.08.02-12.45.14:677][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/Metal] ([1] browsable assets)...
+[2025.08.02-12.45.14:685][728]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Post-apocalyptic_buildings/Metal.Metal]
+[2025.08.02-12.45.14:685][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/Metal]
+[2025.08.02-12.45.14:688][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/Metal_Auto1
+[2025.08.02-12.45.14:688][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/Metal_Auto1CC124C21413165C47BEFBCA47C250835.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/Metal_Auto1.uasset'
+[2025.08.02-12.45.14:688][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_6] ([1] browsable assets)...
+[2025.08.02-12.45.14:690][728]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_6.post_apocalyptic_buildings_texture_6]
+[2025.08.02-12.45.14:690][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_6]
+[2025.08.02-12.45.14:711][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_6_Auto1
+[2025.08.02-12.45.14:711][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu7E74D6C64494D890B2F662B0F0D53265.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_6_Auto1.uasset'
+[2025.08.02-12.45.14:713][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/paint_B4] ([1] browsable assets)...
+[2025.08.02-12.45.14:720][728]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Post-apocalyptic_buildings/paint_B4.paint_B4]
+[2025.08.02-12.45.14:720][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/paint_B4]
+[2025.08.02-12.45.14:723][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/paint_B4_Auto1
+[2025.08.02-12.45.14:723][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/paint_B4_Auto13187DF5047066DEEE6450C85F05D7722.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/paint_B4_Auto1.uasset'
+[2025.08.02-12.45.14:724][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/paint_B5] ([1] browsable assets)...
+[2025.08.02-12.45.14:731][728]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Post-apocalyptic_buildings/paint_B5.paint_B5]
+[2025.08.02-12.45.14:731][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/paint_B5]
+[2025.08.02-12.45.14:734][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/paint_B5_Auto1
+[2025.08.02-12.45.14:734][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/paint_B5_Auto1CE1912A44C6B4523F7B8258086E01938.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/paint_B5_Auto1.uasset'
+[2025.08.02-12.45.14:734][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/paint_B1] ([1] browsable assets)...
+[2025.08.02-12.45.14:741][728]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Post-apocalyptic_buildings/paint_B1.paint_B1]
+[2025.08.02-12.45.14:741][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/paint_B1]
+[2025.08.02-12.45.14:744][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/paint_B1_Auto1
+[2025.08.02-12.45.14:744][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/paint_B1_Auto16E2012B6476FA2DEC61030BA52872D70.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/paint_B1_Auto1.uasset'
+[2025.08.02-12.45.14:745][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/concrete_inner] ([1] browsable assets)...
+[2025.08.02-12.45.14:751][728]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Post-apocalyptic_buildings/concrete_inner.concrete_inner]
+[2025.08.02-12.45.14:751][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/concrete_inner]
+[2025.08.02-12.45.14:753][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/concrete_inner_Auto1
+[2025.08.02-12.45.14:753][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/concrete_inner_Auto12FC1730C46F60FF2D858D9BEB1E72D5A.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/concrete_inner_Auto1.uasset'
+[2025.08.02-12.45.14:754][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/paint_B2] ([1] browsable assets)...
+[2025.08.02-12.45.14:762][728]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Post-apocalyptic_buildings/paint_B2.paint_B2]
+[2025.08.02-12.45.14:762][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/paint_B2]
+[2025.08.02-12.45.14:764][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/paint_B2_Auto1
+[2025.08.02-12.45.14:764][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/paint_B2_Auto11255267145A2B69768AB1E8BA92B8684.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/paint_B2_Auto1.uasset'
+[2025.08.02-12.45.14:765][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings] ([1] browsable assets)...
+[2025.08.02-12.45.14:781][728]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings.post_apocalyptic_buildings]
+[2025.08.02-12.45.14:781][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings]
+[2025.08.02-12.45.15:130][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_Auto1
+[2025.08.02-12.45.15:130][728]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_Auto15349526848955402375773B3119D14AE.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_Auto1.uasset'
+[2025.08.02-12.45.15:131][728]LogFileHelpers: Auto-saving content packages took 2.497
+[2025.08.02-12.45.38:800][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.08.02-12.45.38:809][130]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.02-12.45.38:870][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/Glass_window] ([1] browsable assets)...
+[2025.08.02-12.45.38:870][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/Glass_window]
+[2025.08.02-12.45.38:870][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Post-apocalyptic_buildings/Glass_window" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/Glass_window.uasset" SILENT=true
+[2025.08.02-12.45.38:872][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/Glass_window
+[2025.08.02-12.45.38:872][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/Glass_window349620EB465F0F72F8B5759AA29511FD.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/Glass_window.uasset'
+[2025.08.02-12.45.38:873][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_0] ([1] browsable assets)...
+[2025.08.02-12.45.38:873][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_0]
+[2025.08.02-12.45.38:925][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_0
+[2025.08.02-12.45.38:925][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textuE991DEF5406D12C9EABCBEAEA14B2A7F.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_0.uasset'
+[2025.08.02-12.45.38:926][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_1] ([1] browsable assets)...
+[2025.08.02-12.45.38:926][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_1]
+[2025.08.02-12.45.38:977][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_1
+[2025.08.02-12.45.38:977][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textuCD5E38EE4E2F24D14B8FB38091D19A46.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_1.uasset'
+[2025.08.02-12.45.38:978][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_10] ([1] browsable assets)...
+[2025.08.02-12.45.38:978][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_10]
+[2025.08.02-12.45.39:040][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_10
+[2025.08.02-12.45.39:040][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textuC47807F54E438F6A70FC65911056CA0C.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_10.uasset'
+[2025.08.02-12.45.39:041][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_11] ([1] browsable assets)...
+[2025.08.02-12.45.39:041][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_11]
+[2025.08.02-12.45.39:097][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_11
+[2025.08.02-12.45.39:097][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu09974E314892116EE8C148B5C81B1B69.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_11.uasset'
+[2025.08.02-12.45.39:098][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_13] ([1] browsable assets)...
+[2025.08.02-12.45.39:098][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_13]
+[2025.08.02-12.45.39:164][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_13
+[2025.08.02-12.45.39:164][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu300E0199468E7EC11241DBA5BD1D42AF.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_13.uasset'
+[2025.08.02-12.45.39:165][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_14] ([1] browsable assets)...
+[2025.08.02-12.45.39:165][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_14]
+[2025.08.02-12.45.39:226][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_14
+[2025.08.02-12.45.39:226][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textuBBF91ED94C53EE05A10F418223B56487.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_14.uasset'
+[2025.08.02-12.45.39:227][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_15] ([1] browsable assets)...
+[2025.08.02-12.45.39:228][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_15]
+[2025.08.02-12.45.39:291][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_15
+[2025.08.02-12.45.39:292][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu96427DC54C677C7C910E42B2100895B7.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_15.uasset'
+[2025.08.02-12.45.39:294][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_16] ([1] browsable assets)...
+[2025.08.02-12.45.39:294][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_16]
+[2025.08.02-12.45.39:357][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_16
+[2025.08.02-12.45.39:357][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu9738049E4900C9EA9F5D6C8BE29CC094.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_16.uasset'
+[2025.08.02-12.45.39:358][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_2] ([1] browsable assets)...
+[2025.08.02-12.45.39:358][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_2]
+[2025.08.02-12.45.39:415][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_2
+[2025.08.02-12.45.39:415][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textuB721C02E41007E5EA6DA0CB6E6AF860A.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_2.uasset'
+[2025.08.02-12.45.39:417][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_3] ([1] browsable assets)...
+[2025.08.02-12.45.39:417][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_3]
+[2025.08.02-12.45.39:657][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_3
+[2025.08.02-12.45.39:657][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu76DEFEB1435E5DA3DEE450A4CFE36A66.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_3.uasset'
+[2025.08.02-12.45.39:658][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_4] ([1] browsable assets)...
+[2025.08.02-12.45.39:658][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_4]
+[2025.08.02-12.45.39:909][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_4
+[2025.08.02-12.45.39:909][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu090F808F40F43127CA073B94264AE1D2.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_4.uasset'
+[2025.08.02-12.45.39:910][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_5] ([1] browsable assets)...
+[2025.08.02-12.45.39:910][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_5]
+[2025.08.02-12.45.39:970][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_5
+[2025.08.02-12.45.39:970][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textuFED61CB440707396F2E7419A4DC95FEF.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_5.uasset'
+[2025.08.02-12.45.39:971][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_7] ([1] browsable assets)...
+[2025.08.02-12.45.39:971][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_7]
+[2025.08.02-12.45.40:025][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_7
+[2025.08.02-12.45.40:025][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu883FDD6B460137EF29CF6D85CB50C6DB.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_7.uasset'
+[2025.08.02-12.45.40:026][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_8] ([1] browsable assets)...
+[2025.08.02-12.45.40:026][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_8]
+[2025.08.02-12.45.40:091][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_8
+[2025.08.02-12.45.40:091][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu8FDBA29142725598BD5B7C947A271941.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_8.uasset'
+[2025.08.02-12.45.40:092][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_9] ([1] browsable assets)...
+[2025.08.02-12.45.40:092][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_9]
+[2025.08.02-12.45.40:158][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_9
+[2025.08.02-12.45.40:158][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu8A405CD6456816E15D78E49B517A8578.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_9.uasset'
+[2025.08.02-12.45.40:159][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/paint_B6] ([1] browsable assets)...
+[2025.08.02-12.45.40:159][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/paint_B6]
+[2025.08.02-12.45.40:159][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Post-apocalyptic_buildings/paint_B6" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/paint_B6.uasset" SILENT=true
+[2025.08.02-12.45.40:161][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/paint_B6
+[2025.08.02-12.45.40:161][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/paint_B67C70459B43AAB472533F448E833B3B14.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/paint_B6.uasset'
+[2025.08.02-12.45.40:162][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/paint_B3] ([1] browsable assets)...
+[2025.08.02-12.45.40:162][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/paint_B3]
+[2025.08.02-12.45.40:162][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Post-apocalyptic_buildings/paint_B3" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/paint_B3.uasset" SILENT=true
+[2025.08.02-12.45.40:164][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/paint_B3
+[2025.08.02-12.45.40:164][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/paint_B36391D40642FC44071C86CD922A5233A3.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/paint_B3.uasset'
+[2025.08.02-12.45.40:165][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_12] ([1] browsable assets)...
+[2025.08.02-12.45.40:165][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_12]
+[2025.08.02-12.45.40:227][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_12
+[2025.08.02-12.45.40:227][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textuF5580CBB4B2FB08CCD03828BEB52B499.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_12.uasset'
+[2025.08.02-12.45.40:228][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/Metal_inner] ([1] browsable assets)...
+[2025.08.02-12.45.40:228][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/Metal_inner]
+[2025.08.02-12.45.40:228][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Post-apocalyptic_buildings/Metal_inner" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/Metal_inner.uasset" SILENT=true
+[2025.08.02-12.45.40:230][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/Metal_inner
+[2025.08.02-12.45.40:230][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/Metal_innerB72FFBAA4953803E1F534E9FCC1A4196.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/Metal_inner.uasset'
+[2025.08.02-12.45.40:231][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/Metal_bar] ([1] browsable assets)...
+[2025.08.02-12.45.40:231][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/Metal_bar]
+[2025.08.02-12.45.40:231][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Post-apocalyptic_buildings/Metal_bar" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/Metal_bar.uasset" SILENT=true
+[2025.08.02-12.45.40:233][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/Metal_bar
+[2025.08.02-12.45.40:233][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/Metal_bar14B67ABA44496A6335DB09B671679B84.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/Metal_bar.uasset'
+[2025.08.02-12.45.40:234][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_17] ([1] browsable assets)...
+[2025.08.02-12.45.40:234][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_17]
+[2025.08.02-12.45.40:492][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_17
+[2025.08.02-12.45.40:492][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textu132286DB4C81082E51DBDBB16C47AA4B.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_17.uasset'
+[2025.08.02-12.45.40:493][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/Metal] ([1] browsable assets)...
+[2025.08.02-12.45.40:493][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/Metal]
+[2025.08.02-12.45.40:493][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Post-apocalyptic_buildings/Metal" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/Metal.uasset" SILENT=true
+[2025.08.02-12.45.40:495][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/Metal
+[2025.08.02-12.45.40:495][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/Metal7AB5E2F1448784E48DD473B4E57E8666.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/Metal.uasset'
+[2025.08.02-12.45.40:495][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_6] ([1] browsable assets)...
+[2025.08.02-12.45.40:495][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_6]
+[2025.08.02-12.45.40:548][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_6
+[2025.08.02-12.45.40:548][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings_textuA1BB9BD143D5CBB4BA8C8B846D153FC5.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_6.uasset'
+[2025.08.02-12.45.40:549][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/paint_B4] ([1] browsable assets)...
+[2025.08.02-12.45.40:549][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/paint_B4]
+[2025.08.02-12.45.40:549][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Post-apocalyptic_buildings/paint_B4" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/paint_B4.uasset" SILENT=true
+[2025.08.02-12.45.40:551][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/paint_B4
+[2025.08.02-12.45.40:551][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/paint_B44D1F7A614B2CB8DFDF15F9A7BDF185BB.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/paint_B4.uasset'
+[2025.08.02-12.45.40:551][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/paint_B5] ([1] browsable assets)...
+[2025.08.02-12.45.40:551][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/paint_B5]
+[2025.08.02-12.45.40:551][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Post-apocalyptic_buildings/paint_B5" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/paint_B5.uasset" SILENT=true
+[2025.08.02-12.45.40:552][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/paint_B5
+[2025.08.02-12.45.40:552][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/paint_B5B20AB14A42E4E97AD3096A9F8C22E245.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/paint_B5.uasset'
+[2025.08.02-12.45.40:553][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/paint_B1] ([1] browsable assets)...
+[2025.08.02-12.45.40:553][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/paint_B1]
+[2025.08.02-12.45.40:553][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Post-apocalyptic_buildings/paint_B1" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/paint_B1.uasset" SILENT=true
+[2025.08.02-12.45.40:555][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/paint_B1
+[2025.08.02-12.45.40:555][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/paint_B19664B6B04A21D2B75E72639E0E467616.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/paint_B1.uasset'
+[2025.08.02-12.45.40:556][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/concrete_inner] ([1] browsable assets)...
+[2025.08.02-12.45.40:556][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/concrete_inner]
+[2025.08.02-12.45.40:556][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Post-apocalyptic_buildings/concrete_inner" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/concrete_inner.uasset" SILENT=true
+[2025.08.02-12.45.40:558][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/concrete_inner
+[2025.08.02-12.45.40:558][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/concrete_inner72916E3E4DE9F2EA441A5091E5D2B80E.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/concrete_inner.uasset'
+[2025.08.02-12.45.40:559][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/paint_B2] ([1] browsable assets)...
+[2025.08.02-12.45.40:559][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/paint_B2]
+[2025.08.02-12.45.40:559][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Post-apocalyptic_buildings/paint_B2" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/paint_B2.uasset" SILENT=true
+[2025.08.02-12.45.40:560][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/paint_B2
+[2025.08.02-12.45.40:561][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/paint_B22567272D43A51CF6DE6A8EA3B75762FF.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/paint_B2.uasset'
+[2025.08.02-12.45.40:561][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings] ([1] browsable assets)...
+[2025.08.02-12.45.40:561][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings]
+[2025.08.02-12.45.40:902][130]LogSavePackage: Moving output files for package: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings
+[2025.08.02-12.45.40:902][130]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/post_apocalyptic_buildings744F09494480399AE162138AF5CB704C.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings.uasset'
+[2025.08.02-12.45.40:913][130]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.10 sec
+[2025.08.02-12.45.40:968][130]LogContentValidation: Display: Starting to validate 30 assets
+[2025.08.02-12.45.40:969][130]LogContentValidation: Enabled validators:
+[2025.08.02-12.45.40:969][130]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.02-12.45.40:969][130]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.02-12.45.40:969][130]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.02-12.45.40:969][130]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.02-12.45.40:969][130]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.02-12.45.40:969][130]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.02-12.45.40:969][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/Glass_window Validating asset
+[2025.08.02-12.45.40:969][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_0 Validating asset
+[2025.08.02-12.45.40:969][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_1 Validating asset
+[2025.08.02-12.45.40:969][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_10 Validating asset
+[2025.08.02-12.45.40:969][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_11 Validating asset
+[2025.08.02-12.45.40:969][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_13 Validating asset
+[2025.08.02-12.45.40:969][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_14 Validating asset
+[2025.08.02-12.45.40:969][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_15 Validating asset
+[2025.08.02-12.45.40:969][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_16 Validating asset
+[2025.08.02-12.45.40:969][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_2 Validating asset
+[2025.08.02-12.45.40:969][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_3 Validating asset
+[2025.08.02-12.45.40:969][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_4 Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_5 Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_7 Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_8 Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_9 Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/paint_B6 Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/paint_B3 Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_12 Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/Metal_inner Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/Metal_bar Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_17 Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/Metal Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings_texture_6 Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/paint_B4 Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/paint_B5 Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/paint_B1 Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/concrete_inner Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/paint_B2 Validating asset
+[2025.08.02-12.45.40:970][130]AssetCheck: /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings Validating asset
+[2025.08.02-12.45.53:228][400]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Fab/Post-apocalyptic_buildings/post_apocalyptic_buildings.post_apocalyptic_buildings
+[2025.08.02-12.45.53:691][400]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.08.02-12.45.53:691][400]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_2'.
+[2025.08.02-12.45.53:772][400]LogStreaming: Display: FlushAsyncLoading(466): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.46.56:049][200]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 38478.000000
+[2025.08.02-12.46.56:186][209]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.02-12.46.56:186][209]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 38478.125000, Update Interval: 305.293732
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: ================================================
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Total job queries 107, among them cache hits 22 (20.56%), DDC hits 70 (65.42%), Duplicates 1 (0.93%)
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Tracking 84 distinct input hashes that result in 65 distinct outputs (77.38%)
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: RAM used: 80.82 KiB of 1.60 GiB budget. Usage: 0.00%
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Shaders Compiled: 14
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Jobs assigned 14, completed 14 (100%)
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Average time worker was idle: 1.97 s
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.09 s
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Job execution time: average 2.88 s, max 6.68 s
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Job life time (pending + execution): average 2.95 s, max 6.76
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Shader code size: average 13.716 KiB, min 2.801 KiB, max 29.629 KiB
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 13.71 s
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Jobs were issued in 14 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Average processing rate: 1.02 jobs/sec
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Total thread time: 21.042 s
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Total thread preprocess time: 1.976 s
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Percentage time preprocessing: 9.39%
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Effective parallelization: 1.54 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 3.11 sec, max 3.20 sec, min 3.01 sec)
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 3.10 sec, max 3.11 sec, min 3.09 sec)
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 1.50 sec, max 1.50 sec, min 1.50 sec)
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 1.40 sec, max 1.40 sec, min 1.40 sec)
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 0.65 sec, max 0.65 sec, min 0.65 sec)
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 29.52% of total time (compiled    2 times, average 3.11 sec, max 3.20 sec, min 3.01 sec)
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 29.46% of total time (compiled    2 times, average 3.10 sec, max 3.11 sec, min 3.09 sec)
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 7.11% of total time (compiled    1 times, average 1.50 sec, max 1.50 sec, min 1.50 sec)
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 6.64% of total time (compiled    1 times, average 1.40 sec, max 1.40 sec, min 1.40 sec)
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display:                                                  FHitProxyPS - 6.10% of total time (compiled    2 times, average 0.64 sec, max 0.66 sec, min 0.62 sec)
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: === Material stats ===
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.02-12.47.20:515][787]LogShaderCompilers: Display: Materials Translated:    213
+[2025.08.02-12.47.20:516][787]LogShaderCompilers: Display: Material Total Translate Time: 0.32 s
+[2025.08.02-12.47.20:516][787]LogShaderCompilers: Display: Material Translation Only: 0.20 s (63%)
+[2025.08.02-12.47.20:516][787]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.08.02-12.47.20:516][787]LogShaderCompilers: Display: Material Cache Hits: 72 (34%)
+[2025.08.02-12.47.20:516][787]LogShaderCompilers: Display: ================================================
+[2025.08.02-12.47.30:244][587]LogSlate: Window 'post_apocalyptic_buildings' being destroyed
+[2025.08.02-12.47.30:311][587]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.08.02-12.47.30:311][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-12.47.30:374][587]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.08.02-12.47.41:059][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.08.02-12.47.46:710][814]LogSlate: Window 'Delete Assets' being destroyed
+[2025.08.02-12.47.46:819][814]LogUObjectHash: Compacting FUObjectHashTables data took   9.40ms
+[2025.08.02-12.47.46:839][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.08.02-12.47.46:857][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.08.02-12.48.39:027][419]LogFab: Display: Asset Type = glb
+[2025.08.02-12.48.39:027][419]LogFab: Display: Is Quixel = 0
+[2025.08.02-12.48.40:622][492]LogStreaming: Display: FlushAsyncLoading(471): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.48.40:624][492]LogInterchangeEngine: Display: Interchange import: Using stack [OverridePipeline] to import.
+[2025.08.02-12.48.40:624][492]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/devat/AppData/Local/Temp/FabLibrary/71a0da29-31aa-4496-8ecd-585a2cb57f4b/tower_crane.glb]
+[2025.08.02-12.48.40:703][495]LogStreaming: Display: FlushAsyncLoading(472): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.48.40:758][496]LogInterchangeImport: Display: Auto-detected grayscale, image changed to G8
+[2025.08.02-12.48.40:817][496]LogStreaming: Display: FlushAsyncLoading(488): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.48.40:856][497]LogInterchangeImport: Display: Auto-detected grayscale, image changed to G8
+[2025.08.02-12.48.40:860][497]LogStreaming: Display: FlushAsyncLoading(489): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.48.40:900][498]LogStreaming: Display: FlushAsyncLoading(490): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.48.40:955][501]LogStreaming: Display: FlushAsyncLoading(492): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.48.41:030][506]LogStreaming: Display: FlushAsyncLoading(494): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.48.41:098][511]LogStreaming: Display: FlushAsyncLoading(495): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.48.41:110][512]LogStreaming: Display: FlushAsyncLoading(497): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.48.41:189][517]LogStreaming: Display: FlushAsyncLoading(498): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.02-12.48.41:447][524]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_0.tower_crane_texture_0 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.41:447][524]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_1.tower_crane_texture_1 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.41:447][524]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_10.tower_crane_texture_10 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.41:448][524]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_11.tower_crane_texture_11 (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.41:448][524]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_12.tower_crane_texture_12 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.41:855][533]LogStaticMesh: Display: Building static mesh tower_crane (Required Memory Estimate: 57.893188 MB)...
+[2025.08.02-12.48.41:859][533]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_14.tower_crane_texture_14 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 268.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.41:872][533]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_16.tower_crane_texture_16 (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.41:873][533]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_15.tower_crane_texture_15 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.41:925][535]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_17.tower_crane_texture_17 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.42:121][539]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_2.tower_crane_texture_2 (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.42:141][539]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_4.tower_crane_texture_4 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.42:154][540]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_3.tower_crane_texture_3 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.42:156][540]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_5.tower_crane_texture_5 (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.42:423][546]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_7.tower_crane_texture_7 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.42:424][546]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_8.tower_crane_texture_8 (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.42:427][546]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_9.tower_crane_texture_9 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 268.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.42:468][547]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_13.tower_crane_texture_13 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.42:691][552]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_18.tower_crane_texture_18 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.42:694][553]LogTexture: Display: Building textures: /Game/Fab/Tower_Crane/tower_crane_texture_6.tower_crane_texture_6 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 280.999983 MB), EncodeSpeed: Fast
+[2025.08.02-12.48.43:190][577]LogStaticMesh: Built static mesh [1.34s] /Game/Fab/Tower_Crane/tower_crane.tower_crane
+[2025.08.02-12.48.43:272][582]LogStaticMesh: Warning: tower_crane has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2025.08.02-12.48.43:272][582]LogStaticMesh: Warning: tower_crane has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2025.08.02-12.48.44:244][584]LogInterchangeEngine: Display: Interchange import completed [C:/Users/devat/AppDa...96-8ecd-585a2cb57f4b/tower_crane.glb]
+[2025.08.02-12.48.45:487][632]LogMeshUtilities: Finished distance field build in 1.2s - 126x126x126 sparse distance field, 1.2Mb total, 0.0Mb always loaded, 33% occupied, 10768 triangles, tower_crane
+[2025.08.02-12.48.55:244][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.08.02-12.48.55:252][317]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.02-12.48.55:303][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_0] ([1] browsable assets)...
+[2025.08.02-12.48.55:305][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_0.tower_crane_texture_0]
+[2025.08.02-12.48.55:305][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_0]
+[2025.08.02-12.48.55:305][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_0" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_0.uasset" SILENT=true
+[2025.08.02-12.48.55:363][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_0
+[2025.08.02-12.48.55:363][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_014E9C948427446650776188E087DB542.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_0.uasset'
+[2025.08.02-12.48.55:364][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_1] ([1] browsable assets)...
+[2025.08.02-12.48.55:365][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_1.tower_crane_texture_1]
+[2025.08.02-12.48.55:366][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_1]
+[2025.08.02-12.48.55:366][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_1" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_1.uasset" SILENT=true
+[2025.08.02-12.48.55:406][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_1
+[2025.08.02-12.48.55:406][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_123577BB64D415484BBEEE99E3466CE57.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_1.uasset'
+[2025.08.02-12.48.55:407][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_10] ([1] browsable assets)...
+[2025.08.02-12.48.55:408][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_10.tower_crane_texture_10]
+[2025.08.02-12.48.55:408][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_10]
+[2025.08.02-12.48.55:408][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_10" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_10.uasset" SILENT=true
+[2025.08.02-12.48.55:430][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_10
+[2025.08.02-12.48.55:430][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_1063CBFADF49227342D6599AB8219C9D4F.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_10.uasset'
+[2025.08.02-12.48.55:431][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_11] ([1] browsable assets)...
+[2025.08.02-12.48.55:433][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_11.tower_crane_texture_11]
+[2025.08.02-12.48.55:433][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_11]
+[2025.08.02-12.48.55:433][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_11" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_11.uasset" SILENT=true
+[2025.08.02-12.48.55:453][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_11
+[2025.08.02-12.48.55:454][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_1162855D454822E0031B7696881E205B1C.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_11.uasset'
+[2025.08.02-12.48.55:455][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_12] ([1] browsable assets)...
+[2025.08.02-12.48.55:456][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_12.tower_crane_texture_12]
+[2025.08.02-12.48.55:456][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_12]
+[2025.08.02-12.48.55:456][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_12" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_12.uasset" SILENT=true
+[2025.08.02-12.48.55:477][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_12
+[2025.08.02-12.48.55:477][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_12895953C24ECF6760897B1AA017706C57.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_12.uasset'
+[2025.08.02-12.48.55:479][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_14] ([1] browsable assets)...
+[2025.08.02-12.48.55:481][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_14.tower_crane_texture_14]
+[2025.08.02-12.48.55:481][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_14]
+[2025.08.02-12.48.55:481][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_14" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_14.uasset" SILENT=true
+[2025.08.02-12.48.55:488][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_14
+[2025.08.02-12.48.55:488][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_14CB22B8E146CB767A1EE357A51DE4B326.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_14.uasset'
+[2025.08.02-12.48.55:489][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_15] ([1] browsable assets)...
+[2025.08.02-12.48.55:491][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_15.tower_crane_texture_15]
+[2025.08.02-12.48.55:491][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_15]
+[2025.08.02-12.48.55:491][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_15" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_15.uasset" SILENT=true
+[2025.08.02-12.48.55:511][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_15
+[2025.08.02-12.48.55:513][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_159A83AE2547CC04F135B5299B7C629779.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_15.uasset'
+[2025.08.02-12.48.55:514][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_16] ([1] browsable assets)...
+[2025.08.02-12.48.55:515][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_16.tower_crane_texture_16]
+[2025.08.02-12.48.55:515][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_16]
+[2025.08.02-12.48.55:515][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_16" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_16.uasset" SILENT=true
+[2025.08.02-12.48.55:536][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_16
+[2025.08.02-12.48.55:536][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_16F1EB2F8E41E266F4F578288060BB3C12.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_16.uasset'
+[2025.08.02-12.48.55:537][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_17] ([1] browsable assets)...
+[2025.08.02-12.48.55:539][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_17.tower_crane_texture_17]
+[2025.08.02-12.48.55:539][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_17]
+[2025.08.02-12.48.55:539][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_17" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_17.uasset" SILENT=true
+[2025.08.02-12.48.55:560][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_17
+[2025.08.02-12.48.55:561][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_1775D6A57E433906E82C12289380A3A92B.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_17.uasset'
+[2025.08.02-12.48.55:561][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_2] ([1] browsable assets)...
+[2025.08.02-12.48.55:564][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_2.tower_crane_texture_2]
+[2025.08.02-12.48.55:564][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_2]
+[2025.08.02-12.48.55:564][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_2" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_2.uasset" SILENT=true
+[2025.08.02-12.48.55:585][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_2
+[2025.08.02-12.48.55:585][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_24ECD0B964D22682349F14EB9AEA27F59.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_2.uasset'
+[2025.08.02-12.48.55:586][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_3] ([1] browsable assets)...
+[2025.08.02-12.48.55:588][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_3.tower_crane_texture_3]
+[2025.08.02-12.48.55:588][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_3]
+[2025.08.02-12.48.55:588][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_3" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_3.uasset" SILENT=true
+[2025.08.02-12.48.55:609][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_3
+[2025.08.02-12.48.55:609][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_3773C84144B5AC2F02EEBEC969696C610.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_3.uasset'
+[2025.08.02-12.48.55:610][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_4] ([1] browsable assets)...
+[2025.08.02-12.48.55:612][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_4.tower_crane_texture_4]
+[2025.08.02-12.48.55:612][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_4]
+[2025.08.02-12.48.55:612][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_4" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_4.uasset" SILENT=true
+[2025.08.02-12.48.55:689][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_4
+[2025.08.02-12.48.55:690][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_4352FFDBD4AD706B5AA4A33827803D82C.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_4.uasset'
+[2025.08.02-12.48.55:690][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_5] ([1] browsable assets)...
+[2025.08.02-12.48.55:693][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_5.tower_crane_texture_5]
+[2025.08.02-12.48.55:693][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_5]
+[2025.08.02-12.48.55:693][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_5" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_5.uasset" SILENT=true
+[2025.08.02-12.48.55:715][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_5
+[2025.08.02-12.48.55:715][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_5DE7153A04D29A75A9A0AA88F1E02A8B2.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_5.uasset'
+[2025.08.02-12.48.55:716][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_7] ([1] browsable assets)...
+[2025.08.02-12.48.55:717][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_7.tower_crane_texture_7]
+[2025.08.02-12.48.55:717][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_7]
+[2025.08.02-12.48.55:717][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_7" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_7.uasset" SILENT=true
+[2025.08.02-12.48.55:739][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_7
+[2025.08.02-12.48.55:739][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_73DE0D7D249AFA27B2BB64881E7C67609.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_7.uasset'
+[2025.08.02-12.48.55:740][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_8] ([1] browsable assets)...
+[2025.08.02-12.48.55:742][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_8.tower_crane_texture_8]
+[2025.08.02-12.48.55:742][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_8]
+[2025.08.02-12.48.55:742][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_8" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_8.uasset" SILENT=true
+[2025.08.02-12.48.55:764][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_8
+[2025.08.02-12.48.55:764][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_835B22225484A0EA7E2F43DA4ED2FA617.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_8.uasset'
+[2025.08.02-12.48.55:765][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_9] ([1] browsable assets)...
+[2025.08.02-12.48.55:767][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_9.tower_crane_texture_9]
+[2025.08.02-12.48.55:767][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_9]
+[2025.08.02-12.48.55:767][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_9" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_9.uasset" SILENT=true
+[2025.08.02-12.48.55:775][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_9
+[2025.08.02-12.48.55:775][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_9794D2C504D5A033092C4FFB2C346617C.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_9.uasset'
+[2025.08.02-12.48.55:776][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/ROPE] ([1] browsable assets)...
+[2025.08.02-12.48.55:784][317]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Tower_Crane/ROPE.ROPE]
+[2025.08.02-12.48.55:785][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/ROPE]
+[2025.08.02-12.48.55:785][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/ROPE" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/ROPE.uasset" SILENT=true
+[2025.08.02-12.48.55:787][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/ROPE
+[2025.08.02-12.48.55:787][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/ROPE3B5F073F4D3CA32C9DDA8E8324C532AC.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/ROPE.uasset'
+[2025.08.02-12.48.55:788][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/IRON] ([1] browsable assets)...
+[2025.08.02-12.48.55:793][317]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Tower_Crane/IRON.IRON]
+[2025.08.02-12.48.55:794][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/IRON]
+[2025.08.02-12.48.55:794][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/IRON" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/IRON.uasset" SILENT=true
+[2025.08.02-12.48.55:796][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/IRON
+[2025.08.02-12.48.55:796][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/IRONB591E9EB48D92694C6CD9A8D7696CA1D.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/IRON.uasset'
+[2025.08.02-12.48.55:797][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_13] ([1] browsable assets)...
+[2025.08.02-12.48.55:798][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_13.tower_crane_texture_13]
+[2025.08.02-12.48.55:798][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_13]
+[2025.08.02-12.48.55:798][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_13" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_13.uasset" SILENT=true
+[2025.08.02-12.48.55:819][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_13
+[2025.08.02-12.48.55:819][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_132489BD7E44F7E4A9524F0BB522283601.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_13.uasset'
+[2025.08.02-12.48.55:821][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/material] ([1] browsable assets)...
+[2025.08.02-12.48.55:827][317]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Tower_Crane/material.material]
+[2025.08.02-12.48.55:827][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/material]
+[2025.08.02-12.48.55:827][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/material" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/material.uasset" SILENT=true
+[2025.08.02-12.48.55:830][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/material
+[2025.08.02-12.48.55:830][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/materialD224BA834413EF538588239B980429E6.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/material.uasset'
+[2025.08.02-12.48.55:831][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_18] ([1] browsable assets)...
+[2025.08.02-12.48.55:832][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_18.tower_crane_texture_18]
+[2025.08.02-12.48.55:832][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_18]
+[2025.08.02-12.48.55:832][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_18" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_18.uasset" SILENT=true
+[2025.08.02-12.48.55:854][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_18
+[2025.08.02-12.48.55:854][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_18D3A13160478DBDA7FCDA479CC37B9590.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_18.uasset'
+[2025.08.02-12.48.55:856][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/BUCKET] ([1] browsable assets)...
+[2025.08.02-12.48.55:863][317]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Tower_Crane/BUCKET.BUCKET]
+[2025.08.02-12.48.55:863][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/BUCKET]
+[2025.08.02-12.48.55:863][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/BUCKET" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/BUCKET.uasset" SILENT=true
+[2025.08.02-12.48.55:865][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/BUCKET
+[2025.08.02-12.48.55:865][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/BUCKETCBB4B94B4649BB88023247AED4A4359D.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/BUCKET.uasset'
+[2025.08.02-12.48.55:866][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane_texture_6] ([1] browsable assets)...
+[2025.08.02-12.48.55:867][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Tower_Crane/tower_crane_texture_6.tower_crane_texture_6]
+[2025.08.02-12.48.55:867][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane_texture_6]
+[2025.08.02-12.48.55:867][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane_texture_6" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_6.uasset" SILENT=true
+[2025.08.02-12.48.55:890][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane_texture_6
+[2025.08.02-12.48.55:890][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane_texture_6D140CD714E7E014E25DC739A45CB571C.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane_texture_6.uasset'
+[2025.08.02-12.48.55:891][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/frame] ([1] browsable assets)...
+[2025.08.02-12.48.55:897][317]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Tower_Crane/frame.frame]
+[2025.08.02-12.48.55:897][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/frame]
+[2025.08.02-12.48.55:897][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/frame" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/frame.uasset" SILENT=true
+[2025.08.02-12.48.55:939][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/frame
+[2025.08.02-12.48.55:939][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/frameE0B9069146C5A2CC8A071CB31F986440.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/frame.uasset'
+[2025.08.02-12.48.55:940][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/CONCRETE] ([1] browsable assets)...
+[2025.08.02-12.48.55:945][317]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Tower_Crane/CONCRETE.CONCRETE]
+[2025.08.02-12.48.55:945][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/CONCRETE]
+[2025.08.02-12.48.55:945][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/CONCRETE" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/CONCRETE.uasset" SILENT=true
+[2025.08.02-12.48.55:947][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/CONCRETE
+[2025.08.02-12.48.55:947][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/CONCRETECC9C9878419FAED69BC63883A01395C8.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/CONCRETE.uasset'
+[2025.08.02-12.48.55:949][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/GLASS] ([1] browsable assets)...
+[2025.08.02-12.48.55:955][317]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Tower_Crane/GLASS.GLASS]
+[2025.08.02-12.48.55:955][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/GLASS]
+[2025.08.02-12.48.55:955][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/GLASS" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/GLASS.uasset" SILENT=true
+[2025.08.02-12.48.55:957][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/GLASS
+[2025.08.02-12.48.55:957][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/GLASS91D849464FC222FB692838BDA2FBF597.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/GLASS.uasset'
+[2025.08.02-12.48.55:958][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Tower_Crane/tower_crane] ([1] browsable assets)...
+[2025.08.02-12.48.55:964][317]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Fab/Tower_Crane/tower_crane.tower_crane]
+[2025.08.02-12.48.55:964][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Tower_Crane/tower_crane]
+[2025.08.02-12.48.55:964][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Tower_Crane/tower_crane" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane.uasset" SILENT=true
+[2025.08.02-12.48.55:983][317]LogSavePackage: Moving output files for package: /Game/Fab/Tower_Crane/tower_crane
+[2025.08.02-12.48.55:983][317]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/tower_crane97B47B07444D970E51AF48B477B96173.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Fab/Tower_Crane/tower_crane.uasset'
+[2025.08.02-12.48.55:995][317]LogFileHelpers: InternalPromptForCheckoutAndSave took 741.825 ms (total: 2.84 sec)
+[2025.08.02-12.48.56:057][317]LogContentValidation: Display: Starting to validate 27 assets
+[2025.08.02-12.48.56:057][317]LogContentValidation: Enabled validators:
+[2025.08.02-12.48.56:057][317]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.02-12.48.56:057][317]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.02-12.48.56:057][317]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.02-12.48.56:057][317]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.02-12.48.56:057][317]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.02-12.48.56:058][317]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.02-12.48.56:058][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_0 Validating asset
+[2025.08.02-12.48.56:058][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_1 Validating asset
+[2025.08.02-12.48.56:058][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_10 Validating asset
+[2025.08.02-12.48.56:058][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_11 Validating asset
+[2025.08.02-12.48.56:058][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_12 Validating asset
+[2025.08.02-12.48.56:058][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_14 Validating asset
+[2025.08.02-12.48.56:058][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_15 Validating asset
+[2025.08.02-12.48.56:058][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_16 Validating asset
+[2025.08.02-12.48.56:058][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_17 Validating asset
+[2025.08.02-12.48.56:058][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_2 Validating asset
+[2025.08.02-12.48.56:058][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_3 Validating asset
+[2025.08.02-12.48.56:058][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_4 Validating asset
+[2025.08.02-12.48.56:058][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_5 Validating asset
+[2025.08.02-12.48.56:058][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_7 Validating asset
+[2025.08.02-12.48.56:058][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_8 Validating asset
+[2025.08.02-12.48.56:058][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_9 Validating asset
+[2025.08.02-12.48.56:059][317]AssetCheck: /Game/Fab/Tower_Crane/ROPE Validating asset
+[2025.08.02-12.48.56:059][317]AssetCheck: /Game/Fab/Tower_Crane/IRON Validating asset
+[2025.08.02-12.48.56:059][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_13 Validating asset
+[2025.08.02-12.48.56:059][317]AssetCheck: /Game/Fab/Tower_Crane/material Validating asset
+[2025.08.02-12.48.56:059][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_18 Validating asset
+[2025.08.02-12.48.56:059][317]AssetCheck: /Game/Fab/Tower_Crane/BUCKET Validating asset
+[2025.08.02-12.48.56:059][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane_texture_6 Validating asset
+[2025.08.02-12.48.56:059][317]AssetCheck: /Game/Fab/Tower_Crane/frame Validating asset
+[2025.08.02-12.48.56:059][317]AssetCheck: /Game/Fab/Tower_Crane/CONCRETE Validating asset
+[2025.08.02-12.48.56:059][317]AssetCheck: /Game/Fab/Tower_Crane/GLASS Validating asset
+[2025.08.02-12.48.56:059][317]AssetCheck: /Game/Fab/Tower_Crane/tower_crane Validating asset
+[2025.08.02-12.48.59:237][520]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Fab/Tower_Crane/tower_crane.tower_crane
+[2025.08.02-12.48.59:237][520]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Fab/Tower_Crane/tower_crane.tower_crane
+[2025.08.02-12.48.59:237][520]LogActorFactory: Actor Factory spawned StaticMesh /Game/Fab/Tower_Crane/tower_crane.tower_crane as actor: StaticMeshActor /Game/Blueprints/Maps/VR_TestPawn.VR_TestPawn:PersistentLevel.StaticMeshActor_14
+[2025.08.02-12.49.00:563][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.08.02-12.49.00:565][607]LogEditorActor: Deleted 0 Actors (0.021 secs)
+[2025.08.02-12.49.00:573][607]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Fab/Tower_Crane/tower_crane.tower_crane
+[2025.08.02-12.49.00:573][607]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Fab/Tower_Crane/tower_crane.tower_crane
+[2025.08.02-12.49.00:575][607]LogActorFactory: Actor Factory spawned StaticMesh /Game/Fab/Tower_Crane/tower_crane.tower_crane as actor: StaticMeshActor /Game/Blueprints/Maps/VR_TestPawn.VR_TestPawn:PersistentLevel.StaticMeshActor_15
+[2025.08.02-12.50.03:032][994]Cmd: DELETE
+[2025.08.02-12.50.03:032][994]Cmd: ACTOR DELETE
+[2025.08.02-12.50.03:038][994]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.08.02-12.50.03:056][994]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.08.02-12.50.03:059][994]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2025.08.02-12.50.07:338][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.08.02-12.50.07:361][297]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.02-12.50.07:420][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/VR_TestPawn" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.08.02-12.50.07:452][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.08.02-12.50.07:491][297]LogSavePackage: Moving output files for package: /Game/Blueprints/Maps/VR_TestPawn
+[2025.08.02-12.50.07:491][297]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/VR_TestPawn2805269E4BBAB54E347A828F8886136B.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap'
+[2025.08.02-12.50.07:512][297]LogFileHelpers: All files are already saved.
+[2025.08.02-12.50.07:512][297]LogFileHelpers: Saving map 'VR_TestPawn' took 0.093
+[2025.08.02-12.50.07:522][297]LogFileHelpers: InternalPromptForCheckoutAndSave took 161.472 ms (total: 3.00 sec)
+[2025.08.02-12.50.07:582][297]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.02-12.50.07:582][297]LogContentValidation: Enabled validators:
+[2025.08.02-12.50.07:582][297]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.02-12.50.07:582][297]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.02-12.50.07:582][297]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.02-12.50.07:582][297]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.02-12.50.07:582][297]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.02-12.50.07:582][297]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.02-12.50.07:582][297]AssetCheck: /Game/Blueprints/Maps/VR_TestPawn Validating asset
