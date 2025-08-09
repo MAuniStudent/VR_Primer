@@ -6,7 +6,10 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_InventoryTest_BuiltData.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_InventoryTest.umap"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_InventoryTest.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
+				"D:/Program Files/Epic Games/UE_5.5/Engine/Content/EngineSky/M_SimpleSkyDome.uasset"
 			]
 		}
 	]
