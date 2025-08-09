@@ -9,7 +9,9 @@
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_InventoryTest.umap",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
-				"D:/Program Files/Epic Games/UE_5.5/Engine/Content/EngineSky/M_SimpleSkyDome.uasset"
+				"D:/Program Files/Epic Games/UE_5.5/Engine/Content/EngineSky/M_SimpleSkyDome.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/SM_FlagPile.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/SM_FlagsOnPallets.uasset"
 			]
 		}
 	]
