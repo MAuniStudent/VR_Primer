@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/CBP_SandboxCharacter.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Characters/Soldier/Mesh/SK_Soldier.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Characters/DetectiveCharacter/Character/Skeleton_UE5/SK_CharacterDetective_02_UE5.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_TestPawn.umap"
+			]
+		}
+	]
+}
