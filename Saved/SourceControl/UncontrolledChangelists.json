@@ -8,7 +8,13 @@
 				"D:/FALMOUTH/VR_Primer/Content/Hospital_Props/Maps/Overview_BuiltData.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Hospital_Props/Maps/Overview.umap",
 				"D:/FALMOUTH/VR_Primer/Content/Hospital_Props/Maps/Demonstration_BuiltData.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Hospital_Props/Maps/Demonstration.umap"
+				"D:/FALMOUTH/VR_Primer/Content/Hospital_Props/Maps/Demonstration.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Construction_VOL1/Maps/Overview.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Construction_VOL1/Maps/Demonstration.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Construction_VOL1/Maps/Demonstration_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Construction_VOL1/Maps/Overview_BuiltData.uasset"
 			]
 		}
 	]
