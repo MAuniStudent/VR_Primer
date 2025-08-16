@@ -5361,3 +5361,327 @@ Please set its path in Project Settings / Meta XR Plugin / PC.
 [2025.08.16-15.44.15:793][ 15]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2025.08.16-15.44.16:463][ 17]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-GJxfC307C0eCYG9Qz6Hqtg-iSzCMpslekSPJ3C74XaLYA]
 [2025.08.16-15.45.01:471][294]LogDerivedDataCache: C:/Users/devat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.16-15.49.50:059][159]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 371.971069
+[2025.08.16-15.49.51:059][162]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.16-15.49.51:059][162]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 372.637817, Update Interval: 307.247528
+[2025.08.16-15.55.00:670][699]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 682.584167
+[2025.08.16-15.55.01:670][702]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.16-15.55.01:670][702]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 683.250793, Update Interval: 342.910248
+[2025.08.16-16.00.48:445][  0]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1030.358276
+[2025.08.16-16.00.49:445][  3]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.16-16.00.49:446][  4]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1031.025391, Update Interval: 331.396210
+[2025.08.16-16.06.29:466][ 23]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1371.378906
+[2025.08.16-16.06.30:466][ 26]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.16-16.06.30:466][ 26]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1372.045776, Update Interval: 300.459595
+[2025.08.16-16.11.02:492][389]LogDirectoryWatcher: Display: A directory notification failed for 'D:/FALMOUTH/VR_Primer/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2025.08.16-16.11.02:492][389]LogDirectoryWatcher: Display: A directory notification failed for 'D:/FALMOUTH/VR_Primer/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2025.08.16-16.11.02:492][389]LogDirectoryWatcher: Display: A directory notification failed for 'D:/FALMOUTH/VR_Primer/Content/Developers/devat/Collections/' because it could not be accessed. Aborting watch request...
+[2025.08.16-16.11.31:925][781]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.08.16-16.11.31:925][781]LogStreaming: Display: FlushAsyncLoading(400): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.16-16.11.32:428][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:HQ_Lightmap0_8 (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.416656 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.32:438][781]LogStaticMesh: Display: Building static mesh SM_Backdrop_01 (Required Memory Estimate: 0.011342 MB)...
+[2025.08.16-16.11.32:440][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Backdrop_01.SM_Backdrop_01
+[2025.08.16-16.11.32:451][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:HQ_Lightmap0_7 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.32:460][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.32:460][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:HQ_Lightmap0_6 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.32:461][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:HQ_Lightmap0_3 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.32:507][781]LogStaticMesh: Display: Building static mesh SM_Emergency_Stretcher_01 (Required Memory Estimate: 14.606222 MB)...
+[2025.08.16-16.11.32:568][781]LogChaosDD: Creating Chaos Debug Draw Scene for world Demonstration
+[2025.08.16-16.11.32:568][781]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Hospital_Props/Maps/Demonstration.Demonstration'.
+[2025.08.16-16.11.32:624][781]LogStaticMesh: Display: Building static mesh SM_Blanket_Bed_03 (Required Memory Estimate: 10.28848 MB)...
+[2025.08.16-16.11.32:626][781]LogStaticMesh: Display: Building static mesh SM_Blanket_Bed_01 (Required Memory Estimate: 10.28848 MB)...
+[2025.08.16-16.11.32:637][781]LogStaticMesh: Display: Building static mesh SM_Emergency_Stretcher_02 (Required Memory Estimate: 14.606222 MB)...
+[2025.08.16-16.11.32:641][781]LogStaticMesh: Display: Building static mesh SM_Blanket_Bed_02 (Required Memory Estimate: 14.084314 MB)...
+[2025.08.16-16.11.32:752][781]LogChaosDD: Creating Chaos Debug Draw Scene for world Overview
+[2025.08.16-16.11.32:752][781]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Hospital_Props/Maps/Overview.Overview'.
+[2025.08.16-16.11.32:758][781]LogObjectTools: Deleting 2 worlds: /Game/Hospital_Props/Maps/Demonstration.Demonstration, /Game/Hospital_Props/Maps/Overview.Overview
+[2025.08.16-16.11.32:758][781]LogObjectTools: Currently 1 active worlds: /Game/Blueprints/Maps/VR_InventoryTest.VR_InventoryTest
+[2025.08.16-16.11.32:823][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.08.16-16.11.33:125][781]LogStaticMesh: Built static mesh [0.50s] /Game/Hospital_Props/Meshes/SM_Blanket_Bed_03.SM_Blanket_Bed_03
+[2025.08.16-16.11.33:149][781]LogStaticMesh: Built static mesh [0.52s] /Game/Hospital_Props/Meshes/SM_Blanket_Bed_01.SM_Blanket_Bed_01
+[2025.08.16-16.11.33:183][781]LogStaticMesh: Display: Building static mesh SM_Bucket_on_Wheels (Required Memory Estimate: 5.687881 MB)...
+[2025.08.16-16.11.33:197][781]LogStaticMesh: Display: Building static mesh SM_Blanket_Hospital_Bed_01 (Required Memory Estimate: 17.172816 MB)...
+[2025.08.16-16.11.33:213][781]LogStaticMesh: Built static mesh [0.03s] /Game/Hospital_Props/Meshes/SM_Bucket_on_Wheels.SM_Bucket_on_Wheels
+[2025.08.16-16.11.33:243][781]LogStaticMesh: Display: Building static mesh SM_Round_Seat (Required Memory Estimate: 5.298125 MB)...
+[2025.08.16-16.11.33:371][781]LogStaticMesh: Built static mesh [0.73s] /Game/Hospital_Props/Meshes/SM_Blanket_Bed_02.SM_Blanket_Bed_02
+[2025.08.16-16.11.33:408][781]LogStaticMesh: Display: Building static mesh SM_Couch_for_Inspection_01 (Required Memory Estimate: 6.060519 MB)...
+[2025.08.16-16.11.33:498][781]LogStaticMesh: Built static mesh [0.26s] /Game/Hospital_Props/Meshes/SM_Round_Seat.SM_Round_Seat
+[2025.08.16-16.11.33:516][781]LogStaticMesh: Display: Building static mesh SM_Couch_for_Inspection_02 (Required Memory Estimate: 3.114951 MB)...
+[2025.08.16-16.11.33:636][781]LogStaticMesh: Built static mesh [0.12s] /Game/Hospital_Props/Meshes/SM_Couch_for_Inspection_02.SM_Couch_for_Inspection_02
+[2025.08.16-16.11.33:643][781]LogStaticMesh: Display: Building static mesh SM_Cupboard_02 (Required Memory Estimate: 0.101524 MB)...
+[2025.08.16-16.11.33:644][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Cupboard_02.SM_Cupboard_02
+[2025.08.16-16.11.33:646][781]LogStaticMesh: Display: Building static mesh SM_Cupboard_03 (Required Memory Estimate: 0.101965 MB)...
+[2025.08.16-16.11.33:647][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Cupboard_03.SM_Cupboard_03
+[2025.08.16-16.11.33:650][781]LogStaticMesh: Display: Building static mesh SM_Cupboard_04 (Required Memory Estimate: 0.112039 MB)...
+[2025.08.16-16.11.33:651][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Cupboard_04.SM_Cupboard_04
+[2025.08.16-16.11.33:656][781]LogStaticMesh: Display: Building static mesh SM_Laboratory_Table_Door_03 (Required Memory Estimate: 0.54335 MB)...
+[2025.08.16-16.11.33:658][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Laboratory_Table_Door_03.SM_Laboratory_Table_Door_03
+[2025.08.16-16.11.33:661][781]LogStaticMesh: Display: Building static mesh SM_Laboratory_Table_Door_04 (Required Memory Estimate: 0.507989 MB)...
+[2025.08.16-16.11.33:664][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Laboratory_Table_Door_04.SM_Laboratory_Table_Door_04
+[2025.08.16-16.11.33:670][781]LogStaticMesh: Display: Building static mesh SM_Lower_Cabinet_Door_01 (Required Memory Estimate: 0.507989 MB)...
+[2025.08.16-16.11.33:674][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Lower_Cabinet_Door_01.SM_Lower_Cabinet_Door_01
+[2025.08.16-16.11.33:677][781]LogStaticMesh: Display: Building static mesh SM_Upper_Cabinet_Door_01 (Required Memory Estimate: 0.507989 MB)...
+[2025.08.16-16.11.33:680][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Upper_Cabinet_Door_01.SM_Upper_Cabinet_Door_01
+[2025.08.16-16.11.33:683][781]LogStaticMesh: Built static mesh [0.28s] /Game/Hospital_Props/Meshes/SM_Couch_for_Inspection_01.SM_Couch_for_Inspection_01
+[2025.08.16-16.11.33:686][781]LogStaticMesh: Display: Building static mesh SM_Wall_Cabinet_Door_02 (Required Memory Estimate: 0.507989 MB)...
+[2025.08.16-16.11.33:689][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Wall_Cabinet_Door_02.SM_Wall_Cabinet_Door_02
+[2025.08.16-16.11.33:692][781]LogStaticMesh: Display: Building static mesh SM_Door_Table_03 (Required Memory Estimate: 0.331984 MB)...
+[2025.08.16-16.11.33:692][781]LogStaticMesh: Display: Building static mesh SM_Drawer_Nightstand_01 (Required Memory Estimate: 0.367398 MB)...
+[2025.08.16-16.11.33:694][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Door_Table_03.SM_Door_Table_03
+[2025.08.16-16.11.33:694][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Drawer_Nightstand_01.SM_Drawer_Nightstand_01
+[2025.08.16-16.11.33:697][781]LogStaticMesh: Display: Building static mesh SM_Drawer_Table_03 (Required Memory Estimate: 0.367398 MB)...
+[2025.08.16-16.11.33:698][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Drawer_Table_03.SM_Drawer_Table_03
+[2025.08.16-16.11.33:699][781]LogStaticMesh: Display: Building static mesh SM_Laboratory_Table_01 (Required Memory Estimate: 1.075779 MB)...
+[2025.08.16-16.11.33:704][781]LogStaticMesh: Built static mesh [0.01s] /Game/Hospital_Props/Meshes/SM_Laboratory_Table_01.SM_Laboratory_Table_01
+[2025.08.16-16.11.33:707][781]LogStaticMesh: Display: Building static mesh SM_Nightstand_01 (Required Memory Estimate: 1.945572 MB)...
+[2025.08.16-16.11.33:711][781]LogStaticMesh: Display: Building static mesh SM_Table_02 (Required Memory Estimate: 0.777101 MB)...
+[2025.08.16-16.11.33:712][781]LogStaticMesh: Built static mesh [1.22s] /Game/Hospital_Props/Meshes/SM_Emergency_Stretcher_01.SM_Emergency_Stretcher_01
+[2025.08.16-16.11.33:715][781]LogStaticMesh: Built static mesh [0.01s] /Game/Hospital_Props/Meshes/SM_Table_02.SM_Table_02
+[2025.08.16-16.11.33:718][781]LogStaticMesh: Built static mesh [0.01s] /Game/Hospital_Props/Meshes/SM_Nightstand_01.SM_Nightstand_01
+[2025.08.16-16.11.33:722][781]LogStaticMesh: Display: Building static mesh SM_Table_03 (Required Memory Estimate: 1.010944 MB)...
+[2025.08.16-16.11.33:726][781]LogStaticMesh: Display: Building static mesh SM_Drawer_Table_on_Wheels_01 (Required Memory Estimate: 0.793663 MB)...
+[2025.08.16-16.11.33:729][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Drawer_Table_on_Wheels_01.SM_Drawer_Table_on_Wheels_01
+[2025.08.16-16.11.33:729][781]LogStaticMesh: Built static mesh [0.01s] /Game/Hospital_Props/Meshes/SM_Table_03.SM_Table_03
+[2025.08.16-16.11.33:746][781]LogStaticMesh: Display: Building static mesh SM_Table_on_Wheels_01 (Required Memory Estimate: 6.371534 MB)...
+[2025.08.16-16.11.33:769][781]LogStaticMesh: Display: Building static mesh SM_Drip_Stand_02 (Required Memory Estimate: 14.195866 MB)...
+[2025.08.16-16.11.33:782][781]LogStaticMesh: Display: Building static mesh SM_Drip_Stand_01 (Required Memory Estimate: 19.142261 MB)...
+[2025.08.16-16.11.33:801][781]LogStaticMesh: Built static mesh [1.17s] /Game/Hospital_Props/Meshes/SM_Emergency_Stretcher_02.SM_Emergency_Stretcher_02
+[2025.08.16-16.11.33:850][781]LogStaticMesh: Display: Building static mesh SM_Drip_Stand_03 (Required Memory Estimate: 10.428803 MB)...
+[2025.08.16-16.11.34:063][781]LogStaticMesh: Built static mesh [0.87s] /Game/Hospital_Props/Meshes/SM_Blanket_Hospital_Bed_01.SM_Blanket_Hospital_Bed_01
+[2025.08.16-16.11.34:125][781]LogStaticMesh: Display: Building static mesh SM_Drip_Stand_04 (Required Memory Estimate: 15.375172 MB)...
+[2025.08.16-16.11.34:333][781]LogStaticMesh: Built static mesh [0.59s] /Game/Hospital_Props/Meshes/SM_Table_on_Wheels_01.SM_Table_on_Wheels_01
+[2025.08.16-16.11.34:348][781]LogStaticMesh: Display: Building static mesh SM_Hand_Dryer (Required Memory Estimate: 1.983991 MB)...
+[2025.08.16-16.11.34:435][781]LogStaticMesh: Built static mesh [0.09s] /Game/Hospital_Props/Meshes/SM_Hand_Dryer.SM_Hand_Dryer
+[2025.08.16-16.11.34:483][781]LogStaticMesh: Display: Building static mesh SM_Hospital_Bed_01 (Required Memory Estimate: 14.194691 MB)...
+[2025.08.16-16.11.34:702][781]LogStaticMesh: Built static mesh [0.85s] /Game/Hospital_Props/Meshes/SM_Drip_Stand_03.SM_Drip_Stand_03
+[2025.08.16-16.11.34:717][781]LogStaticMesh: Display: Building static mesh SM_Laboratory_Table_03 (Required Memory Estimate: 0.158468 MB)...
+[2025.08.16-16.11.34:719][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Laboratory_Table_03.SM_Laboratory_Table_03
+[2025.08.16-16.11.34:723][781]LogStaticMesh: Display: Building static mesh SM_Wall_Cabinet_01 (Required Memory Estimate: 0.0787 MB)...
+[2025.08.16-16.11.34:724][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Wall_Cabinet_01.SM_Wall_Cabinet_01
+[2025.08.16-16.11.34:726][781]LogStaticMesh: Display: Building static mesh SM_Wall_Cabinet_02 (Required Memory Estimate: 0.068546 MB)...
+[2025.08.16-16.11.34:727][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Wall_Cabinet_02.SM_Wall_Cabinet_02
+[2025.08.16-16.11.34:730][781]LogStaticMesh: Display: Building static mesh SM_Wall_Cabinet_Door_01 (Required Memory Estimate: 0.507989 MB)...
+[2025.08.16-16.11.34:733][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Wall_Cabinet_Door_01.SM_Wall_Cabinet_Door_01
+[2025.08.16-16.11.34:735][781]LogStaticMesh: Display: Building static mesh SM_Wall_Panel_Laboratory_Table (Required Memory Estimate: 0.023926 MB)...
+[2025.08.16-16.11.34:735][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Wall_Panel_Laboratory_Table.SM_Wall_Panel_Laboratory_Table
+[2025.08.16-16.11.34:738][781]LogStaticMesh: Display: Building static mesh SM_Wall_Panel_Wash_Basin_02 (Required Memory Estimate: 0.023926 MB)...
+[2025.08.16-16.11.34:739][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Wall_Panel_Wash_Basin_02.SM_Wall_Panel_Wash_Basin_02
+[2025.08.16-16.11.34:753][781]LogStaticMesh: Display: Building static mesh SM_Wash_Basin_02 (Required Memory Estimate: 4.42647 MB)...
+[2025.08.16-16.11.34:777][781]LogStaticMesh: Built static mesh [0.02s] /Game/Hospital_Props/Meshes/SM_Wash_Basin_02.SM_Wash_Basin_02
+[2025.08.16-16.11.34:852][781]LogStaticMesh: Display: Building static mesh SM_Medical_Clothes_01 (Required Memory Estimate: 25.62315 MB)...
+[2025.08.16-16.11.34:986][781]LogStaticMesh: Built static mesh [1.22s] /Game/Hospital_Props/Meshes/SM_Drip_Stand_02.SM_Drip_Stand_02
+[2025.08.16-16.11.35:057][781]LogStaticMesh: Display: Building static mesh SM_Medical_Clothes_02 (Required Memory Estimate: 20.187538 MB)...
+[2025.08.16-16.11.35:417][781]LogSlate: Window 'Delete Assets' being destroyed
+[2025.08.16-16.11.35:426][781]LogWorld: UWorld::CleanupWorld for Demonstration, bSessionEnded=true, bCleanupResources=true
+[2025.08.16-16.11.35:429][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.16-16.11.35:432][781]LogWorld: UWorld::CleanupWorld for Overview, bSessionEnded=true, bCleanupResources=true
+[2025.08.16-16.11.35:434][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.16-16.11.35:442][781]LogStaticMesh: Built static mesh [1.32s] /Game/Hospital_Props/Meshes/SM_Drip_Stand_04.SM_Drip_Stand_04
+[2025.08.16-16.11.35:475][781]LogStaticMesh: Built static mesh [1.69s] /Game/Hospital_Props/Meshes/SM_Drip_Stand_01.SM_Drip_Stand_01
+[2025.08.16-16.11.35:500][781]LogStaticMesh: Display: Building static mesh SM_Medical_Clothes_03 (Required Memory Estimate: 15.26567 MB)...
+[2025.08.16-16.11.35:515][781]LogStaticMesh: Display: Building static mesh SM_Medical_Curbstone_01 (Required Memory Estimate: 5.428709 MB)...
+[2025.08.16-16.11.35:566][781]LogTexture: Display: Waiting for textures to be ready 5/36 (/Game/Hospital_Props/Maps/Demonstration_BuiltData) ...
+[2025.08.16-16.11.35:586][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:HQ_Lightmap1_4 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:587][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:681][781]LogTexture: Display: Waiting for textures to be ready 7/36 (/Game/Hospital_Props/Maps/Demonstration_BuiltData) ...
+[2025.08.16-16.11.35:681][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:HQ_Lightmap1_5 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:703][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:750][781]LogStaticMesh: Built static mesh [1.27s] /Game/Hospital_Props/Meshes/SM_Hospital_Bed_01.SM_Hospital_Bed_01
+[2025.08.16-16.11.35:766][781]LogTexture: Display: Waiting for textures to be ready 8/36 (/Game/Hospital_Props/Maps/Demonstration_BuiltData) ...
+[2025.08.16-16.11.35:773][781]LogStaticMesh: Built static mesh [0.26s] /Game/Hospital_Props/Meshes/SM_Medical_Curbstone_01.SM_Medical_Curbstone_01
+[2025.08.16-16.11.35:782][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:LQ_Lightmap_0_3 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:802][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:LQ_Lightmap_0_6 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:810][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:LQ_Lightmap_0_8 (TFO_DXT1, 512x512 x1x1x1) (Required Memory Estimate: 31.166582 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:812][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:LQ_Lightmap_0_7 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:814][781]LogTexture: Display: Waiting for textures to be ready 9/36 (/Game/Hospital_Props/Maps/Demonstration_BuiltData) ...
+[2025.08.16-16.11.35:848][781]LogTexture: Display: Waiting for textures to be ready 11/36 (/Game/Hospital_Props/Maps/Demonstration_BuiltData) ...
+[2025.08.16-16.11.35:863][781]LogTexture: Display: Waiting for textures to be ready 12/36 (/Game/Hospital_Props/Maps/Demonstration_BuiltData) ...
+[2025.08.16-16.11.35:864][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:869][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:LQ_Lightmap_1_4 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:880][781]LogTexture: Display: Waiting for textures to be ready 13/36 (/Game/Hospital_Props/Maps/Demonstration_BuiltData) ...
+[2025.08.16-16.11.35:883][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:SkyOcclusion0_1 (TFO_AutoDXT, 1024x512 x1x1x1) (Required Memory Estimate: 80.583315 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:883][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:LQ_Lightmap_1_5 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:913][781]LogTexture: Display: Waiting for textures to be ready 14/36 (/Game/Hospital_Props/Maps/Demonstration_BuiltData) ...
+[2025.08.16-16.11.35:919][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:SkyOcclusion0_2 (TFO_AutoDXT, 1024x512 x1x1x1) (Required Memory Estimate: 80.583315 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:963][781]LogTexture: Display: Waiting for textures to be ready 15/36 (/Game/Hospital_Props/Maps/Demonstration_BuiltData) ...
+[2025.08.16-16.11.35:965][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:SkyOcclusion0_3 (TFO_AutoDXT, 1024x512 x1x1x1) (Required Memory Estimate: 80.583315 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:981][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:SkyOcclusion0_4 (TFO_AutoDXT, 1024x512 x1x1x1) (Required Memory Estimate: 80.583315 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:991][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:SkyOcclusion0_5 (TFO_AutoDXT, 1024x512 x1x1x1) (Required Memory Estimate: 80.583315 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:993][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:SkyOcclusion0_6 (TFO_AutoDXT, 1024x512 x1x1x1) (Required Memory Estimate: 80.583315 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:995][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:SkyOcclusion0_7 (TFO_AutoDXT, 1024x512 x1x1x1) (Required Memory Estimate: 80.583315 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.35:997][781]LogTexture: Display: Waiting for textures to be ready 19/36 (/Game/Hospital_Props/Maps/Demonstration_BuiltData) ...
+[2025.08.16-16.11.36:008][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Demonstration_BuiltData.Demonstration_BuiltData:SkyOcclusion0_8 (TFO_AutoDXT, 512x256 x1x1x1) (Required Memory Estimate: 21.833258 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.36:012][781]LogTexture: Display: Waiting for textures to be ready 20/36 (/Game/Hospital_Props/Maps/Demonstration_BuiltData) ...
+[2025.08.16-16.11.36:046][781]LogTexture: Display: Waiting for textures to be ready 24/36 (/Game/Hospital_Props/Maps/Overview_BuiltData) ...
+[2025.08.16-16.11.36:056][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Overview_BuiltData.Overview_BuiltData:HQ_Lightmap1_1 (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 38.333324 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.36:066][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Overview_BuiltData.Overview_BuiltData:HQ_Lightmap1_2 (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 38.333324 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.36:066][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Overview_BuiltData.Overview_BuiltData:HQ_Lightmap1_4 (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 38.333324 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.36:072][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Overview_BuiltData.Overview_BuiltData:HQ_Lightmap1_3 (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 38.333324 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.36:079][781]LogTexture: Display: Waiting for textures to be ready 25/36 (/Game/Hospital_Props/Maps/Overview_BuiltData) ...
+[2025.08.16-16.11.36:096][781]LogTexture: Display: Waiting for textures to be ready 28/36 (/Game/Hospital_Props/Maps/Overview_BuiltData) ...
+[2025.08.16-16.11.36:112][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Overview_BuiltData.Overview_BuiltData:LQ_Lightmap_1_2 (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 38.333324 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.36:112][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Overview_BuiltData.Overview_BuiltData:LQ_Lightmap_1_4 (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 38.333324 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.36:113][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Overview_BuiltData.Overview_BuiltData:LQ_Lightmap_1_1 (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 38.333324 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.36:121][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Overview_BuiltData.Overview_BuiltData:LQ_Lightmap_1_3 (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 38.333324 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.36:142][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Overview_BuiltData.Overview_BuiltData:SkyOcclusion1_1 (BGRA8, 1024x512 x1x1x1) (Required Memory Estimate: 19.666653 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.36:146][781]LogTexture: Display: Waiting for textures to be ready 32/36 (/Game/Hospital_Props/Maps/Overview_BuiltData) ...
+[2025.08.16-16.11.36:146][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Overview_BuiltData.Overview_BuiltData:SkyOcclusion1_2 (BGRA8, 1024x512 x1x1x1) (Required Memory Estimate: 19.666653 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.36:150][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Overview_BuiltData.Overview_BuiltData:SkyOcclusion1_4 (BGRA8, 1024x512 x1x1x1) (Required Memory Estimate: 19.666653 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.36:150][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Maps/Overview_BuiltData.Overview_BuiltData:SkyOcclusion1_3 (BGRA8, 1024x512 x1x1x1) (Required Memory Estimate: 19.666653 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.36:159][781]LogStaticMesh: Display: Building static mesh SM_Medical_Curbstone_Drawer_01 (Required Memory Estimate: 0.367405 MB)...
+[2025.08.16-16.11.36:161][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Medical_Curbstone_Drawer_01.SM_Medical_Curbstone_Drawer_01
+[2025.08.16-16.11.36:174][781]LogStaticMesh: Display: Waiting for static meshes to be ready 42/65 (/Game/Hospital_Props/Meshes/SM_Resuscitation_Bed_01) ...
+[2025.08.16-16.11.36:174][781]LogStaticMesh: Display: Building static mesh SM_Medical_Curbstone_02 (Required Memory Estimate: 5.69712 MB)...
+[2025.08.16-16.11.36:237][781]LogStaticMesh: Display: Building static mesh SM_Medical_Screen_03 (Required Memory Estimate: 23.748614 MB)...
+[2025.08.16-16.11.36:299][781]LogStaticMesh: Display: Building static mesh SM_Resuscitation_Bed_02 (Required Memory Estimate: 40.991138 MB)...
+[2025.08.16-16.11.36:306][781]LogStaticMesh: Display: Building static mesh SM_Resuscitation_Bed_01 (Required Memory Estimate: 41.148993 MB)...
+[2025.08.16-16.11.36:472][781]LogStaticMesh: Built static mesh [0.30s] /Game/Hospital_Props/Meshes/SM_Medical_Curbstone_02.SM_Medical_Curbstone_02
+[2025.08.16-16.11.36:554][781]LogStaticMesh: Display: Building static mesh SM_Medical_Screen_02 (Required Memory Estimate: 23.073258 MB)...
+[2025.08.16-16.11.36:954][781]LogStaticMesh: Built static mesh [1.90s] /Game/Hospital_Props/Meshes/SM_Medical_Clothes_02.SM_Medical_Clothes_02
+[2025.08.16-16.11.36:956][781]LogStaticMesh: Built static mesh [1.46s] /Game/Hospital_Props/Meshes/SM_Medical_Clothes_03.SM_Medical_Clothes_03
+[2025.08.16-16.11.37:028][781]LogStaticMesh: Display: Building static mesh SM_Waiting_Chairs_02 (Required Memory Estimate: 15.319403 MB)...
+[2025.08.16-16.11.37:047][781]LogStaticMesh: Display: Building static mesh SM_Medical_Screen_01 (Required Memory Estimate: 23.748614 MB)...
+[2025.08.16-16.11.37:193][781]LogStaticMesh: Built static mesh [2.34s] /Game/Hospital_Props/Meshes/SM_Medical_Clothes_01.SM_Medical_Clothes_01
+[2025.08.16-16.11.37:249][781]LogStaticMesh: Display: Building static mesh SM_Waiting_Chairs_01 (Required Memory Estimate: 9.370869 MB)...
+[2025.08.16-16.11.38:012][781]LogStaticMesh: Built static mesh [0.76s] /Game/Hospital_Props/Meshes/SM_Waiting_Chairs_01.SM_Waiting_Chairs_01
+[2025.08.16-16.11.38:047][781]LogStaticMesh: Display: Building static mesh SM_Office_Chair_04 (Required Memory Estimate: 6.27716 MB)...
+[2025.08.16-16.11.38:254][781]LogStaticMesh: Built static mesh [1.23s] /Game/Hospital_Props/Meshes/SM_Waiting_Chairs_02.SM_Waiting_Chairs_02
+[2025.08.16-16.11.38:295][781]LogStaticMesh: Built static mesh [0.25s] /Game/Hospital_Props/Meshes/SM_Office_Chair_04.SM_Office_Chair_04
+[2025.08.16-16.11.38:300][781]LogStaticMesh: Display: Building static mesh SM_Office_Chair_01 (Required Memory Estimate: 9.727519 MB)...
+[2025.08.16-16.11.38:301][781]LogStaticMesh: Built static mesh [1.99s] /Game/Hospital_Props/Meshes/SM_Resuscitation_Bed_01.SM_Resuscitation_Bed_01
+[2025.08.16-16.11.38:319][781]LogStaticMesh: Display: Building static mesh SM_Modular_Medical_Screen_02 (Required Memory Estimate: 4.704287 MB)...
+[2025.08.16-16.11.38:333][781]LogStaticMesh: Built static mesh [2.10s] /Game/Hospital_Props/Meshes/SM_Medical_Screen_03.SM_Medical_Screen_03
+[2025.08.16-16.11.38:355][781]LogStaticMesh: Display: Waiting for static meshes to be ready 51/65 (/Game/Hospital_Props/Meshes/SM_Resuscitation_Bed_02) ...
+[2025.08.16-16.11.38:364][781]LogStaticMesh: Display: Building static mesh SM_Medical_Curbstone_Drawer_02 (Required Memory Estimate: 0.509992 MB)...
+[2025.08.16-16.11.38:365][781]LogStaticMesh: Display: Building static mesh SM_Modular_Medical_Screen_01 (Required Memory Estimate: 4.214496 MB)...
+[2025.08.16-16.11.38:368][781]LogStaticMesh: Built static mesh [0.00s] /Game/Hospital_Props/Meshes/SM_Medical_Curbstone_Drawer_02.SM_Medical_Curbstone_Drawer_02
+[2025.08.16-16.11.38:414][781]LogStaticMesh: Display: Building static mesh SM_Wheelchair (Required Memory Estimate: 14.078773 MB)...
+[2025.08.16-16.11.38:519][781]LogStaticMesh: Built static mesh [0.20s] /Game/Hospital_Props/Meshes/SM_Modular_Medical_Screen_02.SM_Modular_Medical_Screen_02
+[2025.08.16-16.11.38:547][781]LogStaticMesh: Display: Building static mesh SM_Surgical_Pallets (Required Memory Estimate: 6.458012 MB)...
+[2025.08.16-16.11.38:559][781]LogStaticMesh: Built static mesh [2.01s] /Game/Hospital_Props/Meshes/SM_Medical_Screen_02.SM_Medical_Screen_02
+[2025.08.16-16.11.38:570][781]LogStaticMesh: Built static mesh [0.20s] /Game/Hospital_Props/Meshes/SM_Modular_Medical_Screen_01.SM_Modular_Medical_Screen_01
+[2025.08.16-16.11.38:585][781]LogStaticMesh: Display: Building static mesh SM_Scales (Required Memory Estimate: 2.425129 MB)...
+[2025.08.16-16.11.38:598][781]LogStaticMesh: Built static mesh [0.01s] /Game/Hospital_Props/Meshes/SM_Scales.SM_Scales
+[2025.08.16-16.11.38:608][781]LogStaticMesh: Display: Building static mesh SM_Metal_Medical_Table (Required Memory Estimate: 6.953984 MB)...
+[2025.08.16-16.11.38:736][781]LogStaticMesh: Display: Building static mesh SM_Resuscitation_Bed_03 (Required Memory Estimate: 41.376394 MB)...
+[2025.08.16-16.11.38:895][781]LogStaticMesh: Built static mesh [0.60s] /Game/Hospital_Props/Meshes/SM_Office_Chair_01.SM_Office_Chair_01
+[2025.08.16-16.11.38:921][781]LogStaticMesh: Display: Building static mesh SM_Trash_Can_04 (Required Memory Estimate: 2.703426 MB)...
+[2025.08.16-16.11.38:934][781]LogStaticMesh: Built static mesh [0.01s] /Game/Hospital_Props/Meshes/SM_Trash_Can_04.SM_Trash_Can_04
+[2025.08.16-16.11.39:119][781]LogStaticMesh: Built static mesh [0.51s] /Game/Hospital_Props/Meshes/SM_Metal_Medical_Table.SM_Metal_Medical_Table
+[2025.08.16-16.11.39:127][781]LogStaticMesh: Built static mesh [0.58s] /Game/Hospital_Props/Meshes/SM_Surgical_Pallets.SM_Surgical_Pallets
+[2025.08.16-16.11.39:130][781]LogStaticMesh: Built static mesh [2.08s] /Game/Hospital_Props/Meshes/SM_Medical_Screen_01.SM_Medical_Screen_01
+[2025.08.16-16.11.39:365][781]LogStaticMesh: Built static mesh [0.95s] /Game/Hospital_Props/Meshes/SM_Wheelchair.SM_Wheelchair
+[2025.08.16-16.11.39:386][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Emergency_Stretcher_ID.Tex_Emergency_Stretcher_ID (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.39:445][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Emergency_Stretcher_D.Tex_Emergency_Stretcher_D (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.39:624][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Emergency_Stretcher_ARM.Tex_Emergency_Stretcher_ARM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.39:780][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Emergency_Stretcher_N.Tex_Emergency_Stretcher_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:189][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Roughness_01_R.Tex_Roughness_01_R (G8, 1024x1024 x1x1x1) (Required Memory Estimate: 29.999993 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:252][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Tile_02_D.Tex_Tile_02_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:280][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Tile_02_N.Tex_Tile_02_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 169.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:287][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Base_D.Tex_Base_D (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:294][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Base_N.Tex_Base_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 82.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:304][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Blanket_Bed_01_ID.Tex_Blanket_Bed_01_ID (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:324][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Blanket_Bed_01_D.Tex_Blanket_Bed_01_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:335][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Blanket_Bed_01_ARM.Tex_Blanket_Bed_01_ARM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:341][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Blanket_Bed_01_N.Tex_Blanket_Bed_01_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 169.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:401][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Blanket_Bed_02_ID.Tex_Blanket_Bed_02_ID (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:465][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Blanket_Bed_02_D.Tex_Blanket_Bed_02_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:484][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Blanket_Bed_02_ARM.Tex_Blanket_Bed_02_ARM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:536][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Blanket_Bed_02_N.Tex_Blanket_Bed_02_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:647][781]LogStaticMesh: Built static mesh [4.35s] /Game/Hospital_Props/Meshes/SM_Resuscitation_Bed_02.SM_Resuscitation_Bed_02
+[2025.08.16-16.11.40:708][781]LogStaticMesh: Display: Waiting for static meshes to be ready 64/65 (/Game/Hospital_Props/Meshes/SM_Resuscitation_Bed_03) ...
+[2025.08.16-16.11.40:729][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Blanket_Hospital_Bed_01_ID.Tex_Blanket_Hospital_Bed_01_ID (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:803][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Blanket_Hospital_Bed_01_D.Tex_Blanket_Hospital_Bed_01_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:814][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Blanket_Hospital_Bed_01_ARM.Tex_Blanket_Hospital_Bed_01_ARM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.40:858][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Blanket_Hospital_Bed_01_N.Tex_Blanket_Hospital_Bed_01_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.41:078][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Laboratory_Furniture_04_ID.Tex_Laboratory_Furniture_04_ID (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.41:124][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Couch_for_Inspection_ARM.Tex_Couch_for_Inspection_ARM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.41:253][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Couch_for_Inspection_D.Tex_Couch_for_Inspection_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.41:297][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Laboratory_Furniture_04_ARM.Tex_Laboratory_Furniture_04_ARM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.41:433][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Couch_for_Inspection_ID.Tex_Couch_for_Inspection_ID (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.41:434][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Laboratory_Furniture_04_N.Tex_Laboratory_Furniture_04_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.41:585][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Laboratory_Furniture_04_D.Tex_Laboratory_Furniture_04_D (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.41:980][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Couch_for_Inspection_N.Tex_Couch_for_Inspection_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.42:228][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Laboratory_Furniture_02_ID.Tex_Laboratory_Furniture_02_ID (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.42:446][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Laboratory_Furniture_02_D.Tex_Laboratory_Furniture_02_D (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.42:595][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Laboratory_Furniture_02_N.Tex_Laboratory_Furniture_02_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.42:821][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Tables_and_Curbstone_01_ARM.Tex_Tables_and_Curbstone_01_ARM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.42:844][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Laboratory_Furniture_02_ARM.Tex_Laboratory_Furniture_02_ARM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.42:996][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Tables_and_Curbstone_01_ID.Tex_Tables_and_Curbstone_01_ID (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.43:117][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Tables_and_Curbstone_01_D.Tex_Tables_and_Curbstone_01_D (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.43:288][781]LogStaticMesh: Built static mesh [4.55s] /Game/Hospital_Props/Meshes/SM_Resuscitation_Bed_03.SM_Resuscitation_Bed_03
+[2025.08.16-16.11.43:864][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Table_on_Wheels_01_ID.Tex_Table_on_Wheels_01_ID (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.43:886][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Table_on_Wheels_01_N.Tex_Table_on_Wheels_01_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 169.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.43:898][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Table_on_Wheels_01_D.Tex_Table_on_Wheels_01_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.43:956][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Drip_Stand_ARM.Tex_Drip_Stand_ARM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.44:010][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Table_on_Wheels_01_ARM.Tex_Table_on_Wheels_01_ARM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.44:069][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Drip_Stand_D.Tex_Drip_Stand_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.44:224][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Tables_and_Curbstone_01_N.Tex_Tables_and_Curbstone_01_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.44:470][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Drip_Stand_ID.Tex_Drip_Stand_ID (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.44:501][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Hand_Dryer_ARM.Tex_Hand_Dryer_ARM (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.44:525][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Hand_Dryer_D.Tex_Hand_Dryer_D (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.44:526][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Hand_Dryer_ID.Tex_Hand_Dryer_ID (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.44:574][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Drip_Stand_N.Tex_Drip_Stand_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.44:574][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Hand_Dryer_N.Tex_Hand_Dryer_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 169.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.44:615][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Hospital_Bed_01_ID.Tex_Hospital_Bed_01_ID (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.44:837][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Hospital_Bed_01_D.Tex_Hospital_Bed_01_D (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.45:030][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Hospital_Bed_01_ARM.Tex_Hospital_Bed_01_ARM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.45:180][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Hospital_Bed_01_N.Tex_Hospital_Bed_01_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.45:432][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Laboratory_Furniture_01_D.Tex_Laboratory_Furniture_01_D (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.45:509][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Laboratory_Furniture_01_ARM.Tex_Laboratory_Furniture_01_ARM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.46:153][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Laboratory_Furniture_01_ID.Tex_Laboratory_Furniture_01_ID (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.46:183][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Hhospital_Gowns_ARM.Tex_Hhospital_Gowns_ARM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.46:219][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Hhospital_Gowns_D.Tex_Hhospital_Gowns_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.46:230][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Hhospital_Gowns_ID.Tex_Hhospital_Gowns_ID (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.46:468][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Laboratory_Furniture_01_N.Tex_Laboratory_Furniture_01_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.46:554][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Hhospital_Gowns_N.Tex_Hhospital_Gowns_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.46:587][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Laboratory_Furniture_03_ID.Tex_Laboratory_Furniture_03_ID (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.46:951][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Medical_Screen_01_ARM.Tex_Medical_Screen_01_ARM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.46:995][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Laboratory_Furniture_03_D.Tex_Laboratory_Furniture_03_D (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.47:083][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Laboratory_Furniture_03_ARM.Tex_Laboratory_Furniture_03_ARM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.47:131][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Medical_Screen_01_D.Tex_Medical_Screen_01_D (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.47:147][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Laboratory_Furniture_03_N.Tex_Laboratory_Furniture_03_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.47:357][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Medical_Screen_01_ID.Tex_Medical_Screen_01_ID (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.48:028][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.08.16-16.11.48:069][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.08.16-16.11.48:094][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.08.16-16.11.48:303][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Medical_Screen_02_ID.Tex_Medical_Screen_02_ID (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.48:351][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Medical_Screen_02_D.Tex_Medical_Screen_02_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.48:382][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Medical_Screen_02_N.Tex_Medical_Screen_02_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.48:409][781]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Medical_Screen_02_ARM.Tex_Medical_Screen_02_ARM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.48:488][783]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Office_Chair_01_ARM.Tex_Office_Chair_01_ARM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.48:646][787]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Medical_Screen_01_N.Tex_Medical_Screen_01_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.48:677][788]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Office_Chair_01_ID.Tex_Office_Chair_01_ID (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.48:767][790]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Office_Chair_04_ARM.Tex_Office_Chair_04_ARM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.48:808][793]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Office_Chair_01_D.Tex_Office_Chair_01_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.48:846][795]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Office_Chair_04_D.Tex_Office_Chair_04_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.48:896][798]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Office_Chair_01_N.Tex_Office_Chair_01_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.49:172][821]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Office_Chair_04_ID.Tex_Office_Chair_04_ID (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.49:257][827]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Resuscitation_Bed_01_ID.Tex_Resuscitation_Bed_01_ID (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.49:296][829]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Office_Chair_04_N.Tex_Office_Chair_04_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.49:411][838]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Scales_ARM.Tex_Scales_ARM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.49:470][843]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Scales_ID.Tex_Scales_ID (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.49:530][847]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Resuscitation_Bed_01_D.Tex_Resuscitation_Bed_01_D (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.49:593][849]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Scales_N.Tex_Scales_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.49:642][851]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Scales_D.Tex_Scales_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.49:674][852]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Resuscitation_Bed_01_N.Tex_Resuscitation_Bed_01_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.49:838][860]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Resuscitation_Bed_01_ARM.Tex_Resuscitation_Bed_01_ARM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.50:000][869]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Pallets_D.Tex_Pallets_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.50:022][870]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Pallets_ARM.Tex_Pallets_ARM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.50:451][907]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Pallets_ID.Tex_Pallets_ID (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.50:505][912]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Waiting_Chairs_01_ID.Tex_Waiting_Chairs_01_ID (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.50:548][915]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Waiting_Chairs_01_D.Tex_Waiting_Chairs_01_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.50:574][916]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Pallets_N.Tex_Pallets_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.50:629][919]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Waiting_Chairs_01_ARM.Tex_Waiting_Chairs_01_ARM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.50:702][925]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Waiting_Chairs_01_N.Tex_Waiting_Chairs_01_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.50:785][932]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Wheelchair_ARM.Tex_Wheelchair_ARM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.50:968][947]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Wheelchair_ID.Tex_Wheelchair_ID (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.50:996][949]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Wheelchair_D.Tex_Wheelchair_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.51:026][950]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Garbage_Bins_01_ID.Tex_Garbage_Bins_01_ID (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.51:027][950]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Garbage_Bins_01_D.Tex_Garbage_Bins_01_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.51:035][951]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Garbage_Bins_01_ARM.Tex_Garbage_Bins_01_ARM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.51:155][962]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Wheelchair_N.Tex_Wheelchair_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.51:180][963]LogTexture: Display: Building textures: /Game/Hospital_Props/Textures/Tex_Garbage_Bins_01_N.Tex_Garbage_Bins_01_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 169.499988 MB), EncodeSpeed: Fast
+[2025.08.16-16.11.55:373][404]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1697.281006
+[2025.08.16-16.11.55:523][420]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.16-16.11.55:524][420]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1697.421997, Update Interval: 300.490723
