@@ -5208,3 +5208,319 @@ Please set its path in Project Settings / Meta XR Plugin / PC.
 [2025.08.17-18.42.28:049][ 17]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2025.08.17-18.42.28:712][ 19]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-D1xRxMQEPUGbKlsWqdqrqA-5Xm-oT_HzEGm9j5Ui5F-fg]
 [2025.08.17-18.42.36:770][ 44]LogDerivedDataCache: C:/Users/devat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.17-18.48.19:785][ 73]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 407.695587
+[2025.08.17-18.48.20:785][ 76]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.17-18.48.20:785][ 76]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 408.362701, Update Interval: 318.941010
+[2025.08.17-18.53.42:495][ 41]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 730.404785
+[2025.08.17-18.53.43:493][ 44]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.17-18.53.43:493][ 44]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 731.071838, Update Interval: 313.125397
+[2025.08.17-18.59.01:207][997]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1049.118530
+[2025.08.17-18.59.02:207][  0]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.17-18.59.02:207][  0]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1049.784668, Update Interval: 346.442444
+[2025.08.17-19.04.57:918][ 67]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1405.827637
+[2025.08.17-19.04.58:916][ 70]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.17-19.04.58:918][ 70]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1406.493896, Update Interval: 327.979370
+[2025.08.17-19.10.23:690][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.08.17-19.10.23:693][532]Cmd: MAP LOAD FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.08.17-19.10.23:703][532]LogWorld: UWorld::CleanupWorld for VR_InventoryTest, bSessionEnded=true, bCleanupResources=true
+[2025.08.17-19.10.23:703][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.17-19.10.23:721][532]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.08.17-19.10.23:724][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.08.17-19.10.23:726][532]LogStreaming: Display: FlushAsyncLoading(400): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.17-19.10.29:034][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_BalconyBlock.SM_BalconyBlock:BodySetup_0, Element [88] has no Geometry
+[2025.08.17-19.10.29:034][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_BalconyBlock.SM_BalconyBlock:BodySetup_0, Element [89] has no Geometry
+[2025.08.17-19.10.29:034][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_BalconyBlock.SM_BalconyBlock:BodySetup_0, Element [280] has no Geometry
+[2025.08.17-19.10.29:039][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_L_Block.SM_L_Block:BodySetup_0, Element [552] has no Geometry
+[2025.08.17-19.10.29:039][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_L_Block.SM_L_Block:BodySetup_0, Element [553] has no Geometry
+[2025.08.17-19.10.29:039][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_L_Block.SM_L_Block:BodySetup_0, Element [554] has no Geometry
+[2025.08.17-19.10.29:039][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_L_Block.SM_L_Block:BodySetup_0, Element [555] has no Geometry
+[2025.08.17-19.10.29:039][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_L_Block.SM_L_Block:BodySetup_0, Element [556] has no Geometry
+[2025.08.17-19.10.29:039][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_L_Block.SM_L_Block:BodySetup_0, Element [557] has no Geometry
+[2025.08.17-19.10.29:039][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_L_Block.SM_L_Block:BodySetup_0, Element [558] has no Geometry
+[2025.08.17-19.10.29:039][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_L_Block.SM_L_Block:BodySetup_0, Element [559] has no Geometry
+[2025.08.17-19.10.29:039][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_L_Block.SM_L_Block:BodySetup_0, Element [560] has no Geometry
+[2025.08.17-19.10.29:039][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_L_Block.SM_L_Block:BodySetup_0, Element [561] has no Geometry
+[2025.08.17-19.10.29:046][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_HalfBuilt.SM_HalfBuilt:BodySetup_0, Element [158] has no Geometry
+[2025.08.17-19.10.29:046][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_HalfBuilt.SM_HalfBuilt:BodySetup_0, Element [159] has no Geometry
+[2025.08.17-19.10.29:046][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_HalfBuilt.SM_HalfBuilt:BodySetup_0, Element [160] has no Geometry
+[2025.08.17-19.10.29:046][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_HalfBuilt.SM_HalfBuilt:BodySetup_0, Element [161] has no Geometry
+[2025.08.17-19.10.29:046][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_HalfBuilt.SM_HalfBuilt:BodySetup_0, Element [162] has no Geometry
+[2025.08.17-19.10.29:046][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_HalfBuilt.SM_HalfBuilt:BodySetup_0, Element [163] has no Geometry
+[2025.08.17-19.10.29:061][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_RedTowerBlock.SM_RedTowerBlock:BodySetup_0, Element [283] has no Geometry
+[2025.08.17-19.10.29:269][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_LongShopBlock.SM_LongShopBlock:BodySetup_0, Element [535] has no Geometry
+[2025.08.17-19.10.29:269][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_LongShopBlock.SM_LongShopBlock:BodySetup_0, Element [536] has no Geometry
+[2025.08.17-19.10.29:269][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_LongShopBlock.SM_LongShopBlock:BodySetup_0, Element [537] has no Geometry
+[2025.08.17-19.10.29:269][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_LongShopBlock.SM_LongShopBlock:BodySetup_0, Element [538] has no Geometry
+[2025.08.17-19.10.29:269][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_LongShopBlock.SM_LongShopBlock:BodySetup_0, Element [539] has no Geometry
+[2025.08.17-19.10.29:269][532]LogPhysics: Warning: TConvex Name:BodySetup /Game/Blueprints/Buildings/Prime_Buildings/SM_LongShopBlock.SM_LongShopBlock:BodySetup_0, Element [540] has no Geometry
+[2025.08.17-19.10.29:428][532]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.17-19.10.29:485][532]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.17-19.10.29:488][532]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.17-19.10.29:490][532]LogDeviceProfileManager: Going up to parent DeviceProfile [AppleTV]
+[2025.08.17-19.10.29:490][532]LogDeviceProfileManager: Going up to parent DeviceProfile [IOS]
+[2025.08.17-19.10.29:490][532]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.17-19.10.29:493][532]LogDeviceProfileManager: Display: Deviceprofile None not found.
+[2025.08.17-19.10.29:750][532]LogAudio: Display: Audio Device (ID: 1) registered with world 'GameIsland'.
+[2025.08.17-19.10.29:750][532]LogChaosDD: Creating Chaos Debug Draw Scene for world GameIsland
+[2025.08.17-19.10.29:751][532]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Blueprints/Maps/GameIsland.GameIsland'.
+[2025.08.17-19.10.31:039][532]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.08.17-19.10.31:139][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.08.17-19.10.31:152][532]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.08.17-19.10.31:152][532]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.106ms to complete.
+[2025.08.17-19.10.31:154][532]LogSlate: Window 'Open Level' being destroyed
+[2025.08.17-19.10.31:674][533]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/LevelPrototyping/LevelBlock.LevelBlock_C:UserConstructionScript'!
+[2025.08.17-19.10.31:674][533]LogScript: Warning: Script Msg called by: BrokenFence_C /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.BrokenFence_C_5
+[2025.08.17-19.10.31:689][533]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/LevelPrototyping/LevelBlock.LevelBlock_C:UserConstructionScript'!
+[2025.08.17-19.10.31:689][533]LogScript: Warning: Script Msg called by: Fence_C /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Fence_C_10
+[2025.08.17-19.10.32:852][534]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/LevelPrototyping/LevelBlock.LevelBlock_C:UserConstructionScript'!
+[2025.08.17-19.10.32:852][534]LogScript: Warning: Script Msg called by: Fence_C /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Fence_C_9
+[2025.08.17-19.10.32:853][534]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/LevelPrototyping/LevelBlock.LevelBlock_C:UserConstructionScript'!
+[2025.08.17-19.10.32:853][534]LogScript: Warning: Script Msg called by: Fence_C /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Fence_C_7
+[2025.08.17-19.10.32:856][534]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/LevelPrototyping/LevelBlock.LevelBlock_C:UserConstructionScript'!
+[2025.08.17-19.10.32:856][534]LogScript: Warning: Script Msg called by: Fence_C /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Fence_C_6
+[2025.08.17-19.10.32:858][534]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/LevelPrototyping/LevelBlock.LevelBlock_C:UserConstructionScript'!
+[2025.08.17-19.10.32:858][534]LogScript: Warning: Script Msg called by: Fence_C /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Fence_C_1
+[2025.08.17-19.10.32:859][534]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/LevelPrototyping/LevelBlock.LevelBlock_C:UserConstructionScript'!
+[2025.08.17-19.10.32:859][534]LogScript: Warning: Script Msg called by: BrokenFence_C /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.BrokenFence_C_4
+[2025.08.17-19.10.32:861][534]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/LevelPrototyping/LevelBlock.LevelBlock_C:UserConstructionScript'!
+[2025.08.17-19.10.32:861][534]LogScript: Warning: Script Msg called by: BrokenFence_C /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.BrokenFence_C_3
+[2025.08.17-19.10.47:538][902]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1755.450073
+[2025.08.17-19.10.47:673][916]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.17-19.10.47:673][916]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1755.578125, Update Interval: 354.554260
+[2025.08.17-19.17.40:149][294]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2168.057617
+[2025.08.17-19.17.40:295][310]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.17-19.17.40:295][310]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2168.192139, Update Interval: 305.324860
+[2025.08.17-19.19.37:426][137]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2025.08.17-19.21.32:323][930]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.08.17-19.21.32:324][930]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_0'.
+[2025.08.17-19.21.32:495][933]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.08.17-19.21.32:496][933]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_1'.
+[2025.08.17-19.22.12:475][289]Cmd: DELETE
+[2025.08.17-19.22.12:475][289]Cmd: ACTOR DELETE
+[2025.08.17-19.22.12:478][289]LogStreaming: Display: FlushAsyncLoading(401): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.17-19.22.12:572][289]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.08.17-19.22.12:609][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.08.17-19.22.12:612][289]LogEditorActor: Deleted 1 Actors (0.137 secs)
+[2025.08.17-19.23.27:385][346]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2515.298096
+[2025.08.17-19.23.27:537][358]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.17-19.23.27:537][358]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2515.433838, Update Interval: 336.003296
+[2025.08.17-19.28.03:991][855]Cmd: TRANSACTION UNDO
+[2025.08.17-19.28.03:991][855]LogEditorTransaction: Undo Move Elements
+[2025.08.17-19.29.18:518][805]Cmd: TRANSACTION UNDO
+[2025.08.17-19.29.18:518][805]LogEditorTransaction: Undo Move Elements
+[2025.08.17-19.29.34:177][102]LogStreaming: Display: FlushAsyncLoading(402): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.17-19.29.59:233][885]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2907.140381
+[2025.08.17-19.29.59:366][895]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.17-19.29.59:366][895]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2907.260010, Update Interval: 303.795898
+[2025.08.17-19.35.00:752][193]Cmd: TRANSACTION UNDO
+[2025.08.17-19.35.00:752][193]LogEditorTransaction: Undo Modify Landscape Spline Control Point
+[2025.08.17-19.35.59:551][904]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3267.458008
+[2025.08.17-19.35.59:839][907]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.17-19.35.59:839][907]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3267.662354, Update Interval: 311.546997
+[2025.08.17-19.37.06:322][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.08.17-19.37.06:406][877]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Landscape_0.Heightmap_13 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2025.08.17-19.37.06:409][877]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Landscape_0.Heightmap_15 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2025.08.17-19.37.06:869][877]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Maps/GameIsland_Auto1
+[2025.08.17-19.37.06:869][877]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/GameIsland_Auto1DC3B61C74CCEDA32F79174B927F23793.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Blueprints/Maps/GameIsland_Auto1.umap'
+[2025.08.17-19.37.06:872][877]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Blueprints/Maps/GameIsland' took 0.624
+[2025.08.17-19.37.06:872][877]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.624
+[2025.08.17-19.37.27:799][422]LogSlate: Took 0.007469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.08.17-19.37.27:950][422]Cmd: MAP REBUILD ALLVISIBLE
+[2025.08.17-19.37.27:953][422]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2025.08.17-19.37.28:815][422]LogWorld: UWorld::CleanupWorld for GameIsland, bSessionEnded=true, bCleanupResources=true
+[2025.08.17-19.37.28:824][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.17-19.37.28:824][422]LogChaosDD: Creating Chaos Debug Draw Scene for world GameIsland
+[2025.08.17-19.37.28:831][422]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Blueprints/Maps/GameIsland.GameIsland'.
+[2025.08.17-19.37.29:182][422]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2025.08.17-19.37.29:183][422]LogNavigationDataBuild: Display: UNavigationSystemV1::Build total execution time: 0.00s
+[2025.08.17-19.37.29:205][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.08.17-19.37.36:569][422]LogLevel: Display: Export Material TexCoord Scales took 0.354 seconds.
+[2025.08.17-19.37.36:615][422]TextureStreamingBuild: Display: Build Texture Streaming took 0.046 seconds.
+[2025.08.17-19.37.36:636][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.08.17-19.37.36:919][422]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2025.08.17-19.37.36:985][422]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2025.08.17-19.37.36:997][422]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2025.08.17-19.37.37:515][422]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2025.08.17-19.37.37:515][422]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20904
+[2025.08.17-19.37.45:188][422]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2025.08.17-19.37.45:188][422]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2025.08.17-19.37.45:188][422]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2025.08.17-19.37.45:188][422]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2025.08.17-19.37.45:188][422]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2025.08.17-19.37.45:476][422]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2025.08.17-19.37.45:476][422]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2025.08.17-19.37.45:478][422]MapCheck: Warning: AK-110_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.37.45:478][422]MapCheck: Warning: AK-110_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.37.45:478][422]MapCheck: Warning: AK-110_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.37.45:478][422]MapCheck: Warning: CM_2000_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.37.45:478][422]MapCheck: Warning: CM_2000_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.37.45:478][422]MapCheck: Warning: CM_2000_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.37.45:478][422]MapCheck: Warning: DE_42_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.37.45:478][422]MapCheck: Warning: DE_42_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.37.45:478][422]MapCheck: Warning: DE_42_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.37.45:478][422]MapCheck: Warning: Knife_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.37.45:478][422]MapCheck: Warning: Knife_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.37.45:478][422]MapCheck: Warning: Knife_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.37.45:482][422]MapCheck: Map check complete: 1 Error(s), 12 Warning(s), took 6.901ms to complete.
+[2025.08.17-19.37.45:482][422]LogEditorBuildUtils: Build time 0:17
+[2025.08.17-19.37.46:946][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.08.17-19.38.42:516][177]LightingResults: Warning: SM_Crane Object has overlapping UVs.
+[2025.08.17-19.38.42:516][177]LightingResults: SM_Crane Lightmap UV are overlapping by 99.2%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.17-19.38.43:216][210]LightingResults: Warning: SM_Crane Object has overlapping UVs.
+[2025.08.17-19.38.43:216][210]LightingResults: SM_Crane Lightmap UV are overlapping by 99.2%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.17-19.38.52:487][654]LightingResults: Warning: SM_HalfBuiltBlock Object has overlapping UVs.
+[2025.08.17-19.38.52:487][654]LightingResults: SM_HalfBuiltBlock Lightmap UV are overlapping by 98.0%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.17-19.38.53:805][717]LightingResults: Warning: SM_HalfBuiltBlock Object has wrapping UVs.
+[2025.08.17-19.38.53:805][717]LightingResults: Warning: SM_HalfBuiltBlock Object has overlapping UVs.
+[2025.08.17-19.38.53:805][717]LightingResults: SM_HalfBuiltBlock Lightmap UV are overlapping by 98.0%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.17-19.38.54:191][735]LightingResults: Warning: SM_HalfBuiltBlock Object has wrapping UVs.
+[2025.08.17-19.38.54:191][735]LightingResults: Warning: SM_HalfBuiltBlock Object has overlapping UVs.
+[2025.08.17-19.38.54:191][735]LightingResults: SM_HalfBuiltBlock Lightmap UV are overlapping by 98.0%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.17-19.38.57:647][900]LightingResults: Warning: SM_Crane Object has overlapping UVs.
+[2025.08.17-19.38.57:647][900]LightingResults: SM_Crane Lightmap UV are overlapping by 99.2%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.17-19.39.00:515][ 38]LightingResults: Warning: SM_BuildSteelFrame Object has overlapping UVs.
+[2025.08.17-19.39.00:515][ 38]LightingResults: SM_BuildSteelFrame Lightmap UV are overlapping by 35.2%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.17-19.39.01:685][ 94]LightingResults: Warning: SM_HalfBuilt Object has overlapping UVs.
+[2025.08.17-19.39.01:685][ 94]LightingResults: SM_HalfBuilt Lightmap UV are overlapping by 7.7%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.17-19.39.03:144][164]LightingResults: Warning: SM_LumberStack_C01_N1 Object has overlapping UVs.
+[2025.08.17-19.39.03:165][165]LightingResults: SM_LumberStack_C01_N1 Lightmap UV are overlapping by 5.9%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.17-19.39.03:459][178]LightingResults: Warning: SM_LumberStack_C01_N1 Object has overlapping UVs.
+[2025.08.17-19.39.03:459][178]LightingResults: SM_LumberStack_C01_N1 Lightmap UV are overlapping by 5.9%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.17-19.39.10:129][498]LightingResults: Warning: Van_SM Object has overlapping UVs.
+[2025.08.17-19.39.10:129][498]LightingResults: Van_SM Lightmap UV are overlapping by 82.5%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.17-19.39.13:085][640]LightingResults: Warning: SM_Crane Object has overlapping UVs.
+[2025.08.17-19.39.13:085][640]LightingResults: SM_Crane Lightmap UV are overlapping by 99.2%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.17-19.39.16:638][811]LightingResults: Warning: Van_SM Object has overlapping UVs.
+[2025.08.17-19.39.16:638][811]LightingResults: Van_SM Lightmap UV are overlapping by 82.5%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.17-19.39.17:841][869]LightingResults: Warning: SM_HalfBuiltBlock Object has overlapping UVs.
+[2025.08.17-19.39.17:861][870]LightingResults: SM_HalfBuiltBlock Lightmap UV are overlapping by 98.0%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.17-19.39.46:735][258]Job is a success!
+[2025.08.17-19.39.47:061][260]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.045s
+[2025.08.17-19.39.47:061][260]LogVolumetricLightmapImport:      Indirection Texture 32x32x16 = 0.1Mb
+[2025.08.17-19.39.47:061][260]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb (trimmed 3.3Mb due to 0.010000 MinBrickError)
+[2025.08.17-19.39.47:061][260]LogVolumetricLightmapImport:      Bricks at depth
+[2025.08.17-19.39.47:061][260]LogVolumetricLightmapImport:          0: 7.0% covering 100.0% of volume
+[2025.08.17-19.39.47:061][260]LogVolumetricLightmapImport:          1: 82.5% covering 18.4% of volume
+[2025.08.17-19.39.47:061][260]LogVolumetricLightmapImport:          2: 10.5% covering 0.0% of volume
+[2025.08.17-19.39.47:061][260]LogVolumetricLightmapImport:      Bricks in each level
+[2025.08.17-19.39.47:061][260]LogVolumetricLightmapImport:          GameIsland 			 57 bricks 	 100.0% (Persistent Level)
+[2025.08.17-19.39.47:579][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:581][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:581][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:581][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_0_2 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:581][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_3 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:639][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_0_3 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:641][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_4 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:669][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_0_4 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:669][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_5 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:669][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_0_5 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:709][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_0_6 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.885386 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:709][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_7 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.604127 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:709][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_6 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.604127 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:711][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_0_7 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.885386 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:711][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_8 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 11.416541 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:711][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_0_8 (TFO_DXT1, 256x256 x1x1x1) (Required Memory Estimate: 8.541636 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:713][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_9 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 11.416541 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:715][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_0_9 (TFO_DXT1, 256x256 x1x1x1) (Required Memory Estimate: 8.541636 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:715][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap1_10 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 11.416541 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:715][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_1_10 (TFO_DXT1, 256x256 x1x1x1) (Required Memory Estimate: 8.541636 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:716][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap1_11 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 11.416541 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:717][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_1_11 (TFO_DXT1, 256x256 x1x1x1) (Required Memory Estimate: 8.541636 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:718][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap1_12 (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.416656 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:718][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_1_12 (TFO_DXT1, 512x512 x1x1x1) (Required Memory Estimate: 31.166582 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:718][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_14 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 11.416541 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:720][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_13 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:720][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_0_13 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:742][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_15 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 11.416541 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:742][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_0_14 (TFO_DXT1, 256x256 x1x1x1) (Required Memory Estimate: 8.541636 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:744][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_0_15 (TFO_DXT1, 256x256 x1x1x1) (Required Memory Estimate: 8.541636 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:747][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_18 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.604127 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:747][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_0_18 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.885386 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:748][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_21 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.604127 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:748][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_0_21 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.885386 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:748][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap1_19 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:750][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_1_19 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:820][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:ShadowMapTexture2D_5 (BGRA8, 256x64 x1x1x1) (Required Memory Estimate: 1.520827 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:823][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:ShadowMapTexture2D_1 (BGRA8, 512x64 x1x1x1) (Required Memory Estimate: 2.166668 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:921][260]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:ShadowMapTexture2D_0 (BGRA8, 1024x512 x1x1x1) (Required Memory Estimate: 19.666653 MB), EncodeSpeed: Fast
+[2025.08.17-19.39.47:950][260]Lightmass on DEVATOX: 2:00 min total, 4.06 sec importing, 4.04 sec setup, 44.8 sec photons, 1:07 min processing, 0 us extra exporting [586/586 mappings]. Threads: 12:21 min total, 5:46 min processing.
+[2025.08.17-19.39.47:988][260]LogStaticLightingSystem: GameIsland_BuiltData storing lightmap data for 586 meshes in 31 LightmapResourceClusters (18.9 Meshes per cluster).
+[2025.08.17-19.39.48:031][260]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.08.17-19.39.48:051][260]LogStaticLightingSystem: Illumination: 2:11 min (334.437 ms encoding lightmaps, 109.451 ms encoding shadowmaps)
+[2025.08.17-19.39.48:051][260]LogStaticLightingSystem: Lightmap texture memory:  16.1 MB (16.1 MB streaming, 0.0 MB non-streaming), 42 textures
+[2025.08.17-19.39.48:051][260]LogStaticLightingSystem: Shadowmap texture memory: 3.0 MB (3.0 MB streaming, 0.0 MB non-streaming), 3 textures
+[2025.08.17-19.39.53:288][260]DumpUnbuiltLightIteractions
+[2025.08.17-19.39.53:288][260]Lights with unbuilt interactions: 0
+[2025.08.17-19.39.53:288][260]
+[2025.08.17-19.39.53:288][260]Primitives with unbuilt interactions: 0
+[2025.08.17-19.39.53:288][260]LogEngine: Warning: MapBuildDataID for Facade13 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0)
+[2025.08.17-19.39.53:288][260]LogEngine: Warning: MapBuildDataID for Landscape was updated during the static lighting build, marking package dirty (SplineMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Landscape_0.SplineMeshComponent_1)
+[2025.08.17-19.39.53:288][260]LogEngine: Warning: MapBuildDataID for Landscape was updated during the static lighting build, marking package dirty (SplineMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Landscape_0.SplineMeshComponent_13)
+[2025.08.17-19.39.53:288][260]LogEngine: Warning: MapBuildDataID for Landscape was updated during the static lighting build, marking package dirty (SplineMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Landscape_0.SplineMeshComponent_2)
+[2025.08.17-19.39.53:288][260]LogEngine: Warning: MapBuildDataID for Landscape was updated during the static lighting build, marking package dirty (SplineMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Landscape_0.SplineMeshComponent_3)
+[2025.08.17-19.39.53:288][260]LogEngine: Warning: MapBuildDataID for Landscape was updated during the static lighting build, marking package dirty (SplineMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Landscape_0.SplineMeshComponent_68)
+[2025.08.17-19.39.53:288][260]LogEngine: Warning: MapBuildDataID for Landscape was updated during the static lighting build, marking package dirty (SplineMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Landscape_0.SplineMeshComponent_72)
+[2025.08.17-19.39.53:288][260]LogEngine: Warning: MapBuildDataID for Landscape was updated during the static lighting build, marking package dirty (SplineMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Landscape_0.SplineMeshComponent_74)
+[2025.08.17-19.39.53:288][260]LogEngine: Warning: MapBuildDataID for Landscape was updated during the static lighting build, marking package dirty (SplineMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Landscape_0.SplineMeshComponent_75)
+[2025.08.17-19.39.53:288][260]LogEngine: Warning: MapBuildDataID for Landscape was updated during the static lighting build, marking package dirty (SplineMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Landscape_0.SplineMeshComponent_76)
+[2025.08.17-19.39.53:288][260]LogEngine: Warning: MapBuildDataID for Landscape was updated during the static lighting build, marking package dirty (SplineMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Landscape_0.SplineMeshComponent_77)
+[2025.08.17-19.39.53:288][260]LogEngine: Warning: MapBuildDataID for Landscape was updated during the static lighting build, marking package dirty (SplineMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Landscape_0.SplineMeshComponent_79)
+[2025.08.17-19.39.54:376][260]Cmd: MAP CHECK NOTIFYRESULTS
+[2025.08.17-19.39.54:378][260]MapCheck: Warning: AK-110_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.39.54:378][260]MapCheck: Warning: AK-110_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.39.54:378][260]MapCheck: Warning: AK-110_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.39.54:378][260]MapCheck: Warning: CM_2000_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.39.54:378][260]MapCheck: Warning: CM_2000_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.39.54:378][260]MapCheck: Warning: CM_2000_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.39.54:378][260]MapCheck: Warning: DE_42_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.39.54:378][260]MapCheck: Warning: DE_42_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.39.54:378][260]MapCheck: Warning: DE_42_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.39.54:378][260]MapCheck: Warning: Knife_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.39.54:378][260]MapCheck: Warning: Knife_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.39.54:378][260]MapCheck: Warning: Knife_C_1 Static mesh actor has NULL StaticMesh property 
+[2025.08.17-19.39.54:381][260]MapCheck: Map check complete: 0 Error(s), 12 Warning(s), took 4.895ms to complete.
+[2025.08.17-19.39.54:681][265]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 159265
+[2025.08.17-19.39.54:681][265]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2025.08.17-19.39.54:686][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.17-19.40.11:631][578]LogSlate: Window 'Message Log' being destroyed
+[2025.08.17-19.40.11:641][578]LogSlate: Window 'Message Log' being destroyed
+[2025.08.17-19.41.42:203][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.08.17-19.41.42:212][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.17-19.41.42:295][ 66]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Landscape_0.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 10.333324 MB), EncodeSpeed: Fast
+[2025.08.17-19.41.42:301][ 66]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Landscape_0.Heightmap_2 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 10.333324 MB), EncodeSpeed: Fast
+[2025.08.17-19.41.42:301][ 66]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.Landscape_0.Heightmap_3 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 10.333324 MB), EncodeSpeed: Fast
+[2025.08.17-19.41.42:304][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/GameIsland" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.08.17-19.41.42:331][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.08.17-19.41.42:885][ 66]LogSavePackage: Moving output files for package: /Game/Blueprints/Maps/GameIsland
+[2025.08.17-19.41.42:886][ 66]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/GameIsland49E244D94D3DB15F4D5D9690B45B3D92.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap'
+[2025.08.17-19.41.42:901][ 66]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Blueprints/Maps/GameIsland_BuiltData
+[2025.08.17-19.41.42:901][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.17-19.41.42:903][ 66]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Maps/GameIsland_BuiltData] ([1] browsable assets)...
+[2025.08.17-19.41.42:903][ 66]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Maps/GameIsland_BuiltData]
+[2025.08.17-19.41.42:903][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/GameIsland_BuiltData" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset" SILENT=true
+[2025.08.17-19.41.43:111][ 66]LogSavePackage: Moving output files for package: /Game/Blueprints/Maps/GameIsland_BuiltData
+[2025.08.17-19.41.43:111][ 66]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/GameIsland_BuiltData12D6DFE84ACBE977A405468E4CD3C18E.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset'
+[2025.08.17-19.41.43:115][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave took 213.512 ms
+[2025.08.17-19.41.43:115][ 66]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Blueprints/Maps/GameIsland_BuiltData
+[2025.08.17-19.41.43:115][ 66]LogFileHelpers: Saving map 'GameIsland' took 0.812
+[2025.08.17-19.41.43:116][ 66]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Maps/GameIsland_BuiltData] ([1] browsable assets)...
+[2025.08.17-19.41.43:116][ 66]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Maps/GameIsland_BuiltData]
+[2025.08.17-19.41.43:116][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/GameIsland_BuiltData" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset" SILENT=true
+[2025.08.17-19.41.43:404][ 66]LogSavePackage: Moving output files for package: /Game/Blueprints/Maps/GameIsland_BuiltData
+[2025.08.17-19.41.43:404][ 66]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/GameIsland_BuiltData830DAE034D7B4D077A0B48B9F1B9829B.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset'
+[2025.08.17-19.41.43:418][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.20 sec (total: 1.41 sec)
+[2025.08.17-19.41.43:489][ 66]LogContentValidation: Display: Starting to validate 2 assets
+[2025.08.17-19.41.43:489][ 66]LogContentValidation: Enabled validators:
+[2025.08.17-19.41.43:489][ 66]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.17-19.41.43:489][ 66]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.17-19.41.43:489][ 66]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.17-19.41.43:489][ 66]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.17-19.41.43:489][ 66]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.17-19.41.43:489][ 66]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.17-19.41.43:489][ 66]AssetCheck: /Game/Blueprints/Maps/GameIsland Validating asset
+[2025.08.17-19.41.43:489][ 66]AssetCheck: /Game/Blueprints/Maps/GameIsland_BuiltData Validating asset
+[2025.08.17-19.41.50:444][265]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3618.349609
+[2025.08.17-19.41.51:445][268]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.17-19.41.51:445][268]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3619.016602, Update Interval: 328.607452
