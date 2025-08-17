@@ -8899,3 +8899,71 @@ Disable Touch Interface
 [2025.08.17-11.46.34:364][983]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1029.077271
 [2025.08.17-11.46.35:363][986]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.08.17-11.46.35:363][986]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1029.744873, Update Interval: 304.574127
+[2025.08.17-11.51.49:947][218]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1344.661133
+[2025.08.17-11.51.50:948][221]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.17-11.51.50:948][221]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1345.327637, Update Interval: 357.363190
+[2025.08.17-11.53.25:195][240]LogSlate: Took 0.015998 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.08.17-11.53.25:196][240]Cmd: MAP REBUILD ALLVISIBLE
+[2025.08.17-11.53.25:198][240]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2025.08.17-11.53.25:757][240]LogWorld: UWorld::CleanupWorld for VR_InventoryTest, bSessionEnded=true, bCleanupResources=true
+[2025.08.17-11.53.25:759][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.17-11.53.25:759][240]LogChaosDD: Creating Chaos Debug Draw Scene for world VR_InventoryTest
+[2025.08.17-11.53.25:762][240]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Blueprints/Maps/VR_InventoryTest.VR_InventoryTest'.
+[2025.08.17-11.53.25:781][240]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2025.08.17-11.53.25:781][240]LogNavigationDataBuild: Display: UNavigationSystemV1::Build total execution time: 0.00s
+[2025.08.17-11.53.25:799][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.08.17-11.53.40:162][240]LogZenServiceInstance: Warning: Unable to reach Unreal Zen Storage Server HTTP service at [::1]:8558. Status: 0 . Response: 
+[2025.08.17-11.53.40:162][240]LogZenServiceInstance: Display: Local ZenServer recovery being attempted...
+[2025.08.17-11.53.40:162][240]LogZenServiceInstance: Display: Successfully shut down zenserver process with pid 15984
+[2025.08.17-11.53.40:162][240]LogZenServiceInstance: No current process using the data dir found, launching a new instance
+[2025.08.17-11.53.40:162][240]LogZenServiceInstance: Display: Launching executable 'C:/Users/devat/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/devat/AppData/Local/UnrealEngine/Common/Zen/Install', data dir 'C:/Users/devat/AppData/Local/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir "C:\Users\devat\AppData\Local\UnrealEngine\Common\Zen\Data" --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --quiet --http-forceloopback --owner-pid 5300 --child-id Zen_5300_Startup'
+[2025.08.17-11.53.40:267][240]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2025.08.17-11.53.40:267][240]LogZenServiceInstance: Display: Local ZenServer recovery finished.
+[2025.08.17-11.53.40:267][240]LogZenServiceInstance: Display: Local ZenServer post recovery status: Healthy
+[2025.08.17-11.53.40:578][240]LogLevel: Display: Export Material TexCoord Scales took 0.152 seconds.
+[2025.08.17-11.53.40:584][240]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2025.08.17-11.53.40:601][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.08.17-11.53.40:844][240]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2025.08.17-11.53.41:222][240]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2025.08.17-11.53.41:234][240]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2025.08.17-11.53.42:257][240]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2025.08.17-11.53.42:257][240]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5300
+[2025.08.17-11.53.49:199][240]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2025.08.17-11.53.49:199][240]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2025.08.17-11.53.49:199][240]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2025.08.17-11.53.49:199][240]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2025.08.17-11.53.49:199][240]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2025.08.17-11.53.49:325][240]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2025.08.17-11.53.49:326][240]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.521ms to complete.
+[2025.08.17-11.53.49:326][240]LogEditorBuildUtils: Build time 0:24
+[2025.08.17-11.53.49:956][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.08.17-11.53.49:989][241]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Maps/VR_InventoryTest_Auto1
+[2025.08.17-11.53.49:989][241]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/VR_InventoryTest_Auto17AA455584F4281036B9E9E9D9BCFFA8D.tmp' to '../../../../../../FALMOUTH/VR_Primer/Saved/Autosaves/Game/Blueprints/Maps/VR_InventoryTest_Auto1.umap'
+[2025.08.17-11.53.49:990][241]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Blueprints/Maps/VR_InventoryTest' took 0.049
+[2025.08.17-11.53.49:990][241]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.049
+[2025.08.17-11.53.50:021][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.08.17-11.53.50:836][242]Job is a success!
+[2025.08.17-11.53.51:196][243]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2025.08.17-11.53.51:196][243]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2025.08.17-11.53.51:196][243]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2025.08.17-11.53.51:196][243]LogVolumetricLightmapImport:      Bricks at depth
+[2025.08.17-11.53.51:196][243]LogVolumetricLightmapImport:          0: 20.0% covering 100.0% of volume
+[2025.08.17-11.53.51:196][243]LogVolumetricLightmapImport:          1: 80.0% covering 6.2% of volume
+[2025.08.17-11.53.51:196][243]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2025.08.17-11.53.51:196][243]LogVolumetricLightmapImport:      Bricks in each level
+[2025.08.17-11.53.51:196][243]LogVolumetricLightmapImport:          VR_InventoryTest 			 5 bricks 	 100.0% (Persistent Level)
+[2025.08.17-11.53.51:224][243]LogStaticLightingSystem: VR_InventoryTest_BuiltData storing lightmap data for 28 meshes in 2 LightmapResourceClusters (14.0 Meshes per cluster).
+[2025.08.17-11.53.51:225][243]Lightmass on DEVATOX: 725.774 ms total, 86.302 ms importing, 1.424 ms setup, 21.681 ms photons, 613.075 ms processing, 0 us extra exporting [28/28 mappings]. Threads: 6.73 sec total, 92.917 ms processing.
+[2025.08.17-11.53.51:243][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.08.17-11.53.51:416][243]LogStaticLightingSystem: Illumination: 10.5 sec (1.744 ms encoding lightmaps, 16 us encoding shadowmaps)
+[2025.08.17-11.53.51:417][243]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2025.08.17-11.53.51:417][243]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2025.08.17-11.53.57:177][243]DumpUnbuiltLightIteractions
+[2025.08.17-11.53.57:177][243]Lights with unbuilt interactions: 0
+[2025.08.17-11.53.57:177][243]
+[2025.08.17-11.53.57:177][243]Primitives with unbuilt interactions: 0
+[2025.08.17-11.53.58:066][243]Cmd: MAP CHECK NOTIFYRESULTS
+[2025.08.17-11.53.58:066][243]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.435ms to complete.
+[2025.08.17-11.58.14:851][568]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1729.562622
+[2025.08.17-11.58.15:851][571]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.17-11.58.15:851][571]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1730.229126, Update Interval: 337.832581
