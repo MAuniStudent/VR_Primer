@@ -5206,3 +5206,87 @@ Please set its path in Project Settings / Meta XR Plugin / PC.
 [2025.08.24-23.04.16:957][ 33]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2025.08.24-23.04.17:085][ 45]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-jImQrarkukGt9lre5O3SBQ-G8uZYFgxqk6kkcVL6tw5nQ]
 [2025.08.24-23.04.17:929][121]LogTcpMessaging: Started Connection to '127.0.0.1:6666'
+[2025.08.24-23.04.48:003][645]LogDerivedDataCache: C:/Users/devat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.24-23.05.05:052][222]LogSlate: Took 0.006494 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.08.24-23.05.05:054][222]Cmd: MAP REBUILD ALLVISIBLE
+[2025.08.24-23.05.05:055][222]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2025.08.24-23.05.05:611][222]LogWorld: UWorld::CleanupWorld for VR_InventoryTest, bSessionEnded=true, bCleanupResources=true
+[2025.08.24-23.05.05:613][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.24-23.05.05:614][222]LogChaosDD: Creating Chaos Debug Draw Scene for world VR_InventoryTest
+[2025.08.24-23.05.05:616][222]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Blueprints/Maps/VR_InventoryTest.VR_InventoryTest'.
+[2025.08.24-23.05.05:636][222]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2025.08.24-23.05.05:636][222]LogNavigationDataBuild: Display: UNavigationSystemV1::Build total execution time: 0.00s
+[2025.08.24-23.05.05:688][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.08.24-23.05.07:924][222]LogLevel: Display: Export Material TexCoord Scales took 0.099 seconds.
+[2025.08.24-23.05.07:930][222]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2025.08.24-23.05.07:945][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.08.24-23.05.08:161][222]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2025.08.24-23.05.08:221][222]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2025.08.24-23.05.08:233][222]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2025.08.24-23.05.08:749][222]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2025.08.24-23.05.08:749][222]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16712
+[2025.08.24-23.05.16:620][222]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2025.08.24-23.05.16:620][222]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2025.08.24-23.05.16:620][222]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2025.08.24-23.05.16:620][222]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2025.08.24-23.05.16:620][222]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2025.08.24-23.05.16:723][222]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2025.08.24-23.05.16:725][222]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.624ms to complete.
+[2025.08.24-23.05.16:725][222]LogEditorBuildUtils: Build time 0:11
+[2025.08.24-23.05.16:911][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.08.24-23.05.18:021][224]Job is a success!
+[2025.08.24-23.05.18:484][225]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
+[2025.08.24-23.05.18:484][225]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2025.08.24-23.05.18:484][225]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2025.08.24-23.05.18:484][225]LogVolumetricLightmapImport:      Bricks at depth
+[2025.08.24-23.05.18:484][225]LogVolumetricLightmapImport:          0: 20.0% covering 100.0% of volume
+[2025.08.24-23.05.18:484][225]LogVolumetricLightmapImport:          1: 80.0% covering 6.2% of volume
+[2025.08.24-23.05.18:484][225]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2025.08.24-23.05.18:484][225]LogVolumetricLightmapImport:      Bricks in each level
+[2025.08.24-23.05.18:484][225]LogVolumetricLightmapImport:          VR_InventoryTest 			 5 bricks 	 100.0% (Persistent Level)
+[2025.08.24-23.05.18:524][225]LogStaticLightingSystem: VR_InventoryTest_BuiltData storing lightmap data for 37 meshes in 2 LightmapResourceClusters (18.5 Meshes per cluster).
+[2025.08.24-23.05.18:524][225]Lightmass on DEVATOX: 1.21 sec total, 73.507 ms importing, 2.151 ms setup, 174.307 ms photons, 958.984 ms processing, 0 us extra exporting [37/37 mappings]. Threads: 10.5 sec total, 601.916 ms processing.
+[2025.08.24-23.05.18:542][225]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.08.24-23.05.18:641][225]LogStaticLightingSystem: Illumination: 10.4 sec (10.848 ms encoding lightmaps, 22 us encoding shadowmaps)
+[2025.08.24-23.05.18:641][225]LogStaticLightingSystem: Lightmap texture memory:  0.6 MB (0.6 MB streaming, 0.0 MB non-streaming), 2 textures
+[2025.08.24-23.05.18:641][225]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2025.08.24-23.05.19:631][225]DumpUnbuiltLightIteractions
+[2025.08.24-23.05.19:631][225]Lights with unbuilt interactions: 0
+[2025.08.24-23.05.19:631][225]
+[2025.08.24-23.05.19:631][225]Primitives with unbuilt interactions: 0
+[2025.08.24-23.05.20:494][225]Cmd: MAP CHECK NOTIFYRESULTS
+[2025.08.24-23.05.20:495][225]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.49ms to complete.
+[2025.08.24-23.05.25:156][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.08.24-23.05.25:171][663]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.24-23.05.25:232][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/VR_InventoryTest" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_InventoryTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.08.24-23.05.25:270][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.08.24-23.05.25:302][663]LogSavePackage: Moving output files for package: /Game/Blueprints/Maps/VR_InventoryTest
+[2025.08.24-23.05.25:302][663]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/VR_InventoryTest1AB5EBFB4B7991B6532E19BCCD4BCAFF.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_InventoryTest.umap'
+[2025.08.24-23.05.25:310][663]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Blueprints/Maps/VR_InventoryTest_BuiltData
+[2025.08.24-23.05.25:310][663]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.24-23.05.25:310][663]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Maps/VR_InventoryTest_BuiltData] ([1] browsable assets)...
+[2025.08.24-23.05.25:310][663]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Maps/VR_InventoryTest_BuiltData]
+[2025.08.24-23.05.25:310][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/VR_InventoryTest_BuiltData" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_InventoryTest_BuiltData.uasset" SILENT=true
+[2025.08.24-23.05.25:317][663]LogSavePackage: Moving output files for package: /Game/Blueprints/Maps/VR_InventoryTest_BuiltData
+[2025.08.24-23.05.25:317][663]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/VR_InventoryTest_BuiltData30D708994FA4ECAF2FB84B93092525DB.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_InventoryTest_BuiltData.uasset'
+[2025.08.24-23.05.25:318][663]LogFileHelpers: InternalPromptForCheckoutAndSave took 7.198 ms
+[2025.08.24-23.05.25:318][663]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Blueprints/Maps/VR_InventoryTest_BuiltData
+[2025.08.24-23.05.25:318][663]LogFileHelpers: Saving map 'VR_InventoryTest' took 0.086
+[2025.08.24-23.05.25:318][663]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Maps/VR_InventoryTest_BuiltData] ([1] browsable assets)...
+[2025.08.24-23.05.25:318][663]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Maps/VR_InventoryTest_BuiltData]
+[2025.08.24-23.05.25:318][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/VR_InventoryTest_BuiltData" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_InventoryTest_BuiltData.uasset" SILENT=true
+[2025.08.24-23.05.25:322][663]LogSavePackage: Moving output files for package: /Game/Blueprints/Maps/VR_InventoryTest_BuiltData
+[2025.08.24-23.05.25:322][663]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/VR_InventoryTest_BuiltData28BB50B44E9C88586981329EA57A8D64.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/VR_InventoryTest_BuiltData.uasset'
+[2025.08.24-23.05.25:333][663]LogFileHelpers: InternalPromptForCheckoutAndSave took 161.826 ms (total: 169.024 ms)
+[2025.08.24-23.05.25:396][663]LogContentValidation: Display: Starting to validate 2 assets
+[2025.08.24-23.05.25:396][663]LogContentValidation: Enabled validators:
+[2025.08.24-23.05.25:396][663]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.24-23.05.25:396][663]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.24-23.05.25:396][663]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.24-23.05.25:396][663]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.24-23.05.25:396][663]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.24-23.05.25:396][663]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.24-23.05.25:396][663]AssetCheck: /Game/Blueprints/Maps/VR_InventoryTest Validating asset
+[2025.08.24-23.05.25:396][663]AssetCheck: /Game/Blueprints/Maps/VR_InventoryTest_BuiltData Validating asset
