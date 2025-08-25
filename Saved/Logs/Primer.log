@@ -7070,3 +7070,198 @@ Please set its path in Project Settings / Meta XR Plugin / PC.
 [2025.08.25-23.35.04:032][831]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.08.25-23.35.04:034][831]AssetCheck: /Game/Blueprints/Maps/GameIsland Validating asset
 [2025.08.25-23.35.04:034][831]AssetCheck: /Game/Blueprints/Maps/GameIsland_BuiltData Validating asset
+[2025.08.25-23.35.43:731][151]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8417.797852
+[2025.08.25-23.35.44:732][154]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.25-23.35.44:732][154]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8418.464844, Update Interval: 342.424988
+[2025.08.25-23.36.22:329][449]Cmd: TRANSACTION UNDO
+[2025.08.25-23.36.22:330][449]LogEditorTransaction: Undo Move Elements
+[2025.08.25-23.36.32:682][180]Cmd: MAP REBUILD ALLVISIBLE
+[2025.08.25-23.36.32:683][180]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2025.08.25-23.36.33:895][180]LogWorld: UWorld::CleanupWorld for GameIsland, bSessionEnded=true, bCleanupResources=true
+[2025.08.25-23.36.33:909][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.25-23.36.33:910][180]LogChaosDD: Creating Chaos Debug Draw Scene for world GameIsland
+[2025.08.25-23.36.33:919][180]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Blueprints/Maps/GameIsland.GameIsland'.
+[2025.08.25-23.36.34:139][180]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2025.08.25-23.36.34:139][180]LogNavigationDataBuild: Display: UNavigationSystemV1::Build total execution time: 0.00s
+[2025.08.25-23.36.34:159][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.08.25-23.36.34:334][180]LogLevel: Display: Export Material TexCoord Scales took 0.172 seconds.
+[2025.08.25-23.36.34:428][180]TextureStreamingBuild: Display: Build Texture Streaming took 0.092 seconds.
+[2025.08.25-23.36.34:455][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.08.25-23.36.34:696][180]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2025.08.25-23.36.34:700][180]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2025.08.25-23.36.34:700][180]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2025.08.25-23.36.34:700][180]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2025.08.25-23.36.34:700][180]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2364
+[2025.08.25-23.36.39:278][180]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2025.08.25-23.36.39:278][180]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2025.08.25-23.36.39:278][180]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2025.08.25-23.36.39:278][180]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2025.08.25-23.36.39:278][180]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2025.08.25-23.36.39:506][180]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2025.08.25-23.36.39:581][180]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73.944ms to complete.
+[2025.08.25-23.36.39:581][180]LogEditorBuildUtils: Build time 0:07
+[2025.08.25-23.36.41:316][182]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.08.25-23.37.58:313][928]LightingResults: Warning: SM_Crane Object has overlapping UVs.
+[2025.08.25-23.37.58:313][928]LightingResults: SM_Crane Lightmap UV are overlapping by 99.2%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.25-23.38.06:699][322]LightingResults: Warning: SM_Crane Object has overlapping UVs.
+[2025.08.25-23.38.06:699][322]LightingResults: SM_Crane Lightmap UV are overlapping by 99.2%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.25-23.38.09:901][473]LightingResults: Warning: SM_Shop Object has overlapping UVs.
+[2025.08.25-23.38.09:901][473]LightingResults: SM_Shop Lightmap UV are overlapping by 22.6%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.25-23.38.15:898][756]LightingResults: Warning: SM_Crane Object has overlapping UVs.
+[2025.08.25-23.38.15:898][756]LightingResults: SM_Crane Lightmap UV are overlapping by 99.2%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.25-23.38.26:092][237]LightingResults: Warning: SM_Crane Object has overlapping UVs.
+[2025.08.25-23.38.26:092][237]LightingResults: SM_Crane Lightmap UV are overlapping by 99.2%. Please adjust content - Enable Error Coloring to visualize.
+[2025.08.25-23.39.06:946][199]Job is a success!
+[2025.08.25-23.39.07:242][201]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.045s
+[2025.08.25-23.39.07:242][201]LogVolumetricLightmapImport:      Indirection Texture 32x32x16 = 0.1Mb
+[2025.08.25-23.39.07:242][201]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb (trimmed 3.4Mb due to 0.010000 MinBrickError)
+[2025.08.25-23.39.07:242][201]LogVolumetricLightmapImport:      Bricks at depth
+[2025.08.25-23.39.07:242][201]LogVolumetricLightmapImport:          0: 6.3% covering 100.0% of volume
+[2025.08.25-23.39.07:242][201]LogVolumetricLightmapImport:          1: 69.8% covering 17.2% of volume
+[2025.08.25-23.39.07:242][201]LogVolumetricLightmapImport:          2: 23.8% covering 0.1% of volume
+[2025.08.25-23.39.07:242][201]LogVolumetricLightmapImport:      Bricks in each level
+[2025.08.25-23.39.07:242][201]LogVolumetricLightmapImport:          GameIsland 			 63 bricks 	 100.0% (Persistent Level)
+[2025.08.25-23.39.08:212][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:214][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:214][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:214][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:214][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap1_3 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:277][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_1_3 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:279][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap1_4 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:279][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_1_4 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:319][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_1_5 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:319][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap1_5 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:319][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap1_6 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:319][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap1_7 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:376][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap1_8 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:379][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap1_9 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:409][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_1_9 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:409][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_10 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:409][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_0_10 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:410][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_11 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:459][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:HQ_Lightmap0_12 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 103.916656 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:459][201]LogTexture: Display: Building textures: /Game/Blueprints/Maps/GameIsland_BuiltData.GameIsland_BuiltData:LQ_Lightmap_0_11 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 116.916655 MB), EncodeSpeed: Fast
+[2025.08.25-23.39.08:744][201]Lightmass on DEVATOX: 2:26 min total, 4.59 sec importing, 4.95 sec setup, 50.9 sec photons, 1:26 min processing, 0 us extra exporting [1143/1143 mappings]. Threads: 15:47 min total, 8:37 min processing.
+[2025.08.25-23.39.08:842][201]LogStaticLightingSystem: GameIsland_BuiltData storing lightmap data for 1143 meshes in 57 LightmapResourceClusters (20.1 Meshes per cluster).
+[2025.08.25-23.39.08:909][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.08.25-23.39.08:928][201]LogStaticLightingSystem: Illumination: 2:34 min (530.231 ms encoding lightmaps, 224.261 ms encoding shadowmaps)
+[2025.08.25-23.39.08:928][201]LogStaticLightingSystem: Lightmap texture memory:  37.4 MB (37.4 MB streaming, 0.0 MB non-streaming), 58 textures
+[2025.08.25-23.39.08:928][201]LogStaticLightingSystem: Shadowmap texture memory: 8.1 MB (8.1 MB streaming, 0.0 MB non-streaming), 3 textures
+[2025.08.25-23.39.15:402][201]DumpUnbuiltLightIteractions
+[2025.08.25-23.39.15:402][201]Lights with unbuilt interactions: 0
+[2025.08.25-23.39.15:402][201]
+[2025.08.25-23.39.15:402][201]Primitives with unbuilt interactions: 0
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Stair_Low7 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_811.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Stair_Mid13 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_810.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Stair_Top7 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_809.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Stair_Mid12 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_808.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_4m_58 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_817.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_4m_59 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_818.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Stair_Mid14 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_839.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Stair_Top8 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_840.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Stair_Mid5 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_570.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Stair_Mid6 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_572.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Stair_Mid15 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_841.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Stair_Low8 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_842.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_4m_60 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_843.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_4m_61 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_844.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_4m_62 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_845.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_4m_63 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_846.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_8m_04 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_854.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for cracked_road_edge_scan was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for cracked_road_edge_scan2 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_8.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for cracked_road_edge_scan3 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_12.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for tgdtfg0da_tier_4 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_53.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for vkpmcjk_tier_2 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_26.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for vkpmcjk_tier_3 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_29.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for tgdtfg0da_tier_2 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_49.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for tgdtfg0da_tier_3 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_51.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for vkpmcjk_tier_4 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_99.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for vkpmcjk_tier_5 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_101.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for vkpmcjk_tier_6 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_111.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Trims_3m_73 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_138.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Trims_3m_74 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_192.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Trash_Bin_Big_Closed was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_205.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Trash_Bin_Big_Half_Open_01 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_238.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Trash_Bin_Big_Half_Open_02 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_280.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_8m_4 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_307.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_8m_05 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_302.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_8m_09 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_304.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_8m_03 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_306.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Power_Post_Wall_Light5 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_328.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for Facade14 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_310.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Power_Post_Wall_Light3 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_313.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Power_Post_Wall_Light4 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_327.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_LongPavement3 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_396.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for Facade was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_586.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for Facade2 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_587.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for Facade3 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_597.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for Facade4 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_598.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for Facade5 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_599.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for Facade7 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_600.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for Facade13 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_601.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for Facade15 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_603.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for Facade16 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_604.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for Facade17 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_605.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_4m_57 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_816.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_8m_7 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_857.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_8m_6 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_856.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for RoughWall13 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_721.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_8m_5 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_855.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_4m_56 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_814.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for Facade18 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_741.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for RoughWall16 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_742.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for Facade19 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_743.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for RoughWall17 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_744.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for Facade20 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_745.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for RoughWall18 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_746.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_4m_48 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_757.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_4m_49 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_758.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_4m_50 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_762.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_4m_51 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_763.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Stair_Mid7 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_764.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Stair_Top4 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_765.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Stair_Mid8 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_766.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Stair_Low4 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_767.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_4m_52 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_768.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_4m_53 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_805.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_4m_54 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_806.StaticMeshComponent0)
+[2025.08.25-23.39.15:402][201]LogEngine: Warning: MapBuildDataID for SM_Buildings_Low_4m_55 was updated during the static lighting build, marking package dirty (StaticMeshComponent /Game/Blueprints/Maps/GameIsland.GameIsland:PersistentLevel.StaticMeshActor_807.StaticMeshComponent0)
+[2025.08.25-23.39.15:442][201]Cmd: MAP CHECK NOTIFYRESULTS
+[2025.08.25-23.39.15:454][201]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 14.021ms to complete.
+[2025.08.25-23.39.18:271][392]LogSlate: Window 'Message Log' being destroyed
+[2025.08.25-23.39.18:281][392]LogSlate: Window 'Message Log' being destroyed
+[2025.08.25-23.39.23:239][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.08.25-23.39.23:246][789]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.25-23.39.23:313][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/GameIsland" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.08.25-23.39.23:346][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.08.25-23.39.24:064][789]LogSavePackage: Moving output files for package: /Game/Blueprints/Maps/GameIsland
+[2025.08.25-23.39.24:064][789]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/GameIsland172211E349F737076D8D8599161E77B4.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap'
+[2025.08.25-23.39.24:080][789]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Blueprints/Maps/GameIsland_BuiltData
+[2025.08.25-23.39.24:080][789]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.25-23.39.24:080][789]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Maps/GameIsland_BuiltData] ([1] browsable assets)...
+[2025.08.25-23.39.24:080][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Maps/GameIsland_BuiltData]
+[2025.08.25-23.39.24:080][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/GameIsland_BuiltData" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset" SILENT=true
+[2025.08.25-23.39.24:572][789]LogSavePackage: Moving output files for package: /Game/Blueprints/Maps/GameIsland_BuiltData
+[2025.08.25-23.39.24:572][789]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/GameIsland_BuiltData4785211447EDECC1D5E99C9780250E7B.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset'
+[2025.08.25-23.39.24:576][789]LogFileHelpers: InternalPromptForCheckoutAndSave took 495.813 ms (total: 6.81 sec)
+[2025.08.25-23.39.24:576][789]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Blueprints/Maps/GameIsland_BuiltData
+[2025.08.25-23.39.24:576][789]LogFileHelpers: Saving map 'GameIsland' took 1.265
+[2025.08.25-23.39.24:576][789]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Maps/GameIsland_BuiltData] ([1] browsable assets)...
+[2025.08.25-23.39.24:576][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Maps/GameIsland_BuiltData]
+[2025.08.25-23.39.24:576][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/GameIsland_BuiltData" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset" SILENT=true
+[2025.08.25-23.39.24:954][789]LogSavePackage: Moving output files for package: /Game/Blueprints/Maps/GameIsland_BuiltData
+[2025.08.25-23.39.24:956][789]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/GameIsland_BuiltDataEEA3245449FFD3B3BA319E871C79B9EC.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset'
+[2025.08.25-23.39.24:969][789]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.72 sec (total: 8.53 sec)
+[2025.08.25-23.39.25:042][789]LogContentValidation: Display: Starting to validate 2 assets
+[2025.08.25-23.39.25:042][789]LogContentValidation: Enabled validators:
+[2025.08.25-23.39.25:042][789]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.25-23.39.25:042][789]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.25-23.39.25:042][789]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.25-23.39.25:042][789]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.25-23.39.25:042][789]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.25-23.39.25:042][789]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.25-23.39.25:043][789]AssetCheck: /Game/Blueprints/Maps/GameIsland Validating asset
+[2025.08.25-23.39.25:043][789]AssetCheck: /Game/Blueprints/Maps/GameIsland_BuiltData Validating asset
