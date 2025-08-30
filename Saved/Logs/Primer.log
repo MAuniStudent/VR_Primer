@@ -5210,3 +5210,7 @@ Please set its path in Project Settings / Meta XR Plugin / PC.
 [2025.08.30-18.34.12:089][ 29]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2025.08.30-18.34.12:206][ 43]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-VsPoYXEym0CDgRDz8T867g-MnoKSSRwxESjoH_Oz5jpMg]
 [2025.08.30-18.34.20:510][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.08.30-18.35.39:524][372]LogDerivedDataCache: C:/Users/devat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.30-18.39.26:888][ 54]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 340.522858
+[2025.08.30-18.39.27:888][ 57]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.30-18.39.27:888][ 57]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 341.189178, Update Interval: 354.473694
