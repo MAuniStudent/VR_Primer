@@ -5209,3 +5209,179 @@ Please set its path in Project Settings / Meta XR Plugin / PC.
 [2025.09.05-14.35.02:550][ 16]LogSourceControl: Uncontrolled asset enumeration finished in 5.21268 seconds (Found 15140 uncontrolled assets)
 [2025.09.05-14.35.03:053][ 17]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-LMC_OKXKVk2lG5zfYEegEg-t413LI55gUu6yfCKjZ2fRQ]
 [2025.09.05-14.38.15:286][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.09.05-14.39.21:061][ 97]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.09.05-14.39.21:061][ 97]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_0'.
+[2025.09.05-14.39.21:078][ 97]LogBlueprintUserMessages: Warning: Failed to find console variable 'DDCvar.MMDatabaseLOD'.
+[2025.09.05-14.39.21:078][ 97]LogBlueprintUserMessages: Warning: Failed to find console variable 'DDCvar.OffsetRootBone.TranslationRadius'.
+[2025.09.05-14.39.21:078][ 97]LogBlueprintUserMessages: Warning: Failed to find console variable 'DDCVar.ThreadSafeAnimationUpdate.Enable'.
+[2025.09.05-14.39.21:078][ 97]LogBlueprintUserMessages: Warning: Failed to find console variable 'DDCVar.ExperimentalStateMachine.Debug'.
+[2025.09.05-14.39.21:078][ 97]LogBlueprintUserMessages: Warning: Failed to find console variable 'DDCVar.ExperimentalStateMachine.Enable'.
+[2025.09.05-14.39.21:255][104]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.09.05-14.39.21:255][104]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_1'.
+[2025.09.05-14.39.40:526][ 25]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/PlayerHUD.PlayerHUD
+[2025.09.05-14.39.40:528][ 25]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.09.05-14.39.40:528][ 25]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_2'.
+[2025.09.05-14.39.40:534][ 25]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.09.05-14.39.40:535][ 25]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_3'.
+[2025.09.05-14.39.40:542][ 25]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2025.09.05-14.39.40:624][ 25]LogStreaming: Display: FlushAsyncLoading(400): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.05-14.39.41:006][ 25]LogClass: Warning: Short type name "EOculusLocationFlags" provided for TryFindType. Please convert it to a path name (suggested: "/Script/OculusXRAnchors.EOculusLocationFlags"). Callstack:
+
+0x00007ff9fd8e085d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ff9df2c947b UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df33cac1 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df33c8a9 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df43b794 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df31169a UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df47ad2e UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df35461c UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df27e017 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+
+[2025.09.05-14.39.42:771][ 25]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'SequencerGraphEditor'
+[2025.09.05-14.39.42:772][ 25]LogSlate: The tab "SequencerGraphEditor" attempted to spawn in layout 'WidgetBlueprintEditor_Designer_Layout_v4_8' but failed for some reason. It will not be displayed.
+[2025.09.05-14.39.43:239][ 25]LogBlueprint: Warning: Blueprint /Game/Characters/Soldier/Demo/ThirdPersonBP/ThirdPersonOverview is missing GeneratedClass asset tag
+[2025.09.05-14.39.43:373][ 25]LogSlate: Took 0.018529 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.09.05-14.39.43:411][ 25]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2025.09.05-14.39.43:437][ 25]LogSlate: Took 0.011529 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.09.05-14.39.50:790][471]LogClass: Warning: Short type name "EOculusLocationFlags" provided for TryFindType. Please convert it to a path name (suggested: "/Script/OculusXRAnchors.EOculusLocationFlags"). Callstack:
+
+0x00007ff9fd8e085d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ff9df2c947b UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df33cac1 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df368e11 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df3374ff UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df30cd11 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df2905fb UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9e808939b UnrealEditor-UnrealEd.dll!UnknownFunction []
+0x00007ff9edf7ce75 UnrealEditor-Engine.dll!UnknownFunction []
+
+[2025.09.05-14.39.50:805][471]LogClass: Warning: Short type name "EOculusLocationFlags" provided for TryFindType. Please convert it to a path name (suggested: "/Script/OculusXRAnchors.EOculusLocationFlags"). Callstack:
+
+0x00007ff9fd8e085d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ff9df2c947b UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df3452af UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df33753d UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df30cd11 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df2905fb UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9e808939b UnrealEditor-UnrealEd.dll!UnknownFunction []
+0x00007ff9edf7ce75 UnrealEditor-Engine.dll!UnknownFunction []
+0x00007ff9e80c3d3a UnrealEditor-UnrealEd.dll!UnknownFunction []
+
+[2025.09.05-14.39.52:163][550]LogClass: Warning: Short type name "EMRUKComponentType" provided for TryFindType. Please convert it to a path name (suggested: "/Script/MRUtilityKit.EMRUKComponentType"). Callstack:
+
+0x00007ff9fd8e085d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ff9df2c947b UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df33cac1 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df368e11 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df3374ff UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df30cd11 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df2905fb UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9e808939b UnrealEditor-UnrealEd.dll!UnknownFunction []
+0x00007ff9edf7ce75 UnrealEditor-Engine.dll!UnknownFunction []
+
+[2025.09.05-14.39.52:178][550]LogClass: Warning: Short type name "EMRUKComponentType" provided for TryFindType. Please convert it to a path name (suggested: "/Script/MRUtilityKit.EMRUKComponentType"). Callstack:
+
+0x00007ff9fd8e085d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ff9df2c947b UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df3452af UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df33753d UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df30cd11 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df2905fb UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9e808939b UnrealEditor-UnrealEd.dll!UnknownFunction []
+0x00007ff9edf7ce75 UnrealEditor-Engine.dll!UnknownFunction []
+0x00007ff9e80c3d3a UnrealEditor-UnrealEd.dll!UnknownFunction []
+
+[2025.09.05-14.39.59:427][942]LogClass: Warning: Short type name "EMRUKComponentType" provided for TryFindType. Please convert it to a path name (suggested: "/Script/MRUtilityKit.EMRUKComponentType"). Callstack:
+
+0x00007ff9fd8e085d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ff9df2c947b UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df3e1911 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df368e11 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df3e06e8 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df30cd11 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df2905fb UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9e808939b UnrealEditor-UnrealEd.dll!UnknownFunction []
+0x00007ff9edf7ce75 UnrealEditor-Engine.dll!UnknownFunction []
+
+[2025.09.05-14.39.59:442][942]LogClass: Warning: Short type name "EMRUKComponentType" provided for TryFindType. Please convert it to a path name (suggested: "/Script/MRUtilityKit.EMRUKComponentType"). Callstack:
+
+0x00007ff9fd8e085d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ff9df2c947b UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df3452af UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df3e0723 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df30cd11 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df2905fb UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9e808939b UnrealEditor-UnrealEd.dll!UnknownFunction []
+0x00007ff9edf7ce75 UnrealEditor-Engine.dll!UnknownFunction []
+0x00007ff9e80c3d3a UnrealEditor-UnrealEd.dll!UnknownFunction []
+
+[2025.09.05-14.40.02:356][ 82]LogClass: Warning: Short type name "EMRUKComponentType" provided for TryFindType. Please convert it to a path name (suggested: "/Script/MRUtilityKit.EMRUKComponentType"). Callstack:
+
+0x00007ff9fd8e085d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ff9df2c947b UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df3e1911 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df368e11 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df43f3ee UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df30cd11 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df2905fb UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9e808939b UnrealEditor-UnrealEd.dll!UnknownFunction []
+0x00007ff9edf7ce75 UnrealEditor-Engine.dll!UnknownFunction []
+
+[2025.09.05-14.40.02:371][ 82]LogClass: Warning: Short type name "EMRUKComponentType" provided for TryFindType. Please convert it to a path name (suggested: "/Script/MRUtilityKit.EMRUKComponentType"). Callstack:
+
+0x00007ff9fd8e085d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ff9df2c947b UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df3452af UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df43f429 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df30cd11 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9df2905fb UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+0x00007ff9e808939b UnrealEditor-UnrealEd.dll!UnknownFunction []
+0x00007ff9edf7ce75 UnrealEditor-Engine.dll!UnknownFunction []
+0x00007ff9e80c3d3a UnrealEditor-UnrealEd.dll!UnknownFunction []
+
+[2025.09.05-14.40.09:218][427]LogSlate: Window 'PlayerHUD' being destroyed
+[2025.09.05-14.40.51:571][822]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 412.906494
+[2025.09.05-14.40.51:704][836]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-14.40.51:704][836]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 413.029388, Update Interval: 355.433197
+[2025.09.05-14.41.20:375][986]LogSlate: Took 0.067383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.09.05-14.46.49:688][159]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 771.020142
+[2025.09.05-14.46.49:811][171]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-14.46.49:811][171]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 771.133972, Update Interval: 300.287476
+[2025.09.05-14.48.29:688][ 46]LogEditorTransaction: Undo Drag and Drop Widget
+[2025.09.05-14.49.43:968][203]LogEditorTransaction: Undo Edit Left
+[2025.09.05-14.51.18:159][607]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2025.09.05-14.51.19:615][763]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.05-14.51.19:681][763]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/PlayerHUD] ([2] browsable assets)...
+[2025.09.05-14.51.19:687][763]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/PlayerHUD.PlayerHUD]
+[2025.09.05-14.51.19:687][763]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/PlayerHUD]
+[2025.09.05-14.51.19:687][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/PlayerHUD" FILE="../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/UI/PlayerHUD.uasset" SILENT=true
+[2025.09.05-14.51.19:746][763]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/PlayerHUD
+[2025.09.05-14.51.19:746][763]LogSavePackage: Moving '../../../../../../FALMOUTH/VR_Primer/Saved/PlayerHUDCA88B9F84574AE7980E62084D072062D.tmp' to '../../../../../../FALMOUTH/VR_Primer/Content/Blueprints/UI/PlayerHUD.uasset'
+[2025.09.05-14.51.19:793][763]LogFileHelpers: InternalPromptForCheckoutAndSave took 178.188 ms
+[2025.09.05-14.51.19:830][763]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.05-14.51.19:830][763]LogContentValidation: Enabled validators:
+[2025.09.05-14.51.19:830][763]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.05-14.51.19:830][763]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.05-14.51.19:830][763]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.05-14.51.19:830][763]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.05-14.51.19:830][763]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.05-14.51.19:830][763]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.05-14.51.19:831][763]AssetCheck: /Game/Blueprints/UI/PlayerHUD Validating asset
+[2025.09.05-14.51.57:193][230]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1078.521606
+[2025.09.05-14.51.57:327][246]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-14.51.57:327][246]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1078.646851, Update Interval: 359.877319
+[2025.09.05-14.58.13:015][892]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1454.337402
+[2025.09.05-14.58.14:017][895]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-14.58.14:017][895]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1455.004028, Update Interval: 352.137207
+[2025.09.05-15.04.35:733][ 40]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1837.053711
+[2025.09.05-15.04.36:734][ 43]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-15.04.36:734][ 43]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1837.720825, Update Interval: 303.510254
+[2025.09.05-15.10.13:116][ 52]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2174.436523
+[2025.09.05-15.10.14:117][ 55]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-15.10.14:117][ 55]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2175.103271, Update Interval: 332.073730
+[2025.09.05-15.15.38:120][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2025.09.05-15.15.43:360][328]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.09.05-15.15.43:360][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.05-15.15.43:367][328]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.09.05-15.15.43:367][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.05-15.15.43:412][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
