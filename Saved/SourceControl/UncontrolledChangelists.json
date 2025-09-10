@@ -7,7 +7,11 @@
 			"files": [
 				"D:/FALMOUTH/VR_Primer/Content/MWLandscapeAutoMaterial/Materials/Landscape/MTL_MWAM_Landscape_DesertExample.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/BrushMapTwo.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Beam.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/_GENERATED/devat/Torus_053ACECC.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/SquareLight.uasset"
 			]
 		}
 	]
