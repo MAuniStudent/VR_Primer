@@ -1,0 +1,22 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/CONTROLSPNG.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/Controls_WB.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/MainMenu_WB.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/MainMenu.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/MainMenu_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Buildings/Prime_Buildings/SM_ConstructionOne.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/AI/MasterZombie.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Pickups/Inventory/Items/MasterPickupItem.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Weapons/MasterWeapon.uasset"
+			]
+		}
+	]
+}
