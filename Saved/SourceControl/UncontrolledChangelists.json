@@ -9,7 +9,10 @@
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Cars/blackdodge.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Cars/redcar.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/Inventory_WB.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/MainMenu_BuiltData.uasset",
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/MainMenu.umap"
 			]
 		}
 	]
