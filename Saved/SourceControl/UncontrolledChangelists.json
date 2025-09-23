@@ -5,17 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/CBP_SandboxCharacter.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland.umap",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Cars/blackdodge.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Meshes/Cars/redcar.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/GameIsland_BuiltData.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/Inventory_WB.uasset",
 				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/MainMenu_BuiltData.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/MainMenu.umap",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/Controls_WB.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/Assets/CONTROLS.uasset",
-				"D:/FALMOUTH/VR_Primer/Content/Blueprints/UI/SettingsMenu_WB.uasset"
+				"D:/FALMOUTH/VR_Primer/Content/Blueprints/Maps/MainMenu.umap"
 			]
 		}
 	]
